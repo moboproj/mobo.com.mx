@@ -1,0 +1,28 @@
+.stackContainer--categoriesStack .stackItem:last-child{
+    height: fit-content;
+    top: unset;
+    bottom: 0;
+}
+.stackItem--categoriesStack{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+/* .stackItem--stackPdpImages{
+    left: unset;
+    right: 0;
+}
+.stackContainer--stackPdpImages .stackItem:last-child{
+    top: 40px;
+} */
+.stackContainer--stackPdpImages .stackItem:nth-child(even){
+    right: 0;
+}
+.stackContainer--stackPdpImages .stackItem:nth-child(odd){
+    left: 22%;
+}
+.stackContainer--stackPdpImages .stackItem:last-child{
+    top: 40px;
+    right: 20px;
+}

@@ -1,0 +1,154 @@
+{
+    "definitions": {
+        "MainSlider": {
+            "properties": {
+                "headline": {
+                    "title": "Titulo",
+                    "description": "Título del carrusel",
+                    "type": "string",
+                    "default": ""
+                },
+                "slides": {
+                    "title": "slides",
+                    "type": "array",
+                    "minItems": 0,
+                    "items": {
+                        "$ref": "app:mobomx.minimumtheme#/definitions/Slide"
+                    }
+                }
+            }
+        },
+        "Slide": {
+            "title": "Slide",
+            "type": "object",
+            "properties": {
+                "head": {
+                    "title": "H1",
+                    "description": "Texto H1",
+                    "type": "string",
+                    "default": ""
+                },
+                "subhead": {
+                    "title": "H2",
+                    "description": "Texto H2",
+                    "type": "string",
+                    "default": ""
+                },
+                "altImage": {
+                    "title": "Alt",
+                    "description": "Atributo Alt de las imágenes",
+                    "type": "string",
+                    "default": ""
+                },
+                "imageDesktop1": {
+                    "title": "Imagen Desktop 1",
+                    "description": "Imagen Desktop 1",
+                    "type": "string",
+                    "default": "",
+                    "widget": {
+                        "ui:widget": "image-uploader"
+                    }
+                },
+                "imageDesktop2": {
+                    "title": "Imagen Desktop 2",
+                    "description": "Imagen Desktop 2",
+                    "type": "string",
+                    "default": "",
+                    "widget": {
+                        "ui:widget": "image-uploader"
+                    }
+                },
+                "imageMobile": {
+                    "title": "Imagen Mobile",
+                    "description": "Imagen Mobile",
+                    "type": "string",
+                    "default": "",
+                    "widget": {
+                        "ui:widget": "image-uploader"
+                    }
+                },
+                "imageMobileTop": {
+                    "title": "Imagen Mobile Superior",
+                    "description": "Imagen de color de fondo de la parte superior Mobile",
+                    "type": "string",
+                    "default": "",
+                    "widget": {
+                        "ui:widget": "image-uploader"
+                    }
+                },
+                "link": {
+                    "title": "Enlace",
+                    "description": "Enlace a donde redireccionará al dar click",
+                    "type": "string",
+                    "default": ""
+                },
+                "textButton": {
+                    "title": "Texto botón",
+                    "description": "Texto del botón del slide",
+                    "type": "string",
+                    "default": "VER MÁS"
+                },
+                "colorBackground":{
+                    "title": "Color de fondo",
+                    "description": "Color del fondo del slide",
+                    "type": "string",
+                    "default": "#e7e7e8"
+                },
+                "colorHead":{
+                    "title": "Color del título",
+                    "description": "Color del título",
+                    "type": "string",
+                    "default": "#0433ff"
+                },
+                "colorSubhead":{
+                    "title": "Color del subtítulo",
+                    "description": "Color del subtítulo",
+                    "type": "string",
+                    "default": "#000"
+                },
+                "colorButton":{
+                    "title": "Color del botón",
+                    "description": "Color del borde del botón",
+                    "type": "string",
+                    "default": "#0433ff"
+                },
+                "list1":{
+                    "title": "Listado 1",
+                    "description": "Item 1 del listado",
+                    "type": "string",
+                    "default": ""
+                },
+                "list1Color":{
+                    "title": "Listado 1 (color)",
+                    "description": "Color del item 1 del listado",
+                    "type": "string",
+                    "default": "#000"
+                },
+                "list2":{
+                    "title": "Listado 2",
+                    "description": "Item 2 del listado",
+                    "type": "string",
+                    "default": ""
+                },
+                "list2Color":{
+                    "title": "Listado 2 (color)",
+                    "description": "Color del item 2 del listado",
+                    "type": "string",
+                    "default": "#000"
+                },
+                "list3":{
+                    "title": "Listado 3",
+                    "description": "Item 3 del listado",
+                    "type": "string",
+                    "default": ""
+                },
+                "list3Color":{
+                    "title": "Listado 3 (color)",
+                    "description": "Color del item 3 del listado",
+                    "type": "string",
+                    "default": "#000"
+                }
+            }
+        }
+    }
+}

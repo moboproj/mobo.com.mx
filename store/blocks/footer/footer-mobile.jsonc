@@ -1,0 +1,46 @@
+{
+    "footer-layout.mobile": {
+		"title":"Footer (Mobile)",
+		"children": [
+			"__fold__",
+            "flex-layout.row#footer-newletter-mob-wrapper",
+            "flex-layout.row#footer-payments-wrapper",
+			"flex-layout.row#footer-main-mob-wrapper"
+		]
+	},
+    "flex-layout.row#footer-newletter-mob-wrapper": {
+        "title":"Contenedor Newsletter",
+		"children": ["flex-layout.col#footer-newletter-mob-container"],
+		"props": {
+			"blockClass": ["footerLogo","maxWidth1920"]
+		}
+	},
+
+    "flex-layout.col#footer-newletter-mob-container": {
+        "title":"Contenedor Newsletter",
+		"children": [
+			//"flex-layout.row#suscrib"
+			"newsletter-form#footer"
+		]
+	},
+    "flex-layout.row#footer-main-mob-wrapper": {
+		"title":"Sección principal del footer",
+		"children": ["flex-layout.col#footer-main-mob-container"],
+		"props": {
+			"blockClass": ["footerMainSection","maxWidth1920"]
+		}
+	},
+    "flex-layout.col#footer-main-mob-container": {
+		"title":"Sección principal del footer",
+		"children": [
+            "rich-text#SIGUENOS",
+			"vtex.menu@2.x:menu#img-redes",
+			"vtex.menu@2.x:menu#footer-links-1",
+			"vtex.menu@2.x:menu#footer-links-2",
+            "rich-text#footer-about-text",
+            "info-card#footer-assistance",
+			"info-card#footer-whatsapp",
+			"info-card#footer-email"
+		]
+	}
+}

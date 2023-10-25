@@ -1,0 +1,46 @@
+{
+    "vtex.menu@2.x:submenu.accordion#proteccion-videojuegos-desk": {
+        "children":["menu#proteccion-submenu-videojuegos-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#proteccion-submenu-videojuegos-desktop": {
+        "props": {
+            "blockClass": "categoriesVideojuegos",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Nintendo Switch",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/video-juegos/nintendo-switch",
+                        "noFollow": false,
+                        "tagTitle": "Nintendo Switch",
+                        "text": "Nintendo Switch"
+                    }
+                },
+                {
+                    "id": "Nintendo Switch Lite",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/video-juegos/nintendo-switch-lite",
+                        "noFollow": false,
+                        "tagTitle": "Nintendo Switch Lite",
+                        "text": "Nintendo Switch Lite"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

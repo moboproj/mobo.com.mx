@@ -1,0 +1,139 @@
+
+
+{
+    "vtex.menu@2.x:submenu.accordion#celulares-mob": {
+        "children":["menu#category-submenu-celulares-mobile"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#celulares-mob":{
+        "children": [
+            "disclosure-trigger#celulares-trigger-mob",
+            "disclosure-content#celulares-content-mob"
+        ]
+    },
+    "disclosure-trigger#celulares-trigger-mob": {
+        "children": ["link#celulares-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#celulares-trigger":{
+		"props":{
+			"blockClass":"linkMenuMob",
+			"label":"Celulares",
+			"href":"/telefonia"
+		}
+	},
+    "disclosure-content#celulares-content-mob": {
+        "children": ["menu#category-submenu-celulares-mobile"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#category-submenu-celulares-mobile": {
+        "props": {
+            "blockClass": "mainCategoriesMenuMob",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/celulares-motorola",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                },
+                {
+                    "id": "Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/celulares-samsung",
+                        "noFollow": false,
+                        "tagTitle": "Samsung",
+                        "text": "Samsung"
+                    }
+                },
+                {
+                    "id": "Xiaomi",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/celulares-xiaomi",
+                        "noFollow": false,
+                        "tagTitle": "Xiaomi",
+                        "text": "Xiaomi"
+                    }
+                },
+                {
+                    "id": "Hisense",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/celulares-hisense",
+                        "noFollow": false,
+                        "tagTitle": "Hisense",
+                        "text": "Hisense"
+                    }
+                },
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/celulares-huawei",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "Honor",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/celulares-honor",
+                        "noFollow": false,
+                        "tagTitle": "Honor",
+                        "text": "Honor"
+                    }
+                },
+                {
+                    "id": "Oppo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/celulares-oppo",
+                        "noFollow": false,
+                        "tagTitle": "Oppo",
+                        "text": "Oppo"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

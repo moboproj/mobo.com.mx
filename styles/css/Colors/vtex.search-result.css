@@ -1,0 +1,154 @@
+.filter__container--color .filterContent{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 27px;
+    width: 100%;
+    /* max-width: 170px; */
+}
+.filter__container--color .filterItem{
+    width: 28px;
+}
+.filter__container--color :global(.vtex-checkbox__label) {
+    display: none;
+}
+.filter__container--color .filterItem :global(.vtex-checkbox__inner-container){
+    border: none;
+}
+.filter__container--color .filterItem :global(.vtex-checkbox__box-wrapper){
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+}
+
+
+.filterItem--amarillo :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--amarillo) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #ffec00;
+}
+.filterItem--aqua :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--aqua) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #99cccc;
+}
+.filterItem--azul :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--azul) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #3366cc;
+}
+.filterItem--azul-claro :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--azul-claro) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #95d7e1;
+}
+.filterItem--blanco :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--blanco) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    border: 1px solid #9b9b9b;
+    background-color: #fff;
+}
+.filterItem--cafe :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--cafe) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #5f4c0b;
+}
+.filterItem--cian :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--cian) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #01f7ff;
+}
+.filterItem--colores :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--colores) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background: linear-gradient(135deg, rgba(233,206,71,1) 7%, rgba(172,85,151,1) 23%, rgba(101,166,105,1) 43%, rgba(202,94,59,1) 70%, rgba(79,167,186,1) 100%);
+}
+.filterItem--con-diseno :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--con-diseno) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.filterItem--dorado :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--dorado) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #b79c5e;
+}
+.filterItem--dorado-gold :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--dorado-gold) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #B79C5E;
+}
+.filterItem--gold :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--gold) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #f2d680;
+}
+.filterItem--gris :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--gris) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #999;
+}
+.filterItem--gris-plata :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--gris-plata) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background: linear-gradient(90deg, rgba(153,153,153,1) 50%, rgba(204,207,216,1) 50%);
+}
+.filterItem--lila :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--lila) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #bca9f5;
+}
+.filterItem--morado :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--morado) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #8258fa;
+}
+.filterItem--magenta :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--magenta) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #b4045f;
+}
+.filterItem--naranja :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--naranja) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #ff8c00;
+}
+.filterItem--negro :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--negro) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #000;
+}
+.filterItem--negro-mate :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--negro) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #3d3e40;
+}
+.filterItem--negro-y-azul :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--negro-y-azul) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(51,102,204,1) 50%);
+}
+.filterItem--oro-rosa :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--oro-rosa) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #d9a7a7;
+}
+.filterItem--plata :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--plata) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #cccfd8;
+}
+.filterItem--rojo :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--rojo) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #ed1c24;
+}
+.filterItem--rosa :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--rosa) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #ff6699;
+}
+.filterItem--rosa-gold :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--rosa-gold) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #edc4bb;
+}
+.filterItem--rosa-rose-gold :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--rosa-rose-gold) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #d9a7a7;
+}
+.filterItem--terazzo :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--terazzo) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #e5ded5;
+}
+.filterItem--transparente :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--transparente) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    border: 1px solid #9B9B9B;
+    background-color: #E5E5E5;
+}
+.filterItem--verde :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--verde) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    background-color: #66cc66;
+}
+.filterItem--multicolor :global(.vtex-checkbox__box-wrapper),
+:global(.vtex-store-components-3-x-skuSelectorItem--multicolor) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    /*background: linear-gradient(90deg, #E9CE47 50%, #CA5E3B 50%);*/
+    background-image:
+    radial-gradient(ellipse at 10% 90%, #E9CE47 0%, transparent 55%),
+    radial-gradient(ellipse at 90% 90%, #CA5E3B 0%, transparent 55%),
+    radial-gradient(ellipse at 90% 10%, #AC5597 0%, transparent 55%),
+    radial-gradient(ellipse at 10% 10%, #65A669  0%, transparent 55%);
+}

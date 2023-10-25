@@ -1,0 +1,18 @@
+.storeName{
+    font-weight: 700;
+    font-size: 30px;
+}
+.container{
+    margin-bottom: 75px;
+}
+.backlink{
+    background-color: #0d0f9a !important;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.addressContainer{
+    margin-bottom: 45px;
+    margin-top: 25px;
+}

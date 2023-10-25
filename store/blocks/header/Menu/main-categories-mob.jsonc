@@ -1,0 +1,179 @@
+{
+  "menu#category-menu-mobile": {
+    "props": {
+      "blockClass": "mainCategoriesMenuMob",
+      "orientation": "vertical",
+      "type": "category"
+    },
+    "children": [
+      "info-card#submenu-proteccion-highlight-1",
+      "info-card#submenu-proteccion-highlight-2",
+      "disclosure-layout#iphone-mob",
+      "disclosure-layout#proteccion-mob",
+      "disclosure-layout#audio-mob",
+      "disclosure-layout#carga-mob",
+      "disclosure-layout#celulares-mob",
+      "disclosure-layout#smartwatches-mob",
+      "disclosure-layout#otros-mob"
+    ]
+  },
+  "disclosure-layout#cat-mob-first": {
+    "children": [
+      "disclosure-trigger#cat-mob-first",
+      "disclosure-content#cat-mob-first"
+    ]
+  },
+  "disclosure-trigger#cat-mob-first": {
+    "children": ["rich-text#submenu-cat-mob-title-section1"]
+  },
+  "rich-text#submenu-cat-mob-title-section1": {
+    "props": {
+      "text": "**Celulares**"
+    }
+  },
+  "disclosure-content#cat-mob-first": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-mob-section1"]
+  },
+  "vtex.menu@2.x:menu#submenu-cat-mob-section1": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "mainMenuSectionMob",
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#cat-mob-section1-1", "menu-item#cat-mob-section1-2"]
+  },
+  /*****submenu renovado*******/
+  "menu-item#cat-mob-section1-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/cat-mob",
+        "noFollow": false,
+        "tagTitle": "Nova 9",
+        "text": "Nova 9"
+      }
+    }
+  },
+  "menu-item#cat-mob-section1-2": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/cat-mob",
+        "noFollow": false,
+        "tagTitle": "Huawei P50",
+        "text": "Huawei P50"
+      }
+    }
+  },
+  "disclosure-layout#cat-mob-second": {
+    "children": [
+      "disclosure-trigger#cat-mob-second",
+      "disclosure-content#cat-mob-second"
+    ]
+  },
+  "disclosure-trigger#cat-mob-second": {
+    "children": ["rich-text#submenu-cat-mob-title-section2"]
+  },
+  "rich-text#submenu-cat-mob-title-section2": {
+    "props": {
+      "text": "**Tablets y laptops**"
+    }
+  },
+  "disclosure-content#cat-mob-second": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-mob-section2"]
+  },
+
+  "vtex.menu@2.x:menu#submenu-cat-mob-section2": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "mainMenuSectionMob",
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#cat-mob-section1-1", "menu-item#cat-mob-section1-2"]
+  },
+
+  "disclosure-layout#cat-mob-threrd": {
+    "children": [
+      "disclosure-trigger#cat-mob-threrd",
+      "disclosure-content#cat-mob-threrd"
+    ]
+  },
+  "disclosure-trigger#cat-mob-threrd": {
+    "children": ["rich-text#submenu-cat-mob-title-section3"]
+  },
+  "rich-text#submenu-cat-mob-title-section3": {
+    "props": {
+      "text": "**Smartwatches y bands**"
+    }
+  },
+  "disclosure-content#cat-mob-threrd": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-mob-section3"]
+  },
+
+  "vtex.menu@2.x:menu#submenu-cat-mob-section3": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "mainMenuSectionMob",
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#cat-mob-section1-1", "menu-item#cat-mob-section1-2"]
+  },
+
+  "disclosure-layout#cat-mob-fourth": {
+    "children": [
+      "disclosure-trigger#cat-mob-fourth",
+      "disclosure-content#cat-mob-fourth"
+    ]
+  },
+  "disclosure-trigger#cat-mob-fourth": {
+    "children": ["rich-text#submenu-cat-mob-title-section4"]
+  },
+  "rich-text#submenu-cat-mob-title-section4": {
+    "props": {
+      "text": "**Audio**"
+    }
+  },
+  "disclosure-content#cat-mob-fourth": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-mob-section4"]
+  },
+
+  "vtex.menu@2.x:menu#submenu-cat-mob-section4": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "mainMenuSectionMob",
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#cat-mob-section1-1", "menu-item#cat-mob-section1-2"]
+  },
+
+  "disclosure-layout#cat-mob-fifth": {
+    "children": [
+      "disclosure-trigger#cat-mob-fifth",
+      "disclosure-content#cat-mob-fifth"
+    ]
+  },
+  "disclosure-trigger#cat-mob-fifth": {
+    "children": ["rich-text#submenu-cat-mob-title-section5"]
+  },
+  "rich-text#submenu-cat-mob-title-section5": {
+    "props": {
+      "text": "**Oppo**"
+    }
+  },
+  "disclosure-content#cat-mob-fifth": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-mob-section5"]
+  },
+
+  "vtex.menu@2.x:menu#submenu-cat-mob-section5": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "mainMenuSectionMob",
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#cat-mob-section1-1", "menu-item#cat-mob-section1-2"]
+  }
+}

@@ -1,0 +1,14 @@
+.productVariationsItem{
+    display: none!important;
+    color:#fff;
+}
+.productVariationsContainer{
+    display: none!important;
+    color:#fff;
+}
+.vtex-product-list-0-x-productVariationsContainer{
+    display: none!important;
+}
+.productName{
+    font-weight: 700!important;
+}

@@ -1,0 +1,144 @@
+{
+    "menu-item#otros": {
+        "blocks": ["vtex.menu@2.x:submenu#otros"], 
+		"props": {
+            "blockClass": ["mainSubMenu","categoryOtros"],
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/accesorios",
+				"noFollow": false,
+				"tagTitle": "Otros",
+				"text": "Otros"
+			}
+		}
+	},
+    "vtex.menu@2.x:submenu#otros": {
+		"children": ["flex-layout.row#submenu-otros"]
+	},
+	"flex-layout.row#submenu-otros": {
+		"children": [
+			"flex-layout.col#submenu-otros-1",
+			"flex-layout.col#submenu-otros-2"
+		],
+        "props": {
+            "blockClass":["subMenuCategory","submenuOtros"],
+			"fullWidth": true,
+			"colGap": 10
+		}
+	},
+
+    "flex-layout.col#submenu-otros-1":{
+        "children":[
+            "info-card#submenu-otros-highlight-1",
+            "info-card#submenu-otros-highlight-2",
+            "menu-item#otros-tablets-desktop",
+            "disclosure-layout#otros-accesorios-desk",
+            "rich-text#submenu-otros-final-text-1"
+        ],
+        "props":{
+            "blockClass":"mainSubMenu",
+            "preventVerticalStretch":true
+        }
+    },
+
+    "info-card#submenu-otros-highlight-1":{
+		"title": "Descuentos",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Descuentos-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"DESCUENTOS",
+			"callToActionUrl": "/descuentos-mobo-online",
+			"imageActionUrl": "/descuentos-mobo-online"
+		}
+	},
+    "info-card#submenu-otros-highlight-2":{
+		"title": "Novedades",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Novedadess-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"NOVEDADES",
+			"callToActionUrl": "/novedades-mobo-online",
+			"imageActionUrl": "/novedades-mobo-online"
+		}
+	},
+    "menu-item#otros-tablets-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuOtrosTablets",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/tecnologia/laptops-y-tablets",
+                "tagTitle": "Tablets",
+                "text": "Tablets"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#otros-tablets-desk" */]
+    },
+    "menu-item#otros-accesorios-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuOtrosAccesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#otros-accesorios-desk"]
+    },
+    "rich-text#submenu-otros-final-text-1":{
+        "title":"Texto final izquierdo",
+        "props":{
+            "blockClass":"mainMenuFinalText",
+            "text":"Hazte de tu nuevo celular pagando en 4 quincenas con Kueski Pay"
+        }
+    },
+
+    "flex-layout.col#submenu-otros-2":{
+        "children":[
+            "rich-text#submenu-otros-title",
+            "image#submenu-otros-img",
+            "rich-text#submenu-otros-final-text-2"        
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+    },
+    "rich-text#submenu-otros-title":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuTitle"],
+            "text":"NUEVO\nTeclado con Funda ZAGG Messenger Retroiluminado para iPad 10.2'' (7a, 8a y 9a Gen) - Negro/Gris"
+        }
+    },
+    "image#submenu-otros-img":{
+        "props":{
+            "src":"/arquivos/ids/187081-800-auto?v=637884845806570000&width=499&height=499&aspect=true",
+            "link":{
+                "url":"/teclado-con-funda-zagg-pro-keys-retroiluminado-para-ipad-10-2-7a-8a-9a-gen-negro-gris/p"
+            }
+        }
+    },
+    "rich-text#submenu-otros-final-text-2":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuFinalText","text2"],
+            "text":"Paga con PayPal a 12 MSI y estrénalo mañana"
+        }
+    }
+}

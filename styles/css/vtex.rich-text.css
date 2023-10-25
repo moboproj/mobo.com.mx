@@ -1,0 +1,1024 @@
+.paragraph--titulo-submenu{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 18px;
+    color: #0433ff;
+}
+
+.link--txt-submenu-cat-mobile{
+    text-decoration: none !important;
+     color: #ffffff;
+}
+
+.link--txt-submenu-cat{
+    text-decoration: none !important;
+    color: #000000e7;
+}
+.link--txt-submenu-marca{
+    text-decoration: none !important;
+    color: #000000e7;
+}
+.paragraph--menu-options-desktop{
+    font-family: 'Montserrat';
+}
+
+.paragraph--verMas-reacondicionados{
+    padding: 31px 0 15px 15px;
+}
+.link--verMas-marcas{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.link--verMas-marcas{
+    text-decoration: none;
+}
+.paragraph--verMas-marcas{
+    padding: 30px 0 0 15px;
+}
+.link--btnVerProdCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 56px;
+    text-align: center;
+    border-radius: 12px;
+    background: #0433ff;
+    color: #fff;
+    text-decoration: none;
+}
+.link--btnVeracond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 56px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    background: #0433ff;
+    color: #fff;
+    text-decoration: none;
+}
+.link--btnVeracond-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 56px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    background: #1cffb7;
+    color: #fff;
+    text-decoration: none;
+}
+.container--btnVeracond,.container--btnVeracond-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph--datos-asistencia,.paragraph--WhatsApp{
+    color: #fff;
+    font-weight: lighter;
+}
+.paragraph--datos-asistencia-1{
+    color: #fff;
+    font-weight: bold;
+}
+.paragraph--mail{
+    text-decoration: none !important;
+    color: #fff;
+}
+.link--mail{
+    text-decoration: none !important;
+    color: #fff;
+}
+@media screen and (max-width:1050px ) {
+    .link--mail{
+        font-size: 80%;
+    }
+}
+.paragraph--txt-submenu-cat{
+    margin-left: -20px;
+    font-weight: 700;
+    font-size:14px
+}
+.paragraph--txt-submenu-marca{    
+    font-weight: 700;
+    font-size:14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container--txt-submenu-cat{
+    display: block;
+}
+.paragraph--txt-submenu-cat-mobile{    
+    font-weight: 700;
+    font-size:16px;
+    color: #fff;
+}
+.paragraph--txtSubFormaPago{
+    font-size: 12px;
+    margin-top: -25px;
+}
+.paragraph--TXTQuienEsmobo{
+    font-weight: bolder;
+    text-align: justify !important;
+}
+.wrapper--TXTQuienEsMobo{
+    text-align: justify !important;
+}
+@media screen and (max-width: 20em){
+    .container--TXTQuienEsMobo{
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    .paragraph--TXTQuienEsMobo{
+        text-align: justify;
+    }
+    .paragraph--TXTQuienEsMobo-mobile{
+        text-align: justify !important;
+        padding: 0 20px;
+    }
+    .wrapper--TXTQuienEsMobo-mobile{
+        text-align: justify;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .paragraph--TXTQuienEsMobo{
+        text-align: center !important;
+    } 
+
+    .paragraph--TXTQuienEsMobo-mobile{
+        text-align: justify !important;
+        padding: 0 20px;
+    }
+    .container--TXTQuienEsMobo{
+        margin-left: 25% !important;
+        font-size: 20px !important;
+    }
+}
+
+.paragraph--subtextCompraSegura{
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+/***********Mobile**********************/
+.container--txt-reac{
+    display: flex;
+    justify-content: center;
+    color: #9b9b9b;
+    font-size: 10px;
+}
+.headingLevel2--txt-reac{
+    font-size: 30px;
+}
+
+/******cellrepair*******/
+.headingLevel3--titulo-tabla{
+    color: #fa7100;
+}
+.headingLevel2--titulo-cellrepair{
+    color: #fa7100;
+}
+.headingLevel3--subtitulo-cellrepair{
+    color: #fa7100;
+    font-weight: lighter;
+}
+.paragraph--txtTecnicos{
+    font-size: 22px;
+}
+.tableTh{
+    border-bottom: #fa7100 1px solid;
+}
+.tableTh--precio-1{
+    width: 100px;
+}
+.tableTh--precio-2{
+    width: 100px;
+}
+.tableTh--precio-3{
+    width: 100px;
+}
+.tableTh--precio-4{
+    width: 100px;
+}
+.tableTh--precio-5{
+    width: 100px;
+}
+.tableTh--precio-6{
+    width: 100px;
+}
+.tableTh--precio-7{
+    width: 100px;
+}
+.tableTh--precio-8{
+    width: 100px;
+}
+.tableTh--precio-9{
+    width: 100px;
+}
+.tableTh--precio-10{
+    width: 100px;
+}
+.tableTh--precio-11{
+    width: 100px;
+}
+.tableTh--precio-12{
+    width: 100px;
+}
+.tableTh--precio-13{
+    width: 100px;
+}
+.tableTh--precio-14{
+    width: 100px;
+}
+.tableTh--precio-15{
+    width: 100px;
+}
+
+/****Contactanos***/
+.paragraph--formTitle{
+    font-weight:bolder;
+    font-size: 30px;
+    text-align: justify;
+    color: #9b9b9b;
+}
+/*@media screen and (max-width: 20em){
+    .container--TXTQuienEsMobo{
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    .paragraph--TXTQuienEsMobo{
+        text-align: justify;
+    }
+    .paragraph--TXTQuienEsMobo-mobile{
+        text-align: justify !important;
+        padding: 0 20px;
+    }
+    .wrapper--TXTQuienEsMobo-mobile{
+        text-align: justify;
+        padding: 0 20px;
+    }
+}*/
+
+.wrapper--titulo-mas-vendidos,.wrapper--titulo-marcas,.wrapper--titulo-categorias,.wrapper--titulo-reacondicionados{
+    color: #9b9b9b;
+}
+
+.paragraph--help-message{
+    color: #272727;
+}
+@media screen and (max-width: 1310px){
+    .paragraph--help-message{
+    font-size: 75%;
+    }
+}
+/* .wrapper--help-message{
+    background-color: #27272776;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: -10px;
+} */
+
+
+
+
+/*Generales*/
+.link{
+    overflow-wrap: break-word;
+}
+.heading-level-2{
+    margin: 0px;
+}
+.wrapper--moboTitle{
+    margin: 0px auto;
+}
+.paragraph--moboTitle,
+.heading--moboTitle{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #9b9b9b;
+}
+.heading--moboTitle{
+    margin-bottom: 30px;
+}
+.headingLevel1--textGeneral{
+    text-align: center;
+}
+.link--textGeneral{
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+@media only screen and (max-width:1920px){
+    .paragraph--moboTitle,
+    .heading--moboTitle{
+        font-size: 2.083vw;
+    }
+    .heading--moboTitle{
+        margin-bottom: 1.5625vw;
+    }
+}
+/* @media only screen and (max-width:1600px){
+    .paragraph--moboTitle,
+    .heading--moboTitle{
+        font-size: 32px;
+    }
+} */
+@media only screen and (max-width:915px){
+    .paragraph--moboTitle,
+    .heading--moboTitle{
+        font-size: 4.372vw;
+    }
+    .heading--moboTitle{
+        margin-bottom: 3.279vw;
+    }
+    .headingLevel1--textGeneral{
+        font-size: 4.372vw;
+    }
+    .headingLevel2--termsGeneral{
+        font-size: 3.934vw;
+    }
+}
+@media only screen and (max-width:640px){
+    /* .paragraph--moboTitle,
+    .heading--moboTitle{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .headingLevel1--textGeneral{
+        font-size: 32px;
+    }
+    .headingLevel2--termsGeneral{
+        font-size: 28px;
+    } */
+    .paragraph--textGeneral{
+        margin: 8px 0;
+    }
+}
+/* @media only screen and (max-width:399px){
+    .paragraph--moboTitle,
+    .heading--moboTitle{
+        font-size: 28px;
+    }
+    .headingLevel1--textGeneral{
+        font-size: 24px;
+    }
+    .headingLevel2--termsGeneral{
+        font-size: 20px;
+    }
+    .paragraph--textGeneral,
+    .listItem--textGeneral{
+        font-size: 14px;
+    }
+} */
+
+
+
+/*Header*/
+
+/*Main Menú*/
+.container--mainMenuTitle{
+    font-size: 1em;
+}
+.wrapper--mainMenuTitle{
+    margin: 0px auto;
+    font-size: 1em;
+}
+.paragraph--mainMenuTitle{
+    text-align: center;
+    font-size: 2.15em;
+    font-weight: bold;
+}
+.container--mainMenuFinalText,
+.wrapper--mainMenuFinalText{
+    font-size: 1em;
+}
+.paragraph--mainMenuFinalText{
+    font-size: 1.65em;
+    font-weight: bold;
+    letter-spacing: 0.17px;
+    color: #000;
+}
+.wrapper--mainMenuFinalText.wrapper--text2{
+    margin: 0px auto;
+}
+.paragraph--mainMenuFinalText.paragraph--text2{
+    text-align: center;
+    color: #000;
+}
+
+/*Main menú mob*/
+:global(.vtex-menu-2-x-menuContainerNav--mainMenuMob) .paragraph{
+    color: #fff;
+}
+:global(.vtex-store-drawer-0-x-drawer) .wrapper--footerSocial{
+    padding: 0 50px;
+    padding: 0 5.464vw;
+}
+:global(.vtex-store-drawer-0-x-drawer) .link--footerSocial{
+    height: 5.027vw;
+    font-size: 3.279vw;
+}
+:global(.vtex-store-drawer-0-x-drawer) .link--facebook{
+    margin-top: 5.246vw;
+}
+
+/*Footer*/
+.wrapper--newsFooterTitle{
+    width: 100%;
+}
+.wrapper--newsFooterTitle::after{
+    content: '';
+    width: 154px;
+    height: 150px;
+    background-image: url(/arquivos/Sobre-Newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -71px;
+    right: 71px;
+}
+.paragraph--newsFooterTitle{
+    margin: 0 0 34px;
+    color: #1cffb7;
+    text-align: left;
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+.headingLevel3--footerAboutText{
+    margin-bottom: 32px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    color: #9b9b9b;
+}
+.paragraph--footerAboutText{
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    color: #9b9b9b;
+}
+
+.wrapper--Redes-sociales-footer{
+    margin-top: 96px;
+}
+.paragraph--Redes-sociales-footer{ 
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3px;
+}
+.wrapper--footerSocial{
+    width: 100%;
+}
+.link--footerSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 0.77;
+    color: #fff;
+}
+.link--facebook{
+    background: #0433ff;
+}
+.link--instagram{
+    background: #db42be;
+}
+.link--tiktok{
+    background: #ffffff;
+    color: #272727;
+}
+@media only screen and (max-width:1920px){
+    .wrapper--newsFooterTitle::after{
+        width: 8.021vw;
+        height: 7.8125vw;
+        right: 3.698vw;
+        top: -3.698vw;
+    }
+    .paragraph--newsFooterTitle{
+        margin: 0 0 1.77vw;
+        font-size: 1.5625vw;
+    }
+    .wrapper--Redes-sociales-footer{
+        margin-top: 5vw;
+    }
+    .paragraph--Redes-sociales-footer{ 
+        font-size: 1.5625vw;
+    }
+    .link--footerSocial{
+        height: 2.1875vw;
+        font-size: 1.146vw;
+    }
+    .headingLevel3--footerAboutText{
+        margin-bottom: 1.667vw;
+        font-size: 1.5625vw;
+    }
+    .paragraph--footerAboutText{
+        font-size: 0.8333vw;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .wrapper--newsFooterTitle::after{
+        width: 14.208vw;
+        height: 13.77vw;
+        right: 8.698vw;
+        top: -3vw;
+    }
+    .paragraph--newsFooterTitle{
+        margin: 0 0 4.044vw;
+        font-size: 4.372vw;
+    }
+    .headingLevel3--footerAboutText{
+        margin-top: 11.585vw;
+        margin-bottom: 3.005vw;
+        font-size: 4.59vw;
+        text-align: center;
+    }
+    .paragraph--footerAboutText{
+        font-size: 2.295vw;
+        text-align: center;
+    }
+    .wrapper--Redes-sociales-footer{
+        margin: 9.18vw auto 3.497vw;
+    }
+    .paragraph--Redes-sociales-footer{ 
+        font-size: 4.372vw;
+    }
+    .paragraph--footerSocial{
+        margin: 0 0 3.005vw;
+    }
+    .link--footerSocial{
+        height: 7.65vw;
+        font-size: 3.825vw;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    .paragraph--footerAboutText{
+        font-size: 3vw;
+    }
+}
+/* @media screen and (max-width: 490px){
+    .paragraph--Redes-sociales-footer{ 
+        font-size: 26px;
+    }
+    .wrapper--Redes-sociales-footer{
+        margin-top: 40px;
+    }
+} */
+
+
+/*Home*/
+/* .heading--txt-reac{
+    margin-bottom: 20px;
+    font-size: 18px;
+} */
+.paragraph--homeBenefitText{
+    margin: 28px auto 61px;
+    font-size: 30.5px;
+    font-weight: 800;
+    letter-spacing: 0.31px;
+    text-align: center;
+    color: #272727;
+}
+.wrapper--homeBenefitTerms{
+    margin: 0 auto;
+}
+.paragraph--homeBenefitTerms{
+    text-align: center;
+    font-size: 21px;
+    color: #272727;
+}
+.link--homeBenefitTerms{
+    font-weight: bold;
+    color: #272727;
+}
+@media screen and (max-width: 1920px){
+    .paragraph--homeBenefitText{
+        margin: 1.458vw auto 3.125vw;
+        font-size: 1.5625vw;
+    }
+}
+@media screen and (max-width: 1024px){
+    .paragraph--homeBenefitText{
+        margin: 1.716vw auto 7.65vw;
+        font-size: 3.279vw;
+    }
+    .paragraph--homeBenefitTerms{
+        font-size: 2.295vw;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .paragraph--homeBenefitTerms{
+        font-size: 2.8vw;
+    }
+}
+
+
+
+/*PLP*/
+.wrapper--notFoundTitle,
+.wrapper--notFoundText{
+    width: 100%;
+}
+.headingLevel3--notFoundTitle,
+.paragraph--notFoundTitle{
+    margin: 0;
+    text-align: center;
+}
+.headingLevel3--notFoundTitle{
+    margin-top: 204px;
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 0.68px;
+    text-align: center;
+    color: #0433ff;
+}
+.paragraph--notFoundTitle,
+.paragraph--notFoundText,
+.listItem--notFoundText{
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #000;
+}
+.listItem--notFoundText{
+    width: fit-content;
+    margin: 10px auto 0;
+    text-align: center;
+}
+.paragraph--notFoundText{
+    width: fit-content;
+    margin: 60px auto 0;
+}
+.link--notFoundText{
+    color: #0433ff;
+}
+
+
+@media screen and (max-width: 1920px){
+    .headingLevel3--notFoundTitle{
+        margin-top: 10.625vw;
+        font-size: 3.542vw;
+    }
+    .paragraph--notFoundTitle,
+    .paragraph--notFoundText,
+    .listItem--notFoundText{
+        margin-top: 2.083vw;
+        font-size: 1.458vw;
+        line-height: 1.2;
+    }
+    .paragraph--notFoundText{
+        margin: 3.125vw auto 0;
+    }
+}
+@media screen and (max-width: 915px){
+    .headingLevel3--notFoundTitle{
+        font-size: 7.432vw;
+    }
+    .paragraph--notFoundTitle{
+        font-weight: normal;
+    }
+    .paragraph--notFoundTitle,
+    .paragraph--notFoundText,
+    .listItem--notFoundText{
+        margin-top: 2.083vw;
+        font-size: 3.716vw;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .headingLevel3--notFoundTitle{
+        margin-top: 80px;
+        font-size: 48px;
+    }
+    .paragraph--notFoundTitle,
+    .paragraph--notFoundText,
+    .listItem--notFoundText{
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 490px){
+    .headingLevel3--notFoundTitle{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .paragraph--notFoundTitle,
+    .paragraph--notFoundText,
+    .listItem--notFoundText{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 399px){
+    .headingLevel3--notFoundTitle{
+        margin-top: 32px;
+        font-size: 32px;
+    }
+    .paragraph--notFoundTitle,
+    .paragraph--notFoundText,
+    .listItem--notFoundText{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .list--notFoundText{
+        padding-left: 20px;
+    }
+    .paragraph--notFoundText{
+        margin-top: 32px;
+    }
+}
+
+
+/*PDP*/
+.paragraph--pdpStickyText{
+    font-size: 31.5px;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #67fcbb;
+}
+.strong--pdpStickyText{
+    font-weight: bold;
+    color: #fff;
+}
+
+/*Terms and conditions*/
+.wrapper--termsGeneral{
+    width: 100%;
+}
+/*Contact*/
+:global(.vtex-flex-layout-0-x-flexRow--contactWrapper) .heading--moboTitle{
+    margin: 157px 0 107px;
+}
+@media screen and (max-width: 640px){
+    :global(.vtex-flex-layout-0-x-flexRow--contactWrapper) .heading--moboTitle{
+        margin: 80px 0 40px;
+    }
+}
+/*Frequent Questions*/
+.wrapper--questionsTitle{
+    margin: 60px auto 0px;
+}
+.headingLevel2--questionsTitle{
+    margin: 0;
+    font-size: 65px;
+    letter-spacing: 0.65px;
+    text-align: center;
+    color: #9b9b9b;
+}
+.wrapper--questionsSubTitle{
+    margin: 104px auto 40px;
+}
+.paragraph--questionsSubTitle{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000;
+}
+
+.paragraph--questionText{
+    margin: 0;
+    font-size: 29.5px;
+    font-weight: 800;
+    line-height: 0.97;
+    text-align: left;
+    color: #272727;
+}
+:global(.vtex-disclosure-layout-1-x-content) .paragraph--questionText{
+    font-size: 26px;
+    font-weight: normal;
+}
+@media screen and (max-width: 1920px){
+    .wrapper--questionsTitle{
+        margin: 3.125vw auto 0px;
+    }
+    .headingLevel2--questionsTitle{
+        font-size: 3.125vw;
+    }
+    .wrapper--questionsSubTitle{
+        margin: 5.208vw auto 2.083vw;
+    }
+    .paragraph--questionsSubTitle{
+        font-size: 2.083vw;
+    }
+    
+    .paragraph--questionText{
+        font-size: 1.5625vw;
+    }
+    :global(.vtex-disclosure-layout-1-x-content) .paragraph--questionText{
+        font-size: 1.354vw;
+    }
+}
+@media screen and (max-width: 1024px){
+    .wrapper--questionsTitle{
+        margin: 6.557vw auto 0px;
+    }
+    .headingLevel2--questionsTitle{
+        font-size: 7.104vw;
+    }
+    .paragraph--questionsSubTitle{
+        font-size: 4.372vw;
+    }
+    .paragraph--questionText{
+        font-size: 3.279vw;
+    }
+    :global(.vtex-disclosure-layout-1-x-content) .paragraph--questionText{
+        font-size: 2.295vw;
+        line-height: 1.3;
+        font-weight: normal;
+    }
+}
+@media screen and (max-width: 640px){
+    :global(.vtex-disclosure-layout-1-x-content) .paragraph--questionText{
+        font-size: 2.8vw;
+    }
+}
+
+
+/* @media screen and (max-width: 768px){
+    .headingLevel2--questionsTitle{
+        font-size: 48px;
+    }
+    .wrapper--questionsSubTitle{
+        margin: 60px auto 24px;
+    }
+    .paragraph--questionsSubTitle{
+        font-size: 32px;
+    }
+    .paragraph--questionText{
+        font-size: 24px;
+    }
+    :global(.vtex-disclosure-layout-1-x-content) .paragraph--questionText{
+        font-size: 18px;
+    }
+} */
+/* @media screen and (max-width: 640px){
+    .wrapper--questionsTitle{
+        margin: 32px auto 0px;
+    }
+    .headingLevel2--questionsTitle{
+        font-size: 40px;
+    }
+    .wrapper--questionsSubTitle{
+        margin: 40px auto 20px;
+    }
+    .paragraph--questionsSubTitle{
+        font-size: 28px;
+    }
+    .paragraph--questionText{
+        font-size: 20px;
+    }
+    :global(.vtex-disclosure-layout-1-x-content) .paragraph--questionText{
+        font-size: 16px;
+    }
+} */
+
+/* @media screen and (max-width: 490px){
+    .headingLevel2--questionsTitle{
+        font-size: 32px;
+    }
+    .wrapper--questionsSubTitle{
+        margin: 32px auto 12px;
+    }
+    .paragraph--questionsSubTitle{
+        font-size: 22px;
+    }
+    .paragraph--questionText{
+        font-size: 16px;
+    }
+    :global(.vtex-disclosure-layout-1-x-content) .paragraph--questionText{
+        font-size: 14px;
+    }
+} */
+
+
+
+
+
+
+
+/*Invoice*/
+/* .wrapper--invoiceTitle{
+    margin-bottom: 120px;
+} */
+.wrapper--invoiceText{
+    width: 100%;
+}
+.headingLevel3--invoiceText{
+    margin: 120px auto 46px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    color: #000;
+}
+.paragraph--invoiceText{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+@media screen and (max-width: 1920px){
+    .headingLevel3--invoiceText{
+        margin: 6.25vw auto 2.396vw;
+        font-size: 2.083vw;
+    }
+    .paragraph--invoiceText{
+        font-size: 1.5625vw;
+    }
+}
+@media screen and (max-width: 1024px){
+    .headingLevel3--invoiceText{
+        margin: 13.115vw auto 5.246vw;
+        font-size: 4.372vw;
+    }
+    .paragraph--invoiceText{
+        font-size: 3.279vw;
+    }
+}
+
+
+
+/*Terms and Conditions*/
+.headingLevel1--termsGeneral{
+    font-size: 65px;
+    color: #9b9b9b;
+}
+.paragraph--termsGeneral,
+.listItem--termsGeneral{
+    text-align: justify;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #272727;
+}
+.headingLevel2--termsGeneral{
+    margin-top: 40px;
+    font-size: 40px;
+    color: #272727;
+}
+
+@media screen and (max-width: 1920px){
+    .headingLevel1--termsGeneral{
+        font-size: 3.385vw;
+    }
+    .paragraph--termsGeneral,
+    .listItem--termsGeneral{
+        font-size: 1.094vw;
+    }
+    .headingLevel2--termsGeneral{
+        margin-top: 2.083vw;
+        font-size: 2.083vw;
+    } 
+}
+@media screen and (max-width: 1440px){
+    .paragraph--termsGeneral,
+    .listItem--termsGeneral{
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .headingLevel1--termsGeneral{
+        font-size: 7.104vw;
+    }
+    .paragraph--termsGeneral,
+    .listItem--termsGeneral{
+        font-size: 2.295vw;
+    }
+    .headingLevel2--termsGeneral{
+        margin-top: 4.372vw;
+        font-size: 4.372vw;
+    } 
+}
+
+@media screen and (max-width: 640px){
+    .paragraph--termsGeneral,
+    .listItem--termsGeneral{
+        font-size: 2.9vw;
+    }
+}

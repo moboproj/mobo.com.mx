@@ -1,0 +1,85 @@
+{
+    "vtex.menu@2.x:submenu.accordion#proteccion-smartwatches-desk": {
+        "children":["menu#proteccion-submenu-smartwatches-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#proteccion-submenu-smartwatches-desktop": {
+        "props": {
+            "blockClass": "categoriesSmartwatches",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/smart-watch/Mobo",
+                        "noFollow": false,
+                        "tagTitle": "Mobo",
+                        "text": "Mobo"
+                    }
+                },
+                {
+                    "id": "Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/smart-watch/samsung",
+                        "noFollow": false,
+                        "tagTitle": "Samsung",
+                        "text": "Samsung"
+                    }
+                },
+                {
+                    "id": "Apple",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/smart-watch/apple",
+                        "noFollow": false,
+                        "tagTitle": "Apple",
+                        "text": "Apple"
+                    }
+                },
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/smart-watch/huawei",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/smart-watch/motorola",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

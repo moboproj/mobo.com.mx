@@ -1,0 +1,144 @@
+{
+    "store.storelocator": {
+      "blocks": [
+        "responsive-layout.desktop#sucursales",
+        "responsive-layout.mobile#sucursales"
+      ]
+    },
+    "responsive-layout.desktop#sucursales":{
+      "children":[
+        
+        "flex-layout.row#container"
+      ]
+    },
+    "responsive-layout.mobile#sucursales":{
+      "children":[
+      
+        "flex-layout.row#container"
+      ]
+    },
+    "flex-layout.row#title-sucursales": {
+      "props": {
+        "blockClass": "rowTitulo"
+      },
+      "children": [
+        "flex-layout.col#col-title-sucursales"
+      ]
+    },
+    "flex-layout.row#container": {
+      "props": {
+        "blockClass": "rowContainer-flex"
+      },
+      "children": [
+        "store-list#tiendas"
+      ]
+    },
+    "store-list#tiendas":{
+      "props": {
+        "filterByTag": "mobofacil",
+        "sortBy": "name",
+        "icon": "/arquivos/location-mobo.png",
+        "zoom": 15
+      }
+    },
+    "flex-layout.col#col-title-sucursales": {
+      "props": {
+        "blockClass": "col-titulo",
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "rich-text#titulo-sucursales"
+      ]
+    },
+    "rich-text#titulo-sucursales": {
+      "props": {
+        "text": "## Sucursales",
+        "blockClass": "titulo-sucursales"
+      }
+    },
+
+    /**********store - detail*********/
+    "store.storedetail": {
+      "blocks": [
+        "flex-layout.row#titleStore", 
+        "store-group"
+      ]
+    },
+    "store-group": {
+      "props": {
+        "title": "{storeName} Store",
+        "blockClass": "tienda"
+      },
+      "children": [
+        "flex-layout.row#containerStore"
+      ]
+    },
+    "flex-layout.row#titleStore": {
+      "children": [
+        "flex-layout.col#titleStore"
+      ]
+    },
+    "flex-layout.row#containerStore": {
+      "props": {
+        "blockClass": "containerStore"
+      },
+      "children": [
+        "flex-layout.col#detail", 
+        "flex-layout.col#store"
+     ]
+    },
+    "flex-layout.col#titleStore": {
+      "props": {
+        "blockClass": "title",
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "rich-text#titleStore"
+      ]
+    },
+    "rich-text#titleStore": {
+      "props": {
+        "text": "## Detalle de la sucursal"
+      }
+    },
+    "flex-layout.col#detail": {
+      "title": "detalles",
+      "children": [
+       //"store-map",
+        "store-name",
+        "store-address",
+        "store-instructions",
+        "store-back-link"
+      ],
+      "props": {
+        "width": "40%",
+        "preventVerticalStretch": true,
+        "blockClass": "detalles"
+      }
+    },
+    "flex-layout.col#store": {
+      "children": [
+        "store-map"
+      ],
+      "props": {
+        "width": "60%"
+      }
+    },
+    "store-map":{
+      "props":{
+        "zoom": 15,
+        "icon": "/arquivos/location-mobo.png",
+        "height": "500px"
+      }
+    },
+    "store-back-link": {
+      "props": {
+        "label": "Regresar a todas las sucursales"
+      }
+    },
+    "store-instructions": {
+      "props": {
+        "label": ""
+      }
+    }
+  }

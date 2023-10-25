@@ -1,0 +1,59 @@
+{
+    "vtex.menu@2.x:submenu.accordion#smartwatches-be-fun-desk": {
+        "children":["menu#smartwatches-submenu-be-fun-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#smartwatches-be-fun-desk":{
+        "children": [
+            "disclosure-trigger#smartwatches-be-fun-trigger-desk",
+            "disclosure-content#smartwatches-be-fun-content-desk"
+        ]
+    },
+    "disclosure-trigger#smartwatches-be-fun-trigger-desk": {
+        "children": ["link#smartwatches-be-fun-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#smartwatches-be-fun-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Be Fun",
+			"href":"/smartwatch-be-fun"
+		}
+	},
+    "disclosure-content#smartwatches-be-fun-content-desk": {
+        "children": ["menu#smartwatches-submenu-be-fun-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#smartwatches-submenu-be-fun-desktop": {
+        "props": {
+            "blockClass": "categoriesBeFun",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Be Fun",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-be-fun",
+                        "noFollow": false,
+                        "tagTitle": "Be Fun",
+                        "text": "Be Fun"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

@@ -1,0 +1,116 @@
+{
+    "vtex.menu@2.x:submenu.accordion#proteccion-mob": {
+        "children":["menu#category-submenu-proteccion-mobile"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#proteccion-mob":{
+        "children": [
+            "disclosure-trigger#proteccion-trigger-mob",
+            "disclosure-content#proteccion-content-mob"
+        ]
+    },
+    "disclosure-trigger#proteccion-trigger-mob": {
+        "children": ["link#proteccion-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#proteccion-trigger":{
+		"props":{
+			"blockClass":"linkMenuMob",
+			"label":"Protección",
+			"href":"/proteccion"
+		}
+	},
+    "disclosure-content#proteccion-content-mob": {
+        "children": [
+            "disclosure-layout#proteccion-celular-desk",
+            "menu-item#proteccion-smartwatches-desktop",
+            "menu-item#proteccion-audifonos-desktop",
+            "menu-item#proteccion-tablets-desktop",
+            "disclosure-layout#marcas-proteccion-desktop"
+        ],
+        "props":{
+            "blockClass":["disclosureMenu","disclosureMenuMobile"]
+        }
+    },
+
+    "menu#category-submenu-proteccion-mobile": {
+        "props": {
+            "blockClass": "mainCategoriesMenuMob",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Celular",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/protector",
+                        "noFollow": false,
+                        "tagTitle": "Celular",
+                        "text": "Celular"
+                    }
+                },
+                {
+                    "id": "Smartwatches",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-smartwatch",
+                        "noFollow": false,
+                        "tagTitle": "Smartwatches",
+                        "text": "Smartwatches"
+                    }
+                },
+                {
+                    "id": "Estuche para Airpods",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-airpods",
+                        "noFollow": false,
+                        "tagTitle": "Estuche para Airpods",
+                        "text": "Estuche para Airpods"
+                    }
+                },
+                {
+                    "id": "Tablets",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-tablets",
+                        "noFollow": false,
+                        "tagTitle": "Tablets",
+                        "text": "Tablets"
+                    }
+                },
+                {
+                    "id": "Marcas de proteccion",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion",
+                        "noFollow": false,
+                        "tagTitle": "Marcas de proteccion",
+                        "text": "Marcas de proteccion"
+                    }
+                }
+            ]
+        }
+    }
+}

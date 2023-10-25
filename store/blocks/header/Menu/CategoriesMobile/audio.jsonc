@@ -1,0 +1,75 @@
+{
+    "vtex.menu@2.x:submenu.accordion#audio-mob": {
+        "children":["menu#category-submenu-audio-mobile"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#audio-mob":{
+        "children": [
+            "disclosure-trigger#audio-trigger-mob",
+            "disclosure-content#audio-content-mob"
+        ]
+    },
+    "disclosure-trigger#audio-trigger-mob": {
+        "children": ["link#audio-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#audio-trigger":{
+		"props":{
+			"blockClass":"linkMenuMob",
+			"label":"Audio",
+			"href":"/audio"
+		}
+	},
+    "disclosure-content#audio-content-mob": {
+        "children": [
+            "disclosure-layout#audio-audifonos-desk",
+            "disclosure-layout#audio-bocinas-desk"
+        ],
+        "props":{
+            "blockClass":["disclosureMenu","disclosureMenuMobile"]
+        }
+    },
+
+
+    "menu#category-submenu-audio-mobile": {
+        "props": {
+            "blockClass": "mainCategoriesMenuMob",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Audifonos",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audio/audifonos",
+                        "noFollow": false,
+                        "tagTitle": "Audífonos",
+                        "text": "Audífonos"
+                    }
+                },
+                {
+                    "id": "Bocinas",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audio/bocina",
+                        "noFollow": false,
+                        "tagTitle": "Bocinas",
+                        "text": "Bocinas"
+                    }
+                }
+            ]
+        }
+    }
+}

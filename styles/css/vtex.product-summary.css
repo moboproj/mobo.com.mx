@@ -1,0 +1,125 @@
+/*Estilos Generales*/
+.element{
+    padding:10px;
+    position: relative;
+}
+.imageWrapper{
+    padding: 16px;
+}
+.imageNormal{
+    height: auto !important;
+}
+.nameContainer{
+    font-weight: 800;
+}
+.productBrand{    
+    font-weight: 800;
+    font-size:14px
+}
+.nameContainer{    
+    padding-top:5px;
+    padding-bottom:5px;
+    height: 36px
+}
+.brandName{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: normal;
+    font-size: 16.5px;
+    line-height: 1.2;
+    color: #484848;
+}
+@media screen and (max-width: 1920px) {
+    .imageWrapper{
+        padding: 0.8333vw;
+    }
+    .nameContainer{
+        height: 1.875vw;
+    }
+    .brandName{
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .nameContainer{
+        height: 3.5vw;
+    }
+    .brandName{
+        font-size: 1.4vw;
+    }
+}
+@media screen and (max-width: 915px) {
+    .imageWrapper{
+        padding: 1.749vw;
+    }
+    .nameContainer{
+        height: 6.557vw;
+    }
+    .brandName{
+        font-size: 2.5vw;
+    }
+}
+@media screen and (max-width: 640px) {
+    .nameContainer{
+        height: 6vw;
+    }
+    .brandName{
+        font-size: 3vw;
+    }
+}
+
+
+
+
+
+
+@media screen and(max-width: 767px) {
+    .productBrand{    
+        font-weight: 800;
+        font-size:10px
+    }
+    .currencyContainer{
+        font-size: 8px !important;
+    }
+}
+
+
+/*PLP*/
+:global(.vtex-search-result-3-x-gallery) .imageContainer {
+    padding: 9px;
+}
+@media screen and (max-width: 490px) {
+    :global(.vtex-search-result-3-x-gallery) .element{
+        padding: 0;
+    }
+    :global(.vtex-search-result-3-x-gallery) .imageContainer {
+        padding: 0px;
+    }
+}
+
+
+/*Shelf List*/
+.container--shelfPlpList{
+    max-width: unset !important;
+}
+.container--shelfPlpList .nameContainer{    
+    height: auto;
+}
+.container--shelfPlpList .brandName{
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+@media screen and (max-width: 1920px) {
+    .container--shelfPlpList .brandName{
+        font-size: 2.083vw;
+    }
+}
+@media screen and (max-width: 915px) {
+    .container--shelfPlpList .brandName{
+        font-size: 4.372vw;
+    }
+}

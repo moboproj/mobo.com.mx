@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25px;
+    padding-bottom: 12px;
+}
+.lowStockText,
+.lowStockHighlight{
+    height: fit-content;
+    font-size: 2.1em;
+    font-weight: normal;
+    letter-spacing: 0.21px;
+    color: #9b9b9b;
+}
+
+@media screen and (max-width: 1920px) {
+    .container{
+        margin-left: 1.25vw;
+        padding-bottom: 0.625vw;
+    }
+}
+@media screen and (max-width: 915px) {
+    .container{
+        margin-left: 2.186vw;
+        padding-bottom: 0.25rem;
+    }
+}

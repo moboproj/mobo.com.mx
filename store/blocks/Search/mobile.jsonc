@@ -1,0 +1,44 @@
+{
+	"search-result-layout.mobile": {
+		"children": [
+			"flex-layout.row#banner-search",
+			"flex-layout.row#search-switcher",
+			"flex-layout.row#plp-top-mobile",
+			"flex-layout.row#plp-results-mobile"
+		]
+	},
+	"flex-layout.row#plp-top-mobile":{
+		"children":[
+			"search-title.v2",
+			// "flex-layout.col#spacer",
+			//"filter-navigator.v3",
+			"drawer#filters",
+			"order-by.v2"
+		],
+		"props":{
+			"blockClass":"plpTopMobile",
+			"colSizing":"auto",
+			"preserveLayoutOnMobile":true
+		}
+	},
+	"drawer#filters": {
+		"children": [
+			//"menu#drawer",
+			"flex-layout.col#filters-container-mob"
+		],
+		"props": {
+			"blockClass": "drawerFilters",
+			"slideDirection":"rightToLeft"
+		}
+	},
+	"flex-layout.col#filters-container-mob":{
+		"children":[
+			"filter-navigator.v3",
+			"filters",
+			"image#plp-image-filters"
+		]
+	},
+	"flex-layout.row#plp-results-mobile":{
+		"children":["flex-layout.col#search"]
+	}
+}

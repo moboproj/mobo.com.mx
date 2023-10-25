@@ -1,0 +1,227 @@
+{
+    "vtex.menu@2.x:menu#footer-links-1":{
+		"props":{
+			"blockClass":["footerMenuDesk","footerMenu1"],
+			"orientation": "vertical",
+			"items":[
+				{
+					"id": "QuienesSomos",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/quienes-somos",
+						"noFollow": false,
+						"tagTitle": "Quienes somos",
+						"text": "Quienes somos"
+					}
+				},
+				{
+					"id": "NuestrasTiendas",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/tiendas",
+						"noFollow": false,
+						"tagTitle": "Nuestras tiendas",
+						"text": "Nuestras tiendas"
+					}
+				},
+				// {
+				// 	"id": "Mayoristas",
+				// 	"type": "custom",
+				// 	"iconId": null,
+				// 	"highlight": false,
+				// 	"itemProps": {
+				// 		"type": "internal",
+				// 		"href": "/mayoristas",
+				// 		"noFollow": false,
+				// 		"tagTitle": "Mayoristas",
+				// 		"text": "Mayoristas"
+				// 	}
+				// },
+				{
+					"id": "CatalogoMayoreo",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/catalogos-mayoreo",
+						"noFollow": false,
+						"tagTitle": "Catálogo de Mayoreo",
+						"text": "Catálogo de Mayoreo"
+					}
+				},
+				// {
+				// 	"id": "BolsaTrabajo",
+				// 	"type": "custom",
+				// 	"iconId": null,
+				// 	"highlight": false,
+				// 	"itemProps": {
+				// 		"type": "internal",
+				// 		"href": "/bolsa-de-trabajo",
+				// 		"noFollow": false,
+				// 		"tagTitle": "Bolsa de Trabajo",
+				// 		"text": "Bolsa de Trabajo"
+				// 	}
+				// },
+				{
+					"id": "TerminosYCondiciones",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/terminos-y-condiciones",
+						"noFollow": false,
+						"tagTitle": "Términos y Condiciones",
+						"text": "Términos y Condiciones"
+					}
+				},
+				{
+					"id": "VentasEmpresariales",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "mailto:ventas@mobo.mx",
+						"noFollow": false,
+						"tagTitle": "Ventas empresariales y Mayoreo",
+						"text": "Ventas empresariales y Mayoreo"
+					}
+				}
+				// {
+				// 	"id": "QueEsUnReacondicionado",
+				// 	"type": "custom",
+				// 	"iconId": null,
+				// 	"highlight": false,
+				// 	"itemProps": {
+				// 		"type": "internal",
+				// 		"href": "/preguntas-frecuentes",
+				// 		"noFollow": false,
+				// 		"tagTitle": "¿Qué es un reacondicionado?",
+				// 		"text": "¿Qué es un reacondicionado?"
+				// 	}
+				// }
+			]
+		}
+	},
+
+	"vtex.menu@2.x:menu#footer-links-2":{
+		"props":{
+			"blockClass":"footerMenuDesk",
+			"orientation": "vertical",
+			"items":[
+				{
+					"id": "PreguntasFrecuentes",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/preguntas-frecuentes",
+						"noFollow": false,
+						"tagTitle": "Preguntas Frecuentes",
+						"text": "Preguntas Frecuentes"
+					}
+				},
+				// {
+				// 	"id": "CellRepair",
+				// 	"type": "custom",
+				// 	"iconId": null,
+				// 	"highlight": false,
+				// 	"itemProps": {
+				// 		"type": "internal",
+				// 		"href": "/cellrepair",
+				// 		"noFollow": false,
+				// 		"tagTitle": "Cell Repair",
+				// 		"text": "Cell Repair"
+				// 	}
+				// },
+				// {
+				// 	"id": "ComoComprar",
+				// 	"type": "custom",
+				// 	"iconId": null,
+				// 	"highlight": false,
+				// 	"itemProps": {
+				// 		"type": "internal",
+				// 		"href": "/como-comprar",
+				// 		"noFollow": false,
+				// 		"tagTitle": "Cómo comprar",
+				// 		"text": "Cómo comprar"
+				// 	}
+				// },
+				{
+					"id": "Garantias",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/terminos-y-condiciones#devoluciones",
+						"noFollow": false,
+						"tagTitle": "Garantías y devoluciones",
+						"text": "Garantías y devoluciones"
+					}
+				},
+				{
+					"id": "Factuacion",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/facturacion",
+						"noFollow": false,
+						"tagTitle": "Facturación",
+						"text": "Facturación"
+					}
+				},
+				{
+					"id": "Contacto",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/contacto",
+						"noFollow": false,
+						"tagTitle": "Contacto",
+						"text": "Contacto"
+					}
+				},
+				{
+					"id": "Promociones",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/terminos-y-condiciones-de-promociones",
+						"noFollow": false,
+						"tagTitle": "Términos y condiciones en promociones",
+						"text": "Términos y condiciones en promociones"
+					}
+				},
+				{
+					"id": "Privacidad",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/privacidad-de-datos",
+						"noFollow": false,
+						"tagTitle": "Privacidad de datos",
+						"text": "Privacidad de datos"
+					}
+				}
+			]
+		}
+	}
+}

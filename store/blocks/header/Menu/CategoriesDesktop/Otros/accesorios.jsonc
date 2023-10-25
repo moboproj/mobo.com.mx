@@ -1,0 +1,202 @@
+{
+    "vtex.menu@2.x:submenu.accordion#otros-accesorios-desk": {
+        "children":["menu#otros-submenu-accesorios-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#otros-accesorios-desk":{
+        "children": [
+            "disclosure-trigger#otros-accesorios-trigger-desk",
+            "disclosure-content#otros-accesorios-content-desk"
+        ]
+    },
+    "disclosure-trigger#otros-accesorios-trigger-desk": {
+        "children": ["link#otros-accesorios-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#otros-accesorios-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Accesorios",
+			"href":"/accesorios"
+		}
+	},
+    "disclosure-content#otros-accesorios-content-desk": {
+        "children": ["menu#otros-submenu-accesorios-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#otros-submenu-accesorios-desktop": {
+        "props": {
+            "blockClass": "categoriesAccesorios",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Extensibles",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/los-mejores-extensibles",
+                        "noFollow": false,
+                        "tagTitle": "Extensibles",
+                        "text": "Extensibles"
+                    }
+                },
+                {
+                    "id": "Sujetadores",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/sujetadores-para-celular",
+                        "noFollow": false,
+                        "tagTitle": "Sujetadores",
+                        "text": "Sujetadores"
+                    }
+                },
+                {
+                    "id": "Memorias",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/memorias-externas",
+                        "noFollow": false,
+                        "tagTitle": "Memorias",
+                        "text": "Memorias"
+                    }
+                },
+                {
+                    "id": "Plumas",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/pluma",
+                        "noFollow": false,
+                        "tagTitle": "Plumas",
+                        "text": "Plumas"
+                    }
+                },
+                {
+                    "id": "Porta Tablets",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/porta-tablets",
+                        "noFollow": false,
+                        "tagTitle": "Porta Tablets",
+                        "text": "Porta Tablets"
+                    }
+                },
+                /* {
+                    "id": "Porta Teléfonos",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/accesorios?initialMap=c&initialQuery=accesorios&map=category-1,category-2&query=/accesorios/porta-telefono&searchState",
+                        "noFollow": false,
+                        "tagTitle": "Porta Teléfonos",
+                        "text": "Porta Teléfonos"
+                    }
+                }, */
+                {
+                    "id": "Selfies",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/accesorios-para-selfies",
+                        "noFollow": false,
+                        "tagTitle": "Selfies",
+                        "text": "Selfies"
+                    }
+                },
+                {
+                    "id": "Soportes",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/soportes-para-celular",
+                        "noFollow": false,
+                        "tagTitle": "Soportes",
+                        "text": "Soportes"
+                    }
+                },
+                // {
+                //     "id": "Tarjetas de Memoria",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/accesorios/tarjetas-de-memoria",
+                //         "noFollow": false,
+                //         "tagTitle": "Tarjetas de Memoria",
+                //         "text": "Tarjetas de Memoria"
+                //     }
+                // },
+                {
+                    "id": "Ventiladores",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/ventiladores-portatiles",
+                        "noFollow": false,
+                        "tagTitle": "Ventiladores",
+                        "text": "Ventiladores"
+                    }
+                },
+                {
+                    "id": "Estuches",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/estuches",
+                        "noFollow": false,
+                        "tagTitle": "Estuches",
+                        "text": "Estuches"
+                    }
+                },
+                {
+                    "id": "Adaptadores",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/adaptadores",
+                        "noFollow": false,
+                        "tagTitle": "Adaptadores",
+                        "text": "Adaptadores"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

@@ -1,0 +1,59 @@
+{
+    "vtex.menu@2.x:submenu.accordion#huawei-desk": {
+        "children":["menu#category-submenu-huawei-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#category-submenu-huawei-desktop": {
+        "props": {
+            "blockClass": "categoriesHuawei",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Nova 10",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Nova 10",
+                        "text": "Nova 10"
+                    }
+                },
+                {
+                    "id": "Nova 9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Nova 9",
+                        "text": "Nova 9"
+                    }
+                },
+                {
+                    "id": "Pro 40 Pro",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Pro 40 Pro",
+                        "text": "Pro 40 Pro"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

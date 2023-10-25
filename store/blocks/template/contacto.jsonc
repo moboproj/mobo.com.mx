@@ -1,0 +1,74 @@
+{
+	"store.custom#contacto": {
+		"blocks": [
+			"flex-layout.row#contact-wrapper"
+		]
+	},
+	"flex-layout.row#contact-wrapper": {
+		"title": "Envoltura de Contacto",
+		"children": [
+			"flex-layout.col#contact-container"
+		],
+		"props": {
+			"blockClass": "contactWrapper"
+		}
+	},
+	"flex-layout.col#contact-container": {
+		"children": [
+			"flex-layout.row#contact-main",
+			"flex-layout.row#contact-form-wrapper"
+		]
+	},
+	"flex-layout.row#contact-main": {
+		"children": [
+			"info-card#contact-main"
+		]
+	},
+	"info-card#contact-main": {
+		"title": "Imagen principal",
+		"props": {
+			"blockClass": "infoOnlyImg",
+			"imageUrl": "/arquivos/Banner-contacto_desktop.png",
+			"mobileImageUrl": "/arquivos/Banner-contacto_mobile.jpg",
+			"callToActionMode": "none",
+			"callToActionUrl": "",
+			"imageActionUrl": ""
+		}
+	},
+	"flex-layout.row#contact-form-wrapper": {
+		"title": "Envoltura de Contacto",
+		"children": [
+			"flex-layout.col#contact-form-container"
+		],
+		"props": {
+			"blockClass": "maxWidthGeneral"
+		}
+	},
+	"flex-layout.col#contact-form-container": {
+		"title": "Envoltura de Contacto",
+		"children": [
+			"contact",
+			"rich-text#contact-title-contact",
+			"flex-layout.row#contact-contact"
+		]
+	},
+	"rich-text#contact-title-contact": {
+		"props": {
+			"blockClass": [
+				"moboTitle",
+				"titulo-mas-vendidos"
+			],
+			"text": "## O bien, contáctanos en los siguientes medios"
+		}
+	},
+	"flex-layout.row#contact-contact": {
+		"children": [
+			"info-card#footer-assistance",
+			"info-card#footer-whatsapp",
+			"info-card#footer-email"
+		],
+		"props": {
+			"blockClass": "contactSectionContact"
+		}
+	}
+}

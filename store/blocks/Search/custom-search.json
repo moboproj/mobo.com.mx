@@ -1,0 +1,23 @@
+{
+  "store.custom#custom-search": {
+    "blocks": [
+        "search-result-layout.customQuery#custom-search"
+    ]
+  },
+  "search-result-layout.customQuery#custom-search": {
+    "title": "Envoltura de custom search",
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "queryField": "telefonia",
+        "mapField": "category-1"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+			"search-result-layout.mobile",
+			"search-not-found-layout"
+    ]
+  }
+}

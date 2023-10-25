@@ -1,0 +1,11 @@
+.paginationDotsContainer{
+    border: 2px solid blue;
+}
+.paginationDot{
+    width: 30px;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+}
+.paginationDot--isActive{
+    background-color: #4d4d4d;
+}

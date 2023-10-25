@@ -1,0 +1,139 @@
+/* .savings{
+    font-size: 25px;
+    font-weight: 700;
+    color: #0433ff;
+} */
+.currencyDecimal,
+.currencyFraction{
+    display: none;
+}
+.listPriceValue{
+    text-decoration: none;
+}
+.listPrice .currencyContainer{
+    text-decoration: line-through;
+    font-size: 24px;
+    line-height: 1;
+    color: #9b9b9b;
+}
+.sellingPrice .currencyContainer{
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 1;
+    color: #0433ff;
+}
+@media screen and (max-width: 1920px) {
+    .listPrice .currencyContainer{
+        font-size: 1.25vw;
+    }
+    .sellingPrice .currencyContainer{
+        font-size: 2.135vw;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .listPrice .currencyContainer{
+        font-size: 2.623vw;
+    }
+    .sellingPrice .currencyContainer{
+        font-size: 4.481vw;
+    }
+}
+
+
+/*Shelf List*/
+:global(.vtex-flex-layout-0-x-flexRowContent--plpPriceListWrapper){
+    height: 80px !important;
+}
+:global(.vtex-product-summary-2-x-container--shelfPlpList) .listPrice,
+:global(.vtex-product-summary-2-x-container--shelfPlpList) .sellingPrice{
+    display: flex;
+    align-items: flex-end;
+}
+:global(.vtex-product-summary-2-x-container--shelfPlpList) .listPrice .currencyContainer{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0.9;
+}
+:global(.vtex-product-summary-2-x-container--shelfPlpList) .sellingPrice .currencyContainer{
+    margin-left: 20px;
+    font-size: 64px;
+    color: #000;
+}
+
+@media screen and (max-width: 1920px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--plpPriceListWrapper){
+        height: 4.167vw !important;
+    }
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) .listPrice .currencyContainer{
+        font-size: 2.083vw;
+    }
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) .sellingPrice .currencyContainer{
+        margin-left: 1.042vw;
+        font-size: 3.385vw;
+    }
+}
+
+/*PDP*/
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice){
+    margin-top: 29px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .listPrice,
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .sellingPrice{
+    display: flex;
+    align-items: flex-end;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .listPrice .listPriceValue{
+    font-size: 40px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .listPrice .currencyContainer{
+    margin-right: 38px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    color: #9b9b9b;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .sellingPrice .sellingPriceValue{
+    font-family: 'Outfit';
+    font-size: 65px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .sellingPrice .currencyContainer{
+    font-family: 'Outfit';
+    font-weight: 800;
+    letter-spacing: 0.65px;
+    color: #000;
+}
+
+@media screen and (max-width: 1920px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice){
+        margin-top: 1vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .listPrice .listPriceValue{
+        font-size: 2.083vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .listPrice .currencyContainer{
+        margin-right: 1.979vw;
+        font-size: 1.8vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .sellingPrice .sellingPriceValue,
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .sellingPrice .currencyContainer{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 915px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice){
+        margin-top: 2.841vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .listPrice .listPriceValue{
+        font-size: 4.372vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .listPrice .currencyContainer{
+        margin-right: 4.153vw;
+        font-size: 4.372vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .sellingPrice .sellingPriceValue,
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpPrice) .sellingPrice .currencyContainer{
+        font-size: 7.104vw;
+    }
+}

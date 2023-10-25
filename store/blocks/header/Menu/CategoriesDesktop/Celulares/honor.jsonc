@@ -1,0 +1,46 @@
+{
+    "vtex.menu@2.x:submenu.accordion#honor-desk": {
+        "children":["menu#category-submenu-honor-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#category-submenu-honor-desktop": {
+        "props": {
+            "blockClass": "categoriesHonor",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "X7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "X7",
+                        "text": "X7"
+                    }
+                },
+                {
+                    "id": "X8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "X8",
+                        "text": "X8"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

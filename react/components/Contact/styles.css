@@ -1,0 +1,239 @@
+.formTitle{
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: 0.65px;
+    text-align: center;
+    color: #9b9b9b;
+}
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 46px 40px;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 30px);
+    position: relative;
+}
+.inputContainer.nombre,
+.inputContainer.mensaje{
+    width: 100%;
+}
+.label{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    color: #000;
+}
+.input{
+    height: 75px;
+    margin-top: 19px;
+    padding: 0 38px;
+    border-radius: 37px;
+    border: solid 3px #0433ff;
+    font-size: 29.5px;
+    line-height: 0.97;
+    color: #9b9b9b;
+}
+.imputarrow{
+    appearance: none;
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%239b9b9b%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E);
+    background-repeat: no-repeat;
+    background-position: right 1rem top 50%;
+    background-size: 0.8rem auto;
+    color: #9b9b9b;
+    fill: #9b9b9b;
+}
+.inputContainer.inputError .input{
+    border-color: red;
+}
+.inputContainer select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    color:black;
+    background: white;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+}
+.inputContainer select::-ms-expand {
+    display: none;
+    appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    color:black;
+    background: white;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+}
+
+
+
+.inputContainer i{
+	position: absolute;
+	right: 40px;
+	bottom: 23%;
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #000;
+	border-bottom:4px solid #000;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
+.textarea{
+    height: 360px;
+    padding: 24px 38px;
+}
+.inputError{
+    margin: 8px 0 0 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+.primaryButton{
+    margin: 0 auto;
+    padding: 25px 96px;
+    border-radius: 40px;
+    border: none;
+    background-color: #0433ff;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 0.78;
+    text-align: center;
+    color: #fff;
+}
+
+.loadContainer{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+.modalTitle{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+}
+.modalText{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #9b9b9b;
+}
+@media only screen and (max-width:1920px){
+    .formTitle{
+        font-size: 3.385vw;
+    }
+    .form{
+        gap: 2.396vw 2.083vw;
+    }
+    .label{
+        font-size: 2.083vw;
+    }
+    .input{
+        height: 3.906vw;
+        margin-top: 0.9375vw;
+        padding: 0 1.979vw;
+        font-size: 1.5625vw;
+        border-radius: 1.927vw;
+    }
+    .inputContainer i{
+        right: 2.083vw;
+        width: 0.8333vw;
+        height: 0.8333vw;
+    }
+    .textarea{
+        height: 18.75vw;
+        padding: 1.25vw 1.979vw;
+    }
+    .inputError{
+        margin: 8px 0 0 16px;
+        font-size: 24px;
+        font-weight: bold;
+        color: red;
+    }
+    .primaryButton{
+        padding: 1.25vw 5vw;
+        font-size: 2.083vw;
+    }
+    
+    .loadContainer{
+        margin: 2.083vw auto;
+    }
+    .modalTitle{
+        font-size: 2.083vw;
+    }
+    .modalText{
+        margin-bottom: 3.125vw;
+        font-size: 1.667vw;
+    }
+}
+
+
+@media only screen and (max-width:915px){
+    .formTitle{
+        font-size: 4.372vw;
+    }
+    .form{
+        gap: 4.809vw;
+    }
+    .inputContainer{
+        width: 100%
+    }
+    .label{
+        font-size: 4.372vw;
+    }
+    .input{
+        height: 8.197vw;
+        margin-top: 2.186vw;
+        padding: 0 4.153vw;
+        border-radius: 3.934vw;
+        font-size: 3.279vw;
+    }
+    .inputContainer i{
+        right: 4.372vw;
+        width: 1.749vw;
+        height: 1.749vw;
+        border-left:2px solid #000;
+	    border-bottom:2px solid #000;
+    }
+    .textarea{
+        height: 38.798vw;
+        padding: 2.623vw 4.153vw;
+    }
+    .primaryButton{
+        width: 37.158vw;
+        height: 8.415vw;
+        font-size: 4.372vw;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .input{
+        border: 2px solid #0433ff;
+    }
+    .modalTitle{
+        font-size: 32px;
+    }
+    .modalText{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width:490px){
+    .modalTitle{
+        font-size: 24px;
+    }
+    .modalText{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+}

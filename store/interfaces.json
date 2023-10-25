@@ -1,0 +1,45 @@
+{
+    "wishlist-button":{
+        "component": "WishlistButtonwrapper"
+    },
+    "table-terminos-devoluciones":{
+        "component": "TableTerminosWrapper"
+    },
+    "table-cellRepair":{
+        "component": "TableCellRepairWrapper"
+    },
+    "carousel-home":{
+        "component": "CarouselHome"
+    },
+    "contact":{
+        "component": "Contact"
+    },
+    "filters":{
+        "component": "Filters"
+    },
+    "main-slider":{
+        "component": "MainSlider",
+        "content": {
+			"$ref": "app:mobomx.minimumtheme#/definitions/MainSlider"
+		}
+    },
+    "pdp-features":{
+        "component": "PdpFeatures"
+    },
+    "pdp-share":{
+        "component": "PdpShare",
+        "composition": "children"
+    },
+    "product-offer":{
+        "component": "ProductOffer"
+    },
+    "terms-table":{
+        "component": "TermsTable"
+    },
+    "anchor-general":{
+        "component": "AnchorGeneral"
+    },
+    "show-sticky":{
+        "component": "ShowSticky"
+    }
+}

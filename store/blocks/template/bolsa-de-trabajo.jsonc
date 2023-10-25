@@ -1,0 +1,158 @@
+{
+    "store.custom#bolsa-de-trabajo": {
+        "blocks": [
+          "flex-layout.row#row-titulo-bt",
+          "tab-layout#home"
+        ]
+      },
+      "flex-layout.row#row-titulo-bt": {
+        "props": {
+            "blockClass": "row-titulo-bt",
+            "fullWidth": true,
+            "marginBottom": 5,
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "flex-layout.col#col-titulo-bt"
+        ]
+      },
+      "flex-layout.col#col-titulo-bt": {
+        "props": {
+            "blockClass": "col-titulo-bt",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center",
+            "width": "100%"
+        },
+        "children": [
+          "rich-text#txt-titulo-bt"
+        ]
+      },
+      "rich-text#txt-titulo-bt": {
+        "props": {
+          "blockClass": "txt-titulo-bt",
+        "text": "## Bolsa de trabajo",
+        "textAlignment": "CENTER"
+      }
+      },
+      "tab-layout#home": { 
+        "props": {
+          "blockClass": "home",
+          "defaultActiveTabId": "home1"
+        }, 
+        "children": [
+          "tab-list#home",
+          "tab-content#home"
+        ]
+    },
+ "tab-list#home": {
+   "children": [
+     "tab-list.item#home1",
+     "tab-list.item#home2",
+     "tab-list.item#tab-sistemas"
+   ]
+ },
+ "tab-list.item#home1": {
+   "props": {
+     "tabId": "home1",
+     "label": "Credito y riesgo",
+     "defaultActiveTab": true
+   }
+ },
+ "tab-list.item#home2": {
+   "props": {
+     "tabId": "home2",
+     "label": "e-Commerce"
+   }
+ },
+ "tab-list.item#tab-sistemas": {
+  "props": {
+    "blockClass": "tab-bt",
+    "tabId": "tab-sistemas",
+    "label": "Sistemas"
+  }
+ },
+  "tab-content#home": {
+    "children": [
+       "tab-content.item#home1",
+       "tab-content.item#home2",
+       "tab-content.item#tab-cont-sistemas"
+     ]
+   },
+   "tab-content.item#home1": {
+     "children": [
+      "flex-layout.row#main-slider"
+     ],
+     "props": {
+       "tabId": "home1"
+     }
+   },
+   "tab-content.item#home2": {
+     "children": [
+      "flex-layout.row#row-img-bt-2"
+     ],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "tab-content.item#tab-cont-sistemas": {
+    "props": {
+      "blockClass": "tab-cont-sistemas",
+      "tabId": "tab-sistemas"
+    },
+    "children": [
+      "flex-layout.row#row-img-bt-sistemas"
+    ]
+  },
+"flex-layout.row#row-img-bt-2": {
+  "props": {
+    "blockClass": "row-img-bt-2",
+    "colSizing": "auto",
+    "horizontalAlign": "center"
+  },
+  "children": [
+    "flex-layout.col#col-img-bt-v1"  
+  ]
+},
+"flex-layout.col#col-img-bt-v1": {
+  "props": {
+    "blockClass": "col-img-bt-v1",
+    "colSizing": "auto",
+    "horizontalAlign": "center"
+  },
+  "children": [
+    "image#img-bt-1"  
+  ]
+},
+  "image#img-bt-1": {
+    "props": {
+      "blockClass": "img-bt-1",
+      "src": "/arquivos/bt-ecomm-1.jpg"
+    }
+  },
+  "flex-layout.row#row-img-bt-sistemas": {
+    "props": {
+      "blockClass": "row-img-bt-2",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#col-img-bt-sistemas-v1"  
+    ]
+  },
+  "flex-layout.col#col-img-bt-sistemas-v1": {
+    "props": {
+      "blockClass": "col-img-bt-sistemas-v1",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#img-bt-sistemas-1"  
+    ]
+  },
+    "image#img-bt-sistemas-1": {
+      "props": {
+        "blockClass": "bt-sistemas-1",
+        "src": "/arquivos/bt-sistemas-1.png"
+      }
+    }
+}

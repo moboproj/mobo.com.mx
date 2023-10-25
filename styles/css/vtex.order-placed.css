@@ -1,0 +1,163 @@
+.confirmationTitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+.confirmationMessage{
+/* .noticeListItem{ */
+    font-size: 32px;
+}
+.section :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button),
+.orderPaymentItem :global(.vtex-button),
+.noticeListItem :global(.vtex-button),
+.updateOrderButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button){
+    background-color: #0433ff;
+    border: none;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.section :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button__label),
+.orderPaymentItem :global(.vtex-button__label),
+.noticeListItem :global(.vtex-button__label),
+.updateOrderButton :global(.vtex-button__label),
+.myOrdersButton :global(.vtex-button__label){
+    padding: 20px 32px !important;
+}
+
+.noticeListItem{
+    font-size: 24px;
+}
+.orderNumber{
+    font-size: 40px;
+}
+.myOrdersButton :global(.vtex-button){
+    background-color: #1cffb7;
+    color: #000;
+}
+.orderDatetime,
+.orderSoldBy,
+.customerInfoListContainer,
+.paymentGroup,
+.paymentValue,
+.packageDeliveryTitle,
+.packageShippingEstimate,
+.packageSLA,
+.addressContainer,
+.productName,
+.productQuantity,
+.productPrice,
+.totalListItem.totalListItem--Discounts,
+.totalListItem.totalListItem--Items{
+    font-size: 20px;
+    font-weight: bold;
+    color: #9b9b9b;
+}
+.totalListItem{
+    font-size: 40px;
+}
+
+
+@media only screen and (max-width: 1920px){
+    .confirmationTitle{
+        font-size: 2.083vw;
+    }
+    .confirmationMessage{
+        font-size: 1.667vw;
+    }
+    .section :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button),
+    .orderPaymentItem :global(.vtex-button),
+    .noticeListItem :global(.vtex-button),
+    .updateOrderButton :global(.vtex-button),
+    .myOrdersButton :global(.vtex-button){
+        min-height: unset;
+        border-radius: 2.083vw;
+        font-size: 1.25vw;
+    }
+    .section :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button__label),
+    .orderPaymentItem :global(.vtex-button__label),
+    .noticeListItem :global(.vtex-button__label),
+    .updateOrderButton :global(.vtex-button__label),
+    .myOrdersButton :global(.vtex-button__label){
+        padding: 1.042vw 1.667vw !important;
+    }
+    .noticeListItem{
+        font-size: 1.25vw;
+    }
+    .orderNumber{
+        font-size: 2.083vw;
+    }
+    .orderDatetime,
+    .orderSoldBy,
+    .customerInfoListContainer,
+    .paymentGroup,
+    .paymentValue,
+    .packageDeliveryTitle,
+    .packageShippingEstimate,
+    .packageSLA,
+    .addressContainer,
+    .productName,
+    .productQuantity,
+    .productPrice,
+    .totalListItem.totalListItem--Discounts,
+    .totalListItem.totalListItem--Items{
+        font-size: 1.042vw;
+    }
+    .totalListItem{
+        font-size: 2.083vw;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    .confirmationTitle{
+        font-size: 4.372vw;
+    }
+    .confirmationMessage{
+        font-size: 3.497vw;
+    }
+    .section :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button),
+    .orderPaymentItem :global(.vtex-button),
+    .noticeListItem :global(.vtex-button),
+    .updateOrderButton :global(.vtex-button),
+    .myOrdersButton :global(.vtex-button){
+        border-radius: 4.372vw;
+        font-size: 2.623vw;
+    }
+    .section :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button__label),
+    .orderPaymentItem :global(.vtex-button__label),
+    .noticeListItem :global(.vtex-button__label),
+    .updateOrderButton :global(.vtex-button__label),
+    .myOrdersButton :global(.vtex-button__label){
+        padding: 2.186vw 3.497vw !important;
+    }
+    .orderPaymentItem{
+        padding-bottom: 1rem;
+    }
+    .noticeListItem{
+        font-size: 2.623vw;
+    }
+    .orderNumber{
+        font-size: 4.372vw;
+    }
+    .orderDatetime,
+    .orderSoldBy,
+    .customerInfoListContainer,
+    .paymentGroup,
+    .paymentValue,
+    .packageDeliveryTitle,
+    .packageShippingEstimate,
+    .packageSLA,
+    .addressContainer,
+    .productName,
+    .productQuantity,
+    .productPrice,
+    .totalListItem.totalListItem--Discounts,
+    .totalListItem.totalListItem--Items{
+        font-size: 2.186vw;
+    }
+    .totalListItem{
+        font-size: 4.372vw;
+    }
+}

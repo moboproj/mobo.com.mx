@@ -1,0 +1,145 @@
+/*Main Menú*/
+:global(.vtex-flex-layout-0-x-flexCol--mainSubMenu) .trigger,
+:global(.vtex-store-drawer-0-x-childrenContainer--mainMenuIcon) .trigger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px 47px 10px 0;
+    border-right: solid 1px #9b9b9b;
+    cursor: pointer;
+}
+:global(.vtex-flex-layout-0-x-flexCol--mainSubMenu) .trigger--hidden{
+    padding: 0;
+}
+:global(.vtex-flex-layout-0-x-flexCol--mainSubMenu) .content--visible{
+    border-right: solid 1px #9b9b9b;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mainSubMenu) .trigger::after,
+:global(.vtex-store-drawer-0-x-childrenContainer--mainMenuIcon) .trigger::after{
+    content:'';
+    width: 10px;
+    height: 22px;
+    background-image: url(/arquivos/Flecha-derecha_Blanca.png);
+    background-size: cover;
+    filter: invert(1);
+}
+:global(.vtex-flex-layout-0-x-flexCol--mainSubMenu) .trigger--hidden::after,
+:global(.vtex-store-drawer-0-x-childrenContainer--mainMenuIcon) .trigger--hidden::after{
+    rotate: 90deg;
+}
+:global(.vtex-flex-layout-0-x-flexCol--mainSubMenu) .trigger--visible::after,
+:global(.vtex-store-drawer-0-x-childrenContainer--mainMenuIcon) .trigger--visible::after{
+    rotate: 270deg;
+}
+
+
+@media screen and (max-width: 1920px){
+    :global(.vtex-flex-layout-0-x-flexCol--mainSubMenu) .trigger{
+        padding: 0.521vw 2.448vw 0.521vw 0;
+    }
+}
+
+/*Menú Mobile*/
+:global(.vtex-store-drawer-0-x-childrenContainer--mainMenuIcon) .trigger{
+    border-right: none;
+}
+:global(.vtex-store-drawer-0-x-childrenContainer--mainMenuIcon) .trigger::after{
+    width: 1.749vw;
+    height: 3.716vw;
+    filter: none;
+}
+
+/*Frequent Questions*/
+:global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger{
+    width: 100%;
+    padding: 24px 65px 21px 77px;
+    border: none;
+    border-radius: 47px;
+    background-color: #e6e6e7;
+    cursor: pointer;
+    position: relative;
+}
+:global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger--hidden{
+    margin-bottom: 19px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .content--visible{
+    padding: 36px 63px 62px 39px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger::after{
+    content: '+';
+    position: absolute;
+    top: 10%;
+    right: 45px;
+    font-size: 60.5px;
+    font-weight: bold;
+    line-height: 0.96;
+    color: #9b9b9b;
+}
+:global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger--visible::after{
+    content: '-';
+}
+
+@media screen and (max-width: 1920px){
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger{
+        padding: 1.25vw 3.385vw 1.146vw 4.01vw;    
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger--hidden{
+        margin-bottom: 0.99vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .content--visible{
+        padding: 1.875vw 3.385vw 3.125vw 2.083vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger::after{
+        right: 2.344vw;
+        font-size: 3.385vw;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger{
+        padding: 2.623vw 4.153vw 2.186vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger--hidden{
+        margin-bottom: 1.858vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .content--visible{
+        padding: 3.825vw 3.825vw 5.792vw 1.96vw;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--questionsWrapper) .trigger::after{
+        top: 20%;
+        right: 4.153vw;
+        font-size: 4.809vw;
+    }
+}
+
+/*Frequent Questions*/
+:global(.vtex-flex-layout-0-x-flexRow--frequentWrapper) .trigger--hidden,
+:global(.vtex-flex-layout-0-x-flexRow--frequentWrapper) .content--visible{
+    border: none;
+}
+
+
+/* Menu mobile */
+.content--disclosureMenuMobile,
+.content--disclosureMenuMobile :global(.vtex-menu-2-x-menuContainerNav){
+    padding: 0 5.464vw;
+}
+.content--disclosureMenuMobile .trigger--disclosureMenu{
+    margin: 1vw 0;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+.content--disclosureMenuMobile :global(.vtex-menu-2-x-menuItem){
+    border: none;
+}
+.content--disclosureMenuMobile .trigger--disclosureMenu :global(.vtex-store-link-0-x-link--linkMenu){
+    font-size: 3.934vw;
+    color: #707070;
+}
+
+/* Menu mobile */

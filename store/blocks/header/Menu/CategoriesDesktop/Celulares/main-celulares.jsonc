@@ -1,0 +1,234 @@
+{
+    "menu-item#celulares2": {
+        "blocks": ["vtex.menu@2.x:submenu#celulares"], 
+		"props": {
+            "blockClass": ["mainSubMenu","categoryCelulares"],
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Telefonia/Smartphones?map=c,c",
+				"noFollow": false,
+				"tagTitle": "Celulares",
+				"text": "Celulares"
+			}
+		}
+	},
+    "vtex.menu@2.x:submenu#celulares": {
+		"children": ["flex-layout.row#submenu-celulares"]
+	},
+	"flex-layout.row#submenu-celulares": {
+		"children": [
+			"flex-layout.col#submenu-celulares-1",
+			"flex-layout.col#submenu-celulares-2"
+		],
+        "props": {
+            "blockClass":["subMenuCategory","submenuCelulares"],
+			"fullWidth": true,
+			"colGap": 10
+		}
+	},
+
+    "flex-layout.col#submenu-celulares-1":{
+        "children":[
+            "info-card#submenu-celulares-highlight-1",
+            "info-card#submenu-celulares-highlight-2",
+            "menu-item#category-motorola-desktop",
+            "menu-item#category-samsung-desktop",
+            "menu-item#category-xiaomi-desktop",
+            "menu-item#category-hisense-desktop",
+            "menu-item#category-huawei-desktop",
+            "menu-item#category-honor-desktop",
+            "menu-item#category-oppo-desktop",
+            "rich-text#submenu-celulares-final-text-1"
+        ],
+        "props":{
+            "blockClass":"mainSubMenu",
+            "preventVerticalStretch":true
+        }
+    },
+
+    "info-card#submenu-celulares-highlight-1":{
+		"title": "Descuentos",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Descuentos-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"DESCUENTOS",
+			"callToActionUrl": "/descuentos-mobo-online",
+			"imageActionUrl": "/descuentos-mobo-online"
+		}
+	},
+    "info-card#submenu-celulares-highlight-2":{
+		"title": "Novedades",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Novedadess-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"NOVEDADES",
+			"callToActionUrl": "/novedades-mobo-online",
+			"imageActionUrl": "/novedades-mobo-online"
+		}
+	},
+    "menu-item#category-motorola-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuMotorola",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/celulares-motorola",
+                "tagTitle": "Motorola",
+                "text": "Motorola"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu.accordion#motorola-desk"]
+    },
+    "menu-item#category-samsung-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuSamsung",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/celulares-samsung",
+                "tagTitle": "Samsung",
+                "text": "Samsung"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu.accordion#samsung-desk"]
+    },
+    "menu-item#category-xiaomi-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuXiaomi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/celulares-xiaomi",
+                "tagTitle": "Xiaomi",
+                "text": "Xiaomi"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu.accordion#xiaomi-desk"]
+    },
+    "menu-item#category-hisense-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuHisense",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/celulares-hisense",
+                "tagTitle": "Hisense",
+                "text": "Hisense"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu.accordion#hisense-desk"]
+    },
+    "menu-item#category-huawei-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuHuawei",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/celulares-huawei",
+                "tagTitle": "Huawei",
+                "text": "Huawei"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu.accordion#huawei-desk"]
+    },
+    "menu-item#category-honor-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuHonor",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/celulares-honor",
+                "tagTitle": "Honor",
+                "text": "Honor"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu.accordion#honor-desk"]
+    },
+    "menu-item#category-oppo-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuOppo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/celulares-oppo",
+                "tagTitle": "Oppo",
+                "text": "Oppo"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu.accordion#oppo-desk"]
+    },
+    "rich-text#submenu-celulares-final-text-1":{
+        "title":"Texto final izquierdo",
+        "props":{
+            "blockClass":"mainMenuFinalText",
+            "text":"Hazte de tu nuevo celular pagando en 4 quincenas con Kueski Pay"
+        }
+    },
+
+    "flex-layout.col#submenu-celulares-2":{
+        "children":[
+            "rich-text#submenu-celulares-title",
+            "image#submenu-celulares-img",
+            "rich-text#submenu-celulares-final-text-2"        
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+    },
+    "rich-text#submenu-celulares-title":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuTitle"],
+            "text":"NUEVO\nTeléfono Celular Samsung Galaxy A54 8+128 GB Violeta"
+        }
+    },
+    "image#submenu-celulares-img":{
+        "props":{
+            "src":"/arquivos/ids/206579-800-auto?v=638240179151570000&width=499&height=499&aspect=true",
+            "link":{
+                "url":"/telefono-celular-samsung-galaxy-a54-8-128-gb-violeta/p"
+            }
+        }
+    },
+    "rich-text#submenu-celulares-final-text-2":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuFinalText","text2"],
+            "text":"Paga con PayPal a 12 MSI y estrénalo mañana"
+        }
+    }
+}

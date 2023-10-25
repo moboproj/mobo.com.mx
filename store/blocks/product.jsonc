@@ -1,0 +1,406 @@
+{
+  "store.product#pdp": {
+    "children": ["flex-layout.row#pdp-wrapper"]
+  },
+  "flex-layout.row#pdp-wrapper": {
+    "children": ["flex-layout.col#pdp-container"]
+  },
+  "flex-layout.col#pdp-container": {
+    "children": [
+      "flex-layout.row#product-breadcrumb", //2
+      "flex-layout.row#pdp-main-desk",
+      "flex-layout.row#banner-pdp-2",
+      "flex-layout.row#product-main-mob-wrapper", //Mob
+      "sticky-layout#buy-button", //Mob
+      "__fold__",
+      "flex-layout.row#pdp-tabs", //2
+      "flex-layout.row#pdp-related", //2
+      "flex-layout.row#reviews" //2
+    ]
+  },
+  /*******Banner-promociones******/
+  "flex-layout.row#banner-pdp-2": {
+    "children": ["image#banner-pdp-2"],
+    "props": {
+      "blockClass": "pdpBanner",
+      "marginTop": 4
+    }
+  },
+  "image#banner-pdp-2": {
+    "props": {
+      "src": "/arquivos/Banner-Reacondicionado-Paypal.jpg",
+      "link": {
+        "url": "/iphone-reacondicionados"
+      }
+    }
+  },
+  /********Breadcums*********/
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "blockClass": ["breadcumsContent", "maxWidthGeneral"],
+      "marginTop": 1
+    },
+    "children": ["breadcrumb"]
+  },
+  "breadcrumb": {
+    "props": {
+      "blockClass": "pdpBreadcrumbs",
+      "showOnMobile": true,
+      "homeIconSize": 26,
+      "caretIconSize": 9
+    }
+  },
+  /********Product - detail***********/
+  "flex-layout.row#pdp-main-desk": {
+    "props": {
+      "blockClass": ["maxWidthGeneral", "pdpMain", "pdpMainDesk"],
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "colSizing": "auto"
+    },
+    "children": ["flex-layout.col#leftPDP", "flex-layout.col#rightPDP"]
+  },
+  "flex-layout.col#leftPDP": {
+    "children": ["stack-layout#pdp-images-desk"],
+    "props": {
+      "width": "55%"
+    }
+  },
+  "stack-layout#pdp-images-desk": {
+    "children": [
+      "product-images",
+      "add-to-list-btn",
+      "product-offer",
+      "pdp-share"
+    ],
+    "props": {
+      "blockClass": "stackPdpImages"
+    }
+  },
+  "product-images": {
+    "props": {
+      "width": {
+        "desktop": 786,
+        "mobile": 786
+      },
+      "height": {
+        "desktop": 786,
+        "mobile": 786
+      },
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "displayThumbnailsArrows": true,
+      "thumbnailMaxHeight": 150,
+      "thumbnailMaxWidth": 150
+    }
+  },
+  "pdp-share": {
+    "children": ["share"]
+  },
+  /***********right- PDP**************/
+  "flex-layout.col#rightPDP": {
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "flex-layout.row#price",
+      //"sku-selector#color",
+      "sku-selector#pdp",
+      "flex-layout.row#pdp-quantity",
+      "flex-layout.row#pdp-buy-button",
+      "info-card#pdp-paypal",
+      "info-card#pdp-kuesky",
+      "info-card#pdp-free-shipping",
+      "info-card#pdp-safe-purchase"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "top",
+      "width": "45%"
+    }
+  },
+  "product-identifier.product": {
+    "props": {
+      "label": "custom",
+      "customLabel": "SKU",
+      "idField": "skuReferenceId"
+    }
+  },
+  "flex-layout.row#price": {
+    "children": ["product-list-price", "product-selling-price"],
+    "props": {
+      "blockClass": "pdpPrice",
+      "colSizing": "auto",
+      "colJustify": "left",
+      "marginTop": 2,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "sku-selector#color": {
+    "props": {
+      "visibleVariations": ["color"],
+      "blockClass": "color"
+    }
+  },
+  "sku-selector#pdp": {
+    "props": {
+      "visibleVariations": ["color","Memoria interna", "Capacidad"],
+      "blockClass": "capacidad"
+    }
+  },
+  "flex-layout.row#pdp-quantity": {
+    "children": ["product-quantity", "product-availability"],
+    "props": {
+      "blockClass": "pdpQuantity",
+      "colSizing": "auto",
+      "colJustify": "left",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "selectorType": "dropdown"
+    }
+  },
+  "product-availability": {
+    "props": {
+      "threshold": "40",
+      "lowStockMessage": "({quantity} disponibles)",
+      "highStockMessage": "(+40 disponibles)"
+    }
+  },
+  "flex-layout.row#pdp-buy-button": {
+    "children": ["add-to-cart-button#pdp"],
+    "props": {
+      "blockClass": "buyButtonPdp",
+      "horizontalAlign": "center"
+    }
+  },
+  "add-to-cart-button#pdp": {
+    "props": {
+      "blockClass": "add-to-cart",
+      "isOneClickBuy": true,
+      "text": "AÑADIR A CARRITO"
+    }
+  },
+  "info-card#pdp-paypal": {
+    "props": {
+      "blockClass": ["pdpBenefit", "first", "pdpPayment"],
+      "imageUrl": "",
+      "headline": "Hasta 12 meses sin intereses con PayPal a partir de $1,000",
+      "callToActionText": "Más información",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "textPosition": "right"
+    }
+  },
+  "info-card#pdp-kuesky": {
+    "props": {
+      "blockClass": ["pdpBenefit", "pdpPayment"],
+      "imageUrl": "",
+      "headline": "Hasta 5 pagos quincenales con Kueski",
+      "callToActionText": "Más información",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "textPosition": "right"
+    }
+  },
+  "info-card#pdp-free-shipping": {
+    "props": {
+      "blockClass": ["pdpBenefit", "first"],
+      "imageUrl": "/arquivos/Compra-segura_icono.png",
+      "headline": "Envío gratis a partir de $499. De 2 a 7 días.",
+      "callToActionText": "Más información",
+      "callToActionUrl": "/terminos-y-condiciones",
+      "callToActionMode": "link",
+      "textPosition": "right"
+    }
+  },
+  "info-card#pdp-safe-purchase": {
+    "props": {
+      "blockClass": "pdpBenefit",
+      "imageUrl": "/arquivos/Envio-gratis_icono.png",
+      "headline": "Compra segura. Tu información está protegida.",
+      "callToActionText": "Más información",
+      "callToActionUrl": "/terminos-y-condiciones",
+      "callToActionMode": "link",
+      "textPosition": "right"
+    }
+  },
+  /***********REVIEWS*************/
+  "flex-layout.row#reviews": {
+    "props": {
+      "blockClass": "maxWidthGeneral"
+    },
+    "children": ["product-reviews"]
+  },
+  /************slider pagos*******/
+  "slider-layout#sliderPagos-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "tablet": 1,
+        "phone": 3
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "sliderPagos-mobile"
+    }
+  },
+  /***********TABS***************/
+  "flex-layout.row#pdp-tabs": {
+    "children": ["tab-layout#pdp"],
+    "props": {
+      "blockClass": "maxWidthGeneral"
+    }
+  },
+  "tab-layout#pdp": {
+    "children": ["tab-list#pdp", "tab-content#pdp"],
+    "props": {
+      "blockClass": "tabs-container",
+      "defaultActiveTabId": "descripcion"
+    }
+  },
+  "tab-list#pdp": {
+    "children": ["tab-list.item#descripcion", "tab-list.item#fichaTecnica"]
+  },
+  "tab-list.item#descripcion": {
+    "props": {
+      "tabId": "descripcion",
+      "label": "Descripción",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#fichaTecnica": {
+    "props": {
+      "tabId": "fichaTecnica",
+      "label": "Ficha Técnica"
+    }
+  },
+  "tab-content#pdp": {
+    "children": [
+      "tab-content.item#descripcion",
+      "tab-content.item#fichaTecnica"
+    ],
+    "props": {
+      "blockClass": "tab-content"
+    }
+  },
+  "tab-content.item#descripcion": {
+    "children": ["flex-layout.row#descripcion"],
+    "props": {
+      "tabId": "descripcion"
+    }
+  },
+  "flex-layout.row#descripcion": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "container-tabs"
+    },
+    "children": ["product-description"]
+  },
+  "product-description": {
+    "props": {
+      "collapseContent": false,
+      "showTitle": true
+    }
+  },
+  "tab-content.item#fichaTecnica": {
+    "children": ["pdp-features"],
+    "props": {
+      "tabId": "fichaTecnica"
+    }
+  },
+  "product-specification-group#table": {
+    "children": ["flex-layout.row#spec-group"]
+  },
+  "flex-layout.row#spec-group": {
+    "props": {
+      "blockClass": "productSpecificationGroup"
+    },
+    "children": ["flex-layout.col#spec-group"]
+  },
+  "flex-layout.col#spec-group": {
+    "children": ["flex-layout.row#spec-group-name", "product-specification"]
+  },
+  "flex-layout.row#spec-group-name": {
+    "props": {
+      "blockClass": "productSpecificationGroupName"
+    },
+    "children": ["product-specification-text#group"]
+  },
+  "flex-layout.col#spec-name": {
+    "props": {
+      "blockClass": "productSpecificationName",
+      "width": {
+        "mobile": "50%",
+        "desktop": "25%"
+      }
+    },
+    "children": ["product-specification-text#specification"]
+  },
+  "flex-layout.col#spec-value": {
+    "props": {
+      "blockClass": "productSpecificationValue"
+    },
+    "children": ["product-specification-values"]
+  },
+  "flex-layout.row#pdp-related": {
+    "children": ["shelf.relatedProducts"],
+    "props": {
+      "blockClass": "maxWidthGeneral"
+    }
+  },
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf#general"],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Te puede interesar comparar estos equipos",
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2
+      }
+    }
+  },
+  "product-specification": {
+    "children": [
+      "product-specification-text#specification",
+      "product-specification-values"
+    ]
+  },
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  },
+  /********Product - detail - mobile***********/
+  "flex-layout.col#leftPDP-mobile": {
+    "children": ["stack-layout#pdp-images-desk"]
+  }
+}

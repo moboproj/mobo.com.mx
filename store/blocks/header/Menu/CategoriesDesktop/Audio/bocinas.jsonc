@@ -1,0 +1,137 @@
+{
+    "vtex.menu@2.x:submenu.accordion#audio-bocinas-desk": {
+        "children":["menu#audio-submenu-bocinas-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#audio-bocinas-desk":{
+        "children": [
+            "disclosure-trigger#audio-bocinas-trigger-desk",
+            "disclosure-content#audio-bocinas-content-desk"
+        ]
+    },
+    "disclosure-trigger#audio-bocinas-trigger-desk": {
+        "children": ["link#audio-bocinas-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#audio-bocinas-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Bocinas",
+			"href":"/audio/bocina"
+		}
+	},
+    "disclosure-content#audio-bocinas-content-desk": {
+        "children": ["menu#audio-submenu-bocinas-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#audio-submenu-bocinas-desktop": {
+        "props": {
+            "blockClass": "categoriesBocinas",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/bocinas-mobo",
+                        "noFollow": false,
+                        "tagTitle": "Mobo",
+                        "text": "Mobo"
+                    }
+                },
+                // {
+                //     "id": "Huawei",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/audio/bocinas/huawei",
+                //         "noFollow": false,
+                //         "tagTitle": "Huawei",
+                //         "text": "Huawei"
+                //     }
+                // },
+                // {
+                //     "id": "Xiaomi",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/audio/bocinas/xiaomi",
+                //         "noFollow": false,
+                //         "tagTitle": "Xiaomi",
+                //         "text": "Xiaomi"
+                //     }
+                // },
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/bocinas-motorola",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                },  
+                {
+                    "id": "Sony",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/bocinas-sony",
+                        "noFollow": false,
+                        "tagTitle": "Sony",
+                        "text": "Sony"
+                    }
+                },
+                {
+                    "id": "JBL",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/bocinas-jbl",
+                        "noFollow": false,
+                        "tagTitle": "JBL",
+                        "text": "JBL"
+                    }
+                }
+                // {
+                //     "id": "Altec",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/audio/bocinas/altec",
+                //         "noFollow": false,
+                //         "tagTitle": "Altec",
+                //         "text": "Altec"
+                //     }
+                // }
+            ]
+        }
+    }
+    
+}

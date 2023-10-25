@@ -1,0 +1,86 @@
+.container{
+    font-size: 10px;
+}
+.listContainer{
+    display: flex;
+    gap: 45px;
+    margin-top: 76px;
+}
+.listItem{
+    margin: 0;
+    padding: 0;
+}
+.listItem :global(.vtex-button){
+    height: 66px;
+    border: 3px solid #9b9b9b;
+    background-color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 0.81;
+    text-align: center;
+    color: #9b9b9b;
+}
+.listItem :global(.vtex-button__label){
+    padding: 19px 89px !important;
+    font-size: 35px;
+}
+.listItemActive :global(.vtex-button){
+    background-color: #9b9b9b;
+    color: #fff;
+}
+
+@media screen and (max-width: 1920px){
+    .listContainer{
+        gap: 2.396vw;
+        margin-top: 4.01vw;
+    }
+    .listItem :global(.vtex-button){
+        height: 3.4375vw;
+    }
+    .listItem :global(.vtex-button__label){
+        padding: 0.99vw 4.635vw !important;
+        font-size: 1.823vw;
+    }
+}
+@media screen and (max-width: 1600px){
+    .container{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 1520px){
+    .container{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .container{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .container{
+        font-size: 18px;
+    }
+    .listContainer{
+        display: flex;
+        gap: 2.295vw;
+    }
+    .listItem{
+        width: calc(50% - 10.5px);
+    }
+    .listItem :global(.vtex-button){
+        width: 100% !important;
+        height: 7.65vw !important;
+        height: 3.4375vw;
+    }
+    .listItem :global(.vtex-button__label){
+        padding: 0.99vw 4.635vw !important;
+        font-size: 3.825vw;
+    }
+}
+@media screen and (max-width: 640px){
+    .listItem :global(.vtex-button){
+        border: 2px solid #9b9b9b;
+    }
+}

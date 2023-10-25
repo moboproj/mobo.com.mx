@@ -1,0 +1,106 @@
+{
+    "store.custom#terms-and-conditions-2":{
+        "children":["flex-layout.row#terms-wrapper-1"]
+    },
+    "flex-layout.row#terms-wrapper-1":{
+        "title":"Envoltura términos y condiciones",
+        "children":["flex-layout.col#terms-container-1"]
+    },
+    "flex-layout.col#terms-container-1":{
+        "children":[
+            "anchor-general",
+            "flex-layout.row#terms-main-1",
+            "flex-layout.row#terms-text-wrapper-1"
+        ]
+    },
+    "flex-layout.row#terms-main-1":{
+        "children":["info-card#terms-main-1"]
+    },
+    "info-card#terms-main-1":{
+        "title":"Imagen principal",
+        "props": {
+            "blockClass": "infoOnlyImg",
+            "imageUrl": "/arquivos/Terminos-y-condiciones_Banner_Desktop.png",
+            "mobileImageUrl": "/arquivos/Terminos-y-Terminos-y-condiciones_Banner_Mobile.png",
+            "callToActionMode": "none",
+            "callToActionUrl": "",
+            "imageActionUrl": ""
+        }
+    },
+    "flex-layout.row#terms-text-wrapper-1":{
+        "children":["flex-layout.col#terms-text-container-1"],
+        "props":{
+            "blockClass":"maxWidthGeneral"
+        }
+    },
+    "flex-layout.col#terms-text-container-1":{
+        "children":[
+            "rich-text#terms-text-1-1",
+            "info-card#terms-title-1",
+            "rich-text#terms-text-1-2",
+            "info-card#terms-title-2",
+            "terms-table",
+            "image#terms-image-1",
+            "rich-text#terms-text-2-1"
+        ]
+    },
+    "rich-text#terms-text-1-1":{
+        "title":"Texto general de la página 1",
+        "props":{
+            "blockClass":["textGeneral","termsGeneral"],
+            "text":"Términos y condiciones"
+        }
+    },
+    "rich-text#terms-text-1-2":{
+        "title":"Texto general de la página 2",
+        "props":{
+            "blockClass":["textGeneral","termsGeneral"],
+            "text":"Términos y condiciones"
+        }
+    },
+    "info-card#terms-title-1": {
+        "title":"Título de metodos de pago",
+        "props": {
+          "htmlId": "metodos-de-pago",
+          "callToActionMode": "none",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "",
+          "headline": "OPCIONES DE PAGO",
+          "subhead": "",
+          "callToActionText": "",
+          "callToActionUrl": "",
+          "blockClass":["termsTitleID"],
+          "textAlignment": "left"
+        }
+    },
+    "info-card#terms-title-2": {
+        "title":"Título de devoluciones",
+        "props": {
+          "htmlId": "devoluciones",
+          "callToActionMode": "none",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "",
+          "headline": "GARANTÍA.",
+          "subhead": "Puedes hacer valida la garantía de los productos conforme a las políticas y excepciones que se mencionan a continuación:",
+          "callToActionText": "",
+          "callToActionUrl": "",
+          "blockClass":["termsTitleID"],
+          "textAlignment": "left"
+        }
+    },
+    "image#terms-image-1":{
+        "props":{
+            "blockClass":"termsImage",
+            "src":""
+        }
+    },
+    "rich-text#terms-text-2-1":{
+        "title":"Texto 2 general de la página",
+        "props":{
+            "blockClass":["textGeneral","termsGeneral"],
+            "text":"Términos y condiciones 2!!"
+        }
+    }
+}

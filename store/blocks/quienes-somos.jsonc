@@ -1,0 +1,48 @@
+{
+    "store.custom#quienes-somos": {
+      "blocks": [
+        "flex-layout.row#about-us"
+      ]
+    },
+    "flex-layout.row#about-us": {
+        "props": {
+            "blockClass": "rowAboutUs",
+            "colJustify": "between"
+        },
+      "children": [
+        "image#about-us",
+        "flex-layout.col#text-about-us"
+      ]
+    },
+    "flex-layout.col#text-about-us": {
+      "children": [
+        "rich-text#about-title",
+        "rich-text#about-content"
+      ],
+        "props": {
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle",
+            "blockClass": "col-text-about-us",
+            "marginRight": 1
+      }
+    },
+   "rich-text#about-title": {
+      "props": {
+        "text":
+        "# Quiénes somos"
+      }
+    },
+    "rich-text#about-content": {
+      "props": {
+        "text": "MOBO es la marca líder en la fabricación y distribución de accesorios para celulares en el mercado mexicano. <br><br> Nuestra gama de productos se compone de una extensa variedad de artículos de protección, carga, audio, tecnología y accesorios para equipos móviles, además de contar con alianzas estratégicas con marcas reconocidas a nivel mundial como Motorola, Samsung y Apple. Tenemos distribución oficial de celulares nuevos de Motorola y equipos seminuevos de marca Apple. Estamos comprometidos en darle a nuestros clientes una experiencia de compra y funcionalidad superior por lo que cuidamos cada detalle de nuestros productos MOBO respaldando nuestra calidad con nuestra garantía 365.",
+        "blockClass": "text-content"
+      }
+    },
+    "image#about-us": {
+      "props": {
+        "src": "/arquivos/background-quienes-somos.png",
+        //"maxHeight": "600px",
+        "blockClass": "img-about"
+      }
+    }
+   }

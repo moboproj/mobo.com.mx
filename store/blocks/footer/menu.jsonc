@@ -1,0 +1,464 @@
+{
+    "vtex.menu@2.x:menu#newsletter":{
+      "props": {
+
+      },
+      "children": [
+        "newsletter"
+        //"newsletter-form#footer"
+      ]
+    },
+    "newsletter":{
+      "props": {
+        "label": "Recibe nuestras ofertas, novedades, tips y más en tu correo:",
+        "submit":"Regístrate",
+        "blockClass": "newsletter-mobo",
+        "placeholder": "Registra tu email"
+      }
+    },
+
+    "newsletter-form#footer": {
+      "children": [
+        "rich-text#newsletter-title",
+        "newsletter-input-email#footer",
+        "newsletter-submit#footer",
+        "newsletter-checkbox-confirmation"
+      ],
+      "props":{
+        "blockClass":"newsFooter"
+      }
+    },
+    "rich-text#newsletter-title":{
+      "props":{
+        "blockClass":"newsFooterTitle",
+        "text":"Recibe nuestras ofertas,\nnovedades, tips y más en tu correo:"
+      }
+    },
+    "newsletter-input-email#footer":{
+      "props":{
+        "blockClass": "newsInputEmail",
+        //"inputLabel":"Recibe nuestras ofertas, novedades, tips y más en tu correo:",
+        "placeholderText":""
+      }
+    },
+    "newsletter-submit#footer":{
+      "props":{
+        "blockClass": "newsSubmit",
+        "submitButtonLabel":"Regístrate"
+      }
+    },
+    "newsletter-checkbox-confirmation":{
+      "props":{
+        "checkboxLabel":"Al enviar, confirmo que he leído y acepto su Declaración de Privacidad y me gustaría rebicr correos electrónicos de marketing y/o oportunidades de Mobo."
+      }
+    },
+    
+    "vtex.menu@2.x:menu#Mobo": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "menuContenedor"
+      },
+      "children": [
+        "menu-item#mi-quienesSomos",
+        "menu-item#tiendas",
+        "menu-item#mayoristas",
+        "menu-item#catalogo-ms",
+        "menu-item#ventas",
+        "menu-item#catalogo-may",
+        "menu-item#reacondicionado"
+      ]
+    },
+    "menu-item#mi-quienesSomos": {
+      "props": {
+        "id": "menu-item-quienes-somos",
+        "blockClass": "menu-item-footer",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/quienes-somos",
+          "noFollow": false,
+          "tagTitle": "QuienesSomos",
+          "text": "Somos Mobo"
+        }
+        
+      }
+    },
+    "menu-item#tiendas": {
+      "props": {
+        "id": "nuestras-tiendas",
+        "blockClass": "menu-item-footer",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/tiendas",
+          "noFollow": false,
+          "tagTitle": "Nuestras tiendas",
+          "text": "Nuestras tiendas"
+        }
+      }
+    },
+    "menu-item#mayoristas": {
+      "props": {
+        "id": "menu-item-mayoristas",
+        "blockClass": "menu-item-footer",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/catalogos-mayoreo",
+          "noFollow": false,
+          "tagTitle": "Mayoristas",
+          "text": "Mayoreo"
+        }
+      }
+    },
+    "menu-item#catalogo-ms":{
+        "props": {
+            "id": "menu-item-catalogo-ms",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/catalogos-moboshop",
+                "noFollow": false,
+                "tagTitle": "Catálogo Moboshop",
+                "text": "Catálogo Moboshop"
+              }
+        }
+    },
+    "menu-item#catalogo-may":{
+        "props": {
+            "id": "menu-item-catalogo-may",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/catalogos-mayoreo",
+                "noFollow": false,
+                "tagTitle": "Catálogo  Mayoreo",
+                "text": "Catálogo  Mayoreo"
+              }
+        }
+    },
+    "menu-item#ventas":{
+        "props": {
+            "id": "menu-item-ventas",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "mailto:ventas@mobo.mx",
+                "noFollow": false,
+                "tagTitle": "Ventas Empresariales y Mayoreo",
+                "text": "Ventas Corporativas"
+              }
+        }
+    }, 
+    "vtex.menu@2.x:menu#servicio": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "menuContenedor2"
+      },
+      "children": [
+        "menu-item#faqs",
+        "menu-item#cell-repair",
+        "menu-item#garantias",
+        "menu-item#facturacion",
+        "menu-item#contacto",
+        "menu-item#privacidad",
+        "menu-item#terminosPromos"
+        
+      ]
+    },
+    "menu-item#reacondicionado": {
+      "props": {
+        "id": "menu-item-reacondicionado",
+        "blockClass": "menu-item-footer",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/reacondicionados",
+          "noFollow": true,
+          "tagTitle": "Qué-es-un-equipo-Reacondicionado",
+          "text": "¿Qué es un equipo Reacondicionado?"
+        }
+      }
+    },
+    "menu-item#faqs": {
+      "props": {
+        "id": "menu-item-faqs",
+        "blockClass": "menu-item-footer",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/faqs",
+          "noFollow": true,
+          "tagTitle": "Preguntas-Frecuentes",
+          "text": "Preguntas Frecuentes"
+        }
+      }
+    },
+    "menu-item#cell-repair": {
+      "props": {
+        "id": "menu-item-cell-repair",
+        "blockClass": "menu-item-footer",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cellRepair",
+          "noFollow": true,
+          "tagTitle": "Cell-Repair",
+          "text": "Cell Repair"
+        }
+      }
+    },
+    "menu-item#garantias": {
+        "props": {
+          "id": "menu-item-garantias",
+          "blockClass": "menu-item-footer",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/terminos-y-condiciones#devoluciones",
+            "noFollow": true,
+            "tagTitle": "Garantías-devoluciones",
+            "text": "Garantías y devoluciones"
+          }
+        }
+    },
+    "menu-item#facturacion": {
+        "props": {
+          "id": "menu-item-facturacion",
+          "blockClass": "menu-item-footer",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/facturacion",
+            "noFollow": true,
+            "tagTitle": "facturacion",
+            "text": "Facturación"
+          }
+        }
+    },
+    "menu-item#contacto": {
+        "props": {
+          "id": "menu-item-contacto",
+          "blockClass": "menu-item-footer",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/contacto",
+            "noFollow": true,
+            "tagTitle": "contacto",
+            "text": "Contacto"
+          }
+        }
+    },
+    "menu-item#terminosPromos": {
+        "props": {
+          "id": "menu-item-terminosPromos",
+          "blockClass": "menu-item-footer",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/terminos-y-condiciones",
+            "noFollow": true,
+            "tagTitle": "terminos-condiciones-promos",
+            "text": "Términos y condiciones promociones"
+          }
+        }
+    },
+    "menu-item#privacidad": {
+        "props": {
+          "id": "menu-item-privacidad",
+          "blockClass": "menu-item-footer",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/privacidad-datos",
+            "noFollow": true,
+            "tagTitle": "privacidad-datos",
+            "text": "Privacidad de datos"
+          }
+        }
+    },
+    "menu-item#clothing-mobile": {
+      "props": {
+        "id": "menu-item-category-clothing",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/d",
+          "noFollow": true,
+          "tagTitle": "Clothing",
+          "text": "Clothing"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    },
+    "vtex.menu@2.x:submenu.accordion#clothing": {
+      "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+    },
+  
+    "vtex.menu@2.x:menu#clothing-accordion": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#shorts",
+        "menu-item#tank-tops",
+        "menu-item#shirts",
+        "menu-item#sweatshirt",
+        "menu-item#cropped"
+      ]
+    },
+  
+    "menu-item#decoration-mobile": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Decoration",
+          "text": "Decoration"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    },
+        "vtex.menu@2.x:submenu.accordion#decoration": {
+          "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+        },
+  
+            "vtex.menu@2.x:menu#footer-decoration-mobile": {
+              "props": {
+                "orientation": "vertical"
+              },
+              "children": [
+                "menu-item#reacondicionado",
+                "menu-item#faqs",
+                "menu-item#cell-repair"
+              ]
+            },
+  
+    "menu-item#sale-mobile": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Sale",
+          "text": "Sale"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+    },
+        "vtex.menu@2.x:submenu.accordion#sale": {
+          "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+        },
+  
+            "vtex.menu@2.x:menu#footer-sale-mobile": {
+              "props": {
+                "orientation": "vertical"
+              },
+              "children": [
+                "menu-item#reacondicionado",
+                "menu-item#faqs",
+                "menu-item#cell-repair"
+              ]
+            },
+  
+    "menu-item#clothing": {
+      "props": {
+        "id": "menu-item-category-clothing",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/d",
+          "noFollow": true,
+          "tagTitle": "Clothing",
+          "text": "Clothing"
+        }
+      }
+    },
+  
+    "menu-item#shorts": {
+      "props": {
+        "id": "menu-item-shorts",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/shorts",
+          "noFollow": false,
+          "tagTitle": "Shorts",
+          "text": "Shorts"
+        }
+      }
+    },
+  
+    "menu-item#tank-tops": {
+      "props": {
+        "id": "menu-item-tank-tops",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/tank-tops",
+          "noFollow": false,
+          "tagTitle": "Tank tops",
+          "text": "Tank tops"
+        }
+      }
+    },
+  
+    "menu-item#shirts": {
+      "props": {
+        "id": "menu-item-shirts",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/shirts",
+          "noFollow": false,
+          "tagTitle": "Shirts",
+          "text": "Shirts"
+        }
+      }
+    },
+  
+    "menu-item#sweatshirt": {
+      "props": {
+        "id": "menu-item-sweat-shirts",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/sweatshirt",
+          "noFollow": false,
+          "tagTitle": "Sweatshirt",
+          "text": "Sweatshirt"
+        }
+      }
+    },
+  
+    "menu-item#cropped": {
+      "props": {
+        "id": "menu-item-cropped",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/cropped",
+          "noFollow": false,
+          "tagTitle": "Cropped",
+          "text": "Cropped"
+        }
+      }
+    }
+  }

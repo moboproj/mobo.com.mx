@@ -1,0 +1,72 @@
+{
+    "vtex.menu@2.x:submenu.accordion#otros-tablets-desk": {
+        "children":["menu#otros-submenu-tablets-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#otros-tablets-desk":{
+        "children": [
+            "disclosure-trigger#otros-tablets-trigger-desk",
+            "disclosure-content#otros-tablets-content-desk"
+        ]
+    },
+    "disclosure-trigger#otros-tablets-trigger-desk": {
+        "children": ["link#otros-tablets-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#otros-tablets-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Tablets",
+			"href":"/tecnologia/laptops-y-tablets"
+		}
+	},
+    "disclosure-content#otros-tablets-content-desk": {
+        "children": ["menu#otros-submenu-tablets-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#otros-submenu-tablets-desktop": {
+        "props": {
+            "blockClass": "categoriesTablets",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tecnologia/laptops-y-tablets/Huawei?map=c,c,b",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "iPad",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tecnologia/laptops-y-tablets/Apple-Seminuevos?map=c,c,b",
+                        "noFollow": false,
+                        "tagTitle": "iPad",
+                        "text": "iPad"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

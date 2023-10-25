@@ -1,0 +1,149 @@
+.homeIcon{
+    width: 50px;
+    height: 50px;
+    color: #9b9b9b;
+}
+.link{
+    margin: 0 7px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #9b9b9b;
+}
+.caretIcon{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media only screen and (max-width:1920px){
+    .homeIcon{
+        width: 2.604vw;
+        height: 2.604vw;
+    }
+    .link{
+        font-size: 1.5625vw;
+    }
+    .caretIcon{
+        width: 1.042vw;
+        height: 1.042vw;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    /* .container{
+        margin-top: 4.481vw;
+    } */
+    .homeIcon{
+        width: 5.464vw;
+        height: 5.464vw;
+    }
+    .link{
+        font-size: 2.623vw;
+    }
+    .caretIcon{
+        width: 1.096vw;
+        height: 2.186vw;
+    }
+}
+
+
+/*PLP*/
+.container{
+    padding: 0;
+}
+.container--searchCont{
+    display: flex;
+    align-items: center;
+    
+}
+.container--pdpBreadcrumbs{
+    font-size: 10px;
+}
+.homeLink--pdpBreadcrumbs,
+.arrow--pdpBreadcrumbs--1 .caretIcon--pdpBreadcrumbs{
+    display: none;
+}
+.homeLink--searchCont{
+    padding-left: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+.link--pdpBreadcrumbs{
+    font-size: 30px;
+}
+.term--pdpBreadcrumbs{
+    display: none;
+}
+
+@media only screen and (max-width:1600px){
+    .link--pdpBreadcrumbs{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width:1440px){
+    .link--pdpBreadcrumbs{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width:1280px){
+    .link--pdpBreadcrumbs{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .link--pdpBreadcrumbs{
+        font-size: 21px;
+    }
+}
+
+
+/*PDP*/
+.container--pdpBreadcrumbs{
+    font-size: 10px;
+}
+.homeLink--pdpBreadcrumbs,
+.arrow--pdpBreadcrumbs--1 .caretIcon--pdpBreadcrumbs,
+.termArrow--pdpBreadcrumbs{
+    display: none;
+}
+.link--pdpBreadcrumbs{
+    margin: 0;
+    font-size: 2.1em;
+    font-weight: normal;
+}
+.arrow--pdpBreadcrumbs .caretIcon{
+    display: none;
+}
+
+.arrow--pdpBreadcrumbs::after{
+    content: '/';
+    font-size: 2.1em;
+}
+
+@media only screen and (max-width:1600px){
+    .container--pdpBreadcrumbs{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:1520px){
+    .container--pdpBreadcrumbs{
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width:1440px){
+    .container--pdpBreadcrumbs{
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width:915px){
+    .link--pdpBreadcrumbs{
+        font-size: 2.295vw;
+    }
+}
+@media only screen and (max-width:640px){
+    .link--pdpBreadcrumbs{
+        font-size: 2.4vw;
+    }
+}

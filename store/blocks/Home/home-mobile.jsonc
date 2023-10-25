@@ -1,0 +1,489 @@
+{
+	"flex-layout.row#home-main-slider-mob": {
+		"title": "Contenedor Carrusel principal(Mobile)",
+		"children": ["main-slider"],
+		"props": {
+			"blockClass": ["maxWidthGeneral","mainSlider"],
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventVerticalStretch": true,
+			"colGap": 5
+		}
+	},
+	//beneficios rows
+	"flex-layout.row#home-benefits-wrapper": {
+		"title": "3.Contendor Beneficios (Mobile)",
+		"children": ["flex-layout.col#home-benefits-container"],
+		"props": {
+			"blockClass": ["maxWidthGeneral","homeBenefits"]
+		}
+	},
+	"flex-layout.col#home-benefits-container": {
+		"children": [
+			"image#envios",
+			"rich-text#envios",
+			"image#garantia",
+			"rich-text#garantia",
+			"image#pagos",
+			"rich-text#pagos",
+			"rich-text#home-benefits-terms"
+		]
+	},
+	"flex-layout.col#infoCompra-mobile": {
+		"props": {
+			"blockClass": "col-mobile",
+			"horizontalAlign": "center"
+		},
+		"children": [
+			"image#envios",
+			"rich-text#envios"
+		]
+	},
+	"image#envios": {
+		"title": "Beneficio 1 (Imagen)",
+		"props": {
+			"blockClass": "homeBenefitImage",
+			"src": "arquivos/Envios-24-h.png",
+			"title": "Envio Gratis"
+		}
+	},
+	"rich-text#envios": {
+		"title": "Beneficio 1 (Texto)",
+		"props": {
+			"blockClass": "homeBenefitText",
+			"font": "t-heading-5",
+			"htmlId": "",
+			"preventVerticalStretch": true,
+			"text": "**Envío en 24 horas***",
+			"textAlignment": "CENTER",
+			"textColor": "black-90",
+			"textPosition": "CENTER"
+		}
+	},
+	"flex-layout.col#infoGarantia-mobile": {
+		"props": {
+			"blockClass": "col-g-mobile",
+			"horizontalAlign": "center"
+		},
+		"children": [
+			"image#garantia",
+			"rich-text#garantia"
+		]
+	},
+	"image#garantia": {
+		"title": "Beneficio 2 (Imagen)",
+		"props": {
+			"src": "arquivos/Garantia-1-año.png",
+			"blockClass": "homeBenefitImage",
+			"title": "Garantia"
+		}
+	},
+	"rich-text#garantia": {
+		"title": "Beneficio 2 (Texto)",
+		"props": {
+			"blockClass": "homeBenefitText",
+			"font": "t-heading-5",
+			"htmlId": "",
+			"preventVerticalStretch": true,
+			"text": "**Garantía de un año***",
+			"textAlignment": "CENTER",
+			"textColor": "black-90",
+			"textPosition": "CENTER"
+		}
+	},
+	"flex-layout.col#infoPago-mobile": {
+		"props": {
+			"blockClass": "col-p-mobile",
+			"horizontalAlign": "center"
+		},
+		"children": [
+			"image#pagos",
+			"rich-text#pagos"
+		]
+	},
+	"image#pagos": {
+		"title": "Beneficio 3 (Imagen)",
+		"props": {
+			"src": "arquivos/Varias-opciones-de-de-pago.png",
+			"blockClass": "homeBenefitImage",
+			"title": "Opciones Pago"
+		}
+	},
+	"rich-text#pagos": {
+		"title": "Beneficio 3 (Texto)",
+		"props": {
+			"blockClass": "homeBenefitText",
+			"font": "t-heading-5",
+			"htmlId": "",
+			"preventVerticalStretch": true,
+			"text": "**Varias opciones de pago***",
+			"textAlignment": "CENTER",
+			"textColor": "black-90",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#home-benefits-terms":{
+		"title": "Texto terminos y condiciones",
+		"props":{
+			"blockClass":"homeBenefitTerms",
+			"text":"*Consulta término y condiciones [aquí](/terminos-y-condiciones) | Consulta políticas de garantías [aquí](/terminos-y-condiciones#devoluciones) "
+		}
+	},
+	/*Slider Payments*/
+	"flex-layout.row#home-slider-payments": {
+		"title": "4.Contenedor Carrusel métodos de pago",
+		"children": ["list-context.image-list#home-slider-payments"],
+		"props": {
+			"blockClass": ["maxWidthGeneral","maxWidthGeneralMob","homeSliderPayments"]
+		}
+	},
+	"list-context.image-list#home-slider-payments": {
+		"children": [
+			"slider-layout#home-slider-payments-desk",
+			"slider-layout#home-slider-payments"
+		],
+		"props": {
+			"images": [
+				{
+					"image": "/arquivos/Pasarela-formas-de-pago-Kueski.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago-Kueski.png",
+					"description": "Celulares"
+				},
+				{
+					"image": "/arquivos/Pasarela-formas-de-pago-Aplazo.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago-Aplazo.png",
+					"description": "Laptops"
+				},
+				{
+					"image": "/arquivos/Pasarela-formas-de-pago-Nu.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago-Nu.png",
+					"description": "Tablets"
+				},
+				{
+					"image": "/arquivos/Pasarela-formas-de-pago-PayPal.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago-PayPal.png"
+				}
+			]
+		}
+	},
+	"slider-layout#home-slider-payments": {
+		"props": {
+			"blockClass": ["homePayments","homePaymentsMob"],
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": false,
+			"fullWidth": false,
+			"showPaginationDots": "never",
+			"slideTransition": {
+				"speed": 400,
+				"delay": 0,
+				"timing": 4000
+			}
+		}
+	},
+	"slider-layout#home-slider-payments-desk": {
+		"props": {
+			"blockClass": ["homePayments","homePaymentsDesk"],
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 4,
+				"phone": 1
+			},
+			"infinite": false,
+			"fullWidth": false,
+			"showPaginationDots": "never",
+			"slideTransition": {
+				"speed": 400,
+				"delay": 0,
+				"timing": 4000
+			}
+		}
+	},
+	//Bloque Iphone
+	"flex-layout.row#reaconicionados-destacados": {
+		"title": "10.Contenedor Destacados (Mobile)",
+		"props": {
+			"blockClass": ["maxWidthGeneral","maxWidthGeneralMob","cuadro-destacados","homeThreeProducts"]
+		},
+		"children": [
+			"flex-layout.col#cuadro"
+		]
+	},
+	"flex-layout.col#cuadro": {
+		"props": {
+			"blockClass": "col-cuadrodestacado"
+		},
+		"children": [
+			"flex-layout.row#imagen",
+			"flex-layout.row#texto",
+			"flex-layout.row#coloresIphone",
+			"flex-layout.row#button"
+		]
+	},
+	"flex-layout.row#imagen": {
+		"children": [
+			"info-card#home-banner-full"
+		],
+		"props": {
+			"blockClass": "row-imagen"
+		}
+		
+	},
+	"flex-layout.row#texto": {
+		"props": {
+			"blockClass": "row-text"
+		},
+		"children": [
+			"rich-text#color"
+		]
+	},
+	"rich-text#color": {
+		"props": {
+			"blockClass": "moboTitle",
+			"text": "## Escoge el color que va contigo"
+		}
+	},
+	"flex-layout.row#coloresIphone": {
+		"props": {
+			"blockClass": "threeProducts"
+		},
+		"children": [
+			"image#iphone1",
+			"image#iphone2",
+			"image#iphone3"
+		]
+	},
+	"image#iphone1": {
+		"props": {
+			"src": "/arquivos/iPhone-11-morado.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/telefono-seminuevo-iphone-11-64-gb-black/p"
+			}
+		}
+	},
+	"image#iphone2": {
+		"props": {
+			"src": "/arquivos/iPhone-11-negro.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/telefono-reacondicionado-iphone-11-verde-64-gb-liberado/p"
+			}
+		}
+	},
+	"image#iphone3": {
+		"props": {
+			"src": "/arquivos/iPhone-11-verde.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/telefono-reacondicionado-iphone-11-morado-64-gb-liberado/p"
+			}
+		}
+	},
+	"flex-layout.row#button": {
+		"children": [
+			"link#home-3-products-button-1"
+		]
+	},
+	"link#home-3-products-button-1": {
+		"props": {
+			"blockClass": [
+				"button",
+				"primary",
+				"threeProductsButton"
+			],
+			"label": "¡COMPRAR!",
+			"href": "/reacondicionado-iphone-11"
+		}
+	},
+	//Cuadro calidad, precio y ya
+	"flex-layout.row#calidad-precio": {
+		"title": "16.Contenedor Calidad precio (Mobile)",
+		"props": {
+			"blockClass": [
+				"maxWidthGeneral",
+				"maxWidthGeneralMob",
+				"cuadro-destacados-1",
+				"homeThreeProducts"
+			]
+		},
+		"children": [
+			"flex-layout.col#cuadro-1"
+		]
+	},
+	"flex-layout.col#cuadro-1": {
+		"props": {
+			"blockClass": "col-cuadrodestacado"
+		},
+		"children": [
+			"flex-layout.row#imagen-1",
+			"flex-layout.row#accesorios",
+			"flex-layout.row#button-1"
+		]
+	},
+	"flex-layout.row#imagen-1": {
+		"props": {
+			"blockClass": "row-imagen"
+		},
+		"children": [
+			"info-card#home-two-banner-1"
+		]
+	},
+	"flex-layout.row#accesorios": {
+		"props": {
+			"blockClass": "threeProducts"
+		},
+		"children": [
+			"image#iphone1-1",
+			"image#iphone2-1",
+			"image#iphone3-1"
+		]
+	},
+	"image#iphone1-1": {
+		"title": "Imagen 1",
+		"props": {
+			"src": "/arquivos/Strong.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/smartwatch-mobo-cronos-mbsw-8-negro/p"
+			}
+		}
+	},
+	"image#iphone2-1": {
+		"title": "Imagen 2",
+		"props": {
+			"src": "arquivos/Space.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/audifonos-bluetooth-mobo-space-negro/p"
+			}
+		}
+	},
+	"image#iphone3-1": {
+		"title": "Imagen 3",
+		"props": {
+			"src": "arquivos/Smartwatch.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/smartwatch-mobo-strong-mbsw-7-negro/p"
+			}
+		}
+	},
+	"flex-layout.row#button-1": {
+		"children": [
+			"link#home-3-products-button-2"
+		]
+	},
+	"link#home-3-products-button-2": {
+		"props": {
+			"blockClass": [
+				"button",
+				"secondary",
+				"threeProductsButton"
+			],
+			"label": "¡COMPRAR!",
+			"href": "/smartwatch-mobo"
+		}
+	},
+	// banner carga rapida
+	"flex-layout.row#carga-rapida": {
+		"title": "17.Contenedor Carga rapida (Mobile)",
+		"props": {
+			"blockClass": [
+				"maxWidthGeneral",
+				"maxWidthGeneralMob",
+				"cuadro-destacados",
+				"homeThreeProducts"
+			]
+		},
+		"children": [
+			"flex-layout.col#cuadro-2"
+		]
+	},
+	"flex-layout.col#cuadro-2": {
+		"props": {
+			"blockClass": "col-cuadrodestacado"
+		},
+		"children": [
+			"flex-layout.row#imagen-2",
+			"flex-layout.row#coloresIphone-2",
+			"flex-layout.row#button-2"
+		]
+	},
+	"flex-layout.row#imagen-2": {
+		"props": {
+			"blockClass": "row-imagen"
+		},
+		"children": [
+			"info-card#home-two-banner-2"
+		]
+	},
+	"flex-layout.row#coloresIphone-2": {
+		"props": {
+			"blockClass": "threeProducts"
+		},
+		"children": [
+			"image#iphone1-2",
+			"image#iphone2-2",
+			"image#iphone3-2"
+		]
+	},
+	"image#iphone1-2": {
+		"title": "Imagen 1",
+		"props": {
+			"src": "/arquivos/Soporte-infinity-fichero.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/cargador-inalambrico-para-auto-mobo-infinity-negro-2a-10w/p"
+			}
+		}
+	},
+	"image#iphone2-2": {
+		"title": "Imagen 2",
+		"props": {
+			"src": "/arquivos/For-me-fichero.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/bateria-portatil-mobo-forme-5000-mah-negro-21a-10w/p"
+			}
+		}
+	},
+	"image#iphone3-2": {
+		"title": "Imagen 3",
+		"props": {
+			"src": "/arquivos/iPhone-11-fichero.png",
+			"blockClass": "threeProductsItem",
+			"title": "Reacondicionados",
+			"link":{
+				"url":"/telefono-seminuevo-iphone-11-64-gb-black/p"
+			}
+		}
+	},
+	"flex-layout.row#button-2": {
+		"children": [
+			"link#home-3-products-button-3"
+		]
+	},
+	"link#home-3-products-button-3": {
+		"props": {
+			"blockClass": [
+				"button",
+				"primary",
+				"threeProductsButton"
+			],
+			"label": "¡COMPRAR!",
+			"href": "/carga/Carga%20Rápida?map=c,specificationFilter_146"
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.filtersCustomWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 37px 0;
+}
+.filtersCustomWrapper span{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    color: #9b9b9b;
+}
+.filtersCustomWrapper .active span{
+    color: #000;
+}
+
+@media only screen and (max-width:1920px){
+    .filtersCustomWrapper{
+        gap: 0.8333vw;
+        margin: 1.927vw 0;
+    }
+    .filtersCustomWrapper span{
+        font-size: 1.146vw;
+    }
+    
+}
+
+@media only screen and (max-width:1024px){
+    .filtersCustomWrapper{
+        gap: 1.749vw;
+        margin: 4.044vw 0;
+    }
+    .filtersCustomWrapper span{
+        font-size: 2.404vw;
+    }
+    .filtersCustomWrapper .active span{
+        color: #fff;
+    }
+}

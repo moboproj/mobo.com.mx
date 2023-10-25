@@ -1,0 +1,74 @@
+{
+    "vtex.menu@2.x:submenu.accordion#otros-mob": {
+        "children":["menu#category-submenu-otros-mobile"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#otros-mob":{
+        "children": [
+            "disclosure-trigger#otros-trigger-mob",
+            "disclosure-content#otros-content-mob"
+        ]
+    },
+    "disclosure-trigger#otros-trigger-mob": {
+        "children": ["link#otros-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#otros-trigger":{
+		"props":{
+			"blockClass":"linkMenuMob",
+			"label":"Otros",
+			"href":"/accesorios"
+		}
+	},
+    "disclosure-content#otros-content-mob": {
+        "children": [
+            "menu-item#otros-tablets-desktop",
+            "disclosure-layout#otros-accesorios-desk"
+        ],
+        "props":{
+            "blockClass":["disclosureMenu","disclosureMenuMobile"]
+        }
+    },
+
+    "menu#category-submenu-otros-mobile": {
+        "props": {
+            "blockClass": "mainCategoriesMenuMob",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Tablets",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tecnologia/laptops-y-tablets",
+                        "noFollow": false,
+                        "tagTitle": "Tablets",
+                        "text": "Tablets"
+                    }
+                },
+                {
+                    "id": "Accesorios",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/accesorios",
+                        "noFollow": false,
+                        "tagTitle": "Accesorios",
+                        "text": "Accesorios"
+                    }
+                }
+            ]
+        }
+    }
+}

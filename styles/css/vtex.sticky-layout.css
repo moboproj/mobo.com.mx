@@ -1,0 +1,47 @@
+/*----------Header----------*/
+.wrapper--headerStickyMob{
+    background-color: #222;
+}
+.wrapper--mainHeader{
+    height: 11vw !important;
+}
+.wrapper .container--pdpSticky{
+    display: none;
+}
+.wrapper--stuck .container--pdpSticky{
+    display: block;
+    padding: 4.372vw 7.978vw;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.container--pdpSticky :global(.vtex-button){
+    height: 7.432vw;
+    background-color: transparent;
+    border: 3px solid #67fcbb;
+    color: #fff;
+}
+.container--pdpSticky :global(.vtex-button__label){
+    padding: 2.186vw 6.12vw !important;
+}
+
+.wrapper--pdpSticky--stuck, .wrapper--pdpSticky {
+    height: 0 !important;
+}
+
+.container--pdpSticky :global(.vtex-add-to-cart-button-0-x-buttonText){
+    font-size: 3.825vw;
+    font-weight: bold;
+}
+
+.container--pdpSticky :global(.vtex-store-components-3-x-productBrand){
+    font-size: 3.188vw;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+@media only screen and (max-width:640px){
+    .container--pdpSticky :global(.vtex-button){
+        border: 2px solid #67fcbb;
+    }
+}

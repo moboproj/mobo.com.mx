@@ -1,0 +1,234 @@
+{
+	"header": {
+		"title":"Header",
+		"blocks": [
+			"header-layout.desktop",
+			"header-layout.mobile"
+		]
+	},
+	"sticky-layout#father-sticky": {
+		"props": {
+			"blockClass":"mainHeader",
+		  	"position": "TOP"
+		},
+		"children": [
+			"header-row#slider",
+			"header-row#desktop",
+			"header-row#2-desktop"
+		]
+	},
+	"header.full": {
+		"title":"Header",
+		"blocks": [
+			"header-layout.desktop",
+			"header-layout.mobile"
+		]
+	},
+	"header-layout.desktop": {
+		"title":"Header (Desktop)",
+		"children": [
+			"sticky-layout#father-sticky"
+		]
+	},
+	"header-row#slider": {
+		"children": [
+			"vtex.menu@2.x:menu#0-websites",
+			"slider-layout#text-bar-notification"
+		],
+		"props": {
+			"horizontalAlign": "CENTER",
+			"verticalAlign": "CENTER",
+			"blockClass": "headerTopDesk"
+		}
+	},
+	
+	"header-row#desktop": {
+		"props": {
+			"blockClass": "headerMiddleDesk",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventVerticalStretch": "true",
+			"sticky": true
+		},
+		"children": [
+			"logo",
+			"search-bar",
+			"info-card#header-stores",
+			"info-card#header-payments",
+			"login",
+			"minicart.v2"
+		]
+	},
+	"info-card#header-stores":{
+		"props":{
+			"blockClass":"headerMiddleLink",
+			"imageUrl":"/arquivos/Icon-locator.png",
+			"textPosition": "right",
+			"callToActionMode":"link",
+			"callToActionText":"Tiendas",
+			"callToActionUrl": "/tiendas",
+			"imageActionUrl": "/tiendas"
+		}
+	},
+	"info-card#header-payments":{
+		"props":{
+			"blockClass":"headerMiddleLink",
+			"imageUrl":"/arquivos/Formas-de-pago-icono.png",
+			"textPosition": "right",
+			"callToActionMode":"link",
+			"callToActionText":"Métodos de pago",
+			"callToActionUrl": "/terminos-y-condiciones#metodos-de-pago",
+			"imageActionUrl": "/terminos-y-condiciones#metodos-de-pago"
+		}
+	},
+	"image#header-locator": {
+		"props": {
+			"src": "/arquivos/Icon-locator.png",
+			"maxWidth": 32,
+			"maxHeight": 32
+		}
+	},
+	"link#header-payments":{
+		"props":{
+			"label":"FORMAS DE PAGO",
+			"href":"#"
+		}
+	},
+	"header-row#2-desktop": {
+		"props": {
+			"blockClass": "headerBottomDesk",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"sticky": false
+		},
+		"children": [
+			"vtex.menu@2.x:menu#websites"
+		]
+	},
+	"vtex.menu@2.x:menu#1-websites": {
+		"props": {
+			//"horizontalAlign": "center",
+			"blockClass": "mainMenu"
+		},
+		"children": [
+			"menu-item#icon-Sucursales",
+			"menu-item#sucursales",
+			"menu-item#icon-MetodosPago",
+			"menu-item#MetodosPago"
+		]
+	},
+	/******Children de 1-websites*******/
+	"logo": {
+		"props": {
+			"blockClass": "logo-mobo",
+			"title": "Logo",
+			"href": "/",
+			"url": "https://mobomx.vteximg.com.br/arquivos/Mobo-logo.png",
+			"width":155
+		}
+	},
+	"search-bar": {
+		"blocks": [
+			"autocomplete-result-list.v2"
+		],
+		"props": {
+			"placeholder": "",
+			//"classes":"Mycomponents",
+			"displayMode": "search-and-clear-buttons"
+		}
+	},
+	"autocomplete-result-list.v2": {
+		"blocks": [
+			"product-summary.shelf#search"
+		],
+		"props":{
+			"maxSuggestedProducts":2
+		}
+	},
+	"menu-item#icon-Sucursales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "",
+				"text": ""
+			},
+			"blockClass": "icon-sucursales"
+		}
+	},
+	"menu-item#sucursales": {
+		"props": {
+			"type": "custom",
+			"id": "menu-item-sucursales",
+			"itemProps": {
+				"href": "/tiendas",
+				"type": "internal",
+				"tagTitle": "",
+				"text": "Tiendas"
+			},
+			"blockClass": "txt-sucursales"
+		}
+	},
+	"menu-item#icon-MetodosPago": {
+		"props": {
+			//"id": "menu-item-ofertas-mes",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/title-marcas",
+				"noFollow": false,
+				"tagTitle": "",
+				"text": ""
+			},
+			"blockClass": "icon-MetodosPago"
+		}
+	},
+	"menu-item#MetodosPago": {
+		"props": {
+			"type": "custom",
+			"id": "menu-item-sucursales",
+			"iconPosition": "left",
+			"itemProps": {
+				//"href": "/stores",
+				"type": "internal",
+				"tagTitle": "",
+				"text": "Metodos de pago"
+			},
+			"blockClass": "txt-MetodosPago"
+		}
+	},
+	"login": {
+		"props": {
+			"showIconProfile": true,
+			"hideIconLabel": true     
+		}
+	},
+	"vtex.menu@2.x:menu#websites": {
+		"children": [
+			"menu-item#iPhone",
+			"menu-item#proteccion",
+			"menu-item#audio",
+			"menu-item#carga",
+			"menu-item#celulares2",
+			"menu-item#smartwatches",
+			"menu-item#otros"
+		],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "mainMenu"
+		}
+	},
+	
+	"search-bar#busqueda": {
+		"props": {
+			"compactMode": false,
+			"hasIconLeft": false,
+			"displayMode":"clear-button",
+			"placeholder": ""
+		}
+	}
+}

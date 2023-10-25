@@ -1,0 +1,44 @@
+{
+    "store.custom#reacondicionados": {
+        "path": "/reacondicionados"
+    },
+    "store.custom#sucursalesTest": {
+        "path": "/sucursales"
+    },
+    "store.custom#cellrepair": {
+        "path": "/cellrepair"
+    },
+    "store.custom#quienes-somos": {
+        "path": "/quienes-somos"
+    },
+    "store.custom#bolsa-de-trabajo": {
+        "path": "/bolsa-de-trabajo"
+    },
+    "store.custom#mundial": {
+        "path": "/mundial"
+    },
+    "store.custom#blog": {
+        "path": "/blog"
+    },
+    "store.custom#catalogos-moboshop": {
+        "path": "/catalogos-moboshop"
+    },
+    "store.custom#catalogos-mayoreo": {
+        "path": "/catalogos-mayoreo"
+    },
+    "store.custom#contacto": {
+        "path": "/contacto"
+    },
+    "store.custom#frequent-questions":{
+        "path":"/preguntas-frecuentes"
+    },
+    "store.custom#invoice":{
+        "path":"/facturacion"
+    },
+    "store.custom#online-invoice":{
+        "path":"/facturacion-en-linea"
+    },
+    "store.custom#terms-and-conditions-2":{
+        "path":"/terminos-y-condiciones"
+    }
+}
