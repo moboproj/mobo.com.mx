@@ -1,0 +1,425 @@
+{
+    "store.custom#frequent-questions":{
+        "children":["flex-layout.row#frequent-questions-wrapper"] 
+    },
+    "flex-layout.row#frequent-questions-wrapper":{
+        "title":"Envoltura de preguntas frecuentes",
+        "children":["flex-layout.col#frequent-questions-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral","questionsWrapper"]
+        }
+    },
+    "flex-layout.col#frequent-questions-container":{
+        "children":[
+            "rich-text#questions-title",
+
+            "rich-text#questions-sec1-title",
+            "disclosure-layout-group#questions-group-1",
+            "rich-text#questions-sec2-title",
+            "disclosure-layout-group#questions-group-2",
+            "rich-text#questions-sec3-title",
+            "disclosure-layout-group#questions-group-3",
+            "rich-text#questions-sec4-title",
+            "disclosure-layout-group#questions-group-4",
+            "rich-text#questions-sec5-title",
+            "disclosure-layout-group#questions-group-5"
+        ]
+    },
+    "rich-text#questions-title":{
+        "title":"Título de la página",
+        "props":{
+            "blockClass": ["questionsTitle"],
+            "text":"## Preguntas frecuentes"
+        }
+    },
+    "rich-text#questions-sec1-title":{
+        "title":"Título Pagos y envíos",
+        "props":{
+            "blockClass": ["questionsSubTitle"],
+            "text":"Pagos y envíos"
+        }
+    },
+    "disclosure-layout-group#questions-group-1": {
+        "title":"Grupo 1 de preguntas",
+        "children": [
+            "disclosure-layout#questions-question-1",
+            "disclosure-layout#questions-question-2",
+            "disclosure-layout#questions-question-3"
+        ],
+        "props":{
+            "blockClass":"questions"
+        }
+    },
+    "disclosure-layout#questions-question-1": {
+        "children": [
+            "disclosure-trigger#questions-question-1",
+            "disclosure-content#questions-question-1"
+        ]
+    },
+    "disclosure-trigger#questions-question-1": {
+        "children": ["rich-text#questions-question1"]
+    },
+    "rich-text#questions-question1": {
+		"title":"Pregunta 1",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cómo compro en cemaco.com?"
+        }
+    },
+    "disclosure-content#questions-question-1": {
+        "children": ["rich-text#questions-answer1"]
+    },
+	"rich-text#questions-answer1": {
+		"title":"Respuesta 1",
+        "props": {
+            "blockClass": "questionText",
+            "text": "No, El registro al programa de bodas CEMACO es totalmente gratuito. Únicamente debes contar con tu tarjeta privilegio (ya sea del novio o de la novia) para poderte registrar."
+        }
+    },
+
+    "disclosure-layout#questions-question-2": {
+        "children": [
+            "disclosure-trigger#questions-question-2",
+            "disclosure-content#questions-question-2"
+        ]
+    },
+    "disclosure-trigger#questions-question-2": {
+        "children": ["rich-text#questions-question2"]
+    },
+    "rich-text#questions-question2": {
+		"title":"Pregunta 2",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Puedo enviar regalos a través de cemaco.com?"
+        }
+    },
+    "disclosure-content#questions-question-2": {
+        "children": ["rich-text#questions-answer2"]
+    },
+	"rich-text#questions-answer2": {
+		"title":"Respuesta 2",
+        "props": {
+            "blockClass": "questionText",
+            "text": "Puedes solicitarla en cualquier tienda CEMACO o en el formulario de registro colocar que NO cuentan con tarjeta privilegio, llena tus datos y automáticamente podremos crearte una la cual será enviada físicamente a tu dirección."
+        }
+    },
+
+
+    "disclosure-layout#questions-question-3": {
+        "children": [
+            "disclosure-trigger#questions-question-3",
+            "disclosure-content#questions-question-3"
+        ]
+    },
+    "disclosure-trigger#questions-question-3": {
+        "children": ["rich-text#questions-question3"]
+    },
+    "rich-text#questions-question3": {
+		"title":"Pregunta 3",
+        "props": {
+            "htmlId": "enviogratis",
+            "blockClass": "questionText",
+            "text": "¿Puedo enviar regalos de boda a través de cemaco.com?"
+        }
+    },
+    "disclosure-content#questions-question-3": {
+        "children": ["rich-text#questions-answer3"]
+    },
+	"rich-text#questions-answer3": {
+		"title":"Respuesta 3",
+        "props": {
+            "blockClass": "questionText",
+            "text":"Sí, tus invitados pueden comprar en CEMACO.com o en cualquier tienda CEMACO."
+		}
+    },
+
+
+    "rich-text#questions-sec2-title":{
+        "title":"Título Devoluciones",
+        "props":{
+            "blockClass": ["questionsSubTitle"],
+            "text":"Devoluciones"
+        }
+    },
+    "disclosure-layout-group#questions-group-2": {
+        "title":"Grupo 2 de preguntas",
+        "children": [
+            "disclosure-layout#questions-question-4",
+            "disclosure-layout#questions-question-5"
+        ],
+        "props":{
+            "blockClass":"questions"
+        }
+    },
+
+    "disclosure-layout#questions-question-4": {
+        "children": [
+            "disclosure-trigger#questions-question-4",
+            "disclosure-content#questions-question-4"
+        ]
+    },
+    "disclosure-trigger#questions-question-4": {
+        "children": ["rich-text#questions-question4"]
+    },
+    "rich-text#questions-question4": {
+		"title":"Pregunta 4",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuáles son los términos para los cambios y devoluciones?"
+        }
+    },
+    "disclosure-content#questions-question-4": {
+        "children": ["rich-text#questions-answer4"]
+    },
+	"rich-text#questions-answer4": {
+		"title":"Respuesta 4",
+        "props": {
+            "blockClass": "questionText",
+            "text":"¡Claro que sí! Puedes modificar la fecha de tu evento en la sección de edición de tu registro."
+		}
+    },
+
+    "disclosure-layout#questions-question-5": {
+        "children": [
+            "disclosure-trigger#questions-question-5",
+            "disclosure-content#questions-question-5"
+        ]
+    },
+    "disclosure-trigger#questions-question-5": {
+        "children": ["rich-text#questions-question5"]
+    },
+    "rich-text#questions-question5": {
+		"title":"Pregunta 5",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cómo puedo saber el costo de envío de mi pedido?"
+        }
+    },
+    "disclosure-content#questions-question-5": {
+        "children": ["rich-text#questions-answer5"]
+    },
+	"rich-text#questions-answer5": {
+		"title":"Respuesta 5",
+        "props": {
+            "blockClass": "questionText",
+            "text":"Actualmente contamos con 2 tipos de entregas: Intercambio + 10% y la opción llamada específica. En Intercambio +10% todos tus regalos se acumularán automáticamente y los podrán intercambiar por un certificado de regalo con el 10% adicional sobre el monto total de los regalos recibidos. Y en la opción específica los regalos recibidos serán enviados a una dirección a elección."
+		}
+    },
+
+
+    "rich-text#questions-sec3-title":{
+        "title":"Título Garantía",
+        "props":{
+            "blockClass": ["questionsSubTitle"],
+            "text":"Garantía"
+        }
+    },
+    "disclosure-layout-group#questions-group-3": {
+        "title":"Grupo 3 de preguntas",
+        "children": [
+            "disclosure-layout#questions-question-6",
+            "disclosure-layout#questions-question-7",
+            "disclosure-layout#questions-question-8"
+        ],
+        "props":{
+            "blockClass":"questions"
+        }
+    },
+    "disclosure-layout#questions-question-6": {
+        "children": [
+            "disclosure-trigger#questions-question-6",
+            "disclosure-content#questions-question-6"
+        ]
+    },
+    "disclosure-trigger#questions-question-6": {
+        "children": ["rich-text#questions-question6"]
+    },
+    "rich-text#questions-question6": {
+		"title":"Pregunta 6",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Es seguro comprar en cemaco.com?"
+        }
+    },
+    "disclosure-content#questions-question-6": {
+        "children": ["rich-text#questions-answer6"]
+    },
+	"rich-text#questions-answer6": {
+		"title":"Respuesta 6",
+        "props": {
+            "blockClass": "questionText",
+            "text":"Si, puedes realizar tu lista de regalos en línea o en cualquier tienda CEMACO brindándote la asesoría perfecta para poder equipar su nuevo hogar. "
+		}
+    },
+    "disclosure-layout#questions-question-7": {
+        "children": [
+            "disclosure-trigger#questions-question-7",
+            "disclosure-content#questions-question-7"
+        ]
+    },
+    "disclosure-trigger#questions-question-7": {
+        "children": ["rich-text#questions-question7"]
+    },
+    "rich-text#questions-question7": {
+		"title":"Pregunta 7",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Puedo comprar si estoy en otro país?"
+        }
+    },
+    "disclosure-content#questions-question-7": {
+        "children": ["rich-text#questions-answer7"]
+    },
+	"rich-text#questions-answer7": {
+		"title":"Respuesta 7",
+        "props": {
+            "blockClass": "questionText",
+            "text":"Puedes compartirla a través de CEMACO.com ó por medio de tus redes sociales ( Facebook, Twitter, email o WhatsApp)"
+		}
+    },
+
+
+    "disclosure-layout#questions-question-8": {
+        "children": [
+            "disclosure-trigger#questions-question-8",
+            "disclosure-content#questions-question-8"
+        ]
+    },
+    "disclosure-trigger#questions-question-8": {
+        "children": ["rich-text#questions-question8"]
+    },
+    "rich-text#questions-question8": {
+		"title":"Pregunta 8",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Puedo utilizar certificados de regalo para comprar en línea?"
+        }
+    },
+    "disclosure-content#questions-question-8": {
+        "children": ["rich-text#questions-answer8"]
+    },
+	"rich-text#questions-answer8": {
+		"title":"Respuesta 8",
+        "props": {
+            "blockClass": "questionText",
+            "text":"¡Claro que sí! Tienes 30 días para realizar el cambio en cualquier tienda CEMACO presentando el ticket de regalo y el producto en su empaque original o puedes comunicarte al 2499-9990. "
+		}
+    },
+
+
+    "rich-text#questions-sec4-title":{
+        "title":"Título Mayoristas",
+        "props":{
+            "blockClass": ["questionsSubTitle"],
+            "text":"Mayoristas"
+        }
+    },
+    "disclosure-layout-group#questions-group-4": {
+        "title":"Grupo 4 de preguntas",
+        "children": [
+            "disclosure-layout#questions-question-9"
+        ],
+        "props":{
+            "blockClass":"questions"
+        }
+    },
+    "disclosure-layout#questions-question-9": {
+        "children": [
+            "disclosure-trigger#questions-question-9",
+            "disclosure-content#questions-question-9"
+        ]
+    },
+    "disclosure-trigger#questions-question-9": {
+        "children": ["rich-text#questions-question9"]
+    },
+    "rich-text#questions-question9": {
+		"title":"Pregunta 9",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Puedo comprar certificados de regalo en cemaco.com?"
+        }
+    },
+    "disclosure-content#questions-question-9": {
+        "children": ["rich-text#questions-answer9"]
+    },
+	"rich-text#questions-answer9": {
+		"title":"Respuesta 9",
+        "props": {
+            "blockClass": "questionText",
+            "text":"Tu listado estará activo durante 6 meses después de la fecha de tu evento."
+		}
+    },
+
+
+    "rich-text#questions-sec5-title":{
+        "title":"Título Atención y Tiendas",
+        "props":{
+            "blockClass": ["questionsSubTitle"],
+            "text":"Atención y Tiendas"
+        }
+    },
+    "disclosure-layout-group#questions-group-5": {
+        "title":"Grupo 5 de preguntas",
+        "children": [
+            "disclosure-layout#questions-question-10",
+            "disclosure-layout#questions-question-11"
+        ],
+        "props":{
+            "blockClass":"questions"
+        }
+    },
+    "disclosure-layout#questions-question-10": {
+        "children": [
+            "disclosure-trigger#questions-question-10",
+            "disclosure-content#questions-question-10"
+        ]
+    },
+    "disclosure-trigger#questions-question-10": {
+        "children": ["rich-text#questions-question10"]
+    }, 
+
+    "rich-text#questions-question10": {
+		"title":"Pregunta 10",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuáles son las áreas de no cobertura para mis pedidos en cemaco.com?"
+        }
+    },
+    "disclosure-content#questions-question-10": {
+        "children": ["rich-text#questions-answer10"]
+    },
+	"rich-text#questions-answer10": {
+		"title":"Respuesta 10",
+        "props": {
+            "blockClass": "questionText",
+            "text":"Por favor, comunícate con nosotros al 2499-9990 ya sea por llamada o WhatsApp o al correo electrónico [bodas@cemaco.com](mailto:bodas@cemaco.com)"
+		}
+    }, 
+
+    "disclosure-layout#questions-question-11": {
+        "children": [
+            "disclosure-trigger#questions-question-11",
+            "disclosure-content#questions-question-11"
+        ]
+    },
+    "disclosure-trigger#questions-question-11": {
+        "children": ["rich-text#questions-question11"]
+    },
+    "rich-text#questions-question11": {
+		"title":"Pregunta 11",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuáles son las restricciones en promociones de envío gratis?"
+        }
+    },
+    "disclosure-content#questions-question-11": {
+        "children": ["rich-text#questions-answer11"]
+    },
+	"rich-text#questions-answer11": {
+		"title":"Respuesta 11",
+        "props": {
+            "blockClass": "questionText",
+            "text":"Por favor, comunícate con nosotros al 2499-9990 ya sea por llamada o WhatsApp o al correo electrónico [bodas@cemaco.com](mailto:bodas@cemaco.com)"
+		}
+    }
+}

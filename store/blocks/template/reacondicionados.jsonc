@@ -1,0 +1,117 @@
+{
+    "store.custom#reacondicionados": {
+        "blocks": [
+          "responsive-layout.desktop#reacondicionados",
+          "responsive-layout.mobile#reacondicionados"
+        ]
+    },
+    "responsive-layout.desktop#reacondicionados":{
+      "children":[
+        //"carrusel-banners",
+        "flex-layout.row#reacondicionados-wrapper",
+            "flex-layout.row#newsletter"
+      ]
+    },
+    "responsive-layout.mobile#reacondicionados":{
+      "children":[
+        "flex-layout.row#reacondicionados-wrapper"
+            //"flex-layout.row#newsletter"
+      ]
+    },
+    "flex-layout.row#reacondicionados-wrapper":{
+        "title": "Contenido",
+        "children": [
+            "flex-layout.col#reacondicionados"
+        ]
+    },
+    "flex-layout.col#reacondicionados":{
+        "props": {
+            "blockClass": "reacondicionados-wrapper"
+        },
+        "children": [
+            "image#banner-reacondicionado",
+            "flex-layout.col#card-iphone"
+        ]
+    },
+    "image#banner-reacondicionado":{
+        "title": "Banner",
+        "props": {
+            "src": "/arquivos/mobo-card-1.png"
+        }
+    },
+    "flex-layout.col#card-iphone":{
+        "props": {
+            "blockClass": "cards-reaco"
+        },
+        "children": [
+            "info-card#first"
+        ]
+    },
+    "info-card#first":{
+        "title": "Info Card 1",
+        "props":{
+            "id": "ip-1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "/arquivos/mobo-card-1.png",
+            "headline": "iPhone 14",
+            "subhead": "Nuevo iphone",
+            "blockClass": "card-1",
+            "textAlignment": "right",
+            "callToActionMode": "none"
+        }
+    },
+     
+ "flex-layout.row#newsletter": {
+  "props": {
+    "blockClass": "newsletter",
+    "colSizing": "auto",
+    "fullWidth": false,
+    "horizontalAlign": "center",
+    "preserveLayoutOnMobile": true,
+    "preventHorizontalStretch": true,
+    "preventVerticalStretch": false
+  },
+  "children": [
+    "flex-layout.col#colNewsletter"  
+  ]
+ },
+ "flex-layout.col#colNewsletter": {
+  "props": {
+    "blockClass": "colNewsletter",
+    "colSizing": "auto"
+  },
+  "children": [
+    "newsletter-form"  
+  ]
+ },
+ 
+  "newsletter-form": {
+    "props": {
+      "blockClass": "newsletter-mobo"
+    },
+    "children": [
+      "flex-layout.col"
+    ]
+  },
+  "flex-layout.col": {
+    "props": {
+      "blockClass": "col-forms"
+    },
+    "children": ["newsletter-input-email","newsletter-submit"]
+  },
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "input-email-newsletter",
+      "placeholderText": "Correo electrónico",
+      "errorMessage":"Correo Invalido"
+    }
+  },
+  
+"newsletter-submit":{
+  "props": {
+    "blockClass": "submit-newsletter",
+    "submitButtonLabel": "Subscribir"
+  }
+}
+}

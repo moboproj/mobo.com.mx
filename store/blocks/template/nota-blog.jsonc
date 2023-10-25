@@ -1,0 +1,79 @@
+{
+    "store.custom#nota-blog": {
+        "blocks": [            
+            "flex-layout.row#blog-fecha-nota",
+            "flex-layout.row#blog-share-nota",
+            "flex-layout.row#blog-titulo-nota",
+            "flex-layout.row#blog-imagen-nota",            
+            "flex-layout.row#blog-contenido-nota",
+            "flex-layout.row#blog-boton-regresar"
+        ]
+     },
+     
+     "flex-layout.row#blog-fecha-nota":{
+        "children": [
+            "rich-text#blog-fecha-nota"
+        ]
+    },
+    "flex-layout.row#blog-share-nota":{
+        "children": [
+            "share"
+          ]
+    },    
+    "rich-text#blog-fecha-nota":{ 
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT"
+        }
+    },
+     "flex-layout.row#blog-titulo-nota":{
+        "children": [
+            "rich-text#blog-titulo-nota"
+        ]
+    },
+    "rich-text#blog-titulo-nota": { 
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",           
+            "font": "t-heading-1"            
+        }     
+    },
+    "flex-layout.row#blog-imagen-nota":{        
+        "children": [
+            "image#blog-imagen-nota"
+        ]
+    },    
+    "image#blog-imagen-nota": { },
+
+    "flex-layout.row#blog-contenido-nota":{
+        "props": {
+            "marginTop":8
+        },
+        "children": [
+            "rich-text#blog-contenido-nota"
+        ]       
+    },
+    "rich-text#blog-contenido-nota": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"                       
+        }     
+    },
+    "flex-layout.row#blog-boton-regresar":{
+        "props": {
+            "marginTop":7,
+            "marginBottom":7
+        },
+        "children": [
+            "rich-text#blog-boton-regresar"
+        ]              
+    },
+    "rich-text#blog-boton-regresar": { 
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Regresar](/blog)",
+            "blockClass": "boton-regresar"
+        }     
+    }
+}

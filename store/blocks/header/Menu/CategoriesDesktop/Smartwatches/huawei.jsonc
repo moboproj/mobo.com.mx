@@ -1,0 +1,137 @@
+{
+    "vtex.menu@2.x:submenu.accordion#smartwatches-huawei-desk": {
+        "children":["menu#smartwatches-submenu-huawei-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#smartwatches-huawei-desk":{
+        "children": [
+            "disclosure-trigger#smartwatches-huawei-trigger-desk",
+            "disclosure-content#smartwatches-huawei-content-desk"
+        ]
+    },
+    "disclosure-trigger#smartwatches-huawei-trigger-desk": {
+        "children": ["link#smartwatches-huawei-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#smartwatches-huawei-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Huawei",
+			"href":"/smartwatch-huawei"
+		}
+	},
+    "disclosure-content#smartwatches-huawei-content-desk": {
+        "children": ["menu#smartwatches-submenu-huawei-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#smartwatches-submenu-huawei-desktop": {
+        "props": {
+            "blockClass": "categoriesHuawei",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Band 8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/pulsera?fuzzy=0&initialMap=ft&initialQuery=pulsera&map=marca,ft&operator=and&query=/huawei/pulsera&searchState",
+                        "noFollow": false,
+                        "tagTitle": "Band 8",
+                        "text": "Band 8"
+                    }
+                },
+                // {
+                //     "id": "Band 7",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/pulsera-inteligente-huawei-band-7",
+                //         "noFollow": false,
+                //         "tagTitle": "Band 7",
+                //         "text": "Band 7"
+                //     }
+                // },
+                {
+                    "id": "GT3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gt3",
+                        "noFollow": false,
+                        "tagTitle": "GT3",
+                        "text": "GT3"
+                    }
+                },
+                {
+                    "id": "Watch Buds",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-huawei-watch-buds-black/p",
+                        "noFollow": false,
+                        "tagTitle": "Watch Buds",
+                        "text": "Watch Buds"
+                    }
+                },
+                {
+                    "id": "Fit 2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/fit%202",
+                        "noFollow": false,
+                        "tagTitle": "Fit 2",
+                        "text": "Fit 2"
+                    }
+                },
+                {
+                    "id": "Kids",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/huawei%20kids",
+                        "noFollow": false,
+                        "tagTitle": "Kids",
+                        "text": "Kids"
+                    }
+                },
+                {
+                    "id": "Fit New",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/fit%20new",
+                        "noFollow": false,
+                        "tagTitle": "Fit New",
+                        "text": "Fit New"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

@@ -1,0 +1,61 @@
+
+
+{
+    "vtex.menu@2.x:submenu.accordion#hisense-desk": {
+        "children":["menu#category-submenu-hisense-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#category-submenu-hisense-desktop": {
+        "props": {
+            "blockClass": "categoriesHisense",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "E20s",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "E20s",
+                        "text": "E20s"
+                    }
+                },
+                {
+                    "id": "U30",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "U30",
+                        "text": "U30"
+                    }
+                },
+                {
+                    "id": "E60",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "E60",
+                        "text": "E60"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

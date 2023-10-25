@@ -1,0 +1,98 @@
+{
+    "vtex.menu@2.x:submenu.accordion#samsung-desk": {
+        "children":["menu#category-submenu-samsung-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#category-submenu-samsung-desktop": {
+        "props": {
+            "blockClass": "categoriesSamsung",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Galaxy A54",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Galaxy A54",
+                        "text": "Galaxy A54"
+                    }
+                },
+                {
+                    "id": "Galaxy A04e",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Galaxy A04e",
+                        "text": "Galaxy A04e"
+                    }
+                },
+                {
+                    "id": "Galaxy A04",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Galaxy A04",
+                        "text": "Galaxy A04"
+                    }
+                },
+                {
+                    "id": "Galaxy A13",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Galaxy A13",
+                        "text": "Galaxy A13"
+                    }
+                },
+                {
+                    "id": "Galaxy A52",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Galaxy A52",
+                        "text": "Galaxy A52"
+                    }
+                },
+                {
+                    "id": "Galaxy A33",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Galaxy A33",
+                        "text": "Galaxy A33"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

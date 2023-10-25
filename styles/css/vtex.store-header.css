@@ -1,0 +1,190 @@
+
+
+/* .headerRowBackground--headerBottomDesk{
+    margin-top:1px;
+    margin-bottom:10px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+
+.headerRowBackground--headerTopDesk{
+    background-color: #0433ff;
+    width:100%;    
+    text-align: center;
+    margin:0px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Top*/
+.headerRowContentContainer--headerTopDesk{
+    padding: 0px 100px 0px 160px;
+}
+
+
+/*Middle*/
+.headerRowBackground--headerMiddleDesk{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 80px;    
+    margin:0px auto;
+    background-color: #272727;
+    text-align: center;
+}
+.headerRowContentContainer--headerMiddleDesk{
+    max-width: 1920px;
+    padding: 0px 100px 0px 160px;
+}
+
+
+/*Bottom*/
+.headerRowContentContainer--headerBottomDesk{
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+}
+.headerStickyRow--headerBottomDesk{
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width:1920px){
+    /*Middle*/
+    .headerRowBackground--headerMiddleDesk{
+        height: 4.167vw;
+    }
+    /*Bottom*/
+    .headerRowContentContainer--headerBottomDesk{
+        max-width: 1920px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px 100px;
+    }
+    .headerStickyRow--headerBottomDesk{
+        margin-bottom: 1.25vw;
+    }
+}
+@media only screen and (max-width:1600px){
+    /*Top*/
+    .headerRowContentContainer--headerTopDesk{
+        padding: 0px 80px;
+    }
+
+
+    /*Middle*/
+    /* .headerRowBackground--headerMiddleDesk{
+        display: flex;
+        align-items: center;
+        width:100%;
+        height: 80px;    
+        margin:0px auto;
+        background-color: #272727;
+        text-align: center;
+    } */
+    .headerRowContentContainer--headerMiddleDesk{
+        padding: 0px 80px;
+    }
+
+
+    /*Bottom*/
+    .headerRowContentContainer--headerBottomDesk{
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; */
+        padding: 0px 80px;
+    }
+}
+@media only screen and (max-width:1439px){
+    /*Top*/
+    .headerRowContentContainer--headerTopDesk{
+        padding: 0px 20px;
+    }
+
+    /*Middle*/
+    .headerRowContentContainer--headerMiddleDesk{
+        padding: 0px 32px;
+    }
+
+    /*Bottom*/
+    .headerRowContentContainer--headerBottomDesk{
+        padding: 0px 20px;
+    }
+}
+
+
+
+
+
+
+/**************************MOBILE**********************************/
+.headerRowContainer--mobile-header{
+    width: 100%;
+    height: 100%;
+}
+.headerRowContentContainer--headerMobile{
+    padding: 0px 7.978vw;
+    background-color: #222222;
+}
+
+
+.headerRowBackground--row3-header-mobile{
+    padding-top: -1px;
+    
+    padding-bottom: 15px;
+    -webkit-box-shadow: 0 3px 7px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 3px 7px 0 rgba(0,0,0,.2);
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 20%);
+}
+.headerRowContentContainer--headerMobileMiddle{
+    padding-top: 3.004vw;
+}
+.headerRowContentContainer--headerMobileBottom{
+    padding: 1.96vw 7.978vw 4.372vw;
+}
+/* @media only screen and (max-width:1024px){
+    .headerRowContentContainer--headerMobileBottom{
+        padding: 18px 73px 4.372vw;
+    }
+} */
+/* @media only screen and (max-width:768px){
+    .headerRowContentContainer--headerMobile{
+        padding: 8px 56px 0px;
+    }
+    .headerRowContentContainer--headerMobileBottom{
+        padding: 4px 56px 32px;
+    }
+}
+@media only screen and (max-width:640px){
+    .headerRowContentContainer--headerMobile{
+        padding: 8px 40px 0px;
+    }
+    .headerRowContentContainer--headerMobileBottom{
+        padding: 4px 40px 32px;
+    }
+}
+@media only screen and (max-width:490px){
+    .headerRowContentContainer--headerMobile{
+        padding: 8px 32px 0px;
+    }
+    .headerRowContentContainer--headerMobileBottom{
+        padding: 4px 32px 24px;
+    }
+}
+@media only screen and (max-width:399px){
+    .headerRowContentContainer--headerMobile{
+        padding: 8px 24px 0px;
+    }
+    .headerRowContentContainer--headerMobileBottom{
+        padding: 4px 24px 16px;
+    }
+} */

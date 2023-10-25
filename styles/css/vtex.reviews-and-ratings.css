@@ -1,0 +1,89 @@
+.reviewsHeading{
+    font-size: 0;
+    text-align: center;
+}
+
+.reviewsHeading::after{
+    content: 'Reseñas de nuestros clientes';
+    color: #9b9b9b;
+    text-align: center;
+    font-size: 24px;
+}
+.container{
+    max-width: unset;
+}
+.reviewsHeading{
+    text-align: center;
+    font-size: 0px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #9b9b9b;
+}
+.reviewsHeading::after{
+    content: 'Reseñas de nuestros clientes';
+    font-size: 40px;
+}
+.star{
+    font-size: 24px;
+    color: #0433ff;
+}
+.summaryTotalReviews{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1920px) {
+    .reviewsHeading::after{
+        font-size: 2.083vw;
+    }
+    .star{
+        font-size: 1.25vw;
+    }
+    .summaryTotalReviews{
+        font-size: 0.83333vw;
+    }
+}
+@media screen and (max-width: 915px) {
+    .reviewsHeading::after{
+        font-size: 4.372vw;
+    }
+    .star{
+        font-size: 2.623vw;
+    }
+    .summaryTotalReviews,
+    .reviewsRatingAverage,
+    .reviewsRatingCount,
+    .loginLink{
+        font-size: 1.749vw;
+    }
+}
+@media screen and (max-width: 640px) {
+    .reviewsHeading::after{
+        font-size: 4.6vw;
+    }
+    .star{
+        font-size: 3vw;
+    }
+    .summaryTotalReviews,
+    .reviewsRatingAverage,
+    .reviewsRatingCount,
+    .loginLink{
+        font-size: 2.4vw;
+    }
+}
+
+
+/*Shelf*/
+.summaryContainer{
+    margin: 6px auto 0 0;
+}
+/* @media screen and (max-width: 1920px) {
+    .summaryContainer{
+        margin: 0.729vw auto 0 0;
+    }
+} */
+@media screen and (max-width: 915px) {
+    .summaryContainer{
+        margin: 1.53vw auto 0 0;
+    }
+}

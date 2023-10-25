@@ -1,0 +1,294 @@
+{
+    "vtex.menu@2.x:submenu.accordion#audio-audifonos-desk": {
+        "children":["menu#audio-submenu-audifonos-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#audio-audifonos-desk":{
+        "children": [
+            "disclosure-trigger#audio-audifonos-trigger-desk",
+            "disclosure-content#audio-audifonos-content-desk"
+        ]
+    },
+    "disclosure-trigger#audio-audifonos-trigger-desk": {
+        "children": ["link#audio-audifonos-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#audio-audifonos-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Audífonos",
+			"href":"/audio/audifonos"
+		}
+	},
+    "disclosure-content#audio-audifonos-content-desk": {
+        "children": ["menu#audio-submenu-audifonos-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+
+    "menu#audio-submenu-audifonos-desktop": {
+        "props": {
+            "blockClass": "categoriesAudifonos",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Apple",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-apple",
+                        "noFollow": false,
+                        "tagTitle": "Apple",
+                        "text": "Apple"
+                    }
+                },
+                {
+                    "id": "Beats",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-beats",
+                        "noFollow": false,
+                        "tagTitle": "Beats",
+                        "text": "Beats"
+                    }
+                },
+                {
+                    "id": "Hyper X",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-hyperx",
+                        "noFollow": false,
+                        "tagTitle": "Hyper X",
+                        "text": "Hyper X"
+                    }
+                },
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-huawei",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "iFrogz",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-ifrogz",
+                        "noFollow": false,
+                        "tagTitle": "iFrogz",
+                        "text": "iFrogz"
+                    }
+                },
+                {
+                    "id": "Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-mobo",
+                        "noFollow": false,
+                        "tagTitle": "Mobo",
+                        "text": "Mobo"
+                    }
+                },
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-motorola",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                },
+                // {
+                //     "id": "Pro 21",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/audio/audifonos/pro-21",
+                //         "noFollow": false,
+                //         "tagTitle": "Pro 21",
+                //         "text": "Pro 21"
+                //     }
+                // },
+                {
+                    "id": "Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-samsung",
+                        "noFollow": false,
+                        "tagTitle": "Samsung",
+                        "text": "Samsung"
+                    }
+                },
+                /* {
+                    "id": "TapTak",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Audio/Audifonos/Tap-Tak?map=c,c,b",
+                        "noFollow": false,
+                        "tagTitle": "TapTak",
+                        "text": "TapTak"
+                    }
+                }, */
+                // {
+                //     "id": "Braven",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/audio/audifonos/braven",
+                //         "noFollow": false,
+                //         "tagTitle": "Braven",
+                //         "text": "Braven"
+                //     }
+                // },
+                // {
+                //     "id": "Honor",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/audio/audifonos/honor",
+                //         "noFollow": false,
+                //         "tagTitle": "Honor",
+                //         "text": "Honor"
+                //     }
+                // },
+                {
+                    "id": "JBL",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-jbl",
+                        "noFollow": false,
+                        "tagTitle": "JBL",
+                        "text": "JBL"
+                    }
+                },
+                {
+                    "id": "Oppo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-oppo",
+                        "noFollow": false,
+                        "tagTitle": "Oppo",
+                        "text": "Oppo"
+                    }
+                },
+                {
+                    "id": "Sony",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-sony",
+                        "noFollow": false,
+                        "tagTitle": "Sony",
+                        "text": "Sony"
+                    }
+                },
+                {
+                    "id": "TCL",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-tcl",
+                        "noFollow": false,
+                        "tagTitle": "TCL",
+                        "text": "TCL"
+                    }
+                },
+                // {
+                //     "id": "Xiaomi",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/audio/audifonos/xiaomi",
+                //         "noFollow": false,
+                //         "tagTitle": "Xiaomi",
+                //         "text": "Xiaomi"
+                //     }
+                // },
+                {
+                    "id": "Maxell",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-maxell",
+                        "noFollow": false,
+                        "tagTitle": "Maxell",
+                        "text": "Maxell"
+                    }
+                },
+                {
+                    "id": "Pure Gear",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/audifonos-pure-gear",
+                        "noFollow": false,
+                        "tagTitle": "Pure Gear",
+                        "text": "Pure Gear"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

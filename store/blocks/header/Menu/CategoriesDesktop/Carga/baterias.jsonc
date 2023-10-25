@@ -1,0 +1,99 @@
+{
+    "vtex.menu@2.x:submenu.accordion#carga-baterias-desk": {
+        "children":["menu#carga-submenu-baterias-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#carga-baterias-desk":{
+        "children": [
+            "disclosure-trigger#carga-baterias-trigger-desk",
+            "disclosure-content#carga-baterias-content-desk"
+        ]
+    },
+    "disclosure-trigger#carga-baterias-trigger-desk": {
+        "children": ["link#carga-baterias-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#carga-baterias-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Baterías",
+			"href":"/carga/bateria-portatil?map=c,c"
+		}
+	},
+    "disclosure-content#carga-baterias-content-desk": {
+        "children": ["menu#carga-submenu-baterias-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+
+    "menu#carga-submenu-baterias-desktop": {
+        "props": {
+            "blockClass": "categoriesBaterias",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "5000 mAh",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Bateria-Portatil/5,000%20mAh?map=c,c,specificationFilter_43",
+                        "noFollow": false,
+                        "tagTitle": "5,000 mAh",
+                        "text": "5,000 mAh"
+                    }
+                },
+                {
+                    "id": "8000 mAh",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Bateria-Portatil/8,000%20mAh?map=c,c,specificationFilter_43",
+                        "noFollow": false,
+                        "tagTitle": "8,000 mAh",
+                        "text": "8,000 mAh"
+                    }
+                },
+                {
+                    "id": "10000 mAh",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Bateria-Portatil/10,000%20mAh?map=c,c,specificationFilter_43",
+                        "noFollow": false,
+                        "tagTitle": "10,000 mAh",
+                        "text": "10,000 mAh"
+                    }
+                },
+                {
+                    "id": "20000 mAh",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Bateria-Portatil/20,000%20mAh?map=c,c,specificationFilter_43",
+                        "noFollow": false,
+                        "tagTitle": "20,000 mAh",
+                        "text": "20,000 mAh"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

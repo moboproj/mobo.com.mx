@@ -1,0 +1,100 @@
+{
+    "responsive-layout.mobile#PDP": {
+		"children": [
+			"flex-layout.row#product-breadcrumb",
+			"flex-layout.row#product-main-mob-wrapper",
+			"sticky-layout#buy-button",
+            "flex-layout.row#pdp-mob-tabs",
+            "flex-layout.row#pdp-related",
+			"flex-layout.row#reviews"
+		]
+	},
+    "flex-layout.row#product-main-mob-wrapper":{
+        "children":["flex-layout.col#product-main-mob-container"],
+        "props":{
+            "blockClass":["pdpMain","productMainWrapper","pdpMainMob"]
+        }
+    },
+    "flex-layout.col#product-main-mob-container":{
+        "children":[
+			"show-sticky",
+            "vtex.store-components:product-name",
+			"product-identifier.product",
+			"product-rating-inline",
+			"stack-layout#pdp-images-mob",
+			"flex-layout.row#price",
+			//"sku-selector#color",
+			"sku-selector#pdp",
+			"flex-layout.row#pdp-quantity",
+			"flex-layout.row#pdp-buy-button",
+			"info-card#pdp-paypal",
+			"info-card#pdp-kuesky",
+			"info-card#pdp-free-shipping",
+			"info-card#pdp-safe-purchase"
+        ]
+    },
+
+    "stack-layout#pdp-images-mob": {
+		"children": [
+			"product-images#pdp-mob",
+			"add-to-list-btn",
+			"pdp-share"
+		],
+		"props":{
+			"blockClass":"stackPdpImages"
+		}
+	},
+    "product-images#pdp-mob": {
+		"props": {
+			"width":{
+                "desktop":786,
+                "mobile":786
+            },
+            "height":{
+                "desktop":786,
+                "mobile":786
+            },
+            "showPaginationDots":false,
+			"thumbnailVisibility": "hidden"
+		}
+	},
+	"sticky-layout#buy-button":{
+		"children":["flex-layout.row#pdp-sticky"],
+		"props":{
+			"blockClass":"pdpSticky",
+			"position":"bottom"
+		}
+	},
+	"flex-layout.row#pdp-sticky":{
+		"children":[
+			//"rich-text#pdp-sticky-text",
+			"vtex.store-components:product-name",
+			"add-to-cart-button#pdp-sticky"
+		],
+		"props":{
+			"blockClass":"pdpSticky",
+			"preventVerticalStretch":true,
+			"verticalAlign": "center",
+			"preserveLayoutOnMobile": true
+		}
+	},
+	"rich-text#pdp-sticky-text":{
+		"props":{
+			"blockClass":"pdpStickyText",
+			"text":"***Hasta 12 MSI** en compras\na partir de $1,000"
+		}
+	},
+	"add-to-cart-button#pdp-sticky": {
+		"props": {
+			"blockClass":"addToCartSticky2",
+			"isOneClickBuy": true,
+			"text": "¡COMPRAR!"
+		}
+	},
+    "flex-layout.row#pdp-mob-tabs":{
+		"children":["tab-layout#pdp"],
+		"props":{
+			"blockClass":"pdpMobTabs"
+		}
+	}
+}

@@ -1,0 +1,803 @@
+@import url("https://mobomx.vteximg.com.br/arquivos/mobo-extra.css?v=20230914_1704");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header-mobo{
+    background: linear-gradient(180deg, #D6D6D6 0%, rgba(255, 255, 255, 0) 100%)
+}
+.vtex-sticky-layout-0-x-container{
+    background: linear-gradient(180deg, #D6D6D6 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.flexRow--header-mobo{
+    background: linear-gradient(180deg, #D6D6D6 0%, rgba(255, 255, 255, 0) 100%);
+}
+.flexRow--row--carrusel{
+    display:flexbox;
+}
+.flexRow--Titutlocat{
+    margin: 30px;
+}
+.flexCol--categoria-col{
+    background: linear-gradient(0deg, rgba(38, 38, 38, 0.603) 61%, rgb(230, 230, 231) 61%);
+    border-radius: 30px;
+    width: 80px;
+    height: auto;
+    margin: 0;
+}
+/**********mobil******************/
+
+.flexCol--titulo-ipReacond{
+    margin-top: 25px;
+}
+.flexRow--rowTitleMarcas,.flexRow--rowCarruseliPhoneRenewed{
+    margin-top: 25px;
+}
+.flexColChild--colBtnCard-1{
+    align-self: center;
+}
+.flexColChild--colBtnCard-2{
+    align-self: center;
+}
+.flexColChild--colBtnCard-3{
+    align-self: center;
+}
+.flexCol--box-shdow-card{
+    box-shadow: 0px 8px 6px 3px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 0px 8px 6px 3px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 8px 6px 3px rgba(0,0,0,0.18);
+    border-radius: 0px 0px 8px 8px;
+}
+.container--sticky-header{
+    background-color: #fff;
+}
+
+.flexRow--RowQuienEsMobo{
+    background: #ededed !important;
+    padding: 3em 0;
+}
+
+.flexCol--colInfoCompra{
+    margin-right: 5em;
+}
+
+.flexCol--colFormaPago{
+    margin-right: 5em;
+    margin-left: 2em;
+}
+.flexCol--colCompraSegura{
+    margin-left: 2em;
+}
+.flexRow--rowInfoCompra{
+    background: linear-gradient(0deg, rgba(237,237,237,1) 61%, rgba(255,255,255,1) 61%);
+    padding: 5em 0 3em 0;
+}
+.sliderLayoutContainer--sliderInfoCompra{
+    background: linear-gradient(0deg,rgba(237,237,237,1) 50%,rgba(255,255,255,1) 50%);
+    padding: 3em 0;
+}
+/* logo-fotter */
+.stretchChildrenWidth {
+    justify-content: center;
+}
+.flexColChild--colFooterMenu-1{
+    margin: 25%;
+}
+
+.flexRowContent--row-redes{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .flexRow--footerContainer{
+    background-color: #272727;
+    padding-left: 15px;
+}
+.flexRow--footerContact{
+    background-color: #272727;
+} */
+
+.flexRowContent--rowimgMini-1{
+    display: flex;
+}
+
+.flexRowContent--rowimgMini-2{
+    display: flex;
+}
+.flexRowContent--rowimgMini-3{
+    display: flex;
+}
+.flexCol--colImgMini-1{
+    margin-left: 30px;
+}
+.flexCol--colImgMini-3{
+    margin-right: 30px;
+}
+.flexCol--colImgMini-4{
+    margin-left: 30px;
+}
+.flexCol--colImgMini-6{
+    margin-right: 30px;
+}
+.flexCol--colImgMini-7{
+    margin-left: 30px;
+}
+.flexCol--colImgMini-9{
+    margin-right: 30px;
+}
+.flexRow--newsletter{
+    background-color: #ededed;
+    background-image: url(https://mobomx.vtexassets.com/arquivos/bg-newsletter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5em 0;
+}
+.sliderLayoutContainer--sliderMarcas{
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+}
+
+
+/*StoreLocator*/
+.flexRowContent--containerStore{
+    position: relative;
+}
+.flexRowContent--containerStore .stretchChildrenWidth:first-child{
+    width: 30% !important;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    background: white;
+    right: 0;
+    padding: 48px 24px;
+}
+.flexRowContent--containerStore .stretchChildrenWidth:last-child{
+    width: 100% !important;
+}
+@media(max-width:1080px){
+    .flexRowContent--containerStore .stretchChildrenWidth:first-child{
+        width: 100% !important;
+        bottom: 0;
+        background: white;
+        right: 0;
+        padding: 0
+    }
+    .flexCol--detalles{
+        margin: 0 auto !important;
+        padding: 0 24px;
+        padding-top: 24px;
+    }
+}
+
+@media screen and (min-width: 20em){
+
+    .flexCol--colCard-1{
+        margin-top: 25px;
+    }
+    .flexCol--colCard-2{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .flexCol--colCard-3{
+        margin-top: 25px;
+    }
+    .flexColChild--colFooterMenu-1{
+        margin-top: 0%;
+        margin-bottom: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .flexCol--detalles{
+        margin-bottom: 25px;
+    }
+
+    .flexRow--rowPrecios-1{
+        margin-top: 45px;
+        display: flex;
+    }
+    .flexRow--rowPrecios-2{
+        margin-top: 45px;
+        display: flex;
+    }
+    .flexRow--rowPrecios-3{
+        margin-top: 45px;
+        display: flex;
+    }
+    .flexRow--rowPrecios-4{
+        margin-top: 45px;
+        display: flex;
+    }
+    .flexRow--rowPrecios-5{
+        margin-top: 45px;
+        display: flex;
+    }
+    .container--precio-9{
+        padding-top: 15px;
+    }
+    .container--precio-10{
+        padding-top: 15px;
+    }
+    .container--precio-14{
+        padding-top: 15px;
+    }
+    .flexCol--colPrecios-12{
+        margin-left: 0;
+    }
+    .flexCol--colPrecios-13{
+        margin-bottom: 0 !important;
+    }
+    .flexColChild--colPrecios-9{
+        margin-bottom: -30px !important;
+    }
+    .flexColChild--colPrecios-14{
+        margin-bottom: -30px !important;
+    }
+    .flexColChild--colPrecios-15{
+        margin-bottom: -30px !important;
+    }
+    .flexColChild--colPrecios-13{
+        margin-bottom: -30px !important;
+    }
+
+    .flexCol--col-banner-destacado-2{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/******Sucursales**********/
+.flexCol--detalles{
+    margin-left: 25px;
+}
+
+/*****Cellrepair****/
+.flexRow--rowImgsCell{
+    background-color: #ededed;
+    padding: 5em 0 3em 0;
+}
+
+.flexRow--rowPrecios-2{
+    margin-top: 45px;
+}
+.flexRow--rowPrecios-3{
+    margin-top: 45px;
+}
+.flexRow--rowPrecios-4{
+    margin-top: 45px;
+}
+.flexRow--rowPrecios-5{
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+.flexCol--colPrecios-13{
+    margin-bottom: 3em;
+}
+
+.flexColChild--colPrecios-1{
+    margin-bottom: -25px;
+} 
+.flexColChild--colPrecios-2{
+    margin-bottom: -25px;
+} 
+.flexColChild--colPrecios-3{
+    margin-bottom: -25px;
+} 
+.flexColChild--colPrecios-4{
+    margin-bottom: -25px;
+} 
+.flexColChild--colPrecios-5{
+    margin-bottom: -25px;
+} 
+.flexColChild--colPrecios-6{
+    margin-bottom: -30px;
+} 
+.flexColChild--colPrecios-7{
+    margin-bottom: -30px;
+} 
+.flexColChild--colPrecios-8{
+    margin-bottom: -30px;
+} 
+.flexColChild--colPrecios-9{
+    margin-bottom: -40px;
+} 
+.flexColChild--colPrecios-10{
+    margin-bottom: -30px;
+} 
+.flexColChild--colPrecios-11{
+    margin-bottom: -30px;
+} 
+.flexColChild--colPrecios-12{
+    margin-bottom: -30px;
+} 
+.flexColChild--colPrecios-13{
+    margin-bottom: -50px;
+} 
+.flexColChild--colPrecios-14{
+    margin-bottom: -50px;
+} 
+.flexColChild--colPrecios-15{
+    margin-bottom: -50px;
+} 
+
+
+/***********quienes-somos***********/
+.flexRowContent--rowAboutUs{
+    margin-top: -25px;
+}
+.flexRow--rowAboutUs{
+    background: linear-gradient(180deg, rgb(232, 232, 232) 0%, rgb(222, 219, 220) 100%);
+}
+
+.flexColChild--col-text-about-us{
+    padding: 0 15px 0 0;
+}
+
+
+
+/*Generales*/
+.flexRowContent--maxWidth1920{
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 0px 85px;
+}
+.flexRowContent--maxWidthGeneral{
+    max-width: 1920px;
+    margin: 0px auto 100px;
+    padding: 0px 78px;
+}
+
+@media only screen and (max-width:1920px){
+    .flexRowContent--maxWidthGeneral{
+        margin: 0px auto 5vw;
+        padding: 0px 4.0625vw;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .flexRowContent--maxWidth1920{
+        padding: 0px 11.038vw 0px 9.508vw;
+    } 
+}
+@media only screen and (max-width:915px){
+    .flexRowContent--maxWidthGeneral{
+        margin: 0px auto 9.836vw;
+        padding: 0px 6.339vw;
+    }  
+    .flexRowContent--maxWidthGeneral.flexRowContent--mainSlider{
+        padding: 0px 3.934vw;
+    }  
+}
+@media only screen and (max-width:768px){
+    .flexRowContent--maxWidth1920{
+        padding: 0px 9.508vw;
+    }
+}
+
+
+/*Header*/
+.flexRowContent--submenuCelulares .stretchChildrenWidth{
+    padding: 0px;
+}
+.flexRowContent--submenuCelulares .stretchChildrenWidth:first-child{
+    width: 41% !important;
+}
+.flexRowContent--submenuCelulares .stretchChildrenWidth:last-child{
+    width: 59% !important;
+    padding-left: 37px;
+}
+
+.flexCol--mainSubMenu .flexColChild:first-child{
+    border-right: none;
+}
+.flexRow--menuMobileSpacer{
+    border-bottom: 2px solid #cecece;
+    margin: 4.372vw 0px;
+}
+
+.flexRowContent--submenuIphone .stretchChildrenWidth:first-child{
+    padding-right: 20px;
+}
+@media only screen and (max-width:1920px){
+    .flexRowContent--subMenuCategory .stretchChildrenWidth:first-child{
+        padding-right: 1.042vw;
+        max-height: 65vh;
+        overflow-y: auto;
+    }
+}
+
+/*Footer*/
+.flexRow--footerPaymentsWrapper{
+    margin-top: 24px;
+    padding: 82px 20px 97px 20px;
+    background-color: #e9eaed;
+}
+.flexRowContent--footerPayments{
+    justify-content: center;
+    gap: 42px;
+}
+.flexRow--footerLogo{
+    padding: 70px 0 60px;
+}
+.flexRow--footerMainSection{
+    padding: 0 0 70px;
+}
+.flexRow--footerContact{
+    padding: 60px 0;
+}
+@media only screen and (max-width:1920px){
+    .flexRow--footerPaymentsWrapper{
+        margin-top: 1.25vw;
+        padding: 4.27vw 1.042vw 5vw 1.042vw;
+    }
+    .flexRowContent--footerPayments{
+        justify-content: center;
+        gap: 2.1875vw;
+    }
+    .flexRow--footerLogo{
+        padding: 5.885vw 0 5vw;
+    }
+    .flexRow--footerMainSection{
+        padding: 0 0 3.646vw;
+    }
+    .flexRow--footerContact{
+        padding: 5vw 0;
+    }
+}
+@media only screen and (max-width:1024px){
+    .flexRow--footerPaymentsWrapper{
+        margin-top: 1.25vw;
+        padding: 8.525vw 0 7.65vw 0;
+    }
+    .flexRowContent--footerPayments{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 2.186vw 3.497vw;
+        padding: 0 4.372vw;
+    }
+}
+
+/*Home*/
+@media (min-width: 1025px) {
+    .flexRow--homeMainSliderDesk{
+        margin-top: 20px;
+    }   
+}
+.flexRowContent--homeMainSliderDesk{
+    justify-content: space-between;
+}
+.flexRowContent--homeMainSliderDesk .stretchChildrenWidth:first-child{
+    width: 1180px !important;
+    padding: 0;
+}
+.flexRowContent--homeMainSliderDesk .stretchChildrenWidth:last-child{
+    width: 560px !important;
+}
+.flexCol--banners-secundarios {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flexRow--homeBenefits,
+.flexRow--homeCategoriesMob,
+.flexRow--homeThreeProducts{
+    display: none;
+}
+.flexRowContent--homeCategories{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+.flexRowContent--homeCategories .stretchChildrenWidth{
+    width: calc((100% - 48px)/7) !important;
+}
+.flexRowContent--homeBannerFull1{
+    margin-bottom: 20px;
+}
+.flexRowContent--homeTwoBanner{
+    gap: 25px;
+}
+
+.flexRowContent--threeProducts{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-top: 3.279vw;
+}
+.flexRowContent--threeProducts .stretchChildrenWidth{
+    width: calc((100% - 40px)/3) !important;
+}
+.flexCol--col-cuadrodestacado{
+    background-color: #e6e6e7;
+    border-radius: 3.279vw;
+}
+.flexRowContent--cuadro-destacados-1 .flexCol--col-cuadrodestacado{
+    background-color: #272727;
+}
+@media only screen and (max-width:1920px){
+    .flexRowContent--homeMainSliderDesk .stretchChildrenWidth:first-child{
+        width: 61.458vw !important;
+    }
+    .flexRowContent--homeMainSliderDesk .stretchChildrenWidth:last-child{
+        width: 29.167vw !important;
+    }
+}
+@media only screen and (max-width:1024px){
+    .flexRowContent--homeMainSliderDesk{
+        margin-top: 1.458vw;
+    }
+}
+@media only screen and (max-width:915px){
+    .flexRow--homeBenefits,
+    .flexRow--homeSliderPayments,
+    .flexRow--homeCategoriesMob,
+    .flexRow--homeThreeProducts{
+        display: flex;
+    }
+    .flexRow--homePayments,
+    .flexRow--homeCategoriesDesk,
+    .flexRow--homeBannerFull1,
+    .flexRow--homeTwoBanner,
+    .flexRow--sliderOnlyDesktop,
+    .flexRow--rowBanneriPhone14,
+    .flexRowContent--homeMainSliderDesk .stretchChildrenWidth:last-child{
+        display: none;
+    }
+    .flexRowContent--homeMainSliderDesk .stretchChildrenWidth:first-child{
+        width: 100% !important;
+        padding-right: 0;
+    }
+    .flexRowContent--homeMainSliderDesk{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width:640px){
+    .flexRowContent--threeProducts .stretchChildrenWidth{
+        width: calc((100% - 80px)/3) !important;
+    }
+}
+
+/*PLP*/
+
+.flexCol--plpPriceContainer{
+    height: 70px;
+    margin: 18px 0px;
+}
+.flexColChild--plpPriceContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.flexRowContent--plpTopMobile{
+    margin-bottom: 5.464vw;
+}
+.flexRowContent--searchSwitcher{
+    align-items: flex-end;
+}
+@media only screen and (max-width:1025px) {
+    .flexRowContent--searchSwitcher{
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:1920px){
+    .flexCol--plpPriceContainer{
+        height: 5vw;
+        margin: 0.9375vw 0;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width:915px){
+    .flexCol--plpPriceContainer{
+        height: 10.65vw;
+        margin: 1.967vw 0;
+        margin-top: 0;
+    }
+}
+
+/*List*/
+.flexRowContent--plpListWrapper{
+    gap: 38px;
+    margin-bottom: 80px;
+}
+.flexRowContent--plpListWrapper .stretchChildrenWidth:first-child{
+    width: 42% !important;
+}
+.flexRowContent--plpListWrapper .stretchChildrenWidth:last-child{
+    width: 58% !important;
+}
+.flexRowContent--plpPriceListWrapper .stretchChildrenWidth:first-child,
+.flexRowContent--plpPriceListWrapper .stretchChildrenWidth:last-child{
+    width: auto !important;
+}
+.flexCol--plpListImage{
+    position: relative;
+}
+.flexCol--plpListInfo{
+    justify-content: center;
+}
+.flexColChild--plpListInfo{
+    display: flex;
+    justify-content: flex-start;
+    height: auto !important;
+}
+
+
+@media only screen and (max-width:1920px){
+    .flexRowContent--plpListWrapper{
+        gap: 1.979vw;
+        margin-bottom: 4.167vw;
+    }
+}
+@media only screen and (max-width:1920px){
+    .flexRowContent--plpListWrapper{
+        gap: 4.153vw;
+        margin-bottom: 8.743vw;
+    }
+}
+
+
+/*PDP*/
+.flexRow--pdpMainMob{
+    display: none;
+}
+.flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent{
+    margin: 26px 0;
+}
+.flexRow--pdpMain{
+    font-size: 10px;
+}
+.flexRowContent--pdpMain .stretchChildrenWidth:last-child{
+    padding-left: 72px;
+}
+.flexRowContent--pdpMain .flexRowContent .stretchChildrenWidth:last-child{
+    padding-left: 0;
+}
+.flexRowContent--buyButtonPdp .stretchChildrenWidth{
+    display: flex;
+    justify-content: flex-start;
+}
+.flexRowContent--buyButtonPdp .stretchChildrenWidth:last-child{
+    padding-left: 0;
+}
+.flexRowContent--buyButtonPdp :global(.vtex-button){
+    margin: 1.6vw 0;
+    border: none;
+    font-size: 1em;
+}
+.flexRowContent--buyButtonPdp :global(.vtex-button__label){
+    padding: 19px 42px !important;
+}
+.flexRowContent--pdpQuantity{
+    margin-top: 0.6vw;
+}
+
+.flexRowContent--pdpSticky .stretchChildrenWidth{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:1920px){
+    /* .flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent{
+        margin: 3.906vw auto 2.396vw;
+    } */
+    .flexRowContent--pdpMain .stretchChildrenWidth:last-child{
+        padding-left: 3.75vw;
+    }
+    /* .flexRowContent--buyButtonPdp :global(.vtex-button){
+        height: 3.646vw;
+        margin: 2.5vw 0 2.917vw;
+    } */
+    .flexRowContent--buyButtonPdp :global(.vtex-button__label){
+        padding: 0.99vw 2.396vw !important;
+    }
+    /* .flexRowContent--pdpQuantity{
+        margin-top: 2.083vw;
+    } */
+}
+@media only screen and (max-width:1600px){
+    .flexRow--pdpMain{
+        font-size: 8px;
+    }
+    .flexRowContent--pdpMain .stretchChildrenWidth{
+        width: 50% !important;
+    }
+    .flexRowContent--pdpPrice .stretchChildrenWidth,
+    .flexRowContent--pdpQuantity .stretchChildrenWidth{
+        width: auto !important;
+    }
+    .flexRowContent--buyButtonPdp .stretchChildrenWidth{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width:1520px){
+    .flexRow--pdpMain{
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width:1440px){
+    .flexRow--pdpMain{
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width:915px){
+    .flexRow--pdpMainDesk,
+    .flexRow--pdpBanner{
+        display: none;
+    }
+    .flexRowContent--pdpMain .stretchChildrenWidth{
+        width: 100% !important;
+    }
+    .flexRow--pdpMainMob{
+        display: flex;
+    }
+    .flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent{
+        margin: 6.557vw auto 2.295vw;
+    }
+    .flexRow--pdpMain{
+        font-size: 10px;
+    }
+    .flexRowContent--pdpMain{
+        padding: 0 8.962vw;
+    }
+    .flexRowContent--pdpMain .stretchChildrenWidth:last-child{
+        padding-left: 0;
+    }
+    .flexRowContent--pdpPrice .stretchChildrenWidth,
+    .flexRowContent--pdpQuantity .stretchChildrenWidth{
+        width: auto !important;
+    }
+    .flexRowContent--buyButtonPdp :global(.vtex-button){
+        height: 7.65vw;
+        margin: 5vw auto;
+    }
+    .flexRowContent--buyButtonPdp :global(.vtex-button__label){
+        padding: 2.076vw 4.59vw !important;
+    }
+    .flexRowContent--pdpQuantity{
+        align-items: center;
+        margin-top: 4vw;
+    }
+    .flexRowContent--pdpMobTabs{
+        padding: 0 37px;
+    }
+
+}
+@media only screen and (max-width:768px){
+    .flexRow--pdpMain{
+        font-size: 8px;
+    }
+    .flexRow--footerLogo {
+        padding: 40px 0 25px;
+    }
+}
+@media only screen and (max-width:640px){
+    .flexRow--pdpMain{
+        font-size:6px;
+    }
+}
+@media only screen and (max-width:490px){
+    .flexRow--pdpMain{
+        font-size: 5px;
+    }
+    .flexRowContent--pdpMain,
+    .flexRowContent--pdpMobTabs{
+        padding: 0 24px;
+    }
+}
+
+
+/*Contact*/
+@media only screen and (max-width:1024px){
+    .flexRowContent--contactSectionContact{
+        display: block;
+    }
+    .flexRowContent--contactSectionContact .stretchChildrenWidth{
+        width: 100% !important;
+    }
+}

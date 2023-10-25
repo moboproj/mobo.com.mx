@@ -1,0 +1,35 @@
+
+
+{
+    "vtex.menu@2.x:submenu.accordion#xiaomi-desk": {
+        "children":["menu#category-submenu-xiaomi-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#category-submenu-xiaomi-desktop": {
+        "props": {
+            "blockClass": "categoriesXiaomi",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Redmi Note 12",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Redmi Note 12",
+                        "text": "Redmi Note 12"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

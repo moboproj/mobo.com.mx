@@ -1,0 +1,957 @@
+{
+    "store.custom#cellrepair": {
+        "blocks": [
+        "responsive-layout.desktop#cellrepair",
+        "responsive-layout.mobile#cellrepair"
+        ]
+    },
+    "responsive-layout.desktop#cellrepair":{
+        "children":[
+            "slider-layout#slider-cellrepair",
+            "flex-layout.row#row-title-cellRepair",
+            "store-list#listaCellrepair",
+            "store-map#mapaCellrepair",
+            "flex-layout.row#rowTxtSubTitulo",
+            "flex-layout.row#rowTxtTecnicos",
+            "flex-layout.row#rowImgsCell",
+            "flex-layout.row#titleTable",
+            "flex-layout.row#rowPrecios-1",
+            "flex-layout.row#rowPrecios-2",
+            "flex-layout.row#rowPrecios-3",
+            "flex-layout.row#rowPrecios-4",
+            "flex-layout.row#rowPrecios-5",
+            "table-cellRepair"
+        ]
+      },
+      "responsive-layout.mobile#cellrepair":{
+        "children":[
+          "slider-layout#slider-cellrepair",
+          "flex-layout.row#row-title-cellRepair",
+          "store-list#listaCellrepair",
+          "store-map#mapaCellrepair",
+          "flex-layout.row#rowTxtSubTitulo",
+          "flex-layout.row#rowTxtTecnicos",
+          "list-context.image-list#sliderServicios-mobile",
+            "flex-layout.row#titleTable",
+            "flex-layout.row#rowPrecios-1",
+            "flex-layout.row#rowPrecios-2",
+            "flex-layout.row#rowPrecios-3",
+            "flex-layout.row#rowPrecios-4",
+            "flex-layout.row#rowPrecios-5"
+        ]
+      },
+      "slider-layout#slider-cellrepair": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "fullWidth": true ,
+          "showNavigationArrows": "never",
+          "showPaginationDots": "never",
+          "blockClass": "slider-cellrepair"
+        },
+        "children": ["image#example"]
+      },
+      "image#example": {
+        "props": {
+          "src": "/arquivos/reparacion_celulares.png",
+          "maxWidth": "100%",
+          "blockClass": "bg-cellrepair"
+        }
+      },
+      "flex-layout.row#row-title-cellRepair": {
+        "props": {
+          "blockClass": "rowTitulo",
+          "fullWidth": false
+        },
+        "children": [
+          "flex-layout.col#col-title-cellRepair"
+        ]
+      },
+      "flex-layout.col#col-title-cellRepair": {
+        "props": {
+          "blockClass": "col-titulo",
+          "preventVerticalStretch": true,
+          "horizontalAlign": "center",
+          "width": "100%"
+        },
+        "children": [
+          "rich-text#titulo-cellrepair"
+        ]
+      },
+      "rich-text#titulo-cellrepair": {
+        "props": {
+          "text": "## Servicio de reparación para tu iPhone",
+          "blockClass": "titulo-cellrepair",
+          "textAlignment": "CENTER"
+        }
+      },
+      "flex-layout.row#mapaCellrepair": {
+        "props": {
+            "blockClass": "mapaCellrepair",
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#lista-mapa" ,
+            "flex-layout.col#mapa"
+        ]
+      },
+      "flex-layout.col#lista-mapa": {
+        "props": {
+            "blockClass": "lista-mapa",
+           // "colSizing": "auto",
+            "preventVerticalStretch": true,
+            "width": "100%",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "store-list#listaCellrepair"  
+        ]
+      },
+      "flex-layout.col#mapa": {
+        "props": {
+            "blockClass": "mapa",
+            //"colSizing": "auto",
+            "width": "100%",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "store-map#mapaCellrepair"  
+        ]
+      },
+      "store-list#listaCellrepair":{
+        "props":{
+            "filterByTag": "cellrepair",
+            "sortBy": "name"
+        }
+      },
+      "store-map#mapaCellrepair":{
+        "props":{
+            "zoom": 15,
+            "icon": "/arquivos/pin-location-cellrepair.png",
+            "fullWidth": true,
+            "maxWidth": "100%"
+        }
+
+      },
+      "flex-layout.row#rowTxtSubTitulo": {
+        "children": ["flex-layout.col#colTxtSubTitulo"],
+        "props": {
+          "blockClass": "rowSubTitulo-cellrepair",
+          "horizontalAlign": "center",
+          "fullWidth": true
+        }
+      },
+      "flex-layout.col#colTxtSubTitulo": {
+        "props": {
+          "blockClass": "colTxtSubtitulo-cellrepair",
+          "horizontalAlign": "center",
+          "width": "100%"
+        },
+        "children": ["rich-text#subtitulo-cellrepair"]
+      },
+      "rich-text#subtitulo-cellrepair": {
+        "props": {
+          "blockClass": "subtitulo-cellrepair",
+          "text": "### RÁPIDO, SEGURO Y SIN PAGAR MÁS",
+          "textAlignment": "CENTER"
+        }
+      },
+      "flex-layout.row#rowTxtTecnicos": {
+        "children": [
+          "flex-layout.col#colTxtTecnicos"
+        ]
+      },
+      "flex-layout.col#colTxtTecnicos": {
+        "props": {
+          "blockClass": ""
+        },
+        "children": [
+          "rich-text#txtTecnicos"
+        ]
+      },
+      "rich-text#txtTecnicos": {
+        "props": {
+          "text": "Nuestros técnicos están certificados <br> ¡Tu equipo está en manos de expertos!",
+          "blockClass": "txtTecnicos",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "textColor": "bg-action-primary"
+        }
+      },
+      "flex-layout.row#rowImgsCell": {
+        "props": {
+          "blockClass": "rowImgsCell",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colImgsCell",
+          "flex-layout.col#colImgsCell-2",
+          "flex-layout.col#colImgsCell-3",
+          "flex-layout.col#colImgsCell-4"
+        ]
+      },
+      
+      "flex-layout.col#colImgsCell": {
+        "props": {
+          "blockClass": "colImgsCell",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "image#img60min" ,
+          "rich-text#txt60min" 
+        ]
+      },
+      "image#img60min": {
+        "props": {
+          "src": "/arquivos/reparacion_60_minutos.png",
+          "blockClass": "img60min",
+          "title": "Reparación en 60 minutos"    
+        }
+      },
+      "rich-text#txt60min": {
+        "props": {
+          "blockClass": "txtEnvio",
+          "font": "t-heading-5",
+          "htmlId": "",
+          "preventVerticalStretch": true,
+          "text": "**Reparación en 60 minutos**",
+          "textAlignment": "CENTER",
+          "textColor": "black-90",
+          "textPosition": "CENTER"
+        }
+      },
+      "flex-layout.col#colImgsCell-2": {
+        "props": {
+          "blockClass": "colImgsCell",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginLeft": 10
+        },
+        "children": [
+          "image#imgGarantia" ,
+          "rich-text#txtGarantia" 
+        ]
+      },
+      "image#imgGarantia": {
+        "props": {
+          "src": "/arquivos/garantia_repacion_celulares_iphone.png",
+          "blockClass": "imgGarantia",
+          "title": "Servicio Garantizado"    
+        }
+      },
+      "rich-text#txtGarantia": {
+        "props": {
+          "blockClass": "txtGarantia",
+          "font": "t-heading-5",
+          "htmlId": "",
+          "preventVerticalStretch": true,
+          "text": "**100% Garantizado <br> 100 Días de cobertura**",
+          "textAlignment": "CENTER",
+          "textColor": "black-90",
+          "textPosition": "CENTER"
+        }
+      },
+      "flex-layout.col#colImgsCell-3": {
+        "props": {
+          "blockClass": "colImgsCell-3",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginLeft": 10
+        },
+        "children": [
+          "image#imgTecnico" ,
+          "rich-text#txtTecnico" 
+        ]
+      },
+      "image#imgTecnico": {
+        "props": {
+          "src": "/arquivos/reparacion_iphone_celulares.png",
+          "blockClass": "imgTecnico",
+          "title": "Técnicos garantizados"    
+        }
+      },
+      "rich-text#txtTecnico": {
+        "props": {
+          "blockClass": "txtTecnico",
+          "font": "t-heading-5",
+          "htmlId": "",
+          "preventVerticalStretch": true,
+          "text": "**Técnicos certificados**",
+          "textAlignment": "CENTER",
+          "textColor": "black-90",
+          "textPosition": "CENTER"
+        }
+      },
+      "flex-layout.col#colImgsCell-4": {
+        "props": {
+          "blockClass": "colImgsCell-4",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginLeft": 10
+        },
+        "children": [
+          "image#imgPrecio" ,
+          "rich-text#txtPrecio" 
+        ]
+      },
+      "image#imgPrecio": {
+        "props": {
+          "src": "/arquivos/costo_reparacion_celualres.png",
+          "blockClass": "imgPrecio",
+          "title": "El precio más accesible"    
+        }
+      },
+      "rich-text#txtPrecio": {
+        "props": {
+          "blockClass": "txtTecnico",
+          "font": "t-heading-5",
+          "htmlId": "",
+          "preventVerticalStretch": true,
+          "text": "**El precio más accesible**",
+          "textAlignment": "CENTER",
+          "textColor": "black-90",
+          "textPosition": "CENTER"
+        }
+      },
+      "flex-layout.row#titleTable": {
+        "props": {
+          "blockClass": "rowTitulo",
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#titleTable"
+        ]
+      },
+      "flex-layout.col#titleTable": {
+        "props": {
+          "blockClass": "col-tituloTabla",
+          "preventVerticalStretch": true,
+          "horizontalAlign": "center",
+          "width": "100%"
+        },
+        "children": [
+          "rich-text#tituloTabla"
+        ]
+      },
+      "rich-text#tituloTabla": {
+        "props": {
+          "text": "### TABLA DE REPARACIONES",
+          "blockClass": "titulo-tabla",
+          "textAlignment": "CENTER"
+        }
+      },
+      "flex-layout.row#rowPrecios-1": {
+        "props": {
+          "blockClass": "rowPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-1",
+          "flex-layout.col#colPrecios-2",
+          "flex-layout.col#colPrecios-3"
+        ]
+      },
+      "flex-layout.col#colPrecios-1": {
+        "props": {
+          "blockClass": "colPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-1",
+          "rich-text#tablaPrecios-1"
+        ]
+      },
+      "rich-text#titulo-celular-1": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 11 pro max",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-1": {
+        "props": {
+          "blockClass": "precio-1",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $5,999 | \n  | Batería | NA | $1,399 |  "
+        }
+
+      },
+      "flex-layout.col#colPrecios-2": {
+        "props": {
+          "blockClass": "colPrecios-2",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-2",
+          "rich-text#tablaPrecios-2"  
+        ]
+      },
+      "rich-text#titulo-celular-2": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 11 pro",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-2": {
+        "props": {
+          "blockClass": "precio-2",
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $3,999 | \n | Batería | NA | $1,199 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-3": {
+        "props": {
+          "blockClass": "colPrecios-3",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "rich-text#titulo-celular-3",
+          "rich-text#tablaPrecios-3"  
+        ]
+      },
+      "rich-text#titulo-celular-3": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 11",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-3": {
+        "props": {
+          "blockClass": "precio-3",
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,999 | \n | Batería | NA | $999 |" 
+        }
+      },
+      "flex-layout.row#rowPrecios-2": {
+        "props": {
+          "blockClass": "rowPrecios-2",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-4",
+          "flex-layout.col#colPrecios-5",
+          "flex-layout.col#colPrecios-6"
+        ]
+      },
+      "flex-layout.col#colPrecios-4": {
+        "props": {
+          "blockClass": "colPrecios-4",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-4",
+          "rich-text#tablaPrecios-4"  
+        ]
+      },
+      "rich-text#titulo-celular-4": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone XS Max",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-4": {
+        "props": {
+          "blockClass": "precio-4",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $4,999 | \n | Batería | NA | $999 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-5": {
+        "props": {
+          "blockClass": "colPrecios-5",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-5",
+          "rich-text#tablaPrecios-5"  
+        ]
+      },
+      "rich-text#titulo-celular-5": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone XS",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-5": {
+        "props": {
+          "blockClass": "precio-5",
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $3,999 | \n | Batería | NA | $999 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-6": {
+        "props": {
+          "blockClass": "colPrecios-6",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginLeft": 3
+        },
+        "children": [
+          "rich-text#titulo-celular-6",
+          "rich-text#tablaPrecios-6"  
+        ]
+      },
+      "rich-text#titulo-celular-6": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone XR",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-6": {
+        "props": {
+          "blockClass": "precio-6",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,999 | \n | Batería | NA | $999 |" 
+        }
+      },
+      "flex-layout.row#rowPrecios-3": {
+        "props": {
+          "blockClass": "rowPrecios-3",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-7",
+          "flex-layout.col#colPrecios-8",
+          "flex-layout.col#colPrecios-9"
+        ]
+      },
+      "flex-layout.col#colPrecios-7": {
+        "props": {
+          "blockClass": "colPrecios-7",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-7",
+          "rich-text#tablaPrecios-7"  
+        ]
+      },
+      "rich-text#titulo-celular-7": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone X",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-7": {
+        "props": {
+          "blockClass": "precio-7",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $3,499 | \n | Batería | NA | $999 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-8": {
+        "props": {
+          "blockClass": "colPrecios-8",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-8",
+          "rich-text#tablaPrecios-8"  
+        ]
+      },
+      "rich-text#titulo-celular-8": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 8 Plus",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-8": {
+        "props": {
+          "blockClass": "precio-8",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,999 | \n  | Pantalla | Blanco | $1,999 | \n | Batería | NA | $699 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-9": {
+        "props": {
+          "blockClass": "colPrecios-9",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "rich-text#titulo-celular-9",
+          "rich-text#tablaPrecios-9"  
+        ]
+      },
+      "rich-text#titulo-celular-9": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 8",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-9": {
+        "props": {
+          "blockClass": "precio-9",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $4,999 | \n | Pantalla | Blanco | $1,999 | \n  | Batería | NA | $999 |" 
+        }
+      },
+      "flex-layout.row#rowPrecios-5": {
+        "props": {
+          "blockClass": "rowPrecios-5",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-13",
+          "flex-layout.col#colPrecios-14",
+          "flex-layout.col#colPrecios-15"
+        ]
+      },
+      "flex-layout.col#colPrecios-13": {
+        "props": {
+          "blockClass": "colPrecios-13",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-13",
+          "rich-text#tablaPrecios-13"  
+        ]
+      },
+      "rich-text#titulo-celular-13": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 6s",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-13": {
+        "props": {
+          "blockClass": "precio-10",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,399 | \n | Pantalla | Blanco | $1,399 | \n | Batería | NA | $599 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-14": {
+        "props": {
+          "blockClass": "colPrecios-14",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-14",
+          "rich-text#tablaPrecios-14"  
+        ]
+      },
+      "rich-text#titulo-celular-14": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 6 Plus",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-14": {
+        "props": {
+          "blockClass": "precio-14",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,299 | \n  | Pantalla | Blanco | $1,299 | \n | Batería | NA | $599 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-15": {
+        "props": {
+          "blockClass": "colPrecios-15",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginLeft": 3
+        },
+        "children": [
+          "rich-text#titulo-celular-15",
+          "rich-text#tablaPrecios-15"  
+        ]
+      },
+      "rich-text#titulo-celular-15": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 6",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-15": {
+        "props": {
+          "blockClass": "precio-9",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,299 | \n | Pantalla | Blanco | $1,299 | \n  | Batería | NA | $599 |" 
+        }
+      },
+      "flex-layout.row#rowPrecios-4": {
+        "props": {
+          "blockClass": "rowPrecios-4",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-10",
+          "flex-layout.col#colPrecios-11",
+          "flex-layout.col#colPrecios-12"
+        ]
+      },
+      "flex-layout.col#colPrecios-10": {
+        "props": {
+          "blockClass": "colPrecios-10",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-10",
+          "rich-text#tablaPrecios-10"  
+        ]
+      },
+      "rich-text#titulo-celular-10": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 7 Plus",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-10": {
+        "props": {
+          "blockClass": "precio-10",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,799 | \n | Pantalla | Blanco | $1,799 | \n | Batería | NA | $599 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-11": {
+        "props": {
+          "blockClass": "colPrecios-11",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-11",
+          "rich-text#tablaPrecios-11"  
+        ]
+      },
+      "rich-text#titulo-celular-11": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 7",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-11": {
+        "props": {
+          "blockClass": "precio-11",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,699 | \n  | Pantalla | Blanco | $1,699 | \n | Batería | NA | $599 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-12": {
+        "props": {
+          "blockClass": "colPrecios-12",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginLeft": 3
+        },
+        "children": [
+          "rich-text#titulo-celular-12",
+          "rich-text#tablaPrecios-12"  
+        ]
+      },
+      "rich-text#titulo-celular-12": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 6S Plus",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-12": {
+        "props": {
+          "blockClass": "precio-9",
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,499 | \n | Pantalla | Blanco | $1,499 | \n  | Batería | NA | $599 |" 
+        }
+      },
+/****************mobile******************/
+      //Carrusel categorias
+
+"list-context.image-list#sliderServicios-mobile": {
+  "children": ["slider-layout#sliderServicios-mobile"],
+  "props": {     
+    "images": [
+      {
+        "image": "/arquivos/reparacion_60_minutos_mobile.png",
+        "mobileImage": "/arquivos/reparacion_60_minutos_mobile.png",
+        "description":"Reparación en 60 minutos",
+        "maxWidth":250,
+        "maxHeight":250
+      },
+      {
+        "image": "/arquivos/garantia_repacion_celulares_iphone_mobile.png",
+        "mobileImage": "/arquivos/garantia_repacion_celulares_iphone_mobile.png",
+        "description":"100% Garantizado, 100 Días de cobertura.",
+        "maxWidth":250,
+        "maxHeight":250
+      },
+      {
+        "image": "/arquivos/reparacion_iphone_celulares_mobile.png",
+        "mobileImage": "/arquivos/reparacion_iphone_celulares_mobile.png",
+        "description":"Técnicos certificados",
+        "maxWidth":250,
+        "maxHeight":250
+      },
+      {
+        "image": "/arquivos/costo_reparacion_celualres_mobile.png",
+        "mobileImage": "/arquivos/costo_reparacion_celualres_mobile.png",
+        "description":"El precio más accesible",
+        "maxWidth":250,
+        "maxHeight":250
+      }
+    ]
+  }
+},
+"slider-layout#sliderServicios-mobile": {
+  "props": {
+    "itemsPerPage": {        
+      "tablet": 1,
+      "phone": 1        
+    },
+    "autoplay": {
+      "timeout": 5000,
+      "stopOnHover": false
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "showNavigationArrows": "mobileOnly",
+    "showPaginationDots": "never",
+    "blockClass": "sliderServicios-mobile"
+  }
+}
+      
+            
+      
+}

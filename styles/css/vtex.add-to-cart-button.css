@@ -1,0 +1,106 @@
+/*Generales*/
+:global(.vtex-button){
+    width: fit-content !important;
+    margin: 0px auto;
+    border-radius: 40px;
+}
+:global(.vtex-button__label){
+    padding: 0 16px;
+}
+
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button){
+    min-height: unset;
+    border: none;
+}
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button__label){
+    padding: 14px 38px !important;
+}
+
+.buttonText{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: none;
+    font-size: 21.5px;
+    line-height: 0.79;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+:global(.vtex-search-result-3-x-gallery) :global(.vtex-button){
+    border: none;
+}
+:global(.vtex-search-result-3-x-gallery) :global(.vtex-button__label){
+    padding: 16px 45px;
+}
+:global(.vtex-product-summary-2-x-container--shelfPlpList) :global(.vtex-button){
+    margin: 38px 0 0;
+    border-radius: 30px;
+}
+:global(.vtex-product-summary-2-x-container--shelfPlpList) :global(.vtex-button__label){
+    padding: 18px 91px !important;
+}
+:global(.vtex-product-summary-2-x-container--shelfPlpList) .buttonText{
+    font-size: 35px;
+}
+@media only screen and (max-width:1920px){
+    :global(.vtex-button){
+        border-radius: 2.083vw;
+    }
+    :global(.vtex-product-summary-2-x-container) :global(.vtex-button__label){
+        padding: 0.73vw 1.98vw !important;
+    }
+    .buttonText{
+        font-size: 1.12vw;
+    }
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) :global(.vtex-button){
+        margin: 1.979vw 0 0;
+        border-radius: 30px;
+    }
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) :global(.vtex-button__label){
+        padding: 0.9375vw 4.74vw !important;
+    }
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) .buttonText{
+        font-size: 1.823vw;
+    }
+}
+@media only screen and (max-width:915px){
+    :global(.vtex-button){
+        border-radius: 7.372vw;
+    }
+    :global(.vtex-product-summary-2-x-container) :global(.vtex-button__label){
+        padding: 1.53vw 4.153vw !important;
+    }
+    .buttonText{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .buttonText--add-to-cart{
+        font-size: 2.35vw;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width:640px){
+    :global(.vtex-product-summary-2-x-container) :global(.vtex-button){
+        min-height: unset;
+        /* margin-top: 10px; */
+    }
+    :global(.vtex-product-summary-2-x-container) :global(.vtex-button__label){
+        padding: 1.8vw 4vw !important;
+    }
+}
+
+/*PDP*/
+:global(.vtex-flex-layout-0-x-flexRowContent--buyButtonPdp) .buttonText{
+    /* font-family: 'Outfit'; */
+    font-size: 1.2vw;
+}
+/* @media only screen and (max-width:1920px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--buyButtonPdp) .buttonText{
+        font-size: 1.823vw;
+    }
+} */
+@media only screen and (max-width:915px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--buyButtonPdp) .buttonText{
+        font-size: 3.825vw;
+    }
+}

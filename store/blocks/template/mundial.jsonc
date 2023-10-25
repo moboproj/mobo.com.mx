@@ -1,0 +1,31 @@
+{
+    "store.custom#mundial": {
+        "blocks": [  
+            "image#landingMundial","search-result-layout.customQuery#mundial"
+        ]
+     },
+     "image#landingMundial": { 
+        "props": { 
+          "minWidth": "100%",
+          "src": "https://mobomx.vteximg.com.br/arquivos/ids/196135/ODT_2003_MUNDIAL_CINTILLO1.jpg"
+        }
+      },
+
+      "search-result-layout.customQuery#mundial": {
+        "props": {
+          "querySchema": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "default",
+            "orderByField": "OrderByBestDiscountDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 50,            
+            "queryField": "302",
+            "mapField": "productClusterIds"
+          }
+        },
+        "blocks": [
+          "search-result-layout.desktop",
+          "search-not-found-layout"
+        ]
+      }
+   }

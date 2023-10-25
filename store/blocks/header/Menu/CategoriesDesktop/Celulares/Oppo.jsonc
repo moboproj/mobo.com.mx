@@ -1,0 +1,72 @@
+{
+    "vtex.menu@2.x:submenu.accordion#oppo-desk": {
+        "children":["menu#category-submenu-oppo-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#category-submenu-oppo-desktop": {
+        "props": {
+            "blockClass": "categoriesOppo",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "A57",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "A57",
+                        "text": "A57"
+                    }
+                },
+                {
+                    "id": "Reno 7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Reno 7",
+                        "text": "Reno 7"
+                    }
+                },
+                {
+                    "id": "Reno 6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Reno 6",
+                        "text": "Reno 6"
+                    }
+                },
+                {
+                    "id": "A53",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "A53",
+                        "text": "A53"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

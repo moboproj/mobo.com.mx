@@ -1,0 +1,539 @@
+{
+    "store.custom#catalogos-mayoreo": {
+        "blocks": [
+            "responsive-layout.desktop#catalogo-mayoreo",
+            "responsive-layout.phone#catalogo-mayoreo"
+        ]
+    },
+    "responsive-layout.desktop#catalogo-mayoreo":{
+        "children":[
+            "rich-text#catalogos-mayoreo-titulo",
+            "iframe#catalogo-mayoreo",
+            "rich-text#catalogos-mayoreo-semestrales-titulo",
+            "flex-layout.row#catalogo-mayoreo-semestrales",
+            "rich-text#catalogos-mayoreo-mensuales-titulo",
+            "flex-layout.row#catalogo-mayoreo-4",
+            "flex-layout.row#catalogo-mayoreo-3",
+            "flex-layout.row#catalogo-mayoreo-2",
+            "flex-layout.row#catalogo-mayoreo-1"
+        ]
+    },
+    "responsive-layout.phone#catalogo-mayoreo":{
+        "children": [
+            "rich-text#catalogos-mayoreo-titulo",
+            "iframe#catalogo-mayoreo-mobile",
+            "rich-text#catalogos-mayoreo-semestrales-titulo",
+            "flex-layout.row#catalogo-mayoreo-semestrales",
+            "rich-text#catalogos-mayoreo-mensuales-titulo",
+            "flex-layout.row#catalogo-mayoreo-4",
+            "flex-layout.row#catalogo-mayoreo-3",
+            "flex-layout.row#catalogo-mayoreo-2",
+            "flex-layout.row#catalogo-mayoreo-1"
+        ]  
+    },
+    //Titulo
+    "rich-text#catalogos-mayoreo-titulo": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Catálogos Mayoreo",          
+          "font": "t-heading-1"          
+        }
+    },
+    //Iframe principal
+    "iframe#catalogo-mayoreo": {
+        "props": {
+            "src": "//viewer.joomag.com/brochure-mayoreo-noviembre-2022/0798928001667483678?e=1&amp;page=1&amp;embedInfo=theme,000000,000000,ffffff,ffffff,ffffff;",
+            "width": "1920",
+            "height": "950"                     
+        }
+    },
+    "iframe#catalogo-mayoreo-mobile": {
+        "props": {
+            "src": "//viewer.joomag.com/brochure-mayoreo-noviembre-2022/0798928001667483678?e=1&amp;page=1&amp;embedInfo=theme,000000,000000,ffffff,ffffff,ffffff;",
+            "width": "1920",
+            "height": "300"                     
+        }
+    },
+    "rich-text#catalogos-mayoreo-semestrales-titulo":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "<br>Catálogos Semestrales Mayoreo",
+            "font": "t-heading-4"            
+          }
+    },
+    "flex-layout.row#catalogo-mayoreo-semestrales":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [            
+            "flex-layout.col#catalogo-semestral-1",
+            "flex-layout.col#catalogo-semestral-2",
+            "flex-layout.col#catalogo-semestral-3"
+          ]
+    },
+    "flex-layout.col#catalogo-semestral-1": {    
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-semestral-segundo-semestre-2022","rich-text#cat-semestral-segundo-semestre-2022"]
+    },
+    "image#cat-semestral-segundo-semestre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2667668/thumbs/65073885.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/semestral-segundo-2022"}
+          
+        },
+        "title": "Catalogo segundo semestre 2022"
+    },
+    "rich-text#cat-semestral-segundo-semestre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Catálogo segundo semestre 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-semestral-2": {    
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-semestral-primer-semestre-2022","rich-text#cat-semestral-primer-semestre-2022"]
+    },
+    "image#cat-semestral-primer-semestre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2617574/thumbs/63464457.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/semestral-primer-2022"}
+          
+        },
+        "title": "Catalogo primer semestre 2022"
+    },
+    "rich-text#cat-semestral-primer-semestre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Catálogo primer semestre 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-semestral-3": {    
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-semestral-primer-semestre-2021","rich-text#cat-semestral-primer-semestre-2021"]
+    },
+    "image#cat-semestral-primer-semestre-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2383865/thumbs/57648026.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/semestral-primer-2021"}
+          
+        },
+        "title": "Catalogo primer semestre 2021"
+    },
+    "rich-text#cat-semestral-primer-semestre-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Catálogo primer semestre 2021"          
+        }
+    },
+    //titulo mensuales
+    "rich-text#catalogos-mayoreo-mensuales-titulo":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "<br>Catálogos Mensuales Mayoreo",          
+            "font": "t-heading-4"            
+          }
+    },
+    //Primera Fila
+    "flex-layout.row#catalogo-mayoreo-4":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [            
+            "flex-layout.col#catalogo-mayoreo-15",
+            "flex-layout.col#catalogo-mayoreo-14",
+            "flex-layout.col#catalogo-mayoreo-13"
+          ]
+    },
+    "flex-layout.col#catalogo-mayoreo-15": {    
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-mayoreo-noviembre-2022","rich-text#cat-mayoreo-noviembre-2022"]
+    },
+    "image#cat-mayoreo-noviembre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2678434/thumbs/65470980.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/noviembre-2022"}
+          
+        },
+        "title": "Noviembre 2022"
+    },
+    "rich-text#cat-mayoreo-noviembre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Noviembre 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-14": {
+        "props": {
+            "horizontalAlign": "center"                       
+        },   
+        "children": ["image#cat-mayoreo-octubre-2022","rich-text#cat-mayoreo-octubre-2022"]
+    },
+    "image#cat-mayoreo-octubre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2673543/thumbs/65296229.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/octubre-2022"}
+        },
+        "title": "octubre 2022"
+    },
+    "rich-text#cat-mayoreo-octubre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Octubre 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-13": {
+        "props": {
+            "horizontalAlign": "center"                       
+        },     
+        "children": ["image#cat-mayoreo-septiembre-2022","rich-text#cat-mayoreo-septiembre-2022"]
+    },
+    "image#cat-mayoreo-septiembre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2668348/thumbs/65101677.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/septiembre-2022"}
+        },
+        "title": "Septiembre 2022"
+    },
+    "rich-text#cat-mayoreo-septiembre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Septiembre 2022"          
+        }
+    },
+    
+    //Segunda Fila
+    "flex-layout.row#catalogo-mayoreo-3":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [      
+            "flex-layout.col#catalogo-mayoreo-12",
+            "flex-layout.col#catalogo-mayoreo-11",
+            "flex-layout.col#catalogo-mayoreo-10",
+            "flex-layout.col#catalogo-mayoreo-9"
+          ]
+    },
+    "flex-layout.col#catalogo-mayoreo-12": {
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-mayoreo-agosto-2022","rich-text#cat-mayoreo-agosto-2022"]
+    },
+    "image#cat-mayoreo-agosto-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2663131/thumbs/64886586.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/agosto-2022"}
+        },
+        "title": "Agosto 2022"
+    },
+    "rich-text#cat-mayoreo-agosto-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Agosto 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-11": {
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-mayoreo-Julio-2022","rich-text#cat-mayoreo-Julio-2022"]
+    },
+    "image#cat-mayoreo-Julio-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2658925/thumbs/64708657.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/julio-2022"}
+        },
+        "title": "Julio 2022"
+    },
+    "rich-text#cat-mayoreo-Julio-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Julio 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-10": {
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-mayoreo-Junio-2022","rich-text#cat-mayoreo-Junio-2022"]
+    },
+    "image#cat-mayoreo-Junio-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2654415/thumbs/64519308.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/junio-2022"}
+        },
+        "title": "Junio 2022"
+    },
+    "rich-text#cat-mayoreo-Junio-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Junio 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-9": {
+        "props": {
+            "horizontalAlign": "center"                       
+        },
+        "children": ["image#cat-mayoreo-Mayo-2022","rich-text#cat-mayoreo-Mayo-2022"]
+    },
+    "image#cat-mayoreo-Mayo-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2648197/thumbs/64306465.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/mayo-2022"}
+        },
+        "title": "Mayo 2022"
+    },
+    "rich-text#cat-mayoreo-Mayo-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Mayo 2022"          
+        }
+    },
+    
+    //Tercera Fila
+    "flex-layout.row#catalogo-mayoreo-2":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [      
+            "flex-layout.col#catalogo-mayoreo-8",
+            "flex-layout.col#catalogo-mayoreo-7",
+            "flex-layout.col#catalogo-mayoreo-6",
+            "flex-layout.col#catalogo-mayoreo-5"
+          ]
+    },
+    "flex-layout.col#catalogo-mayoreo-8": {  
+        "props": {
+            "horizontalAlign": "center"                       
+        },      
+        "children": ["image#cat-mayoreo-Abril-2022","rich-text#cat-mayoreo-Abril-2022"]
+    },
+    "image#cat-mayoreo-Abril-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2640255/thumbs/64064030.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/abril-2022"}
+        },
+        "title": "Abril 2022"
+    },
+    "rich-text#cat-mayoreo-Abril-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Abril 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-7": {    
+        "props": {
+            "horizontalAlign": "center"                       
+        },    
+        "children": ["image#cat-mayoreo-Marzo-2022","rich-text#cat-mayoreo-Marzo-2022"]
+    },
+    "image#cat-mayoreo-Marzo-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2628402/thumbs/63742721.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/marzo-2022"}
+        },
+        "title": "Marzo 2022"
+    },
+    "rich-text#cat-mayoreo-Marzo-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Marzo 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-6": {  
+        "props": {
+            "horizontalAlign": "center"                       
+        },      
+        "children": ["image#cat-mayoreo-Febrero-2022","rich-text#cat-mayoreo-Febrero-2022"]
+    },
+    "image#cat-mayoreo-Febrero-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2617067/thumbs/63452719.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/febrero-2022"}
+        },
+        "title": "Febrero 2022"
+    },
+    "rich-text#cat-mayoreo-Febrero-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Febrero 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-5": {  
+        "props": {
+            "horizontalAlign": "center"                       
+        },      
+        "children": ["image#cat-mayoreo-Enero-2022","rich-text#cat-mayoreo-Enero-2022"]
+    },
+    "image#cat-mayoreo-Enero-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2606072/thumbs/63108634.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/enero-2022"}
+        },
+        "title": "Enero 2022"
+    },
+    "rich-text#cat-mayoreo-Enero-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Enero 2022"          
+        }
+    },
+    
+    //Cuarta Fila
+    "flex-layout.row#catalogo-mayoreo-1":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [      
+            "flex-layout.col#catalogo-mayoreo-4",
+            "flex-layout.col#catalogo-mayoreo-3",
+            "flex-layout.col#catalogo-mayoreo-2",
+            "flex-layout.col#catalogo-mayoreo-1"
+          ]
+    },
+    "flex-layout.col#catalogo-mayoreo-4": {  
+        "props": {
+            "horizontalAlign": "center"                       
+        },      
+        "children": ["image#cat-mayoreo-Diciembre-2021","rich-text#cat-mayoreo-Diciembre-2021"]
+    },
+    "image#cat-mayoreo-Diciembre-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2593456/thumbs/62813311.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/diciembre-2021"}
+        },
+        "title": "Diciembre 2021"
+    },
+    "rich-text#cat-mayoreo-Diciembre-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Diciembre 2021"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-3": { 
+        "props": {
+            "horizontalAlign": "center"                       
+        },       
+        "children": ["image#cat-mayoreo-Agosto-2021","rich-text#cat-mayoreo-Agosto-2021"]
+    },
+    "image#cat-mayoreo-Agosto-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2526730/thumbs/61143648.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/agosto-2021"}
+        },
+        "title": "Agosto 2021"
+    },
+    "rich-text#cat-mayoreo-Agosto-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Agosto 2021"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-2": {    
+        "props": {
+            "horizontalAlign": "center"                       
+        },    
+        "children": ["image#cat-mayoreo-Julio-2021","rich-text#cat-mayoreo-Julio-2021"]
+    },
+    "image#cat-mayoreo-Julio-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2508455/thumbs/60694060.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/julio-2021"}
+        },
+        "title": "Julio 2021"
+    },
+    "rich-text#cat-mayoreo-Julio-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Julio 2021"          
+        }
+    },
+    "flex-layout.col#catalogo-mayoreo-1": {    
+        "props": {
+            "horizontalAlign": "center"                       
+        },    
+        "children": ["image#cat-mayoreo-Junio-2021","rich-text#cat-mayoreo-Junio-2021"]
+    },
+    "image#cat-mayoreo-Junio-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2496219/thumbs/60376836.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-mayoreo/junio-2021"}
+        },
+        "title": "Junio 2021"
+    },
+    "rich-text#cat-mayoreo-Junio-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Junio 2021"          
+        }
+    }
+    
+
+} 

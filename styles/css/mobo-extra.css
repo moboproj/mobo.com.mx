@@ -1,0 +1,22 @@
+.vtex-stack-layout-0-x-stackContainer--categoriesStack:hover .vtex-store-components-3-x-imageElement--homeCatImgHover{
+    opacity: 1;
+}
+.vtex-stack-layout-0-x-stackContainer--categoriesStack:hover .vtex-store-link-0-x-label--homeCat{
+    color: #fff;
+}
+
+/*My Account*/
+form.vtex-profile-form-3-x-profileContainer input,
+form.vtex-profile-form-3-x-profileContainer .vtex-dropdown label > div{
+    border: none;
+    border-radius: 40px;
+}
+
+
+/*Filters*/
+.vtex-store-drawer-0-x-drawer .vtex-checkbox__inner-container.b--action-primary{
+    background-color: #1cffb7;
+}
+.vtex-store-drawer-0-x-drawerContent--drawerFilters .vtex-toggle.bg-action-primary{
+    background-color: #1cffb7;
+}

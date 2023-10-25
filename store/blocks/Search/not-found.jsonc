@@ -1,0 +1,68 @@
+{
+    "search-not-found-layout": {
+        "children": ["flex-layout.row#not-found-wrapper"],
+        "props":{
+            "defaultGalleryLayout":"grid"
+        }
+    },
+    "store.not-found#product": {
+        "blocks": ["flex-layout.row#not-found-wrapper"]
+    },
+    "store.not-found#search": {
+        "blocks": ["flex-layout.row#not-found-wrapper"]
+    },
+    "flex-layout.row#not-found-wrapper":{
+        "title":"Envoltura de la página 404",
+        "children":["flex-layout.col#not-found-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral"]
+        }
+    },
+    "flex-layout.col#not-found-container":{
+        "children":[
+            "info-card#not-found-main",
+            "rich-text#not-found-title",
+            "image#not-found-small-image",
+            "rich-text#not-found-text"
+        ],
+        "props":{
+            "blockClass":"notFoundContainer"
+        }
+    },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true,
+            "blockClass": "searchCont"
+        }
+    },
+    "info-card#not-found-main":{
+        "title":"Imagen y texto principal",
+        "props":{
+            "blockClass":"notFoundMain",
+            "headline": "No pudimos encontrar lo que buscabas",
+            "imageUrl": "/arquivos/404.png",
+            "callToActionMode": "none",
+            "callToActionUrl": ""
+        }
+    },
+    "rich-text#not-found-title":{
+        "title":"Título",
+        "props":{
+            "blockClass":"notFoundTitle",
+            "text":"### Pero ¡hey!\nAprovecha tu iPhone al máximo, si un día NO PUEDES DORMIR. Te dejamos un tip:"
+        }
+    },
+    "image#not-found-small-image":{
+        "props":{
+            "blockClass":"notFoundSmallImage",
+            "src":"/arquivos/404-cama.png"
+        }
+    },
+    "rich-text#not-found-text":{
+        "title":"Texto general",
+        "props":{
+            "blockClass":"notFoundText",
+            "text":"General Text"
+        }
+    }
+}

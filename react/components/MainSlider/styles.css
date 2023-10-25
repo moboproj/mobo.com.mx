@@ -1,0 +1,146 @@
+a{
+    text-decoration: none;
+}
+h1{
+    margin: 0px;
+    font-size: 64px;
+    line-height: 70px;
+}
+h2{
+    font-size: 28px;
+}
+ul li{
+    font-size: 22px;
+}
+.slideItemWrapper{
+    display: flex;
+    border-radius: 30px;
+}
+.slideMob{
+    display: none;
+}
+.slideItemPartText{
+    position: relative;
+}
+.slideTextContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    padding: 70px 0px 70px 70px;
+}
+.spacer{
+    flex: 1;
+}
+.button{
+    width: fit-content;
+    padding: 8px 40px;
+    border: 3px solid;
+    border-radius: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.paginationDotsContainer{
+    bottom: 32px;
+}
+.paginationDot{
+    width: 30px !important;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+}
+.paginationDot--isActive{
+    background-color: #4d4d4d;
+}
+.imageContainer{
+    display: flex;
+}
+@media only screen and (max-width:1920px){
+    h1{
+        font-size: 3.33vw;
+        line-height: 1.2;
+    }
+    h2{
+        font-size: 1.458vw;
+    }
+    ul li{
+        font-size: 1.146vw;
+    }
+    .slideTextContainer{
+        padding: 3.65vw 0 3.65vw 3.65vw;
+    }
+    .button{
+        font-size: 1.666vw;
+    }
+}
+
+
+@media only screen and (max-width:915px){
+    .slideWrapper{
+        margin-top: 40px;
+    }
+    .slideItemWrapper{
+        flex-direction: column;
+    }
+    .slideDesk{
+        display: none;
+    }
+    .slideMob{
+        display: block;
+    }
+    .slideItemPartText{
+        position: static;
+    }
+    .slideTextContainer{
+        padding: 70px;
+        padding: 7.65vw;
+    }
+    .paginationDot{
+        width: 3.279vw !important;
+    }
+    h1{
+        font-size: 64px;
+        font-size: 6.994vw;
+        /* line-height: 70px; */
+    }
+    h2{
+        font-size: 30px;
+        font-size: 3.279vw;
+    }
+    ul li{
+        font-size: 24px;
+        font-size: 2.623vw;
+    }
+    .button{
+        margin-top: 30px;
+        font-size: 35px;
+        margin-top: 3.279vw;
+        font-size: 3.825vw;
+    }
+}
+@media only screen and (max-width:640px){
+    .paginationDot{
+        width: 4.9vw !important;
+        height: 1.096vw !important;
+        border: 6px;
+    }
+}
+
+@media only screen and (max-width:490px){
+    h2{
+        margin: 10px 0px 0px;
+    }
+    .button{
+        margin-top: 20px;
+        padding: 6px 32px;
+        border: 2px solid;
+    }
+}
+
+@media only screen and (max-width:399px){
+    .button{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,77 @@
+.openIconContainer{
+    color: white;
+}
+.drawer{
+    background-color: #272727ec;
+}
+
+.closeIconButton{
+    margin-left: auto;
+}
+.closeIconButton{
+    color: #fff;
+}
+
+@media only screen and (max-width: 1024px){
+    .openIconContainer{
+        padding: 1.311vw 4.372vw 1.311vw 0px;
+    }
+    .menuIcon--mainMenuIcon{
+        width: 3.716vw;
+        height: 3.716vw;
+    }
+}
+.drawer--drawerFilters{
+    width: 70% !important;
+}
+.openIconContainer--drawerFilters{
+    display: flex;
+    align-items: center;
+    padding: 0 1.96vw;
+}
+.openIconContainer--drawerFilters::after{
+    content: '';
+    width: 124px;
+    height: 28px;
+    background-image: url(/arquivos/boton_filtrar_azul.png);
+    background-size: cover;
+}
+.closeIconButton--drawerFilters{
+    padding: 12px 0 0;
+}
+.closeIcon--drawerFilters{
+    width: 3.279vw;
+    height: 3.279vw;
+}
+.menuIcon--drawerFilters{
+    display: none;
+}
+.drawerContent--drawerFilters{
+    padding: 0 4.372vw 7vw;
+}
+
+
+@media only screen and (max-width: 640px){
+    .openIconContainer--drawerFilters{
+        display: flex;
+        align-items: center;
+        padding: 0 1.96vw;
+    }
+    .openIconContainer--drawerFilters::after{
+        width: 89px;
+        height: 20px;
+    }
+    .closeIconButton--drawerFilters{
+        padding: 12px 0 0;
+    }
+    .closeIcon--drawerFilters{
+        width: 4.4vw;
+        height: 4.4vw;
+    }
+    .drawerContent--drawerFilters{
+        padding: 0 4.9vw 7vw;
+    }
+}
+
+
+

@@ -1,0 +1,40 @@
+{
+    "store.custom#online-invoice":{
+        "children":["flex-layout.row#online-invoice-wrapper"] 
+    },
+    "flex-layout.row#online-invoice-wrapper":{
+        "title":"Envoltura de Facturación",
+        "children":["flex-layout.col#online-invoice-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral","invoiceWrapper"]
+        }
+    },
+    "flex-layout.col#online-invoice-container":{
+        "children":[
+            "rich-text#online-invoice-title",
+            "rich-text#online-invoice-sec1",
+            "rich-text#online-invoice-sec2"
+        ]
+    },
+    "rich-text#online-invoice-title":{
+        "title":"Título de la página",
+        "props":{
+            "blockClass": ["questionsTitle","invoiceTitle"],
+            "text":"## Facturación"
+        }
+    },
+    "rich-text#online-invoice-sec1":{
+        "title":"Sección 1",
+        "props":{
+            "blockClass": ["invoiceText"],
+            "text":"### 1.Solicita tu factura"
+        }
+    },
+    "rich-text#online-invoice-sec2":{
+        "title":"Sección 2",
+        "props":{
+            "blockClass": ["invoiceText"],
+            "text":"### 1.Solicita tu factura"
+        }
+    }
+}

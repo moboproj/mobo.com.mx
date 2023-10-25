@@ -1,0 +1,276 @@
+{
+    "menu-item#carga": {
+        "blocks": ["vtex.menu@2.x:submenu#carga"], 
+		"props": {
+            "blockClass": ["mainSubMenu","categoryCarga"],
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/carga",
+				"noFollow": false,
+				"tagTitle": "Carga",
+				"text": "Carga"
+			}
+		}
+	},
+    "vtex.menu@2.x:submenu#carga": {
+		"children": ["flex-layout.row#submenu-carga"]
+	},
+	"flex-layout.row#submenu-carga": {
+		"children": [
+			"flex-layout.col#submenu-carga-1",
+			"flex-layout.col#submenu-carga-2"
+		],
+        "props": {
+            "blockClass":["subMenuCategory","submenuCarga"],
+			"fullWidth": true,
+			"colGap": 10
+		}
+	},
+
+    "flex-layout.col#submenu-carga-1":{
+        "children":[
+            "info-card#submenu-carga-highlight-1",
+            "info-card#submenu-carga-highlight-2",
+            // "menu-item#carga-cargadores-desktop",
+            // "menu-item#carga-baterias-desktop",
+            // "menu-item#carga-carga-rapida-desktop",
+            // "disclosure-layout#carga-cargadores-desk",
+            // "disclosure-layout#carga-baterias-desk",
+            // "disclosure-layout#carga-carga-rapida-desk",
+            "menu-item#carga-pared-desktop",
+            "menu-item#carga-caable-desktop",
+            "menu-item#carga-auto-desktop",
+            "menu-item#carga-inalambrica-desktop",
+            "menu-item#carga-bateria-desktop",
+            "menu-item#carga-magsafe-desktop",
+
+            "rich-text#submenu-carga-final-text-1"
+        ],
+        "props":{
+            "blockClass":"mainSubMenu",
+            "preventVerticalStretch":true
+        }
+    },
+
+    "info-card#submenu-carga-highlight-1":{
+		"title": "Descuentos",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Descuentos-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"DESCUENTOS",
+			"callToActionUrl": "/descuentos-mobo-online",
+			"imageActionUrl": "/descuentos-mobo-online"
+		}
+	},
+    "info-card#submenu-carga-highlight-2":{
+		"title": "Novedades",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Novedadess-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"NOVEDADES",
+			"callToActionUrl": "/novedades-mobo-online",
+			"imageActionUrl": "/novedades-mobo-online"
+		}
+	},
+    "menu-item#carga-cargadores-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCargadores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Cargadores",
+                "text": "Cargadores"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#carga-cargadores-desk"]
+    },
+    "menu-item#carga-baterias-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuSmartBaterias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Baterias",
+                "text": "Baterias"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#carga-baterias-desk"]
+    },
+    "menu-item#carga-carga-rapida-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuSmartCargaRapida",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Carga Rápida",
+                "text": "Carga Rápida"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#carga-carga-rapida-desk"]
+    },
+
+    "menu-item#carga-pared-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCargaPared",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/cargadores-de-pared",
+                "tagTitle": "Pared",
+                "text": "Pared"
+            }
+        },
+        "blocks": []
+    },
+    "menu-item#carga-caable-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCargaCable",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/cables-de-carga",
+                "tagTitle": "Cable",
+                "text": "Cable"
+            }
+        },
+        "blocks": []
+    },
+    "menu-item#carga-auto-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCargaAuto",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/cargadores-de-auto",
+                "tagTitle": "Auto",
+                "text": "Auto"
+            }
+        },
+        "blocks": []
+    },
+    "menu-item#carga-inalambrica-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCargaInalambrica",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/carga-inalambrica",
+                "tagTitle": "Inalambrica",
+                "text": "Inalambrica"
+            }
+        },
+        "blocks": []
+    },
+    "menu-item#carga-bateria-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCargaBateria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/baterias-portatiles",
+                "tagTitle": "Baterias",
+                "text": "Baterias"
+            }
+        },
+        "blocks": []
+    },
+    "menu-item#carga-magsafe-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCargaMagsafe",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/carga-magsafe",
+                "tagTitle": "Magsafe",
+                "text": "Magsafe"
+            }
+        },
+        "blocks": []
+    },
+
+    "rich-text#submenu-carga-final-text-1":{
+        "title":"Texto final izquierdo",
+        "props":{
+            "blockClass":"mainMenuFinalText",
+            "text":"Hazte de tu nuevo celular pagando en 4 quincenas con Kueski Pay"
+        }
+    },
+
+    "flex-layout.col#submenu-carga-2":{
+        "children":[
+            "rich-text#submenu-carga-title",
+            "image#submenu-carga-img",
+            "rich-text#submenu-carga-final-text-2"        
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+    },
+    "rich-text#submenu-carga-title":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuTitle"],
+            "text":"NUEVO\nCargador Inalámbrico 3 En 1 Mobo Fold Negro 15w"
+        }
+    },
+    "image#submenu-carga-img":{
+        "props":{
+            "src":"/arquivos/ids/206034-800-auto?v=638212901805770000&width=499&height=499&aspect=true",
+            "link":{
+                "url":"/cargador-inalambrico-3-en-1-mobo-fold-negro-15w/p?idsku=8027"
+            }
+        }
+    },
+    "rich-text#submenu-carga-final-text-2":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuFinalText","text2"],
+            "text":"Paga con PayPal a 12 MSI y estrénalo mañana"
+        }
+    }
+}

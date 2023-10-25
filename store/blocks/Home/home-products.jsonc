@@ -1,0 +1,300 @@
+{
+
+    "flex-layout.row#home-slider-products-1-wrapper":{
+        "title":"5.Contenedor Carrusel de productos 1",
+        "children":["flex-layout.col#home-slider-products-1-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral"]
+        }
+    }, 
+    "flex-layout.col#home-slider-products-1-container":{
+        "children":[
+            "rich-text#home-slider-products-1-title",
+            "flex-layout.row#home-slider-products-1"
+            //"flex-layout.row#home-slider-products-1-mob"
+        ]
+    },
+    "rich-text#home-slider-products-1-title":{
+        "title": "Encabezado",
+        "props":{
+            "blockClass": ["moboTitle","titulo-mas-vendidos"],
+            "text":"## Más vendidos"
+        }
+    },
+    "flex-layout.row#home-slider-products-1":{
+        "children":["list-context.product-list#home-products-1"],
+        "props":{
+            "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+        }
+    },
+    "list-context.product-list#home-products-1": {
+		"title":"Carrusel",
+		"blocks": ["product-summary.shelf#general"],
+		"children": [
+            "slider-layout#slider-products",
+            "slider-layout#slider-products-mob"
+        ],
+		"props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "275",
+            "maxItems": 10,
+            "hideUnavailableItems": true
+		}
+	},
+
+
+
+    "flex-layout.row#home-slider-products-2-wrapper":{
+        "title":"11.Contenedor Carrusel de productos 2",
+        "children":["flex-layout.col#home-slider-products-2-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral"]
+        }
+    }, 
+    "flex-layout.col#home-slider-products-2-container":{
+        "children":[
+            "rich-text#home-slider-products-2-title",
+            "flex-layout.row#home-slider-products-2"
+            //"flex-layout.row#home-slider-products-2-mob"
+        ]
+    },
+    "rich-text#home-slider-products-2-title":{
+        "title": "Encabezado",
+        "props":{
+            "blockClass": ["moboTitle","titulo-mas-vendidos"],
+            "text":"## Lo más nuevo"
+        }
+    },
+    "flex-layout.row#home-slider-products-2":{
+        "children":["list-context.product-list#home-products-2"],
+        "props":{
+            "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+        }
+    },
+    "list-context.product-list#home-products-2": {
+		"title":"Carrusel",
+		"blocks": ["product-summary.shelf#general"],
+		"children": [
+            "slider-layout#slider-products",
+            "slider-layout#slider-products-mob"
+        ],
+		"props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "275",
+            "maxItems": 10,
+            "hideUnavailableItems": true
+		}
+	},
+
+
+
+    "flex-layout.row#home-slider-products-3-wrapper":{
+        "title":"12.Contenedor Carrusel de productos 3",
+        "children":["flex-layout.col#home-slider-products-3-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral","sliderOnlyDesktop"]
+        }
+    }, 
+    "flex-layout.col#home-slider-products-3-container":{
+        "children":[
+            "rich-text#home-slider-products-3-title",
+            "flex-layout.row#home-slider-products-3"
+            //"flex-layout.row#home-slider-products-3-mob"
+        ]
+    },
+    "rich-text#home-slider-products-3-title":{
+        "title": "Encabezado",
+        "props":{
+            "blockClass": ["moboTitle","titulo-mas-vendidos"],
+            "text":"## Ofertas con envío gratis"
+        }
+    },
+    "flex-layout.row#home-slider-products-3":{
+        "children":["list-context.product-list#home-products-3"],
+        "props":{
+            "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+        }
+    },
+    "list-context.product-list#home-products-3": {
+		"title":"Carrusel",
+		"blocks": ["product-summary.shelf#general"],
+		"children": [
+            "slider-layout#slider-products",
+            "slider-layout#slider-products-mob"
+        ],
+		"props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "275",
+            "maxItems": 10,
+            "hideUnavailableItems": true
+		}
+	},
+    
+
+
+
+
+    "flex-layout.row#home-slider-products-4-wrapper":{
+        "title":"14.Contenedor Carrusel de productos 4",
+        "children":["flex-layout.col#home-slider-products-4-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral","sliderOnlyDesktop"]
+        }
+    }, 
+    "flex-layout.col#home-slider-products-4-container":{
+        "children":[
+            "rich-text#home-slider-products-4-title",
+            "flex-layout.row#home-slider-products-4"
+            //"flex-layout.row#home-slider-products-4-mob"
+        ]
+    },
+    "rich-text#home-slider-products-4-title":{
+        "title": "Encabezado",
+        "props":{
+            "blockClass": ["moboTitle","titulo-mas-vendidos"],
+            "text":"## Prueba nuestros productos Mobo"
+        }
+    },
+    "flex-layout.row#home-slider-products-4":{
+        "children":["list-context.product-list#home-products-4"],
+        "props":{
+            "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+        }
+    },
+    "list-context.product-list#home-products-4": {
+		"title":"Carrusel",
+		"blocks": ["product-summary.shelf#general"],
+		"children": [
+            "slider-layout#slider-products",
+            "slider-layout#slider-products-mob"
+        ],
+		"props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "275",
+            "maxItems": 10,
+            "hideUnavailableItems": true
+		}
+	},
+
+
+
+    "flex-layout.row#home-slider-products-5-wrapper":{
+        "title":"18.Contenedor Carrusel de productos 5",
+        "children":["flex-layout.col#home-slider-products-5-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral"]
+        }
+    }, 
+    "flex-layout.col#home-slider-products-5-container":{
+        "children":[
+            "rich-text#home-slider-products-5-title",
+            "flex-layout.row#home-slider-products-5"
+            //"flex-layout.row#home-slider-products-5-mob"
+        ]
+    },
+    "rich-text#home-slider-products-5-title":{
+        "title": "Encabezado",
+        "props":{
+            "blockClass": ["moboTitle","titulo-mas-vendidos"],
+            "text":"## Para el día del amor"
+        }
+    },
+    "flex-layout.row#home-slider-products-5":{
+        "children":["list-context.product-list#home-products-5"],
+        "props":{
+            "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+        }
+    },
+    "list-context.product-list#home-products-5": {
+		"title":"Carrusel",
+		"blocks": ["product-summary.shelf#general"],
+		"children": [
+            "slider-layout#slider-products",
+            "slider-layout#slider-products-mob"
+        ],
+		"props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "275",
+            "maxItems": 10,
+            "hideUnavailableItems": true
+		}
+	},
+
+
+
+
+
+
+
+
+
+
+
+    "flex-layout.row#ofertas": {
+        "title": "Más vendidos",
+        "children": [
+            "flex-layout.col#ofertas-2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true,
+            "marginTop": 4
+        }
+    },
+    "flex-layout.col#ofertas-2": {
+        "children": ["flex-layout.row#ofertas-carrusel"],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    /*Carrusel ofertas*/
+    "flex-layout.row#ofertas-carrusel": {
+        "children": [
+            "list-context.product-list#ofertas",
+            "slider-layout#slider-products-mob"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "list-context.product-list#ofertas": {
+        "blocks": ["product-summary.shelf#general"],
+        "children": ["slider-layout#slider-products"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "292",
+            "maxItems": 10
+        }
+    },
+    "slider-layout#slider-products": {
+        "props": {
+            "blockClass": "productSliderDesk",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 5,
+                "phone": 2
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always"
+        }
+    },
+    "slider-layout#slider-products-mob": {
+        "props": {
+            "blockClass": ["productSliderMob"],
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always"
+        }
+    }
+}

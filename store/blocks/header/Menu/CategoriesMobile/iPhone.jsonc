@@ -1,0 +1,162 @@
+{
+    "vtex.menu@2.x:submenu.accordion#iphone-mob": {
+        "children":["menu#category-submenu-iphone-mobile"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#iphone-mob":{
+        "children": [
+            "disclosure-trigger#iphone-trigger-mob",
+            "disclosure-content#iphone-content-mob"
+        ]
+    },
+    "disclosure-trigger#iphone-trigger-mob": {
+        "children": ["link#iphone-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#iphone-trigger":{
+		"props":{
+			"blockClass":"linkMenuMob",
+			"label":"iPhone",
+			"href":"/iphone-reacondicionados"
+		}
+	},
+    "disclosure-content#iphone-content-mob": {
+        "children": ["menu#category-submenu-iphone-mobile"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#category-submenu-iphone-mobile": {
+        "props": {
+            "blockClass": "mainCategoriesMenuMob",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "iPhone8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionados-iphone-8",
+                        "noFollow": false,
+                        "tagTitle": "iPhone 8",
+                        "text": "iPhone 8"
+                    }
+                },
+                {
+                    "id": "iPhoneXR",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionado-iphone-xr",
+                        "noFollow": false,
+                        "tagTitle": "iPhone XR",
+                        "text": "iPhone XR"
+                    }
+                },
+                {
+                    "id": "iPhoneSE2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionado-iphone-se2",
+                        "noFollow": false,
+                        "tagTitle": "iPhone SE 2",
+                        "text": "iPhone SE 2"
+                    }
+                },
+                {
+                    "id": "iPhoneXS",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionado-iphone-xs",
+                        "noFollow": false,
+                        "tagTitle": "iPhone XS",
+                        "text": "iPhone XS"
+                    }
+                },
+                {
+                    "id": "iPhoneXSMax",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionados-iphone-xs-max",
+                        "noFollow": false,
+                        "tagTitle": "iPhone XS Max",
+                        "text": "iPhone XS Max"
+                    }
+                },
+                {
+                    "id": "iPhone11",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionado-iphone-11",
+                        "noFollow": false,
+                        "tagTitle": "iPhone 11",
+                        "text": "iPhone 11"
+                    }
+                },
+                {
+                    "id": "iPhone11Pro",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionado-iphone-11-pro",
+                        "noFollow": false,
+                        "tagTitle": "iPhone 11 Pro",
+                        "text": "iPhone 11 Pro"
+                    }
+                },
+                {
+                    "id": "iPhone12",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionado-iphone-12",
+                        "noFollow": false,
+                        "tagTitle": "iPhone 12",
+                        "text": "iPhone 12"
+                    }
+                },
+                {
+                    "id": "iPhone12 Pro Max",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/reacondicionados-iphone-12-pro-max",
+                        "noFollow": false,
+                        "tagTitle": "iPhone 12 Pro Max",
+                        "text": "iPhone 12 Pro Max"
+                    }
+                }
+            ]
+        }
+    }
+}

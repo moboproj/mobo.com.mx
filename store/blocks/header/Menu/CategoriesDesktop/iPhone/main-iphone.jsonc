@@ -1,0 +1,269 @@
+{
+    "menu-item#iPhone": {
+        "blocks": ["vtex.menu@2.x:submenu#iPhone"], 
+		"props": {
+            "blockClass": ["mainSubMenu","categoryIphone"],
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/iphone-reacondicionados",
+				"noFollow": false,
+				"tagTitle": "iPhone",
+				"text": "iPhone"
+			}
+		}
+	},
+    "vtex.menu@2.x:submenu#iPhone": {
+		"children": ["flex-layout.row#submenu-iPhone"]
+	},
+	"flex-layout.row#submenu-iPhone": {
+		"children": [
+			"flex-layout.col#submenu-iPhone-1",
+			"flex-layout.col#submenu-iPhone-2"
+		],
+        "props": {
+            "blockClass":["subMenuCategory","submenuIPhone"],
+			"fullWidth": true,
+			"colGap": 10
+		}
+	},
+
+    "flex-layout.col#submenu-iPhone-1":{
+        "children":[
+            "info-card#submenu-iPhone-highlight-1",
+            "info-card#submenu-iPhone-highlight-2",
+            "menu-item#iPhone-8-desktop",
+            "menu-item#iPhone-XR-desktop",
+            "menu-item#iPhone-SE2-desktop",
+            "menu-item#iPhone-XS-desktop",
+            "menu-item#iPhone-XS-Max-desktop",
+            "menu-item#iPhone-11-desktop",
+            "menu-item#iPhone-11-Pro-desktop",
+            "menu-item#iPhone-12-desktop",
+            "menu-item#iPhone-12-pro-max-desktop",
+            "rich-text#submenu-iPhone-final-text-1"
+        ],
+        "props":{
+            "blockClass":"mainSubMenu",
+            "preventVerticalStretch":true
+        }
+    },
+
+    "info-card#submenu-iPhone-highlight-1":{
+		"title": "Descuentos",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Descuentos-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"DESCUENTOS",
+			"callToActionUrl": "/descuentos-mobo-online",
+			"imageActionUrl": "/descuentos-mobo-online"
+		}
+	},
+    "info-card#submenu-iPhone-highlight-2":{
+		"title": "Novedades",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Novedadess-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"NOVEDADES",
+			"callToActionUrl": "/novedades-mobo-online",
+			"imageActionUrl": "/novedades-mobo-online"
+		}
+	},
+    "menu-item#iPhone-8-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphone8",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionados-iphone-8",
+                //"href":"/169?initialMap=productClusterIds&initialQuery=169&map=productClusterIds&query=169&searchState",
+                "tagTitle": "iPhone 8",
+                "text": "iPhone 8"
+            }
+        }
+    },
+    "menu-item#iPhone-XR-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphoneXR",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionado-iphone-xr",
+                "tagTitle": "iPhone XR",
+                "text": "iPhone XR"
+            }
+        }
+    },
+    "menu-item#iPhone-SE2-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphoneSE2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionado-iphone-se2",
+                "tagTitle": "iPhone SE2",
+                "text": "iPhone SE2"
+            }
+        }
+    },
+    "menu-item#iPhone-XS-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphoneXS",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionado-iphone-xs",
+                "tagTitle": "iPhone XS",
+                "text": "iPhone XS"
+            }
+        }
+    },
+    "menu-item#iPhone-XS-Max-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphoneXSMax",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionados-iphone-xs-max",
+                "tagTitle": "iPhone XS Max",
+                "text": "iPhone XS Max"
+            }
+        }
+    },
+    "menu-item#iPhone-11-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphone11",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionado-iphone-11",
+                "tagTitle": "iPhone 11",
+                "text": "iPhone 11"
+            }
+        }
+    },
+    "menu-item#iPhone-11-Pro-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphone11-Pro",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionado-iphone-11-pro",
+                "tagTitle": "iPhone 11 Pro",
+                "text": "iPhone 11 Pro"
+            }
+        }
+    },
+    "menu-item#iPhone-12-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphone12",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionado-iphone-12",
+                "tagTitle": "iPhone 12",
+                "text": "iPhone 12"
+            }
+        }
+    },
+    "menu-item#iPhone-12-pro-max-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuIphone12ProMax",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/reacondicionados-iphone-12-pro-max",
+                "tagTitle": "iPhone 12 Pro Max",
+                "text": "iPhone 12 Pro Max"
+            }
+        }
+    },
+    
+
+
+
+
+
+
+    "rich-text#submenu-iPhone-final-text-1":{
+        "title":"Texto final izquierdo",
+        "props":{
+            "blockClass":"mainMenuFinalText",
+            "text":"Hazte de tu nuevo celular pagando en 4 quincenas con Kueski Pay"
+        }
+    },
+
+    "flex-layout.col#submenu-iPhone-2":{
+        "children":[
+            "rich-text#submenu-iPhone-title",
+            "image#submenu-iPhone-img",
+            "rich-text#submenu-iPhone-final-text-2"        
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+    },
+    "rich-text#submenu-iPhone-title":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuTitle"],
+            "text":"NUEVO\niPhone SE 2"
+        }
+    },
+    "image#submenu-iPhone-img":{
+        "props":{
+            "src":"/arquivos/celulares-submenu-image.jpg",
+            "link":{
+                "url":"/reacondicionado-iphone-se2"
+            }
+        }
+    },
+    "rich-text#submenu-iPhone-final-text-2":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuFinalText","text2"],
+            "text":"Paga con PayPal a 12 MSI y estrénalo mañana"
+        }
+    }
+}

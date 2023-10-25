@@ -1,0 +1,13 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+.img-carrusel{
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+.mt-10{
+  margin-top: 10px;
+} 
+.mb-10{
+  margin-bottom: 10px;
+}

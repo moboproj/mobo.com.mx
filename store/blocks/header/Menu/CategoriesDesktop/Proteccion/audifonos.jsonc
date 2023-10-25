@@ -1,0 +1,135 @@
+{
+    "vtex.menu@2.x:submenu.accordion#proteccion-audifonos-desk": {
+        "children":["menu#proteccion-submenu-audifonos-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+    "menu#proteccion-submenu-audifonos-desktop": {
+        "props": {
+            "blockClass": "categoriesAudifonos",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/Mobo",
+                        "noFollow": false,
+                        "tagTitle": "Mobo",
+                        "text": "Mobo"
+                    }
+                },
+                {
+                    "id": "Apple",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/apple",
+                        "noFollow": false,
+                        "tagTitle": "Apple",
+                        "text": "Apple"
+                    }
+                },
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/motorola",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                },
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/huawei",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "Beats",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/beats",
+                        "noFollow": false,
+                        "tagTitle": "Beats",
+                        "text": "Beats"
+                    }
+                },
+                {
+                    "id": "iFrogz",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/ifrogz",
+                        "noFollow": false,
+                        "tagTitle": "iFrogz",
+                        "text": "iFrogz"
+                    }
+                },
+                {
+                    "id": "Pure Gear",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/pure-gear",
+                        "noFollow": false,
+                        "tagTitle": "Pure Gear",
+                        "text": "Pure Gear"
+                    }
+                },
+                {
+                    "id": "Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/samsung",
+                        "noFollow": false,
+                        "tagTitle": "Samsung",
+                        "text": "Samsung"
+                    }
+                },
+                {
+                    "id": "Oppo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/audifonos/oppo",
+                        "noFollow": false,
+                        "tagTitle": "Oppo",
+                        "text": "Oppo"
+                    }
+                }
+            ]
+        }
+    }   
+}

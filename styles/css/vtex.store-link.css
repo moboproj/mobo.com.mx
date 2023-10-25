@@ -1,0 +1,215 @@
+/* .link{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.label{
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+} */
+
+/*Generales*/
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+}
+.link--button{
+    width: fit-content !important;
+    margin: 0px auto;
+    padding: 8px 40px;
+    border: 3px solid;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+.link--button.link--primary{
+    background-color: #0433ff;
+    color: #fff;
+}
+.link--button.link--secondary{
+    background-color: #1cffb7;
+    color: #000;
+}
+.link--button.link--tertiary{
+    background-color: #fff;
+    border:3px solid #0433ff;
+    color: #272727;
+}
+@media only screen and (max-width: 1024px){
+    .link--button{
+        font-size: 3.825vw;
+    }
+}
+@media only screen and (max-width: 640px){
+    .link--button.link--tertiary{
+        border:2px solid #0433ff;
+    }
+}
+
+/*Header*/
+.link--menuMobLink{
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0px;
+    padding: 0 50px;
+    border-radius: 0;
+    background-color: transparent;
+}
+.label--menuMobLink{
+    display: inline-block;
+    width: 100%;
+    font-size: 40.5px;
+    font-weight: bold;
+    letter-spacing: 0.41px;
+    text-align: left;
+    color: #fff;
+}
+.link--menuMobLink.link--last{
+    margin-bottom: 60px;
+}
+@media only screen and (max-width: 768px){
+    .link--menuMobLink{
+        padding: 0 40px;
+    }
+    .label--menuMobLink{
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .link--menuMobLink{
+        padding: 0 32px;
+    }
+    .label--menuMobLink{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 490px){
+    .link--menuMobLink{
+        margin: 6px 0px;
+        padding: 0 24px;
+    }
+    .label--menuMobLink{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 399px){
+    .link--menuMobLink{
+        padding: 0 16px;
+    }
+    .label--menuMobLink{
+        font-size: 16px;
+    }
+}
+
+
+/*Main Menú*/
+.link--linkMenu{
+    width: fit-content;
+    text-decoration: none;
+    font-family: Outfit;
+    font-size: 21.5px;
+    font-weight: bold;
+    letter-spacing: 0.22px;
+    color: #000;
+}
+
+@media only screen and (max-width: 1920px){
+    .link--linkMenu{
+        font-size: 1.094vw;
+    }
+}
+/*Menú Mob*/
+.link--linkMenuMob{
+    margin: 1.749vw 0;
+    text-decoration: none;
+    font-size: 4.372vw;
+    font-weight: bold;
+    letter-spacing: 0.41px;
+    text-align: left;
+    color: #fff;
+}
+
+/*Home*/
+.link--homeCat{
+    width: 100%;
+    height: 70px;
+    padding: 0px;
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(34,34,34,0.6);
+}
+.label--homeCat{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00ffb4;
+    transition: color 0.6s ease-in-out;
+}
+.link--threeProductsButton{
+    margin: 40px auto 30px;
+}
+@media only screen and (max-width: 1920px){
+    .link--homeCat{
+        height: 3.646vw;
+        border-radius: 0 0 1.042vw 1.042vw;
+    }
+    .label--homeCat{
+        font-size: 1.042vw;
+    }
+}
+@media only screen and (max-width: 915px){
+    .link--homeCat{
+        height: 101px;
+        height: 11.038vw;
+        border-radius: 0 0 2.186vw 2.186vw;
+    }
+    .label--homeCat{
+        font-size: 27.5px;
+        font-size: 3.005vw;
+    }
+    .link--threeProductsButton{
+        margin: 4.372vw auto 3.279vw;
+    }
+}
+
+
+
+/*Invoice*/
+.link--button.link--invoiceButton{
+    width: 675px !important;
+    height: 69px;
+    padding: 8px;
+}
+.link--last{
+    margin-top: 22px;
+}
+@media only screen and (max-width: 1920px){
+    .link--button.link--invoiceButton{
+        width: 35.156vw !important;
+        height: 3.646vw;
+        font-size: 1.823vw;
+    }
+    .link--last{
+        margin-top: 1.146vw;
+    }
+}
+
+@media only screen and (max-width: 915px){
+    .link--button.link--invoiceButton{
+        width: 73.77vw !important;
+        height: 7.65vw;
+        font-size: 3.825vw;
+    }
+    .link--last{
+        margin-top: 2.404vw
+    }
+}

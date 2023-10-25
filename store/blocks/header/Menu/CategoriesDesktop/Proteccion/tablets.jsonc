@@ -1,0 +1,46 @@
+{
+    "vtex.menu@2.x:submenu.accordion#proteccion-tablets-desk": {
+        "children":["menu#proteccion-submenu-tablets-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#proteccion-submenu-tablets-desktop": {
+        "props": {
+            "blockClass": "categoriesTablets",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/tablets/huawei",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "iPad",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion/tablets/Apple",
+                        "noFollow": false,
+                        "tagTitle": "iPad",
+                        "text": "iPad"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

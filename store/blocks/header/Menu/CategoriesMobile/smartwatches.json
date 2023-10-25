@@ -1,0 +1,124 @@
+{
+    "vtex.menu@2.x:submenu.accordion#smartwatches-mob": {
+        "children":["menu#category-submenu-smartwatches-mobile"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+
+    "disclosure-layout#smartwatches-mob":{
+        "children": [
+            "disclosure-trigger#smartwatches-trigger-mob",
+            "disclosure-content#smartwatches-content-mob"
+        ]
+    },
+    "disclosure-trigger#smartwatches-trigger-mob": {
+        "children": ["link#smartwatches-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#smartwatches-trigger":{
+		"props":{
+			"blockClass":"linkMenuMob",
+			"label":"Smartwatches",
+			"href":"/tecnologia/wearables"
+		}
+	},
+    "disclosure-content#smartwatches-content-mob": {
+        "children": ["menu#category-submenu-smartwatches-mobile"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#category-submenu-smartwatches-mobile": {
+        "props": {
+            "blockClass": "mainCategoriesMenuMob",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo",
+                        "noFollow": false,
+                        "tagTitle": "Mobo",
+                        "text": "Mobo"
+                    }
+                },
+                {
+                    "id": "Xiaomi",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-xiaomi",
+                        "noFollow": false,
+                        "tagTitle": "Xiaomi",
+                        "text": "Xiaomi"
+                    }
+                },
+                {
+                    "id": "BeFun",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-be-fun",
+                        "noFollow": false,
+                        "tagTitle": "Be Fun",
+                        "text": "Be Fun"
+                    }
+                },
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-huawei",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "Honor",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-honor",
+                        "noFollow": false,
+                        "tagTitle": "Honor",
+                        "text": "Honor"
+                    }
+                },
+                {
+                    "id": "Oppo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-oppo",
+                        "noFollow": false,
+                        "tagTitle": "Oppo",
+                        "text": "Oppo"
+                    }
+                }
+            ]
+        }
+    }
+}

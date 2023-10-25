@@ -1,0 +1,77 @@
+.profileIcon {  
+    color:#ffffff;
+}
+
+
+.container :global(.vtex-button){
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.container :global(.vtex-button)::after{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(/arquivos/Icon-user.png);
+    background-size: cover;
+}
+.container :global(.vtex-button__label){
+    display: none;
+}
+.optionsList :global(.vtex-button){
+    width: 100% !important;
+    text-transform: initial;
+    font-weight: bold;
+}
+.accessCodeOptionBtn :global(.vtex-button),
+.accessCodeOptionBtn :global(.vtex-button):hover{
+    background-color: #0433ff;
+    color: #fff;
+}
+.emailPasswordOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button):hover{
+    background-color: #1cffb7;
+    color: #000;
+}
+.forgotPasswordLink,
+.dontHaveAccount link{
+    color: #9b9b9b;
+}
+
+@media only screen and (max-width: 1920px){
+    .container :global(.vtex-button)::after{
+        width: 1.667vw;
+        height: 1.667vw;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .container :global(.vtex-button)::after{
+        width: 2.623vw;
+        height: 2.623vw;
+        width: 3.279vw;
+        height: 3.279vw;
+    }
+}
+@media only screen and (max-width: 640px){
+    .container :global(.vtex-button)::after{
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+
+/*Página login*/
+.content{
+    max-width: 60rem;
+}
+.formTitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+.formFooter :global(.vtex-button) .t-small{
+    font-weight: bold;
+}
+.emailAndPasswordForm .formTitle{
+    font-size: 24px;
+}

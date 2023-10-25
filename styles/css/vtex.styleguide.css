@@ -1,0 +1,11 @@
+/* .input{
+    width:720px;
+    /* border: solid red; 
+} */
+:global(.vtex-input-prefix__group){
+    border-radius: 37px;
+    border: solid 3px #0433ff;
+}
+.input{
+    border: none;
+}

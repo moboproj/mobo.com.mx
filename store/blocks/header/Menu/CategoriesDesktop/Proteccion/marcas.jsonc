@@ -1,0 +1,259 @@
+{
+    "disclosure-layout#marcas-proteccion-desktop":{
+        "children": [
+            "disclosure-trigger#marcas-proteccion-trigger-desk",
+            "disclosure-content#marcas-proteccion-content-desk"
+        ]
+    },
+    "disclosure-trigger#marcas-proteccion-trigger-desk": {
+        "children": ["link#marcas-proteccion-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#marcas-proteccion-trigger":{
+        "props":{
+            "blockClass":"linkMenu",
+            "label":"Marcas de proteccion",
+            "href":"/proteccion"
+        }
+    },
+    "disclosure-content#marcas-proteccion-content-desk": {
+        "children": ["menu#submenu-marcas-proteccion-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    
+    
+    "menu#submenu-marcas-proteccion-desktop": {
+        "props": {
+            "blockClass": "categoriesCelular",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Protección APPLE",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-apple",
+                        "noFollow": false,
+                        "tagTitle": "Protección APPLE",
+                        "text": "Protección APPLE"
+                    }
+                },
+                {
+                    "id": "Protección AUDI",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-audi",
+                        "noFollow": false,
+                        "tagTitle": "Protección AUDI",
+                        "text": "Protección AUDI"
+                    }
+                },
+                {
+                    "id": "Protección BMW",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-bmw",
+                        "noFollow": false,
+                        "tagTitle": "Protección BMW",
+                        "text": "Protección BMW"
+                    }
+                },
+                {
+                    "id": "Protección Ferrari",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-ferrari",
+                        "noFollow": false,
+                        "tagTitle": "Protección Ferrari",
+                        "text": "Protección Ferrari"
+                    }
+                },
+                {
+                    "id": "Protección Guess",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-guess",
+                        "noFollow": false,
+                        "tagTitle": "Protección Guess",
+                        "text": "Protección Guess"
+                    }
+                },
+                {
+                    "id": "Protección iFrogz",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-iffrogz",
+                        "noFollow": false,
+                        "tagTitle": "Protección iFrogz",
+                        "text": "Protección iFrogz"
+                    }
+                },
+                {
+                    "id": "Protección Incipio",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-incipio",
+                        "noFollow": false,
+                        "tagTitle": "Protección Incipio",
+                        "text": "Protección Incipio"
+                    }
+                },
+                {
+                    "id": "Protección Karl Lagerfield",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-karl",
+                        "noFollow": false,
+                        "tagTitle": "Protección Karl Lagerfield",
+                        "text": "Protección Karl Lagerfield"
+                    }
+                },
+                {
+                    "id": "Protección Kate Spade",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-spade",
+                        "noFollow": false,
+                        "tagTitle": "Protección Kate Spade",
+                        "text": "Protección Kate Spade"
+                    }
+                },
+                {
+                    "id": "Protección Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-mobo",
+                        "noFollow": false,
+                        "tagTitle": "Protección Mobo",
+                        "text": "Protección Mobo"
+                    }
+                },
+                {
+                    "id": "Protección Mobo Glam",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-mobo-glam",
+                        "noFollow": false,
+                        "tagTitle": "Protección Mobo Glam",
+                        "text": "Protección Mobo Glam"
+                    }
+                },
+                {
+                    "id": "Protección Otterbox",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-otterbox",
+                        "noFollow": false,
+                        "tagTitle": "Protección Otterbox",
+                        "text": "Protección Otterbox"
+                    }
+                },
+                {
+                    "id": "Protección PRO 21",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-pro-21",
+                        "noFollow": false,
+                        "tagTitle": "Protección PRO 21",
+                        "text": "Protección PRO 21"
+                    }
+                },
+                {
+                    "id": "Protección Pure Gear",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-pure-gear",
+                        "noFollow": false,
+                        "tagTitle": "Protección Pure Gear",
+                        "text": "Protección Pure Gear"
+                    }
+                },
+                {
+                    "id": "Protección Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-samsung",
+                        "noFollow": false,
+                        "tagTitle": "Protección Samsung",
+                        "text": "Protección Samsung"
+                    }
+                },
+                {
+                    "id": "Protección Zagg",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-zagg",
+                        "noFollow": false,
+                        "tagTitle": "Protección Zagg",
+                        "text": "Protección Zagg"
+                    }
+                },
+                {
+                    "id": "Protección Tech 21",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-tech21",
+                        "noFollow": false,
+                        "tagTitle": "Protección Tech 21",
+                        "text": "Protección Tech 21"
+                    }
+                }
+            ]
+        }
+    }
+}

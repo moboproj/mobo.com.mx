@@ -1,0 +1,108 @@
+.wishlistIconContainer{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+}
+.wishlistIconContainer :global(.vtex-button){
+    margin: 0;
+    z-index: 1;
+}
+.wishlistIconContainer :global(.vtex-button):hover{
+    background-color: transparent;
+}
+.wishlistIconContainer :global(.vtex-button__label){
+    padding: 0px !important;
+}
+.outline{
+    background: url(/arquivos/WhishlistGray.png) !important;
+    background-size: cover !important;
+}
+.outline:hover{
+    background: url(/arquivos/WhishlistBlue.png) !important;
+    background-size: cover !important;
+}
+.fill{
+    background: url(/arquivos/WhishlistBlue.png) !important;
+    background-size: cover !important;
+}
+.outline,
+.iconSize{
+    width: 24px;
+    height: 24px;
+}
+@media only screen and (max-width:1920px){
+    .outline,
+    .iconSize{
+        width: 1.25vw;
+        height: 1.25vw;
+    }
+}
+@media only screen and (max-width:915px){
+    .outline,
+    .iconSize{
+        width: 2.623vw;
+        height: 2.623vw;
+    }
+}
+@media only screen and (max-width:640px){
+    .outline,
+    .iconSize{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+/*List*/
+:global(.vtex-product-summary-2-x-container--shelfPlpList) .wishlistIconContainer{
+    position: absolute;
+    right: 32px;
+}
+:global(.vtex-product-summary-2-x-container--shelfPlpList) .iconSize{
+    width: 34px;
+    height: 34px;
+}
+@media only screen and (max-width:1920px){
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) .iconSize{
+        width: 1.823vw;
+        height: 1.823vw;
+    }
+}
+@media only screen and (max-width:915px){
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) .wishlistIconContainer{
+        right: 3.497vw;
+    }
+    :global(.vtex-product-summary-2-x-container--shelfPlpList) .iconSize{
+        width: 2.623vw;
+        height: 2.623vw;
+    }
+}
+/*PDP*/
+.wishlistIconContainer :global(.vtex-button){
+    font-size: 1em;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpMain) .wishlistIconContainer{
+    margin-right: 8px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpMain) .wishlistIconContainer,
+:global(.vtex-flex-layout-0-x-flexRowContent--pdpMain) .wishlistIcon{
+    width: 4em;
+    height: 4em;
+}
+/* @media only screen and (max-width:640px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpMain) .wishlistIconContainer,
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdpMain) .wishlistIcon{
+        width: 32px;
+        height: 32px;
+    }
+} */
+
+@media only screen and (max-width:640px){
+    .outline,
+    .iconSize{
+        width: 20px;
+        height: 20px;
+    }
+}

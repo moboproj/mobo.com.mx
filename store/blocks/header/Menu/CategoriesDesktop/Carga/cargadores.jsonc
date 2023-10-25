@@ -1,0 +1,215 @@
+{
+    "vtex.menu@2.x:submenu.accordion#carga-cargadores-desk": {
+        "children":["menu#carga-submenu-cargadores-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#carga-cargadores-desk":{
+        "children": [
+            "disclosure-trigger#carga-cargadores-trigger-desk",
+            "disclosure-content#carga-cargadores-content-desk"
+        ]
+    },
+    "disclosure-trigger#carga-cargadores-trigger-desk": {
+        "children": ["link#carga-cargadores-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#carga-cargadores-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Cargadores",
+			"href":"/carga"
+		}
+	},
+    "disclosure-content#carga-cargadores-content-desk": {
+        "children": ["menu#carga-submenu-cargadores-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#carga-submenu-cargadores-desktop": {
+        "props": {
+            "blockClass": "categoriesCargadores",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Mobo?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Mobo",
+                        "text": "Mobo"
+                    }
+                },
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Motorola?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                },
+                {
+                    "id": "Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Samsung?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Samsung",
+                        "text": "Samsung"
+                    }
+                },
+                {
+                    "id": "Pure Gear",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Pure-Gear?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Pure Gear",
+                        "text": "Pure Gear"
+                    }
+                },
+                {
+                    "id": "Belkin",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Belkin?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Belkin",
+                        "text": "Belkin"
+                    }
+                },
+                {
+                    "id": "Apple",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Apple?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Apple",
+                        "text": "Apple"
+                    }
+                },
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Huawei?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "iFrogz",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Cargadores/Ifrogz?map=c,c,b",
+                        "noFollow": false,
+                        "tagTitle": "iFrogz",
+                        "text": "iFrogz"
+                    }
+                },
+                // {
+                //     "id": "Incipio",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/carga/cargadores/incipio",
+                //         "noFollow": false,
+                //         "tagTitle": "Incipio",
+                //         "text": "Incipio"
+                //     }
+                // },
+                // {
+                //     "id": "Tumi",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/carga/cargadores/tumi",
+                //         "noFollow": false,
+                //         "tagTitle": "Tumi",
+                //         "text": "Tumi"
+                //     }
+                // },
+                {
+                    "id": "Griffin",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Griffin?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Griffin",
+                        "text": "Griffin"
+                    }
+                },
+                {
+                    "id": "Mophie",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Mophie?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Mophie",
+                        "text": "Mophie"
+                    }
+                },
+                {
+                    "id": "Twink",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Twink?map=c,b",
+                        "noFollow": false,
+                        "tagTitle": "Twink",
+                        "text": "Twink"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

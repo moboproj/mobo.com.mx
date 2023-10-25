@@ -1,0 +1,136 @@
+{
+    "vtex.menu@2.x:submenu.accordion#carga-carga-rapida-desk": {
+        "children":["menu#carga-submenu-carga-rapida-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#carga-carga-rapida-desk":{
+        "children": [
+            "disclosure-trigger#carga-carga-rapida-trigger-desk",
+            "disclosure-content#carga-carga-rapida-content-desk"
+        ]
+    },
+    "disclosure-trigger#carga-carga-rapida-trigger-desk": {
+        "children": ["link#carga-carga-rapida-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#carga-carga-rapida-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Carga rápida",
+			"href":"/carga/Carga%20R%C3%A1pida?map=c,specificationFilter_146"
+		}
+	},
+    "disclosure-content#carga-carga-rapida-content-desk": {
+        "children": ["menu#carga-submenu-carga-rapida-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#carga-submenu-carga-rapida-desktop": {
+        "props": {
+            "blockClass": "categoriesCargaRapida",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Mobo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Carga%20R%C3%A1pida/Mobo?map=c,specificationFilter_146,specificationFilter_147",
+                        "noFollow": false,
+                        "tagTitle": "Mobo",
+                        "text": "Mobo"
+                    }
+                },
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Cargadores/Motorola?map=c,c,b",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                },
+                {
+                    "id": "Mophie",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Cargadores/Mophie?map=c,c,b",
+                        "noFollow": false,
+                        "tagTitle": "Mophie",
+                        "text": "Mophie"
+                    }
+                },
+                {
+                    "id": "Apple",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/Carga/Cargadores/Apple/Regular?map=c,c,b,specificationFilter_146",
+                        "noFollow": false,
+                        "tagTitle": "Apple",
+                        "text": "Apple"
+                    }
+                },
+                {
+                    "id": "Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Samsung/Carga%20R%C3%A1pida?map=c,b,specificationFilter_146",
+                        "noFollow": false,
+                        "tagTitle": "Samsung",
+                        "text": "Samsung"
+                    }
+                },
+                {
+                    "id": "Belkin",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Belkin/Cargador%20de%20Pared?map=c,b,specificationFilter_148",
+                        "noFollow": false,
+                        "tagTitle": "Belkin",
+                        "text": "Belkin"
+                    }
+                },
+                {
+                    "id": "Pure Gear",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga/Pure-Gear/Cargador%20de%20Pared?map=c,b,specificationFilter_148",
+                        "noFollow": false,
+                        "tagTitle": "Pure Gear",
+                        "text": "Pure Gear"
+                    }
+                }
+            ]
+        }
+    } 
+}

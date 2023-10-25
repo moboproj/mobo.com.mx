@@ -1,0 +1,571 @@
+.styledLinkContent--txt-reacondicionados,.styledLinkContent--txt-celulares, .styledLinkContent--txt-tablets , .styledLinkContent--txt-smartwatch, .styledLinkContent--txt-audio, .styledLinkContent--txt-carga, .styledLinkContent--txt-proteccion, .styledLinkContent--txt-accesorios{
+    font-weight: bold;
+}
+.styledLinkContainer--txt-reacondicionados,.styledLinkContainer--txt-celulares, .styledLinkContainer--txt-tablets , .styledLinkContainer--txt-smartwatch, .styledLinkContainer--txt-audio, .styledLinkContainer--txt-carga, .styledLinkContainer--txt-proteccion, .styledLinkContainer--txt-accesorios{
+    display: flex;
+    align-items: center;
+    height: 33px !important;
+    margin: 0px !important;
+    padding-left: 5px !important; 
+    padding-right: 5px !important;
+}
+
+.menuItem--icon-ofertas{
+    background:url("/arquivos/mobo2023-flama-icono.png");
+    width:16px;
+    height:20px;
+    margin-left: 30px;
+    margin-top:15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menuContainer{
+    /* text-align: center; */
+    margin:0px auto;   
+}
+.menuContainerNav{
+    text-align: center;
+    margin:0px auto;
+}
+/*SUBMENU*/
+
+.menuContainerNav--ulSubmenuCategorias{
+    padding:20px;
+    border-top: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 20%);
+}
+.menuItem--menu-banner{
+    background-image: url("/arquivos/mobo2023-banner-menu.png");
+    width:632px;
+    height:336px;
+    margin-left:20px;    
+}
+.menuItem--submenu-marcas-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.styledLinkContent--submenu-categorias-container{
+    font-weight: 700;
+    font-size:18px;
+    
+}
+.styledLinkContent--submenu-marcas-container{
+    font-weight: 700;
+    font-size:18px
+}
+.menuItem--submenu-categorias-container{
+    width:200px;
+    padding-right: 20px;
+}
+.menuItem--submenu-categorias-container--isOpen{
+    width:220px
+}
+.menuItem--submenu-marcas-container{
+    width:200px;
+    border-right:1px #000 solid;
+    border-left:1px #000 solid;
+}
+
+.menuItem--submenu-marcas-container--isOpen{
+    width:243px;    
+}
+
+.styledLinkContent--menu-item-footer{
+    color: #fff;
+    font-size: smaller;
+    margin-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width:890px) {
+    .styledLinkContent--menu-item-footer{
+    font-size: 10px;
+    }
+}
+.styledLinkContent--titulo-menu-footer{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.styledLinkContent--Redes-sociales-footer{ 
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    /* Outfit Extrabold 65 px */
+}
+.menuContainerNav--menuContenedor,.menuContainerNav--menuContenedor2{
+    display: flex;
+}
+.menuContainer--menuContenedor,.menuContainer--menuContenedor2{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+    
+}
+.styledLinkContent--logo-mobo{
+    background:url("https://mobomx.vteximg.com.br/arquivos/Mobo-logo.png");
+    color:  #ffffff;
+    width:130px;
+    height:25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100);
+    font-weight: 700;
+    margin-left: 30px;
+}
+.styledLinkContent--txt-sucursales{
+    font-weight: 65px;
+    margin-top:8px;
+    color:#fff ;
+}
+.menuItem--icon-sucursales{
+    background:url("/arquivos/Tienda-ícono.png");
+    width:30px;
+    height:30px;
+    margin-left: 30px;
+    margin-top:15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(100);
+    color:  #ffffff; */
+}
+.menuItem--icon-MetodosPago{
+    background:url("/arquivos/Formas-de-pago-ícono.png");
+    width:30px;
+    height:30px;
+    margin-left: 30px;
+    margin-top:15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(100);
+    color:  #ffffff; */
+}
+.styledLinkContent--txt-MetodosPago{
+    font-weight: 65px;
+    margin-top:8px;
+    color:#fff ;
+}
+
+
+
+
+
+
+
+
+/*Generales*/
+.menuItem{
+    font-size: 1em;
+}
+.accordionIcon{
+    display: flex;
+    font-size: 0;
+}
+/* .styledLinkContent--headerSubmenuDesk::after, */
+.accordionIcon::after{
+    content:'';
+    width: 10px;
+    height: 22px;
+    background-image: url(/arquivos/Flecha-derecha_Blanca.png);
+    background-size: cover;
+    filter: invert(1);
+}
+.accordionIcon--isClosed::after{
+    rotate: 90deg;
+}
+.accordionIcon--isOpen::after{
+    rotate: 270deg;
+}
+
+/*Header TOP*/
+.menuContainerNav--menuHeaderTop{
+    width: 66.66%;
+}
+.menuContainerNav--menuHeaderTop .menuItem{
+    width: 50%;
+}
+.menuContainerNav--menuHeaderTop .styledLinkContainer{
+    padding: 10px 0px;
+}
+.menuContainerNav--menuHeaderTop .styledLink{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1920px){
+    .menuContainerNav--menuHeaderTop .styledLinkContainer{
+        padding: 0.521vw 0px;
+    }
+    .menuContainerNav--menuHeaderTop .styledLink{
+        font-size: 0.8333vw;
+    }
+}
+
+
+/*Main Menú Header*/
+.menuContainerNav--mainMenu{
+    width: 100%;
+    border-bottom: 3px solid #000;
+}
+.menuContainer--mainMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 20px 48px;
+}
+.styledLinkContainer--mainSubMenu{
+    padding: 6px 0px;
+    padding: 0;
+}
+.styledLinkContainer--mainSubMenu .styledLinkContent{
+    font-weight: bold;
+}
+@media only screen and (max-width: 1920px){
+    .menuContainer--mainMenu{
+        padding: 1.042vw 2.5vw;
+    }
+    .styledLinkContainer--mainSubMenu .styledLinkContent{
+        font-size: 1.094vw;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .menuContainer--mainMenu{
+        padding: 1.042vw 2.5vw;
+    }
+    .styledLinkContainer--mainSubMenu .styledLinkContent{
+        font-size: 1.1vw;
+    }
+}
+
+
+/*Main Desplegable*/
+.menuItem--mainSubMenu .submenuWrapper--isOpen{
+    width: 850px;
+    margin-top: 20px;
+    padding: 36px 48px 62px 39px;
+    border: 1px solid #9c9c9c;
+    left: 0px;
+    z-index: 9;
+    font-size: 10px;
+}
+.menuItem--mainSubMenu.menuItem--categoryCelulares .submenuWrapper--isOpen{
+    left: -180px;
+}
+.menuItem--mainSubMenu.menuItem--categorySmartwatches .submenuWrapper--isOpen{
+    left: -490px;
+}
+.menuItem--mainSubMenu.menuItem--categoryOtros .submenuWrapper--isOpen{
+    left: -780px;
+}
+
+.menuContainerNav--mainMenuSection .styledLinkContent{
+    font-size: 16px;
+    font-weight: bold;
+    color: #707070;
+}
+.menuContainerNav--mainMenuSection .styledLinkContent:hover{
+    color: #0433ff;
+}
+
+/*Desplegables*/
+.menuItem--headerSubmenuDesk{
+    padding-right: 47px;
+    border-right: solid 1px #9b9b9b;
+}
+.menuItem--headerSubmenuDesk .styledLinkContainer{
+    margin: 0;
+    padding: 10px 0;
+}
+.menuItem--headerSubmenuDesk .styledLink{
+    font-size: 1em;
+}
+.menuItem--headerSubmenuDesk .styledLinkContent{
+    font-size: 21.5px;
+    font-weight: bold;
+    letter-spacing: 0.22px;
+    color: #000;
+}
+.menuItem--headerSubmenuDesk .menuContainerNav{
+    margin: 10px 0;
+}
+.menuItem--headerSubmenuDesk .menuContainerNav .styledLinkContent,
+:global(.vtex-disclosure-layout-1-x-content--disclosureMenu) .styledLinkContent{
+    font-size: 20px;
+    font-weight: bold;
+    color: #9c9c9c;
+}
+.menuItem--headerSubmenuDesk .menuContainerNav .styledLinkContent:hover,
+:global(.vtex-disclosure-layout-1-x-content--disclosureMenu) .styledLinkContent:hover{
+    color: #0433ff;
+}
+
+@media only screen and (max-width: 1920px){
+    .menuItem--mainSubMenu .submenuWrapper--isOpen{
+        width: 44.271vw;
+        padding: 1.875vw 2.5vw 3.23vw 2.083vw;
+        margin-top: 1.042vw;
+    }
+    .menuItem--mainSubMenu.menuItem--categoryCelulares .submenuWrapper--isOpen{
+        left: -9.375vw;
+    }
+    .menuItem--mainSubMenu.menuItem--categorySmartwatches .submenuWrapper--isOpen{
+        left: -25.521vw;
+    }
+    .menuItem--mainSubMenu.menuItem--categoryOtros .submenuWrapper--isOpen{
+        left: -40.625vw;
+    }
+    .menuContainerNav--mainMenuSection .styledLinkContent{
+        font-size: 0.8333vw;
+    }
+    /*Desplegables*/
+    .menuItem--headerSubmenuDesk{
+        padding-right: 2.448vw;
+    }
+    .menuItem--headerSubmenuDesk .styledLinkContainer{
+        padding: 0.521vw 0;
+    }
+    .menuItem--headerSubmenuDesk .styledLinkContent{
+        font-size: 1.094vw;
+    }
+    .menuItem--headerSubmenuDesk .menuContainerNav{
+        margin: 0.521vw 0;
+    }
+    .menuItem--headerSubmenuDesk .menuContainerNav .styledLinkContent,
+    :global(.vtex-disclosure-layout-1-x-content--disclosureMenu) .styledLinkContent{
+        font-size: 1.042vw;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .menuItem--mainSubMenu .submenuWrapper--isOpen{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 1520px){
+    .menuItem--mainSubMenu .submenuWrapper--isOpen{
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .menuItem--mainSubMenu .submenuWrapper--isOpen{
+        font-size: 6px;
+    }
+}
+
+/*Main Mob*/
+.menuContainerNav--mainMenuMob{
+    width: 100%;
+    margin: 0px;
+    padding: 0px 6.339vw;
+}
+.menuContainerNav--mainMenuMob :global(.vtex-disclosure-layout-1-x-trigger){
+    background-color: transparent;
+    padding: 0px;
+}
+
+
+/*Categorías*/
+.menuContainerNav--mainCategoriesMenuMob{
+    width: 100%;
+    padding: 0 5.464vw;
+}
+.menuContainerNav--mainCategoriesMenuMob .styledLinkContainer{
+    margin: 0px
+}
+.menuContainerNav--mainCategoriesMenuMob .styledLinkContent{
+    margin: 1.749vw 0;
+    font-size: 4.372vw;
+    font-weight: bold;
+    letter-spacing: 0.41px;
+    text-align: left;
+    color: #fff;
+
+    margin: 1vw 0;
+    font-size: 3.934vw;
+    color: #707070;
+}
+.menuContainerNav--mainCategoriesMenuMob .styledLinkContent:hover{
+    color: #1cffb7;
+}
+.accordionIcon.accordionIcon--headerSubmenuMob::after{
+    width: 1.749vw;
+        height: 3.716vw;
+    filter: none;
+}
+
+/*Footer*/
+.menuContainerNav--footerMenuDesk .styledLinkContainer{
+    margin: 0px;
+}
+.menuContainerNav--footerMenuDesk .styledLinkContent{
+    white-space: normal;
+    text-align: left;
+    font-size: 30px;
+    line-height: 1.92;
+    font-weight: normal;
+    color: #fff;
+}
+
+@media only screen and (max-width:1920px){
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        font-size: 1.5625vw;
+    }
+}
+/* @media only screen and (max-width:1600px){
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        font-size: 24px;
+        line-height: 1.8;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        font-size: 22px;
+        line-height: 1.6;
+    }
+} */
+
+@media only screen and (max-width:1024px){
+    .menuContainerNav--footerMenuDesk.menuContainerNav--footerMenu1{
+        margin-top: 8.743vw;
+    }
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        display: flex;
+        align-items: center;
+        font-size: 3.279vw;
+    }
+    .menuContainerNav--footerMenuDesk .styledLinkContent::after{
+        content:'';
+        width: 1.53vw;
+        height: 3.005vw;
+        background-image: url(/arquivos/Flecha-derecha_Blanca.png);
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .menuContainerNav--footerMenuDesk.menuContainerNav--footerMenu1{
+        margin-top: 8.743vw;
+    }
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        font-size: 4vw;
+    }
+    .menuContainerNav--footerMenuDesk .styledLinkContent::after{
+        width: 2vw;
+        height: 4vw;
+    }
+}
+/* @media only screen and (max-width:768px){
+    .menuContainerNav--footerMenuDesk.menuContainerNav--footerMenu1{
+        margin-top: 80px;
+    }
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        font-size: 28px;
+        line-height: 1.92;
+    }
+} */
+
+/* @media only screen and (max-width:640px){
+    .menuContainerNav--footerMenuDesk.menuContainerNav--footerMenu1{
+        margin-top: 60px;
+    }
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        font-size: 24px;
+        line-height: 1.6;
+    }
+} */
+
+/* @media only screen and (max-width:490px){
+    .menuContainerNav--footerMenuDesk.menuContainerNav--footerMenu1{
+        margin-top: 40px;
+    }
+    .menuContainerNav--footerMenuDesk .styledLinkContent{
+        font-size: 20px;
+        line-height: 1.4;
+    }
+} */
+
+/* redes sociales */
+.menuContainerNav--menuRedes{
+    margin: 0;
+}
+.menuContainer--menuRedes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menuContainer--menuRedes .menuItem{
+    width: 33%;
+}
+.menuContainer--menuRedes .menuItem--facebook,
+.menuContainer--menuRedes .menuItem--instagram{
+    padding-right: 0.75rem;
+}
+.menuContainer--menuRedes .styledLinkContainer{
+    margin: 0;
+}
+.menuContainer--menuRedes .styledLinkContent{
+    justify-content: center;
+    font-weight: bold;
+    line-height: 0.77;
+}.menuContainer--menuRedes .styledLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 0.77;
+    color: #fff;
+}
+.menuContainer--menuRedes .styledLink--facebook{
+    background: #0433ff;
+}
+.menuContainer--menuRedes .styledLink--instagram{
+    background: #db42be;
+}
+.menuContainer--menuRedes .styledLink--tiktok{
+    background: #ffffff;
+    color: #272727;
+}
+
+:global(.vtex-store-drawer-0-x-drawer) .menuContainer--menuRedes{
+    padding: 0 5.464vw;
+}
+:global(.vtex-store-drawer-0-x-drawer) .menuContainer--menuRedes .styledLink{
+    height: 5.027vw;
+    font-size: 3.279vw;
+}
+:global(.vtex-store-drawer-0-x-drawer) .menuContainer--menuRedes .styledLink--facebook{
+    margin-top: 5.246vw;
+}
+
+@media (max-width: 1920px) {
+    .menuContainer--menuRedes .styledLink{
+        height: 2.1875vw;
+        font-size: 1.146vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menuContainer--menuRedes .menuItem{
+        width: 100%;
+        padding: 0;
+        margin: 0 0 3.005vw
+    }
+    .menuContainer--menuRedes .styledLinkContainer{
+        padding: 0;
+    }
+    .menuContainer--menuRedes .styledLink{
+        height: 7.65vw;
+        font-size: 3.825vw;
+    }
+}
+/* redes sociales */

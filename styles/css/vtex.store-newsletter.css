@@ -1,0 +1,99 @@
+.newsletterForm--newsletter-mobo{
+    padding: 5em 0;
+}
+.formSubmitContainer--submit-newsletter{
+    text-align: right;
+    text-transform: capitalize;
+    margin-top: -40px !important;
+}
+.emailInputContainer--input-email-newsletter{
+    width: 78.5% !important;
+}
+
+
+
+
+.newsletterForm--newsFooter{
+    position: relative;
+}
+.emailInputContainer--newsInputEmail :global(.vtex-input-prefix__group){
+    height: 40px;
+    border: none;
+}
+.formSubmitContainer--newsSubmit{
+    position: absolute;
+    right: -1px;
+    bottom: 64px;
+}
+.formSubmitContainer--newsSubmit :global(.vtex-button){
+    border: none;
+    background-color: #1cffb7;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 0.77;
+    color: #272727;
+}
+
+.confirmationCheckboxContainer{
+    margin-top: 34px;
+}
+.confirmationCheckboxContainer :global(.vtex-checkbox__label){
+    font-size: 13px;
+    color: #9b9b9b;
+}
+.confirmationCheckboxContainer :global(.vtex-checkbox__container){
+    width: 16px;
+    height: 16px;
+    background-color: #9b9b9b;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width:1920px){
+    .emailInputContainer--newsInputEmail :global(.vtex-input-prefix__group){
+        height: 2.083vw;
+    }
+    .formSubmitContainer--newsSubmit{
+        bottom: 3.3333vw;
+    }
+    .formSubmitContainer--newsSubmit :global(.vtex-button){
+        height: 2.083vw;
+        min-height: unset;
+        font-size: 1.146vw;
+    }
+    .confirmationCheckboxContainer{
+        margin-top: 1.77vw;
+    }
+    .confirmationCheckboxContainer :global(.vtex-checkbox__label){
+        font-size: 0.677vw;
+    }
+    .confirmationCheckboxContainer :global(.vtex-checkbox__container){
+        width: 0.8333vw;
+        height: 0.8333vw;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .emailInputContainer--newsInputEmail :global(.vtex-input-prefix__group){
+        height: 7.65vw;
+    }
+    .formSubmitContainer--newsSubmit{
+        bottom: 11.89vw;
+    }
+    .formSubmitContainer--newsSubmit :global(.vtex-button){
+        width: 33.552vw !important;
+        height: 7.65vw;
+        font-size: 3.825vw;
+        border-radius: 4.372vw;
+    }
+    .confirmationCheckboxContainer{
+        margin-top: 4.044vw;
+    }
+    .confirmationCheckboxContainer :global(.vtex-checkbox__label){
+        font-size: 2.295vw;
+    }
+    .confirmationCheckboxContainer :global(.vtex-checkbox__container){
+        width: 1.749vw;
+        height: 1.749vw;
+    }
+}

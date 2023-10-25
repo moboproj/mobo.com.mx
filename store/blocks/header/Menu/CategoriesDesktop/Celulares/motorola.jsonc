@@ -1,0 +1,280 @@
+{
+    "vtex.menu@2.x:submenu.accordion#motorola-desk": {
+        "children":["menu#category-submenu-motorola-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "menu#category-submenu-motorola-desktop": {
+        "props": {
+            "blockClass": "categoriesMotorola",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "G13",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G13",
+                        "text": "G13"
+                    }
+                },
+                {
+                    "id": "E22i",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "E22i",
+                        "text": "E22i"
+                    }
+                },
+                {
+                    "id": "G72",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G72",
+                        "text": "G72"
+                    }
+                },
+                {
+                    "id": "G62",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G62",
+                        "text": "G62"
+                    }
+                },
+                {
+                    "id": "G53",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G53",
+                        "text": "G53"
+                    }
+                },
+                {
+                    "id": "G52",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G52",
+                        "text": "G52"
+                    }
+                },
+                {
+                    "id": "Edge 30",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Edge 30",
+                        "text": "Edge 30"
+                    }
+                },
+                {
+                    "id": "Edge 30 Pro",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Edge 30 Pro",
+                        "text": "Edge 30 Pro"
+                    }
+                },
+                {
+                    "id": "G32",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G32",
+                        "text": "G32"
+                    }
+                },
+                {
+                    "id": "G42",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G42",
+                        "text": "G42"
+                    }
+                },
+                {
+                    "id": "G60",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G60",
+                        "text": "G60"
+                    }
+                },
+                {
+                    "id": "G82",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G82",
+                        "text": "G82"
+                    }
+                },
+                {
+                    "id": "G22",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G22",
+                        "text": "G22"
+                    }
+                },
+                {
+                    "id": "G71",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G71",
+                        "text": "G71"
+                    }
+                },
+                {
+                    "id": "G41",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G41",
+                        "text": "G41"
+                    }
+                },
+                {
+                    "id": "G51",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "G51",
+                        "text": "G51"
+                    }
+                },
+                {
+                    "id": "E20",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "E20",
+                        "text": "E20"
+                    }
+                },
+                {
+                    "id": "Edge 20 Pro",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Edge 20 Pro",
+                        "text": "Edge 20 Pro"
+                    }
+                },
+                {
+                    "id": "Edge 20 Lite",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Edge 20 Lite",
+                        "text": "Edge 20 Lite"
+                    }
+                },
+                {
+                    "id": "One Fusion",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "One Fusion",
+                        "text": "One Fusion"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

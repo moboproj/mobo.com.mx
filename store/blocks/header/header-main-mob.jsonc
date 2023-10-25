@@ -1,0 +1,324 @@
+{
+  "header-layout.mobile": {
+    "title": "Header (Mobile)",
+    "children": ["sticky-layout#father-sticky-mobile"]
+  },
+  "sticky-layout#father-sticky-mobile": {
+    "props": {
+      "blockClass":"headerStickyMob",
+      "position": "TOP"
+    },
+    "children": [
+      "slider-layout#text-bar-notification",
+      "header-row#mobile-1",
+      "header-row#mobile-2"
+    ]
+  },
+  "header-row#mobile-1": {
+    "props": {
+      "sticky": false,
+      "blockClass": ["mobile-header", "headerMobile", "headerMobileMiddle"]
+    },
+    "children": [
+      "drawer", 
+      "logo", 
+      "header-spacer", 
+      "info-card#header-stores",
+			"info-card#header-payments",
+      "login", 
+      "minicart.v2"
+    ]
+  },
+  "drawer": {
+    "children": ["menu#drawer"],
+    "props": {
+      "blockClass": "mainMenuIcon",
+      "maxWidth": "722"
+    }
+  },
+  "flex-layout.col#menu-mob-container": {
+    "children": [
+      "menu#category-menu-mobile",
+      "flex-layout.row#menuMobile-spacer",
+      "flex-layout.row#menuMobile-reacondicionados",
+      "flex-layout.row#menuMobile-ofertas-mes",
+      "flex-layout.row#menuMobile-ayuda"
+    ]
+  },
+  "header-spacer": {
+    "props": {
+      "maxWidth": 2
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      "menu#category-menu-mobile",
+      "flex-layout.row#menuMobile-spacer",
+      "info-card#menu-mob-account",
+      "info-card#menu-mob-fav",
+      "info-card#menu-mob-contact",
+      "vtex.menu@2.x:menu#img-redes",
+      "flex-layout.row#menuMobile-spacer",
+      "link#menu-mob-link-1",
+      "link#menu-mob-link-2",
+      "link#menu-mob-link-3",
+      "link#menu-mob-link-4"
+    ],
+    "props": {
+      "blockClass": "mainMenuMob",
+      "orientation": "vertical"
+    }
+  },
+
+  "info-card#menu-mob-account": {
+    "props": {
+      "blockClass": ["headerMiddleLink", "infoMenuMob"],
+      "imageUrl": "/arquivos/Telefono-icono.png",
+      "textPosition": "right",
+      "callToActionMode": "link",
+      "callToActionText": "Mi cuenta",
+      "callToActionUrl": "/account",
+      "imageActionUrl": "/account"
+    }
+  },
+  "info-card#menu-mob-fav": {
+    "props": {
+      "blockClass": ["headerMiddleLink", "infoMenuMob"],
+      "imageUrl": "/arquivos/Favoritos_Blanco.png",
+      "textPosition": "right",
+      "callToActionMode": "link",
+      "callToActionText": "Favoritos",
+      "callToActionUrl": "/account#/wishlist",
+      "imageActionUrl": "/account#/wishlist"
+    }
+  },
+  "info-card#menu-mob-contact": {
+    "props": {
+      "blockClass": ["headerMiddleLink", "infoMenuMob"],
+      "imageUrl": "/arquivos/Mi_cuenta_blanco.png",
+      "textPosition": "right",
+      "callToActionMode": "link",
+      "callToActionText": "Contacto",
+      "callToActionUrl": "/contacto",
+      "imageActionUrl": "/contacto"
+    }
+  },
+
+  "link#menu-mob-link-1": {
+    "props": {
+      "blockClass": "menuMobLink",
+      "label": "Nuestras tiendas",
+      "href": "/tiendas"
+    }
+  },
+  "link#menu-mob-link-2": {
+    "props": {
+      "blockClass": "menuMobLink",
+      "label": "Facturación",
+      "href": "/facturacion"
+    }
+  },
+  "link#menu-mob-link-3": {
+    "props": {
+      "blockClass": "menuMobLink",
+      "label": "Ofertas bancarias",
+      "href": "/terminos-y-condiciones#OpcionesDePago"
+    }
+  },
+  "link#menu-mob-link-4": {
+    "props": {
+      "blockClass": ["menuMobLink", "last"],
+      "label": "Meses sin intereses",
+      "href": "/terminos-y-condiciones#metodos-de-pago"
+    }
+  },
+
+  "flex-layout.row#menuMobile-cat-celulares": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-cat-1-mobile"]
+  },
+  "flex-layout.row#menuMobile-cat-laptops": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-cat-2-mobile"]
+  },
+  "flex-layout.row#menuMobile-cat-smartwaches": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-cat-3-mobile"]
+  },
+  "flex-layout.row#menuMobile-cat-cases": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-cat-4-mobile"]
+  },
+  "flex-layout.row#menuMobile-cat-audifonos": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-cat-5-mobile"]
+  },
+  "flex-layout.row#menuMobile-cat-cargadores": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-cat-6-mobile"]
+  },
+  "flex-layout.row#menuMobile-cat-soportes": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-cat-7-mobile"]
+  },
+  "flex-layout.row#menuMobile-spacer": {
+    "props": {
+      "blockClass": "menuMobileSpacer",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#menuMobile-reacondicionados": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#submenu-icon-reacondicionados-mobile",
+      "rich-text#submenu-reacondicionados-mobile"
+    ]
+  },
+  "flex-layout.row#menuMobile-ofertas-mes": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#submenu-icon-ofertas-mobile",
+      "rich-text#submenu-ofertas-mes-mobile"
+    ]
+  },
+  "flex-layout.row#menuMobile-ayuda": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#submenu-ayuda-mobile"]
+  },
+  "rich-text#submenu-cat-1-mobile": {
+    "props": {
+      "text": "[Celulares](/Tecnologia/Celulares)",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "rich-text#submenu-cat-2-mobile": {
+    "props": {
+      "text": "[Tablets y Laptops](/tecnologia/laptops-y-tablets)",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "rich-text#submenu-cat-3-mobile": {
+    "props": {
+      "text": "[Smartwaches](/tecnologia/wearables)",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "rich-text#submenu-cat-4-mobile": {
+    "props": {
+      "text": "[Fundas Protectoras](/funda)",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "rich-text#submenu-cat-5-mobile": {
+    "props": {
+      "text": "[Bocinas y Audífonos](/audio)",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "rich-text#submenu-cat-6-mobile": {
+    "props": {
+      "text": "[Cargadores y Baterías](/carga)",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "rich-text#submenu-cat-7-mobile": {
+    "props": {
+      "text": "[Soportes y Accesorios](/accesorios)",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "image#submenu-icon-reacondicionados-mobile": {
+    "props": {
+      "src": "/arquivos/mobo2023-Apple-icono.png",
+      "maxWidth": 12,
+      "maxHeight": 14,
+      "blockClass": "icon-submenu-2"
+    }
+  },
+  "rich-text#submenu-reacondicionados-mobile": {
+    "props": {
+      "text": "Reacondicionados",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "image#submenu-icon-ofertas-mobile": {
+    "props": {
+      "src": "/arquivos/mobo2023-flama-icono.png",
+      "maxWidth": 8,
+      "maxHeight": 12,
+      "blockClass": "icon-submenu-2"
+    }
+  },
+  "rich-text#submenu-ofertas-mes-mobile": {
+    "props": {
+      "text": "Ofertas del Mes",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "rich-text#submenu-ayuda-mobile": {
+    "props": {
+      "text": "Ayuda",
+      "blockClass": "txt-submenu-cat-mobile"
+    }
+  },
+  "header-row#mobile-2": {
+    "props": {
+      "sticky": false,
+      "blockClass": ["mobile-header", "headerMobile", "headerMobileBottom"]
+    },
+    "children": ["search-bar#busqueda"]
+  },
+  "header-row#mobile-3": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "sticky": false,
+      "marginTop": 3,
+      "marginBottom": 3,
+      "blockClass": "row3-header-mobile"
+    },
+    "children": ["header-spacer"]
+  }
+}

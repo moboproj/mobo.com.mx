@@ -1,0 +1,143 @@
+{
+    "menu-item#audio": {
+        "blocks": ["vtex.menu@2.x:submenu#audio"], 
+		"props": {
+            "blockClass": ["mainSubMenu","categoryAudio"],
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/audio",
+				"noFollow": false,
+				"tagTitle": "Audio",
+				"text": "Audio"
+			}
+		}
+	},
+    "vtex.menu@2.x:submenu#audio": {
+		"children": ["flex-layout.row#submenu-audio"]
+	},
+	"flex-layout.row#submenu-audio": {
+		"children": [
+			"flex-layout.col#submenu-audio-1",
+			"flex-layout.col#submenu-audio-2"
+		],
+        "props": {
+            "blockClass":["subMenuCategory","submenuAudio"],
+			"fullWidth": true
+		}
+	},
+
+    "flex-layout.col#submenu-audio-1":{
+        "children":[
+            "info-card#submenu-audio-highlight-1",
+            "info-card#submenu-audio-highlight-2",
+            "disclosure-layout#audio-audifonos-desk",
+            "disclosure-layout#audio-bocinas-desk",
+            "rich-text#submenu-audio-final-text-1"
+        ],
+        "props":{
+            "blockClass":"mainSubMenu",
+            "preventVerticalStretch":true
+        }
+    },
+
+    "info-card#submenu-audio-highlight-1":{
+		"title": "Descuentos",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Descuentos-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"DESCUENTOS",
+			"callToActionUrl": "/descuentos-mobo-online",
+			"imageActionUrl": "/descuentos-mobo-online"
+		}
+	},
+    "info-card#submenu-audio-highlight-2":{
+		"title": "Novedades",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Novedadess-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"NOVEDADES",
+			"callToActionUrl": "/novedades-mobo-online",
+			"imageActionUrl": "/novedades-mobo-online"
+		}
+	},
+    "menu-item#audio-audifonos-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuAudifonos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/audio/audifonos",
+                "tagTitle": "Audifonos",
+                "text": "Audifonos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#audio-audifonos-desk"]
+    },
+    "menu-item#audio-bocinas-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuSmartBocinas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/audio/bocinas/",
+                "tagTitle": "Bocinas",
+                "text": "Bocinas"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#audio-bocinas-desk"]
+    },
+    "rich-text#submenu-audio-final-text-1":{
+        "title":"Texto final izquierdo",
+        "props":{
+            "blockClass":"mainMenuFinalText",
+            "text":"Hazte de tu nuevo celular pagando en 4 quincenas con Kueski Pay"
+        }
+    },
+
+    "flex-layout.col#submenu-audio-2":{
+        "children":[
+            "rich-text#submenu-audio-title",
+            "image#submenu-audio-img",
+            "rich-text#submenu-audio-final-text-2"        
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+    },
+    "rich-text#submenu-audio-title":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuTitle"],
+            "text":"NUEVO\nAudífonos Apple AirPods Pro Bluetooth Blanco 2da Gen"
+        }
+    },
+    "image#submenu-audio-img":{
+        "props":{
+            "src":"/arquivos/ids/200020-800-auto?v=638212069197600000&width=499&height=499&aspect=true",
+            "link":{
+                "url":"/audifonos-apple-airpods-pro-bluetooth-blanco-2da-gen/p"
+            }
+        }
+    },
+    "rich-text#submenu-audio-final-text-2":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuFinalText","text2"],
+            "text":"Paga con PayPal a 12 MSI y estrénalo mañana"
+        }
+    }
+}

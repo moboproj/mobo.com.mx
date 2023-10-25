@@ -1,0 +1,19 @@
+div{
+    display: block;
+}
+.productOfferButton{
+    padding: 16px 50px;
+    background-color: #0433ff;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media only screen and (max-width:1920px){
+    .productOfferButton{
+        padding: 0.8333vw 2.604vw;
+        font-size: 1.25vw;
+    }
+    
+}

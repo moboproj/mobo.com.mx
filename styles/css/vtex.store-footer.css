@@ -1,0 +1,14 @@
+.footerLayout{
+    background-color: #272727;
+}
+.socialNetworkImage--facebook{
+    filter: brightness(10);
+}
+.socialNetworkImage--twitter{
+    filter: brightness(10);
+}
+
+.socialNetworksContainer{
+    margin-left: 20px;
+    margin-top: 15px;
+}

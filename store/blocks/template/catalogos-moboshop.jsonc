@@ -1,0 +1,455 @@
+{
+    "store.custom#catalogos-moboshop": {   
+      "blocks": [
+        "responsive-layout.desktop#catalogo-moboshop",
+        "responsive-layout.phone#catalogo-moboshop"
+      ]
+    },
+    "responsive-layout.desktop#catalogo-moboshop":{
+      "children":[
+        "rich-text#catalogos-titulo",
+        "iframe#catalogo-moboshop",
+        "flex-layout.row#catalogo-moboshop-4",
+        "flex-layout.row#catalogo-moboshop-3",
+        "flex-layout.row#catalogo-moboshop-2",
+        "flex-layout.row#catalogo-moboshop-1"
+      ]
+    },
+    "responsive-layout.phone#catalogo-moboshop":{
+      "children": [
+        "rich-text#catalogos-titulo",
+        "iframe#catalogo-moboshop-mobile",
+        "flex-layout.row#catalogo-moboshop-4",
+        "flex-layout.row#catalogo-moboshop-3",
+        "flex-layout.row#catalogo-moboshop-2",
+        "flex-layout.row#catalogo-moboshop-1"
+      ]  
+    },
+    //Titulo
+    "rich-text#catalogos-titulo": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Catálogos MoboShop",          
+          "font": "t-heading-1"          
+        }
+    },
+    //Iframe principal
+    "iframe#catalogo-moboshop": {
+        "props": {
+            "src": "//viewer.joomag.com/brochure-moboshop-noviembre-2022/0571955001667484418?e=1&amp;page=1&amp;embedInfo=theme,000000,000000,ffffff,ffffff,ffffff;",
+            "width": "1920",
+            "height": "950",
+            "title": "Catalogo Moboshop - Noviembre 2022"
+        }
+    },
+    //Iframe principal Mobile
+    "iframe#catalogo-moboshop-mobile": {
+          "props": {
+              "src": "//viewer.joomag.com/brochure-moboshop-noviembre-2022/0571955001667484418?e=1&amp;page=1&amp;embedInfo=theme,000000,000000,ffffff,ffffff,ffffff;",
+              "width": "1920",
+              "height": "300",
+              "title": "Catalogo Moboshop - Noviembre 2022"
+          }
+    },
+    //Primera Fila
+    "flex-layout.row#catalogo-moboshop-4":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":10
+          },
+          "children": [      
+            "flex-layout.col#catalogo-moboshop-16",
+            "flex-layout.col#catalogo-moboshop-15",
+            "flex-layout.col#catalogo-moboshop-14",
+            "flex-layout.col#catalogo-moboshop-13"
+          ]
+    },
+    "flex-layout.col#catalogo-moboshop-16": {     
+      "props": {
+        "horizontalAlign": "center"                       
+      },   
+      "children": ["image#noviembre-2022","rich-text#noviembre-2022"]
+    },
+    "image#noviembre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2678439/thumbs/65471185.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/noviembre-2022"}
+        },
+        "title": "Noviembre 2022"
+    },
+    "rich-text#noviembre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Noviembre 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-15": {   
+      "props": {
+        "horizontalAlign": "center"                       
+      },     
+      "children": ["image#octubre-2022","rich-text#octubre-2022"]
+    },
+    "image#octubre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2673539/thumbs/65296061.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/octubre-2022"}
+        },
+        "title": "octubre 2022"
+    },
+    "rich-text#octubre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Octubre 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-14": {  
+      "props": {
+        "horizontalAlign": "center"                       
+      },
+      "children": ["image#septiembre-2022","rich-text#septiembre-2022"]
+    },
+    "image#septiembre-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2668352/thumbs/65102097.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/septiembre-2022"}
+        },
+        "title": "septiembre 2022"
+    },
+    "rich-text#septiembre-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Septiembre 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-13": {  
+      "props": {
+        "horizontalAlign": "center"                       
+      },      
+      "children": ["image#agosto-2022","rich-text#agosto-2022"]
+    },
+    "image#agosto-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2663135/thumbs/64886854.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/agosto-2022"}
+        },
+        "title": "agosto 2022"
+    },
+    "rich-text#agosto-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Agosto 2022"          
+        }
+    },
+    //Segunda Fila
+    "flex-layout.row#catalogo-moboshop-3":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [      
+            "flex-layout.col#catalogo-moboshop-12",
+            "flex-layout.col#catalogo-moboshop-11",
+            "flex-layout.col#catalogo-moboshop-10",
+            "flex-layout.col#catalogo-moboshop-9"
+          ]
+    },
+    "flex-layout.col#catalogo-moboshop-12": {    
+      "props": {
+        "horizontalAlign": "center"                       
+      },    
+      "children": ["image#Julio-2022","rich-text#Julio-2022"]
+    },
+    "image#Julio-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2658923/thumbs/64708423.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/julio-2022"}
+        },
+        "title": "Julio 2022"
+    },
+    "rich-text#Julio-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Julio 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-11": {        
+      "props": {
+        "horizontalAlign": "center"                       
+      },
+      "children": ["image#Junio-2022","rich-text#Junio-2022"]
+    },
+    "image#Junio-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2654407/thumbs/64518997.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/junio-2022"}
+        },
+        "title": "Junio 2022"
+    },
+    "rich-text#Junio-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Junio 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-10": {   
+      "props": {
+        "horizontalAlign": "center"                       
+      },     
+      "children": ["image#Mayo-2022","rich-text#Mayo-2022"]
+    },
+    "image#Mayo-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2648212/thumbs/64306841.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/mayo-2022"}
+        },
+        "title": "Mayo 2022"
+    },
+    "rich-text#Mayo-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Mayo 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-9": {    
+      "props": {
+        "horizontalAlign": "center"                       
+      },    
+      "children": ["image#Abril-2022","rich-text#Abril-2022"]
+    },
+    "image#Abril-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2640256/thumbs/64063880.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/abril-2022"}
+        },
+        "title": "Abril 2022"
+    },
+    "rich-text#Abril-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Abril 2022"          
+        }
+    },
+    //Tercera Fila
+    "flex-layout.row#catalogo-moboshop-2":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [      
+            "flex-layout.col#catalogo-moboshop-8",
+            "flex-layout.col#catalogo-moboshop-7",
+            "flex-layout.col#catalogo-moboshop-6",
+            "flex-layout.col#catalogo-moboshop-5"
+          ]
+    },
+    "flex-layout.col#catalogo-moboshop-8": { 
+      "props": {
+        "horizontalAlign": "center"                       
+      },       
+      "children": ["image#Marzo-2022","rich-text#Marzo-2022"]
+    },
+    "image#Marzo-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2628401/thumbs/63742604.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/marzo-2022"}
+        },
+        "title": "Marzo 2022"
+    },
+    "rich-text#Marzo-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Marzo 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-7": {    
+      "props": {
+        "horizontalAlign": "center"                       
+      },    
+      "children": ["image#Febrero-2022","rich-text#Febrero-2022"]
+    },
+    "image#Febrero-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2617053/thumbs/63452374.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/febrero-2022"}
+        },
+        "title": "Febrero 2022"
+    },
+    "rich-text#Febrero-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Febrero 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-6": {  
+      "props": {
+        "horizontalAlign": "center"                       
+      },      
+      "children": ["image#Enero-2022","rich-text#Enero-2022"]
+    },
+    "image#Enero-2022": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2606080/thumbs/63108786.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/enero-2022"}
+        },
+        "title": "Enero 2022"
+    },
+    "rich-text#Enero-2022": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Enero 2022"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-5": {  
+      "props": {
+        "horizontalAlign": "center"                       
+      },      
+      "children": ["image#Diciembre-2021","rich-text#Diciembre-2021"]
+    },
+    "image#Diciembre-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2593461/thumbs/62813577.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/diciembre-2021"}
+        },
+        "title": "Diciembre 2021"
+    },
+    "rich-text#Diciembre-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Diciembre 2021"          
+        }
+    },
+    //Cuarta Fila
+    "flex-layout.row#catalogo-moboshop-1":{
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",      
+            "preventVerticalStretch": true,
+            "colGap":4,
+            "marginTop":5
+          },
+          "children": [      
+            "flex-layout.col#catalogo-moboshop-4",
+            "flex-layout.col#catalogo-moboshop-3",
+            "flex-layout.col#catalogo-moboshop-2",
+            "flex-layout.col#catalogo-moboshop-1"
+          ]
+    },
+    "flex-layout.col#catalogo-moboshop-4": {     
+      "props": {
+        "horizontalAlign": "center"                       
+      },   
+      "children": ["image#Agosto-2021","rich-text#Agosto-2021"]
+    },
+    "image#Agosto-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2526731/thumbs/61143705.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/agosto-2021"}
+        },
+        "title": "Agosto 2021"
+    },
+    "rich-text#Agosto-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Agosto 2021"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-3": {   
+      "props": {
+        "horizontalAlign": "center"                       
+      },     
+      "children": ["image#Julio-2021","rich-text#Julio-2021"]
+    },
+    "image#Julio-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2508457/thumbs/60694116.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/julio-2021"}
+        },
+        "title": "Julio 2021"
+    },
+    "rich-text#Julio-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Julio 2021"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-2": {  
+      "props": {
+        "horizontalAlign": "center"                       
+      },
+      "children": ["image#Junio-2021","rich-text#Junio-2021"]
+    },
+    "image#Junio-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2496218/thumbs/60376786.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/junio-2021"}
+        },
+        "title": "Junio 2021"
+    },
+    "rich-text#Junio-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Junio 2021"          
+        }
+    },
+    "flex-layout.col#catalogo-moboshop-1": {
+      "props": {
+        "horizontalAlign": "center"                       
+      },
+      "children": ["image#Mayo-2021","rich-text#Mayo-2021"]
+    },
+    "image#Mayo-2021": {
+        "props": {
+          "src": "https://s8cdn.joomag.com/res_mag/0/654/654370/2465040/thumbs/59622916.jpg",
+          "maxHeight": 500,
+          "link":{"url": "/catalogos-moboshop/mayo-2021"}
+        },
+        "title": "Mayo 2021"
+    },
+    "rich-text#Mayo-2021": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Mayo 2021"          
+        }
+    }
+} 

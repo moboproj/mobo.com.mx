@@ -1,0 +1,259 @@
+{
+  "footer": {
+    "title": "Footer",
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "title": "Footer (Desktop)",
+    "children": [
+      "__fold__",
+      "flex-layout.row#footer-payments-wrapper",
+      "flex-layout.row#footer-logo",
+      "flex-layout.row#footer-main",
+      "flex-layout.row#footer-about",
+      "flex-layout.row#footer-contact"
+    ]
+  },
+  "flex-layout.row#footer-payments-wrapper": {
+    "title": "Sección Métodos de Pago",
+    "children": ["flex-layout.col#footer-payments-container"],
+    "props": {
+      "blockClass": ["maxWidth1920", "footerPaymentsWrapper"]
+    }
+  },
+  "flex-layout.col#footer-payments-container": {
+    "children": [
+      "rich-text#footer-payments-title",
+      "flex-layout.row#footer-payments"
+    ]
+  },
+  "rich-text#footer-payments-title": {
+    "title": "Texto título",
+    "props": {
+      "blockClass": "moboTitle",
+      "text": "Todas nuestras formas de pago"
+    }
+  },
+  "flex-layout.row#footer-payments": {
+    "children": [
+      "image#footer-img1",
+      "image#footer-img2",
+      "image#footer-img3",
+      "image#footer-img4",
+      "image#footer-img5",
+      "image#footer-img6",
+      "image#footer-img7"
+    ],
+    "props": {
+      "blockClass": "footerPayments",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "image#footer-img1": {
+    "props": {
+      "blockClass": "footerImgPayment",
+      "src": "/arquivos/footerVisaMod.png"
+    }
+  },
+  "image#footer-img2": {
+    "props": {
+      "blockClass": "footerImgPayment",
+      "src": "/arquivos/footerMasterMod.png"
+    }
+  },
+  "image#footer-img3": {
+    "props": {
+      "blockClass": "footerImgPayment",
+      "src": "/arquivos/Merado-Pago.png"
+    }
+  },
+  "image#footer-img4": {
+    "props": {
+      "blockClass": "footerImgPayment",
+      "src": "/arquivos/footerPayPalMod.png"
+    }
+  },
+  "image#footer-img5": {
+    "props": {
+      "blockClass": "footerImgPayment",
+      "src": "/arquivos/FooterKueskiMod.png"
+    }
+  },
+  "image#footer-img6": {
+    "props": {
+      "blockClass": "footerImgPayment",
+      "src": "/arquivos/footerAplazoMod.png"
+    }
+  },
+  "image#footer-img7": {
+    "props": {
+      "blockClass": "footerImgPayment",
+      "src": "/arquivos/footerNuMod.png"
+    }
+  },
+
+  "flex-layout.row#footer-logo": {
+    "children": ["image#footer-logo"],
+    "props": {
+      "blockClass": ["footerLogo", "maxWidth1920"],
+      "horizontalAlign": "left",
+      "colJustify": "left"
+    }
+  },
+
+  "flex-layout.row#footer-main": {
+    "title": "Sección principal del footer",
+    "children": [
+      "vtex.menu@2.x:menu#footer-links-1",
+      "vtex.menu@2.x:menu#footer-links-2",
+      "flex-layout.col#footernew"
+    ],
+    "props": {
+      "blockClass": ["footerMainSection", "maxWidth1920"]
+    }
+  },
+  "flex-layout.col#footernew": {
+    "children": [
+      //"flex-layout.row#suscrib",
+      "newsletter-form#footer",
+      "rich-text#SIGUENOS",
+      "vtex.menu@2.x:menu#img-redes"
+    ],
+    "props": {
+      "colGap": 4,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#suscrib": {
+    "children": ["vtex.menu@2.x:menu#newsletter"]
+  },
+  "rich-text#SIGUENOS": {
+    "props": {
+      "text": "Síguenos en:",
+      "blockClass": "Redes-sociales-footer"
+    }
+  },
+  "vtex.menu@2.x:menu#img-redes": {
+    "children": [
+      "menu-item#facebook",
+      "menu-item#instagram",
+      "menu-item#tiktok"
+    ],
+    "props": {
+      "blockClass": "menuRedes"
+    }
+  },
+  "menu-item#facebook": {
+    "props": {
+      "id": "facebook",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.facebook.com/MoboMexico/",
+        "noFollow": false,
+        "tagTitle": "Facebook",
+        "text": "Facebook"
+      },
+      "blockClass": "facebook"
+    }
+  },
+  "menu-item#instagram": {
+    "props": {
+      "id": "instagram",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.instagram.com/mobo_oficial/",
+        "noFollow": false,
+        "tagTitle": "Instagram",
+        "text": "Instagram"
+      },
+      "blockClass": "instagram"
+    }
+  },
+  "menu-item#tiktok": {
+    "props": {
+      "id": "tiktok",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tiktok.com/@mobo_oficial",
+        "noFollow": false,
+        "tagTitle": "TikTok",
+        "text": "TikTok"
+      },
+      "blockClass": "tiktok"
+    }
+  },
+  "image#footer-logo": {
+    "props": {
+      "src": "/arquivos/logo_m.png",
+      "maxWidth": "100px",
+      "blockClass": "logoFooter"
+    }
+  },
+  "flex-layout.col#colFooter-3-desktop": {
+    "children": ["accepted-payment-methods"]
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa"]
+    }
+  },
+  "flex-layout.row#footer-about": {
+    "children": ["rich-text#footer-about-text"],
+    "props": {
+      "blockClass": ["maxWidth1920"]
+    }
+  },
+  "rich-text#footer-about-text": {
+    "props": {
+      "blockClass": "footerAboutText",
+      "text": "### ¿Qué es Mobo?\nEn Mobo somos una empresa mexicana, líder en el diseño, distribución y comercialización de accesorios como: fundas, cargadores, cases para celular, cables, smartwatches, weareables y celulares reacondicionados.\nDesde el año 2001 hemos creado una red de comercialización de accesorios al alcance de todos los usuarios, marcamos la tendencia de tecnología, diseño, calidad, servicio y conveniencia en el mercado de accesorios para celulares de diferentes marcas como: iPhone, Samsung, Huawei, Motorola, Xiaomi y Oppo.  Encuentra con nosotros todo lo que necesitas para complementar tu estilo. Desde un IPhone 11 Reacondicionado hasta una funda para teléfono."
+    }
+  },
+  "flex-layout.row#footer-contact": {
+    "children": [
+      "info-card#footer-assistance",
+      "info-card#footer-whatsapp",
+      "info-card#footer-email"
+    ],
+    "props": {
+      "blockClass": ["footerContact", "maxWidth1920"]
+    }
+  },
+  "info-card#footer-assistance": {
+    "props": {
+      "blockClass": "footerContact",
+      "textMode": "rich-text",
+      "headline": "### Asistencia telefónica",
+      "subhead": "[(55) 9302 0244](tel:5593020244)\nLunes - Viernes\n9:00 am a 6:00 pm\nSábados 9:30 am a 3:00 pm\nDomingo (Inactivo)",
+      "imageUrl": "/arquivos/Telefono-icono.png",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#footer-whatsapp": {
+    "props": {
+      "blockClass": "footerContact",
+      "textMode": "rich-text",
+      "headline": "### WhatsApp",
+      "subhead": "[+52 55 9302 0244](https://api.whatsapp.com/send/?phone=5593020244)\nLunes - Viernes\n9:00 am a 6:00 pm\nSábados 9:30 am a 3:00 pm\nDomingo (Inactivo)",
+      "imageUrl": "/arquivos/WhatsApp-icono.png",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#footer-email": {
+    "props": {
+      "blockClass": "footerContact",
+      "textMode": "rich-text",
+      "headline": "### Correo electrónico",
+      "subhead": "[atencionaclientes@mobo.mx](mailto:atencionaclientes@mobo.mx)",
+      "imageUrl": "/arquivos/Correo-icono.png",
+      "callToActionMode": "none"
+    }
+  }
+}

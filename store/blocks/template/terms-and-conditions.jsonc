@@ -1,0 +1,63 @@
+{
+    "store.custom#terms-and-conditions":{
+        "children":["flex-layout.row#terms-wrapper"]
+    },
+    "flex-layout.row#terms-wrapper":{
+        "title":"Envoltura términos y condiciones",
+        "children":["flex-layout.col#terms-container"]
+    },
+    "flex-layout.col#terms-container":{
+        "children":[
+            "flex-layout.row#terms-main",
+            "flex-layout.row#terms-text-wrapper"
+        ]
+    },
+    "flex-layout.row#terms-main":{
+        "children":["info-card#terms-main"]
+    },
+    "info-card#terms-main":{
+        "title":"Imagen principal",
+        "props": {
+            "blockClass": "infoOnlyImg",
+            "imageUrl": "/arquivos/Terminos-y-condiciones_Banner_Desktop.png",
+            "mobileImageUrl": "/arquivos/Terminos-y-Terminos-y-condiciones_Banner_Mobile.png",
+            "callToActionMode": "none",
+            "callToActionUrl": "",
+            "imageActionUrl": ""
+        }
+    },
+    "flex-layout.row#terms-text-wrapper":{
+        "children":["flex-layout.col#terms-text-container"],
+        "props":{
+            "blockClass":"maxWidthGeneral"
+        }
+    },
+    "flex-layout.col#terms-text-container":{
+        "children":[
+            "rich-text#terms-text-1",
+            "terms-table",
+            "image#terms-image",
+            "rich-text#terms-text-2"
+        ]
+    },
+    "rich-text#terms-text-1":{
+        "title":"Texto general de la página",
+        "props":{
+            "blockClass":["textGeneral","termsGeneral"],
+            "text":"Términos y condiciones"
+        }
+    },
+    "image#terms-image":{
+        "props":{
+            "blockClass":"termsImage",
+            "src":""
+        }
+    },
+    "rich-text#terms-text-2":{
+        "title":"Texto 2 general de la página",
+        "props":{
+            "blockClass":["textGeneral","termsGeneral"],
+            "text":"Términos y condiciones 2!!"
+        }
+    }
+}

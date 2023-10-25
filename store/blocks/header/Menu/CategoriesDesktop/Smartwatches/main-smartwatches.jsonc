@@ -1,0 +1,241 @@
+{
+    "menu-item#smartwatches": {
+        "blocks": ["vtex.menu@2.x:submenu#smartwatches"], 
+		"props": {
+            "blockClass": ["mainSubMenu","categorySmartwatches"],
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/tecnologia/wearables",
+				"noFollow": false,
+				"tagTitle": "Smartwatches",
+				"text": "Smartwatches"
+			}
+		}
+	},
+    "vtex.menu@2.x:submenu#smartwatches": {
+		"children": ["flex-layout.row#submenu-smartwatches"]
+	},
+	"flex-layout.row#submenu-smartwatches": {
+		"children": [
+			"flex-layout.col#submenu-smartwatches-1",
+			"flex-layout.col#submenu-smartwatches-2"
+		],
+        "props": {
+            "blockClass":["subMenuCategory","submenuSmartwatches"],
+			"fullWidth": true,
+			"colGap": 10
+		}
+	},
+
+    "flex-layout.col#submenu-smartwatches-1":{
+        "children":[
+            "info-card#submenu-smartwatches-highlight-1",
+            "info-card#submenu-smartwatches-highlight-2",
+            "menu-item#smartwatches-mobo-desktop",
+            "menu-item#smartwatches-xiaomi-desktop",
+            "menu-item#smartwatches-be-fun-desktop",
+            "menu-item#smartwatches-huawei-desktop",
+            "menu-item#smartwatches-honor-desktop",
+            "menu-item#smartwatches-oppo-desktop",
+            // "menu-item#smartwatches-cubbit-desktop",
+            // "disclosure-layout#smartwatches-mobo-desk",
+            // "disclosure-layout#smartwatches-xiaomi-desk",
+            // "disclosure-layout#smartwatches-be-fun-desk",
+            // "disclosure-layout#smartwatches-huawei-desk",
+            // "disclosure-layout#smartwatches-honor-desk",
+            // "disclosure-layout#smartwatches-oppo-desk",
+            
+            "rich-text#submenu-smartwatches-final-text-1"
+        ],
+        "props":{
+            "blockClass":"mainSubMenu",
+            "preventVerticalStretch":true
+        }
+    },
+
+    "info-card#submenu-smartwatches-highlight-1":{
+		"title": "Descuentos",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Descuentos-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"DESCUENTOS",
+			"callToActionUrl": "/descuentos-mobo-online",
+			"imageActionUrl": "/descuentos-mobo-online"
+		}
+	},
+    "info-card#submenu-smartwatches-highlight-2":{
+		"title": "Novedades",
+		"props":{
+			"blockClass":"menuHighlight",
+			"imageUrl":"/arquivos/Novedadess-icono.png",
+			"textPosition": "right",
+			"callToActionMode": "link",
+            "callToActionText":"NOVEDADES",
+			"callToActionUrl": "/novedades-mobo-online",
+			"imageActionUrl": "/novedades-mobo-online"
+		}
+	},
+    "menu-item#smartwatches-mobo-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuMobo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/smartwatch-mobo",
+                "tagTitle": "Mobo",
+                "text": "Mobo"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#smartwatches-mobo-desk" */]
+    },
+    "menu-item#smartwatches-xiaomi-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuSmartXiaomi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/smartwatch-xiaomi",
+                "tagTitle": "Xiaomi",
+                "text": "Xiaomi"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#smartwatches-xiaomi-desk" */]
+    },
+    "menu-item#smartwatches-be-fun-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuSmartBeFun",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/smartwatch-be-fun",
+                "tagTitle": "Be Fun",
+                "text": "Be Fun"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#smartwatches-be-fun-desk" */]
+    },
+    "menu-item#smartwatches-huawei-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuHuawei",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/smartwatch-huawei",
+                "tagTitle": "Huawei",
+                "text": "Huawei"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#smartwatches-huawei-desk" */]
+    },
+    "menu-item#smartwatches-honor-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuHonor",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/smartwatch-honor",
+                "tagTitle": "Honor",
+                "text": "Honor"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#smartwatches-honor-desk" */]
+    },
+    "menu-item#smartwatches-oppo-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuOppo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/smartwatch-oppo",
+                "tagTitle": "Oppo",
+                "text": "Oppo"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#smartwatches-oppo-desk" */]
+    },
+    "menu-item#smartwatches-cubbit-desktop": {
+        "props": {
+            "blockClass": ["headerSubmenuDesk"],
+            "id": "menuCubbit",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Cubbit",
+                "text": "Cubbit"
+            }
+        },
+        "blocks": [/* "vtex.menu@2.x:submenu.accordion#smartwatches-cubbit-desk" */]
+    },
+    "rich-text#submenu-smartwatches-final-text-1":{
+        "title":"Texto final izquierdo",
+        "props":{
+            "blockClass":"mainMenuFinalText",
+            "text":"Hazte de tu nuevo celular pagando en 4 quincenas con Kueski Pay"
+        }
+    },
+
+    "flex-layout.col#submenu-smartwatches-2":{
+        "children":[
+            "rich-text#submenu-smartwatches-title",
+            "image#submenu-smartwatches-img",
+            "rich-text#submenu-smartwatches-final-text-2"        
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+    },
+    "rich-text#submenu-smartwatches-title":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuTitle"],
+            "text":"NUEVO\nPulsera Inteligente Huawei Band 8 Negro"
+        }
+    },
+    "image#submenu-smartwatches-img":{
+        "props":{
+            "src":"/arquivos/ids/205978-800-auto?v=638204606681900000&width=499&height=499&aspect=true",
+            "link":{
+                "url":"/pulsera-inteligente-huawei-band-8-negro/p"
+            }
+        }
+    },
+    "rich-text#submenu-smartwatches-final-text-2":{
+        "title":"Texto final derecho",
+        "props":{
+            "blockClass":["mainMenuFinalText","text2"],
+            "text":"Paga con PayPal a 12 MSI y estrénalo mañana"
+        }
+    }
+}

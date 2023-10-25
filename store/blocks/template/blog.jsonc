@@ -1,0 +1,611 @@
+{
+    "store.custom#blog": {
+        "blocks": [              
+            "info-card#blog-principal",
+            "flex-layout.row#blog-row11",
+            "flex-layout.row#blog-row10",
+            "flex-layout.row#blog-row9",
+            "flex-layout.row#blog-row8",
+            "flex-layout.row#blog-row7",
+            "flex-layout.row#blog-row6",
+            "flex-layout.row#blog-row5",
+            "flex-layout.row#blog-row4",
+            "flex-layout.row#blog-row3",
+            "flex-layout.row#blog-row2",
+            "back-to-top-button#blog"
+        ]
+     },
+    
+    "info-card#blog-principal": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/nota-33.jpg",
+          "headline": "<div style='color:#004d71'>Celulares</div> iPhone 14: Todo lo que debes saber",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/iphone-14-todo-lo-que-debes-saber",
+          "blockClass": "info-card-example",
+          "textAlignment": "center"
+        }
+    },
+    /*SIGUIENTE FILA*/
+    "flex-layout.row#blog-row11":{
+        "props": {
+            "marginTop":10,
+            "colGap":5
+        },  
+        "children": [
+            "flex-layout.col#blog-col-33",
+            "flex-layout.col#blog-col-32",
+            "flex-layout.col#blog-col-31"
+          ]
+    },
+    "flex-layout.col#blog-col-33":{
+        "children": [
+            "info-card#blog-nota-33"
+          ]
+    },
+    "flex-layout.col#blog-col-32":{
+        "children": [
+            "info-card#blog-nota-32"
+          ]
+    },
+    "flex-layout.col#blog-col-31":{
+        "children": [
+            "info-card#blog-nota-31"
+          ]
+    },
+    "info-card#blog-nota-33": {
+        "props": {
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/193730/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(15).png",
+          "headline": "<div style='font-size:20px'>Mobo, orgullosamente mexicanos</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/mobo-orgullosamente-mexicanos",          
+          "textPosition":"right",
+          "blockClass":"nota_mobile"          
+        }
+    },
+    "info-card#blog-nota-32": {
+        "props": {  
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/193724/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(12).png",
+          "headline": "<div style='font-size:20px'>¿Te robaron el celular? 6 consejos que debes seguir</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/consejos-para-robo-de-celular",                            
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-31": {
+        "props": {         
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/193728/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(13).png",
+          "headline": "<div style='font-size:20px'>5 Muy buenas razones para tener un monitor</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/5-razones-para-un-monitor",                 
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }    
+    },
+    /*SIGUIENTE FILA*/
+    "flex-layout.row#blog-row10":{
+        "props": {
+            "marginTop":8,
+            "colGap":5
+        },  
+        "children": [
+            "flex-layout.col#blog-col-30",
+            "flex-layout.col#blog-col-29",
+            "flex-layout.col#blog-col-28"
+          ]
+    },
+    "flex-layout.col#blog-col-30":{
+        "children": [
+            "info-card#blog-nota-30"
+          ]
+    },
+    "flex-layout.col#blog-col-29":{
+        "children": [
+            "info-card#blog-nota-29"
+          ]
+    },
+    "flex-layout.col#blog-col-28":{
+        "children": [
+            "info-card#blog-nota-28"
+          ]
+    },
+    "info-card#blog-nota-30": {
+        "props": {
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/194015/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(19).png",
+          "headline": "<div style='font-size:20px'>Los accesorios más cool para el back to school</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/accesorios-cool-back-to-school",          
+          "textPosition":"right",
+          "blockClass":"nota_mobile"      
+        }
+    },
+    "info-card#blog-nota-29": {
+        "props": {  
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/194014/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(18).png",
+          "headline": "<div style='font-size:20px'>Smartbands: ¿Qué son? ¿Qué hacen? ¿Cuáles son las mejores?</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/smartbands-que-son",                            
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-28": {
+        "props": {         
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/194012/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(17).png",
+          "headline": "<div style='font-size:20px'>Laptops reacondicionadas para la Escuela - Mejores Marcas y Modelos</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/laptops-reacondicionadas-para-la-escuela",                 
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }    
+    },
+
+
+    /*SIGUIENTE FILA*/
+    "flex-layout.row#blog-row9":{
+      "props": {
+          "marginTop":8,
+          "colGap":5
+      },  
+      "children": [
+          "flex-layout.col#blog-col-27",
+          "flex-layout.col#blog-col-26",
+          "flex-layout.col#blog-col-25"
+        ]
+  },
+  "flex-layout.col#blog-col-27":{
+      "children": [
+          "info-card#blog-nota-27"
+        ]
+  },
+  "flex-layout.col#blog-col-26":{
+      "children": [
+          "info-card#blog-nota-26"
+        ]
+  },
+  "flex-layout.col#blog-col-25":{
+      "children": [
+          "info-card#blog-nota-25"
+        ]
+  },
+  "info-card#blog-nota-27": {
+      "props": {
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/194009/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(16).png",
+        "headline": "<div style='font-size:20px'>Gadgets para el regreso a clases: Dispositivos imprescindibles para los estudiantes</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/gadgets-regreso-clases-2022",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-26": {
+      "props": {  
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/185054/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(35).png",
+        "headline": "<div style='font-size:20px'>Los accesorios que no te pueden faltar si tienes un iPhone 13 o un iPhone SE</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/los-accesorios-que-no-te-pueden-faltar",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-25": {
+      "props": {         
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/185053/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(34).png",
+        "headline": "<div style='font-size:20px'>Mexicanos en los premios Óscar</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/mexicanos-en-los-premios-oscar",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }    
+  },
+  /*SIGUIENTE FILA*/
+  "flex-layout.row#blog-row8":{
+    "props": {
+        "marginTop":8,
+        "colGap":5
+    },  
+    "children": [
+        "flex-layout.col#blog-col-24",
+        "flex-layout.col#blog-col-23",
+        "flex-layout.col#blog-col-22"
+      ]
+  },
+  "flex-layout.col#blog-col-24":{
+      "children": [
+          "info-card#blog-nota-24"
+        ]
+  },
+  "flex-layout.col#blog-col-23":{
+      "children": [
+          "info-card#blog-nota-23"
+        ]
+  },
+  "flex-layout.col#blog-col-22":{
+      "children": [
+          "info-card#blog-nota-22"
+        ]
+  },
+  "info-card#blog-nota-24": {
+      "props": {
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/185052/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(33).png",
+        "headline": "<div style='font-size:20px'>Tendencias de moda en primavera</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/tendencias-de-moda-en-primavera",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-23": {
+      "props": {  
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/185051/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(32).png",
+        "headline": "<div style='font-size:20px'>Apps y gadgets para tu seguridad. Conócelas</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/gadgets-apps-y-funciones-para-tu-seguridad",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-22": {
+      "props": {         
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/185050/pexels-tim-douglas-6567234.jpg",
+        "headline": "<div style='font-size:20px'>Los mejores celulares para fotos al aire libre</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/los-mejores-celulares-para-fotos-al-aire-libre",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }    
+  },
+    /*SIGUIENTE FILA*/
+    "flex-layout.row#blog-row7":{
+      "props": {
+          "marginTop":8,
+          "colGap":5
+      },  
+      "children": [
+          "flex-layout.col#blog-col-21",
+          "flex-layout.col#blog-col-20",
+          "flex-layout.col#blog-col-19"
+        ]
+  },
+  "flex-layout.col#blog-col-21":{
+      "children": [
+          "info-card#blog-nota-21"
+        ]
+  },
+  "flex-layout.col#blog-col-20":{
+      "children": [
+          "info-card#blog-nota-20"
+        ]
+  },
+  "flex-layout.col#blog-col-19":{
+      "children": [
+          "info-card#blog-nota-19"
+        ]
+  },
+  "info-card#blog-nota-21": {
+      "props": {
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/185049/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(31).png",
+        "headline": "<div style='font-size:20px'>Tips para regalar una sesión de fotos románticas a tu pareja</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/tips-para-regalar-una-sesion-de-fotos-romanticas",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-20": {
+      "props": {  
+        "imageUrl": "",
+        "headline": "<div style='font-size:20px'>¿Tipos de parejas? Te lo explicamos con gadgets ¡Conócelos!</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/tipos-de-parejas-te-lo-explicamos-con-gadgets",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-19": {
+      "props": {         
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184966/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(30).png",
+        "headline": "<div style='font-size:20px'>5 regalos para este 14 de Febrero que no pasarán de los $200 MX</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/5-regalos-para-el-14-de-febrero",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }    
+  },
+  /*SIGUIENTE FILA*/
+  "flex-layout.row#blog-row6":{
+        "props": {
+            "marginTop":8,
+            "colGap":5
+        },  
+        "children": [
+            "flex-layout.col#blog-col-18",
+            "flex-layout.col#blog-col-17",
+            "flex-layout.col#blog-col-16"
+          ]
+    },
+    "flex-layout.col#blog-col-18":{
+        "children": [
+            "info-card#blog-nota-18"
+          ]
+    },
+    "flex-layout.col#blog-col-17":{
+        "children": [
+            "info-card#blog-nota-17"
+          ]
+    },
+    "flex-layout.col#blog-col-16":{
+        "children": [
+            "info-card#blog-nota-16"
+          ]
+    },
+    "info-card#blog-nota-18": {
+        "props": {
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184965/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(29).png",
+          "headline": "<div style='font-size:20px'>Tips de regalos innovadores y originales para San Valentín</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/tips-de-regalos-innovadores-y-originales",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-17": {
+        "props": {  
+          "imageUrl": "",
+          "headline": "<div style='font-size:20px'>10 apps para tus propósitos. Tu smartphone, el mejor aliado para empezar el año</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/10-apps-para-tus-propositos",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-16": {
+        "props": {         
+          "imageUrl": "",
+          "headline": "<div style='font-size:20px'>Luz azul, el enemigo silencioso. Tips para cuidar tus ojos</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/luz-azul-el-enemigo-silencioso",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }    
+    },
+    /*SIGUIENTE FILA*/
+    "flex-layout.row#blog-row5":{
+      "props": {
+          "marginTop":8,
+          "colGap":5
+      },  
+      "children": [
+          "flex-layout.col#blog-col-15",
+          "flex-layout.col#blog-col-14",
+          "flex-layout.col#blog-col-13"
+        ]
+  },
+  "flex-layout.col#blog-col-15":{
+      "children": [
+          "info-card#blog-nota-15"
+        ]
+  },
+  "flex-layout.col#blog-col-14":{
+      "children": [
+          "info-card#blog-nota-14"
+        ]
+  },
+  "flex-layout.col#blog-col-13":{
+      "children": [
+          "info-card#blog-nota-13"
+        ]
+  },
+  "info-card#blog-nota-15": {
+      "props": {
+        "imageUrl": "",
+        "headline": "<div style='font-size:20px'>Oppo: Los móviles que llegaron para quedarse</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/oppo-los-moviles-que-llegaron-para-quedarse",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-14": {
+      "props": {  
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184918/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(25).png",
+        "headline": "<div style='font-size:20px'>Carga rápida de tu móvil: qué es y cómo funciona. Descubre sus pros y contras</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/carga-rapida-en-tu-movil",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-13": {
+      "props": {         
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/181146/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(9).png",
+        "headline": "<div style='font-size:20px'>7 accesorios inalámbricos de celular para hacer más simple tu vida ¡Conócelos!</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/7-accesorios-inalambricos-de-celular",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }    
+  },
+  /*SIGUIENTE FILA*/
+  "flex-layout.row#blog-row4":{
+    "props": {
+        "marginTop":8,
+        "colGap":5
+    },  
+    "children": [
+        "flex-layout.col#blog-col-12",
+        "flex-layout.col#blog-col-11",
+        "flex-layout.col#blog-col-10"
+      ]
+  },
+  "flex-layout.col#blog-col-12":{
+      "children": [
+          "info-card#blog-nota-12"
+        ]
+  },
+  "flex-layout.col#blog-col-11":{
+      "children": [
+          "info-card#blog-nota-11"
+        ]
+  },
+  "flex-layout.col#blog-col-10":{
+      "children": [
+          "info-card#blog-nota-10"
+        ]
+  },
+  "info-card#blog-nota-12": {
+      "props": {
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/181147/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(8).png",
+        "headline": "<div style='font-size:20px'>Power banks ¿Cómo elegir el correcto?</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/power-banks-como-elegir-el-correcto",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-11": {
+      "props": {  
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/180957/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(7).png",
+        "headline": "<div style='font-size:20px'>Smartwatches: ¿Por qué debes tener uno?</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/smartwatches-por-que-debes-tener-uno",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }
+  },
+  "info-card#blog-nota-10": {
+      "props": {         
+        "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/180348/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(6).png",
+        "headline": "<div style='font-size:20px'>Bocinas bluetooth: Elige la que se adapte a tu estilo de vida</div>",
+        "callToActionText": "VER MÁS",
+        "callToActionUrl": "/blog/tipos-bocinas-bluetooth",
+        "textPosition":"right",
+        "blockClass":"nota_mobile"
+      }    
+  },
+  /*SIGUIENTE FILA*/
+    "flex-layout.row#blog-row3":{
+      "props": {
+          "marginTop":8,
+          "colGap":5
+      },  
+      "children": [
+          "flex-layout.col#blog-col-9",
+          "flex-layout.col#blog-col-8",
+          "flex-layout.col#blog-col-7"
+        ]
+    },
+    "flex-layout.col#blog-col-9":{
+        "children": [
+            "info-card#blog-nota-9"
+          ]
+    },
+    "flex-layout.col#blog-col-8":{
+        "children": [
+            "info-card#blog-nota-8"
+          ]
+    },
+    "flex-layout.col#blog-col-7":{
+        "children": [
+            "info-card#blog-nota-7"
+          ]
+    },
+    "info-card#blog-nota-9": {
+        "props": {
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184864/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(24).png",
+          "headline": "<div style='font-size:20px'>¿Qué Motorola elegir de acuerdo a tu personalidad?</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/que-motorola-elegir-de-acuerdo-a-tu-personalidad",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-8": {
+        "props": {  
+          "imageUrl": "",
+          "headline": "<div style='font-size:20px'>Sonido inmersivo: Los mejores audífonos para videojuegos</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/audio-inmersivo-audifonos-gamer",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-7": {
+        "props": {         
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184862/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(22).png",
+          "headline": "<div style='font-size:20px'>La tendencia de los reacondicionados, ¿buena o mala decisión?</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/celulares-reacondicionados",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }    
+    },
+    /*SIGUIENTE FILA*/
+    "flex-layout.row#blog-row2":{
+      "props": {
+          "marginTop":8,
+          "colGap":5
+      },  
+      "children": [
+          "flex-layout.col#blog-col-6",
+          "flex-layout.col#blog-col-5",
+          "flex-layout.col#blog-col-4"
+        ]
+    },
+    "flex-layout.col#blog-col-6":{
+        "children": [
+            "info-card#blog-nota-6"
+          ]
+    },
+    "flex-layout.col#blog-col-5":{
+        "children": [
+            "info-card#blog-nota-5"
+          ]
+    },
+    "flex-layout.col#blog-col-4":{
+        "children": [
+            "info-card#blog-nota-4"
+          ]
+    },
+    "info-card#blog-nota-6": {
+        "props": {
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184860/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(20).png",
+          "headline": "<div style='font-size:20px'>Nuestro TOP 10 de tendencias para tu celular</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/accesorios-carcasas-proteccion-para-celulares",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-5": {
+        "props": {  
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184819/iphone%20estrellado.png",
+          "headline": "<div style='font-size:20px'>¿Se estrelló la pantalla de tu iPhone? Aquí te decimos cómo solucionarlo</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/reparacion-celular-pantalla-estrellada-iphone",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }
+    },
+    "info-card#blog-nota-4": {
+        "props": {         
+          "imageUrl": "https://mobomx.vteximg.com.br/arquivos/ids/184861/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(21).png",
+          "headline": "<div style='font-size:20px'>Guía rápida para elegir la carcasa ideal para tu celular</div>",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog/fundas-carcasas-proteccion-para-celulares",
+          "textPosition":"right",
+          "blockClass":"nota_mobile"
+        }    
+    },
+    "back-to-top-button#blog":{
+      "props":{
+          "displayThreshold": 900,
+          "display":"caret-icon"
+      }
+    }
+
+}

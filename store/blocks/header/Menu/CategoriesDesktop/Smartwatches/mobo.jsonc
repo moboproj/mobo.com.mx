@@ -1,0 +1,151 @@
+{
+    "vtex.menu@2.x:submenu.accordion#smartwatches-mobo-desk": {
+        "children":["menu#smartwatches-submenu-mobo-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+
+    "disclosure-layout#smartwatches-mobo-desk":{
+        "children": [
+            "disclosure-trigger#smartwatches-mobo-trigger-desk",
+            "disclosure-content#smartwatches-mobo-content-desk"
+        ]
+    },
+    "disclosure-trigger#smartwatches-mobo-trigger-desk": {
+        "children": ["link#smartwatches-mobo-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#smartwatches-mobo-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Mobo",
+			"href":"/smartwatch-mobo"
+		}
+	},
+    "disclosure-content#smartwatches-mobo-content-desk": {
+        "children": ["menu#smartwatches-submenu-mobo-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#smartwatches-submenu-mobo-desktop": {
+        "props": {
+            "blockClass": "categoriesMobo",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Ranger",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo-ranger-negro/p",
+                        "noFollow": false,
+                        "tagTitle": "Ranger",
+                        "text": "Ranger"
+                    }
+                },
+                {
+                    "id": "Track",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo-track-negro/p",
+                        "noFollow": false,
+                        "tagTitle": "Track",
+                        "text": "Track"
+                    }
+                },
+                {
+                    "id": "Dotty",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo-dotty-azul-rosa/p",
+                        "noFollow": false,
+                        "tagTitle": "Dotty",
+                        "text": "Dotty"
+                    }
+                },
+                {
+                    "id": "Swift",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo-swift-sw45h-negro/p",
+                        "noFollow": false,
+                        "tagTitle": "Swift",
+                        "text": "Swift"
+                    }
+                },
+                {
+                    "id": "Cronos",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo-cronos-mbsw-8-negro/p",
+                        "noFollow": false,
+                        "tagTitle": "Cronos",
+                        "text": "Cronos"
+                    }
+                },
+                {
+                    "id": "Strong",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo-strong-mbsw-7-negro/p",
+                        "noFollow": false,
+                        "tagTitle": "Strong",
+                        "text": "Strong"
+                    }
+                },
+                {
+                    "id": "Beat",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/smartwatch-mobo-beat-morado/p",
+                        "noFollow": false,
+                        "tagTitle": "Beat",
+                        "text": "Beat"
+                    }
+                },
+                {
+                    "id": "Pulse",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/pulsera-inteligente-mobo-pulse-mbbd-8-negro/p",
+                        "noFollow": false,
+                        "tagTitle": "Pulse",
+                        "text": "Pulse"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

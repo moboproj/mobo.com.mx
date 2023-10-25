@@ -1,0 +1,125 @@
+{
+    "vtex.menu@2.x:submenu.accordion#proteccion-celular-desk": {
+        "children":["menu#proteccion-submenu-celular-desktop"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#proteccion-celular-desk":{
+        "children": [
+            "disclosure-trigger#proteccion-celular-trigger-desk",
+            "disclosure-content#proteccion-celular-content-desk"
+        ]
+    },
+    "disclosure-trigger#proteccion-celular-trigger-desk": {
+        "children": ["link#proteccion-celular-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#proteccion-celular-trigger":{
+		"props":{
+			"blockClass":"linkMenu",
+			"label":"Celular",
+			"href":"/proteccion/protector"
+		}
+	},
+    "disclosure-content#proteccion-celular-content-desk": {
+        "children": ["menu#proteccion-submenu-celular-desktop"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+
+    "menu#proteccion-submenu-celular-desktop": {
+        "props": {
+            "blockClass": "categoriesCelular",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "iPhone",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-iphone",
+                        "noFollow": false,
+                        "tagTitle": "iPhone",
+                        "text": "iPhone"
+                    }
+                },
+                {
+                    "id": "Huawei",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-huawei",
+                        "noFollow": false,
+                        "tagTitle": "Huawei",
+                        "text": "Huawei"
+                    }
+                },
+                {
+                    "id": "Motorola",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-motorola",
+                        "noFollow": false,
+                        "tagTitle": "Motorola",
+                        "text": "Motorola"
+                    }
+                },
+                {
+                    "id": "Oppo",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-oppo",
+                        "noFollow": false,
+                        "tagTitle": "Oppo",
+                        "text": "Oppo"
+                    }
+                },
+                {
+                    "id": "Samsung",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-samsung",
+                        "noFollow": false,
+                        "tagTitle": "Samsung",
+                        "text": "Samsung"
+                    }
+                },
+                {
+                    "id": "Xiaomi",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/proteccion-xiaomi",
+                        "noFollow": false,
+                        "tagTitle": "Xiaomi",
+                        "text": "Xiaomi"
+                    }
+                }
+            ]
+        }
+    }
+    
+}

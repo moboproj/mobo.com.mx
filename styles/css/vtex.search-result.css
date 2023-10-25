@@ -1,0 +1,358 @@
+:global(.vtex-store-components-3-x-container).searchResultContainer{
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 0px 71px 0px 152px;
+    font-size: 10px;
+}
+.galleryTitle--layout{
+    font-size: 40px;
+}
+.galleryLayoutSwitcher{
+    justify-content: flex-end;
+}
+.galleryLayoutOptionButton{
+    width: 38px;
+    height: 38px;
+}
+.galleryLayoutOptionButton :global(.vtex-store-icons-0-x-gridIcon),
+.galleryLayoutOptionButton :global(.vtex-store-icons-0-x-inlineGridIcon){
+    width: 25px;
+    height: 25px;
+}
+/*Order By*/
+.orderByButton{
+    width: fit-content;
+    margin-left: auto;
+    padding: 8px 8px 8px 16px;
+    border: 3px solid #9b9b9b;
+}
+.filterPopupTitle{
+    text-transform: initial;
+}
+.orderByOptionsContainer{
+    max-width: 300px;
+    background-color: transparent;
+}
+.orderByOptionItem{
+    background-color: #272727;
+    opacity: 0.7;
+    color: #fff;
+    border: none;
+}
+.orderByOptionItem--selected{
+    background-color: #272727;
+    opacity: 1;
+}
+.orderByDropdown .orderByOptionItem:hover{
+    background-color: #3c3c3c;
+}
+/*Filtros*/
+.filterTitle{
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0.21px;
+    text-align: left;
+    color: #000;
+}
+.filterIcon{
+    color: #000;
+}
+.filter__container{
+    border: none;
+}
+.filterItem{
+    font-size: 21.5px;
+    font-weight: bold;
+    letter-spacing: 0.22px;
+    text-align: left;
+}
+.filterItem :global(.vtex-checkbox__line-container),
+.accordionFilterOpen :global(.vtex-checkbox__line-container){
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin: 4px 0px;
+}
+.filterItem :global(.vtex-checkbox__label),
+.accordionFilterOpen :global(.vtex-checkbox__label){
+    color: #9b9b9b;
+}
+.filterItem :global(.vtex-checkbox__inner-container),
+.accordionFilterOpen :global(.vtex-checkbox__inner-container){
+    width: 21px;
+    height: 21px;
+    border: 2px solid #9b9b9b;
+    border-radius: 10px;
+}
+.filterItem :global(.vtex__icon-check){
+    display: none;
+}
+.filter__container--clearAllFilters :global(.vtex-button){
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: #0433ff;
+}
+.filter__container--clearAllFilters :global(.vtex-button__label){
+    padding: 0;
+}
+
+
+/*Gallery*/
+.gallery{
+    padding-left: 78px;
+}
+
+
+.showingProducts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buttonShowMore{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width:1920px){
+    :global(.vtex-store-components-3-x-container).searchResultContainer{
+        padding: 0px 3.646vw 0px 7.917vw;
+    }
+    .galleryTitle--layout{
+        font-size: 2.083vw;
+    }
+    .galleryLayoutOptionButton{
+        width: 1.979vw;
+        height: 1.979vw;
+    }
+    /*Filtros*/
+    .filterTitle{
+        font-size: 1.094vw;
+    }
+    .filterItem{
+        font-size: 1.094vw;
+    }
+    .filterItem :global(.vtex-checkbox__line-container),
+    .accordionFilterOpen :global(.vtex-checkbox__line-container){
+        gap: 0.885vw;
+        margin: 4px 0px;
+    }
+    .filterItem :global(.vtex-checkbox__inner-container),
+    .accordionFilterOpen :global(.vtex-checkbox__inner-container){
+        width: 1.094vw;
+        height: 1.094vw;
+    }
+
+    /*Gallery*/
+    .gallery{
+        padding-left: 4.0625vw;
+    }
+
+    .showingProducts{
+        margin-top: 1.042vw;
+        margin-bottom: 1.042vw;
+    }
+    .buttonShowMore{
+        margin-top: 1.042vw;
+        margin-bottom: 2.083vw;
+    }
+}
+
+@media only screen and (max-width:1600px){
+    :global(.vtex-store-components-3-x-container).searchResultContainer{
+        padding: 0px 3.646vw 0px 3.646vw;
+    }
+}
+
+
+
+
+
+
+
+/*Mobile*/
+:global(.vtex-store-drawer-0-x-drawer) .filterMessage{
+    font-size: 2.841vw;
+    font-weight: bold;
+    color: #fff;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filterTitle{
+    font-size: 2.623vw;
+    color: #fff;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filterItem{
+    font-size: 2.186vw;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filters--layout{
+    margin: 0;
+    padding: 0;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filterContent{
+    padding: 0 2.623vw;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filterIcon{
+    color: #fff;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filterItem :global(.vtex-checkbox__inner-container),
+:global(.vtex-store-drawer-0-x-drawer) .accordionFilterOpen :global(.vtex-checkbox__inner-container){
+    width: 1.749vw;
+    height: 1.749vw;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filter__container--clearAllFilters :global(.vtex-button){
+    color: #1cffb7;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filter__container--priceRange :global(.vtex-button){
+    background-color: #1cffb7;
+    border: none;
+    color: #000;
+}
+:global(.vtex-store-drawer-0-x-drawer) .filter__container--priceRange :global(.vtex-input-prefix__group){
+    border: 2px solid #1cffb7
+}
+:global(.vtex-store-drawer-0-x-drawer) .filter__container--priceRange :global(.vtex-slider__base-internal),
+:global(.vtex-store-drawer-0-x-drawer) .filter__container--priceRange :global(.vtex-slider__selector){
+    background-color: #1cffb7;
+}
+
+:global(.vtex-checkbox__inner-container) {
+    display: none;
+}
+
+.filtersWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.filtersWrapper .filter__container{
+    order: 2;
+}
+.filtersWrapper .filter__container--priceRange{
+    order: 1;
+}
+.filtersWrapper .filter__container--priceRange .filterTemplateOverflow{
+    padding: 0;
+}
+.filtersWrapper .filter__container--title{
+    order: 0;
+}
+
+@media only screen and (max-width:1440px) and (min-width: 1025px){
+    .priceRangeInputWrapper{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 6px 0;
+    }
+    .priceRangeInput{
+        width: 48%;
+    }
+    .priceRangeInputWrapper :global(.vtex-button){
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width:1024px){
+    :global(.vtex-store-components-3-x-container).searchResultContainer{
+        padding: 0px 5.792vw 0px
+    }
+    .galleryTitle--layout{
+        font-size: 4.372vw;
+    }
+    .galleryLayoutOptionButton{
+        width: 3.934vw;
+        height: 3.934vw;
+    }
+    /*Order By*/
+    .orderBy--layout{
+        display: flex;
+        align-items: center;
+    }
+
+    /*Gallery*/
+    .gallery{
+        padding-left: 0;
+    }
+
+    .showingProducts{
+        margin-top: 2.186vw;
+        margin-bottom: 2.186vw;
+    }
+    .buttonShowMore{
+        margin-top: 0;
+        margin-bottom: 4.372vw;
+    }
+    .buttonShowMore :global(.vtex-button){
+        font-size: 2.35vw;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .galleryTitle--layout{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:640px){
+    /*Order By*/
+    .orderByOptionsContainer{
+        right: 0;
+    }
+    /*Filters*/
+    .filterPopupTitle{
+        font-size: 2.1874vw;
+    }
+
+    :global(.vtex-store-drawer-0-x-drawer) .filterMessage{
+        font-size: 5vw;
+    }
+    :global(.vtex-store-drawer-0-x-drawer) .filterTitle{
+        font-size: 4vw;
+    }
+    :global(.vtex-store-drawer-0-x-drawer) .filterItem{
+        font-size: 3.5vw;
+    }
+    :global(.vtex-store-drawer-0-x-drawer) .filterContent{
+        padding: 0 2.623vw;
+    }
+    :global(.vtex-store-drawer-0-x-drawer) .filterItem :global(.vtex-checkbox__inner-container),
+    :global(.vtex-store-drawer-0-x-drawer) .accordionFilterOpen :global(.vtex-checkbox__inner-container){
+        width: 2.749vw;
+        height: 2.749vw;
+    }
+
+    .priceRangeInputWrapper{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 6px 0;
+    }
+    .priceRangeInput{
+        width: 48%;
+    }
+    .priceRangeInputWrapper :global(.vtex-button){
+        width: 100% !important;
+    }
+
+
+
+    /*Gallery*/
+    .galleryLayoutSwitcher{
+        gap: 1.749vw;
+    }
+    .galleryLayoutOptionButton{
+        width: 3.934vw;
+        height: 3.934vw;
+        padding: 0;
+    }
+}
+@media only screen and (max-width:490px){
+    /*Order By*/
+    .orderByButton{
+        padding: 4px;
+        border: 2px solid #9b9b9b;
+    }
+    /*Filters*/
+    .priceRangeInput :global(.vtex-input__prefix){
+        padding: 0 4px 0 8px;
+    }
+    .priceRangeInput :global(.vtex-styleguide-9-x-input){
+        padding: 0 8px 0 2px;
+    }
+}

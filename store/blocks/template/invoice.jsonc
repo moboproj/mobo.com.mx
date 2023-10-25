@@ -1,0 +1,49 @@
+{
+    "store.custom#invoice":{
+        "children":["flex-layout.row#invoice-wrapper"] 
+    },
+    "flex-layout.row#invoice-wrapper":{
+        "title":"Envoltura de Facturación",
+        "children":["flex-layout.col#invoice-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral","invoiceWrapper"]
+        }
+    },
+    "flex-layout.col#invoice-container":{
+        "children":[
+            "rich-text#invoice-title",
+            "rich-text#invoice-question",
+            "link#invoice-button-1",
+            "link#invoice-button-2"
+        ]
+    },
+    "rich-text#invoice-title":{
+        "title":"Título de la página",
+        "props":{
+            "blockClass": ["questionsTitle","invoiceTitle"],
+            "text":"## Facturación"
+        }
+    },
+    "rich-text#invoice-question":{
+        "title":"Sección 1",
+        "props":{
+            "blockClass": ["invoiceText"],
+            "text":"### ¿En dónde realizaste tu compra?"
+        }
+    },
+    "link#invoice-button-1":{
+		"props":{
+			"blockClass":["button","invoiceButton","tertiary"],
+			"label":"Compré en una tienda MOBO",
+			"href":"https://facturacion.mobo.com.mx/",
+            "target":"_blank"
+		}
+	},
+    "link#invoice-button-2":{
+		"props":{
+			"blockClass":["button","invoiceButton","primary","last"],
+			"label":"Compré en línea mobo.com.mx",
+			"href":"/facturacion-en-linea"
+		}
+	}
+}

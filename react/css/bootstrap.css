@@ -1,0 +1,8 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css');
+
+.pricing-table-item .pricing-table-item-head{
+    padding: 10px 5px; 
+    text-align: center; 
+    background: #fa7100;
+ }
+ 

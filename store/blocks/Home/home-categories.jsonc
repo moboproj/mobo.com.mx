@@ -1,0 +1,346 @@
+{
+  "flex-layout.row#home-categories-wrapper": {
+    "title": "6.Contenedor Categorías",
+    "children": ["flex-layout.col#home-categories-container"],
+    "props": {
+      "blockClass": ["maxWidthGeneral", "homeCategoriesDesk"]
+    }
+  },
+  "flex-layout.col#home-categories-container": {
+    "children": [
+      "rich-text#home-categories-title",
+      "flex-layout.row#home-categories"
+    ]
+  },
+  "rich-text#home-categories-title": {
+    "title": "Encabezado",
+    "props": {
+      "blockClass": ["moboTitle", "titulo-mas-vendidos"],
+      "text": "## Categorías"
+    }
+  },
+  "flex-layout.row#home-categories": {
+    "children": [
+      "stack-layout#home-cat-1-stack",
+      "stack-layout#home-cat-2-stack",
+      "stack-layout#home-cat-3-stack",
+      "stack-layout#home-cat-4-stack",
+      "stack-layout#home-cat-5-stack",
+      "stack-layout#home-cat-6-stack",
+      "stack-layout#home-cat-7-stack"
+    ],
+    "props": {
+      "blockClass": ["homeCategories"]
+    }
+  },
+  "stack-layout#home-cat-1-stack": {
+    "title": "Categoría 1",
+    "children": [
+      "image#home-cat-1",
+      "image#home-cat-1-hover",
+      "link#home-cat-1-link"
+    ],
+    "props": {
+      "blockClass": "categoriesStack"
+    }
+  },
+  "image#home-cat-1": {
+    "title": "Imagen (Normal)",
+    "props": {
+      "blockClass": "homeCatImg",
+      "src": "/arquivos/categoria_Celulares.png",
+      "link": {
+        "url": "/Telefonia/Smartphones?map=c,c"
+      }
+    }
+  },
+  "image#home-cat-1-hover": {
+    "title": "Imagen (Hover)",
+    "props": {
+      "blockClass": ["homeCatImg", "homeCatImgHover"],
+      "src": "/arquivos/categoria_Celulares-B.png",
+      "link": {
+        "url": "/Telefonia/Smartphones?map=c,c"
+      }
+    }
+  },
+  "link#home-cat-1-link": {
+    "props": {
+      "blockClass": "homeCat",
+      "label": "Celulares",
+      "href": "/Telefonia/Smartphones?map=c,c"
+    }
+  },
+
+  "stack-layout#home-cat-2-stack": {
+    "title": "Categoría 2",
+    "children": [
+      "image#home-cat-2",
+      "image#home-cat-2-hover",
+      "link#home-cat-2-link"
+    ],
+    "props": {
+      "blockClass": "categoriesStack"
+    }
+  },
+  "image#home-cat-2": {
+    "title": "Imagen (Normal)",
+    "props": {
+      "blockClass": "homeCatImg",
+      "src": "/arquivos/categoria_Reacondicionados-iPhone.png",
+      "link": {
+        "url": "/iphone-reacondicionados"
+      }
+    }
+  },
+  "image#home-cat-2-hover": {
+    "title": "Imagen (Hover)",
+    "props": {
+      "blockClass": ["homeCatImg", "homeCatImgHover"],
+      "src": "/arquivos/categoria_Reacondicionados-iPhone-B.png",
+      "link": {
+        "url": "/iphone-reacondicionados"
+      }
+    }
+  },
+  "link#home-cat-2-link": {
+    "props": {
+      "blockClass": "homeCat",
+      "label": "iPhone Reacondicionados",
+      "href": "/iphone-reacondicionados"
+    }
+  },
+
+  "stack-layout#home-cat-3-stack": {
+    "title": "Categoría 3",
+    "children": [
+      "image#home-cat-3",
+      "image#home-cat-3-hover",
+      "link#home-cat-3-link"
+    ],
+    "props": {
+      "blockClass": "categoriesStack"
+    }
+  },
+  "image#home-cat-3": {
+    "title": "Imagen (Normal)",
+    "props": {
+      "blockClass": "homeCatImg",
+      "src": "/arquivos/categoria_Tablets-y-laptops.png",
+      "link": {
+        "url": "/tecnologia/laptops-y-tablets"
+      }
+    }
+  },
+  "image#home-cat-3-hover": {
+    "title": "Imagen (Hover)",
+    "props": {
+      "blockClass": ["homeCatImg", "homeCatImgHover"],
+      "src": "/arquivos/categoria_Tablets-y-laptops-B.png",
+      "link": {
+        "url": "/tecnologia/laptops-y-tablets"
+      }
+    }
+  },
+  "link#home-cat-3-link": {
+    "props": {
+      "blockClass": "homeCat",
+      "label": "Tablets y laptops",
+      "href": "/tecnologia/laptops-y-tablets"
+    }
+  },
+
+  "stack-layout#home-cat-4-stack": {
+    "title": "Categoría 4",
+    "children": [
+      "image#home-cat-4",
+      "image#home-cat-4-hover",
+      "link#home-cat-4-link"
+    ],
+    "props": {
+      "blockClass": "categoriesStack"
+    }
+  },
+  "image#home-cat-4": {
+    "title": "Imagen (Normal)",
+    "props": {
+      "blockClass": "homeCatImg",
+      "src": "/arquivos/categoria_Audio.png",
+      "link": {
+        "url": "/audio"
+      }
+    }
+  },
+  "image#home-cat-4-hover": {
+    "title": "Imagen (Hover)",
+    "props": {
+      "blockClass": ["homeCatImg", "homeCatImgHover"],
+      "src": "/arquivos/categoria_Audio-B.png",
+      "link": {
+        "url": "/audio"
+      }
+    }
+  },
+  "link#home-cat-4-link": {
+    "props": {
+      "blockClass": "homeCat",
+      "label": "Audio",
+      "href": "/audio"
+    }
+  },
+
+  "stack-layout#home-cat-5-stack": {
+    "title": "Categoría 5",
+    "children": [
+      "image#home-cat-5",
+      "image#home-cat-5-hover",
+      "link#home-cat-5-link"
+    ],
+    "props": {
+      "blockClass": "categoriesStack"
+    }
+  },
+  "image#home-cat-5": {
+    "title": "Imagen (Normal)",
+    "props": {
+      "blockClass": "homeCatImg",
+      "src": "/arquivos/categoria_Carga.png",
+      "link": {
+        "url": "/carga"
+      }
+    }
+  },
+  "image#home-cat-5-hover": {
+    "title": "Imagen (Hover)",
+    "props": {
+      "blockClass": ["homeCatImg", "homeCatImgHover"],
+      "src": "/arquivos/categoria_Carga-B.png",
+      "link": {
+        "url": "/carga"
+      }
+    }
+  },
+  "link#home-cat-5-link": {
+    "props": {
+      "blockClass": "homeCat",
+      "label": "Carga",
+      "href": "/carga"
+    }
+  },
+
+  "stack-layout#home-cat-6-stack": {
+    "title": "Categoría 6",
+    "children": [
+      "image#home-cat-6",
+      "image#home-cat-6-hover",
+      "link#home-cat-6-link"
+    ],
+    "props": {
+      "blockClass": "categoriesStack"
+    }
+  },
+  "image#home-cat-6": {
+    "title": "Imagen (Normal)",
+    "props": {
+      "blockClass": "homeCatImg",
+      "src": "/arquivos/categoria_Proteccion.png",
+      "link": {
+        "url": "/proteccion"
+      }
+    }
+  },
+  "image#home-cat-6-hover": {
+    "title": "Imagen (Hover)",
+    "props": {
+      "blockClass": ["homeCatImg", "homeCatImgHover"],
+      "src": "/arquivos/categoria_Proteccion-B.png",
+      "link": {
+        "url": "/proteccion"
+      }
+    }
+  },
+  "link#home-cat-6-link": {
+    "props": {
+      "blockClass": "homeCat",
+      "label": "Protección",
+      "href": "/proteccion"
+    }
+  },
+
+  "stack-layout#home-cat-7-stack": {
+    "title": "Categoría 7",
+    "children": [
+      "image#home-cat-7",
+      "image#home-cat-7-hover",
+      "link#home-cat-7-link"
+    ],
+    "props": {
+      "blockClass": "categoriesStack"
+    }
+  },
+  "image#home-cat-7": {
+    "props": {
+      "blockClass": "homeCatImg",
+      "src": "/arquivos/categoria_Accesorios.png",
+      "link": {
+        "url": "/accesorios"
+      }
+    }
+  },
+  "image#home-cat-7-hover": {
+    "props": {
+      "blockClass": ["homeCatImg", "homeCatImgHover"],
+      "src": "/arquivos/categoria_Accesorios-B.png",
+      "link": {
+        "url": "/accesorios"
+      }
+    }
+  },
+  "link#home-cat-7-link": {
+    "props": {
+      "blockClass": "homeCat",
+      "label": "Accesorios",
+      "href": "/accesorios"
+    }
+  },
+
+  "flex-layout.row#home-categories-mob-wrapper": {
+    "title": "7.Contenedor Categorías (Mobile)",
+    "children": ["flex-layout.col#home-categories-mob-container"],
+    "props": {
+      "blockClass": ["maxWidthGeneral", "homeCategoriesMob"]
+    }
+  },
+  "flex-layout.col#home-categories-mob-container": {
+    "children": [
+      "rich-text#home-categories-title",
+      "slider-layout#home-categories-mob"
+    ]
+  },
+  "slider-layout#home-categories-mob": {
+    "children": [
+      "stack-layout#home-cat-1-stack",
+      "stack-layout#home-cat-2-stack",
+      "stack-layout#home-cat-3-stack",
+      "stack-layout#home-cat-4-stack",
+      "stack-layout#home-cat-5-stack",
+      "stack-layout#home-cat-6-stack",
+      "stack-layout#home-cat-7-stack"
+    ],
+    "props": {
+      "blockClass": "sliderHomeCategories",
+      "fullWidth": false,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 2,
+        "phone": 2
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    }
+  }
+}

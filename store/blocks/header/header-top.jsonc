@@ -1,0 +1,77 @@
+{
+    "vtex.menu@2.x:menu#0-websites": {
+		"children": [
+			"menu-item#lo-mas-nuevo",
+			"menu-item#ofertas-del-mes"
+		],
+		"props": {
+			"blockClass": "menuHeaderTop"
+		}
+	},
+	"menu-item#lo-mas-nuevo": {
+		"props": {
+			"type": "custom",
+			"text": "Lo más nuevo",
+			"blockClass": "txt-mas-nuevo",
+			"itemProps": {
+				"type": "internal",
+				"href":"/novedades-mobo-online",
+				"tagTitle": "Lo mas nuevo"
+			}
+		}
+	},
+	"menu-item#ofertas-del-mes": {
+		"props": {
+			"id": "menu-item-ofertas-mes",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/descuentos-mobo-online",
+				"noFollow": false,
+				"tagTitle": "Ofertas del Mes",
+				"text": "Ofertas del Mes"
+			},
+			"blockClass": "txt-ofertas-mes"
+		}
+	},
+	"slider-layout#text-bar-notification": {
+		"props": {
+            "blockClass": "sliderHeader",
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+            "fullWidth": false,
+            "arrowSize": 16,
+			//"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "never",
+			"autoplay": {
+				"timeout": 5000
+			}
+		},
+		"children": [
+			"notification.bar#home",
+			"notification.bar#aplazo",
+			"notification.bar#paypal-bar"
+		]
+	},
+	"notification.bar#home": {
+		"props": {
+			//"content": "Envío GRATIS en compras mayores a $499 / Los tiempos de espera pueden variar en temporadas de alta demanda."
+			"content": "Envío gratis a partir de $499 pesos ¡a todo el país!"
+		}
+	},
+	"notification.bar#paypal-bar": {
+		"props": {
+			"content": "Compras menores a $499 envío ¡a solo $49 pesos!"
+		}
+	},
+	"notification.bar#aplazo": {
+		"props": {
+			"content": "Paga con PayPal a 12 MSI a partir de $1,000 de compra"
+		}
+	}
+}

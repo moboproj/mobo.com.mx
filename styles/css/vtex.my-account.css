@@ -1,0 +1,71 @@
+.boxContainer{
+    border-radius: 30px;
+    border: solid 3px #0433ff;
+}
+.dataEntryLabel,
+.newsletterContainerTitle,
+.dataEntryChildren{
+    font-size: 18px;
+    font-weight: bold;
+}
+.newsletterBoxContainer :global(.vtex-checkbox__inner-container){
+    display: block;
+}
+.newsletterContainerMessage,
+.passwordBox{
+    font-weight: bold;
+}
+.boxContainerFooter :global(.vtex-button),
+.boxContainerFooter :global(.vtex-button):hover{
+    background-color: #0433ff;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.boxContainerFooter :global(.vtex-button){
+    padding: 0px 24px;
+}
+:global(.vtex-pageHeader__title){
+    font-size: 32px;
+}
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-dropdown__button){
+    border: 3px solid #0433ff;
+    border-radius: 40px;
+}
+
+.addressBox{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@media only screen and (max-width:1920px){
+    .boxContainerFooter :global(.vtex-button),
+    .boxContainerFooter :global(.vtex-button):hover{
+        font-size: 1.25vw;
+        
+    }
+}
+
+@media only screen and (max-width:640px){
+    .boxContainerFooter :global(.vtex-button),
+    .boxContainerFooter :global(.vtex-button):hover{
+        font-size: 3.5vw;
+        
+    }
+}
+
+
+/*Menú Lateral*/
+.userGreeting{
+    font-size: 18px;
+    font-weight: bold;
+}
+.userName{
+    font-size: 24px;
+    font-weight: bold;
+}
+:global(.vtex-account_menu-link),
+:global(.vtex-my-account-1-x-menuLink){
+    font-size: 18px;
+    font-weight: bold;
+}

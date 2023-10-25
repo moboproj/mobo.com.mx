@@ -1,0 +1,123 @@
+{
+    "vtex.menu@2.x:submenu.accordion#carga-mob": {
+        "children":["menu#category-submenu-carga-mobile"],
+        "props": {
+            "width": "100%",
+            "orientation": "vertical"
+        }
+    },
+
+    "disclosure-layout#carga-mob":{
+        "children": [
+            "disclosure-trigger#carga-trigger-mob",
+            "disclosure-content#carga-content-mob"
+        ]
+    },
+    "disclosure-trigger#carga-trigger-mob": {
+        "children": ["link#carga-trigger"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+    "link#carga-trigger":{
+		"props":{
+			"blockClass":"linkMenuMob",
+			"label":"Carga",
+			"href":"/carga"
+		}
+	},
+    "disclosure-content#carga-content-mob": {
+        "children": ["menu#category-submenu-carga-mobile"],
+        "props":{
+            "blockClass":"disclosureMenu"
+        }
+    },
+
+    "menu#category-submenu-carga-mobile": {
+        "props": {
+            "blockClass": "mainCategoriesMenuMob",
+            "orientation": "vertical",
+            "type": "category",
+            "items":[
+                {
+                    "id": "Pared",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cargadores-de-pared",
+                        "noFollow": false,
+                        "tagTitle": "Pared",
+                        "text": "Pared"
+                    }
+                },
+                {
+                    "id": "Cable",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cables-de-carga",
+                        "noFollow": false,
+                        "tagTitle": "Cable",
+                        "text": "Cable"
+                    }
+                },
+                {
+                    "id": "Auto",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cargadores-de-auto",
+                        "noFollow": false,
+                        "tagTitle": "Auto",
+                        "text": "Auto"
+                    }
+                },
+                {
+                    "id": "Inalámbrica",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga-inalambrica",
+                        "noFollow": false,
+                        "tagTitle": "Inalámbrica",
+                        "text": "Inalámbrica"
+                    }
+                },
+                {
+                    "id": "Baterías",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/baterias-portatiles",
+                        "noFollow": false,
+                        "tagTitle": "Baterías",
+                        "text": "Baterías"
+                    }
+                },
+                {
+                    "id": "Magsafe",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/carga-magsafe",
+                        "noFollow": false,
+                        "tagTitle": "Magsafe",
+                        "text": "Magsafe"
+                    }
+                }
+            ]
+        }
+    }
+}

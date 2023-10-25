@@ -1,0 +1,20 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    color: #9b9b9b;
+}
+.sliderContainer :global(.vtex-slider-0-x-dotsContainer){
+    display: none;
+}
+@media only screen and (max-width:1920px){
+    .title{
+        font-size: 2.083vw;
+    }
+}
+@media only screen and (max-width:915px){
+    .title{
+        font-size: 4.372vw;
+    }
+}
