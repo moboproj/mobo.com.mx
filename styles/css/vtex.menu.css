@@ -106,7 +106,8 @@
     
 }
 .styledLinkContent--logo-mobo{
-    background:url("https://mobomx.vteximg.com.br/arquivos/Mobo-logo.png");
+    /* background:url("https://mobomx.vteximg.com.br/arquivos/Mobo-logo.png"); */
+    background:url("https://mobomx.vteximg.com.br/arquivos/buenfin-logo.png");
     color:  #ffffff;
     width:130px;
     height:25px;

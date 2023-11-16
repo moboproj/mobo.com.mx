@@ -40,5 +40,11 @@
     },
     "store.custom#terms-and-conditions-2":{
         "path":"/terminos-y-condiciones"
+    },
+    "store.custom#buenfin":{
+        "path":"/buen-fin-en-mobo"
+    },
+    "store.custom#buenfin-transaccional":{
+        "path":"/buen-fin-en-mobo-productos"
     }
 }

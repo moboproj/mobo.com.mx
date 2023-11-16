@@ -123,7 +123,8 @@
 			"blockClass": "logo-mobo",
 			"title": "Logo",
 			"href": "/",
-			"url": "https://mobomx.vteximg.com.br/arquivos/Mobo-logo.png",
+			// "url": "https://mobomx.vteximg.com.br/arquivos/Mobo-logo.png"
+			"url": "https://mobomx.vteximg.com.br/arquivos/buenfin-logo.png",
 			"width":155
 		}
 	},

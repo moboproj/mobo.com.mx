@@ -13,7 +13,7 @@
     width: 155px;
     max-width: unset;
     padding: 0px;
-    filter: brightness(100);
+    /* filter: brightness(100); */
 }
 
 @media (max-width: 640px) {
