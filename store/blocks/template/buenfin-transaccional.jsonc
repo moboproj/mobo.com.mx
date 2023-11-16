@@ -1,0 +1,199 @@
+{
+    "store.custom#buenfin-transaccional":{
+        "children":[
+            "flex-layout.row#bf-wrapper",
+            "flex-layout.row#mobile-banner-wrapper",//mobile
+            "flex-layout.row#home-categories-wrapper",
+            "flex-layout.row#home-categories-mob-wrapper",
+            "flex-layout.row#trans-metodospago",
+            "flex-layout.row#ofertas-1",
+            "flex-layout.row#ofertas-2",
+            "flex-layout.row#ofertas-3",
+            "search-result-layout.customQuery#custom-search1",
+            "flex-layout.row#registro-wrapper"
+        ]
+    },
+    "flex-layout.row#trans-metodospago": {
+        "title": "titulo de PLP (mobile)",
+        "children":["flex-layout.col#trans-container"]
+    },
+    "flex-layout.col#trans-container":{
+        "children": ["rich-text#buenfin-trans-title"]
+    },
+    "rich-text#buenfin-trans-title": {
+        "title": "titulo sliders",
+        "props": {
+        "blockClass": ["moboTitle", "titulo-mas-vendidos"],
+        "text": "## Los Mejores Descuentos:"
+        }
+    },
+    // carrusel de sliders de  los mejores descuentos
+    "flex-layout.col#ofertasbf-1": {
+        "children": ["flex-layout.row#ofertasbf-carrusel"],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    /*Carrusel ofertas*/
+    "flex-layout.row#ofertasbf-carrusel": {
+        "children": [
+            "list-context.product-list#ofertasbf-1"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "list-context.product-list#ofertasbf-1": {
+        "blocks": ["product-summary.shelf#general"],
+        "children": ["slider-layout#slider-products-1"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "433",
+            "maxItems": 10
+        }
+    },
+    "slider-layout#slider-products-1": {
+        "props": {
+            "blockClass": "productSliderDesk",
+            "itemsPerPage": {
+                "desktop": 5
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always"
+        }
+    },
+    // carrusel 2
+    "flex-layout.row#ofertas-2": {
+        "title": "slider 2 (desktop)",
+        "children": [
+            "flex-layout.col#ofertasbf-2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true,
+            "marginTop": 4
+        }
+    },
+    "flex-layout.col#ofertasbf-2": {
+        "children": ["flex-layout.row#ofertasbf-carrusel-2"],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    /*Carrusel ofertas*/
+    "flex-layout.row#ofertasbf-carrusel-2": {
+        "children": [
+            "list-context.product-list#ofertasbf-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "list-context.product-list#ofertasbf-2": {
+        "blocks": ["product-summary.shelf#general"],
+        "children": ["slider-layout#slider-products-2"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "430",
+            "maxItems": 10
+        }
+    },
+    "slider-layout#slider-products-2": {
+        "props": {
+            "blockClass": "productSliderDesk",
+            "itemsPerPage": {
+                "desktop": 5
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always"
+        }
+    },
+    "flex-layout.row#ofertas-1": {
+        "title": "slider 1 (desktop)",
+        "children": [
+            "flex-layout.col#ofertasbf-1"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true,
+            "marginTop": 4
+        }
+    },
+    // carrusel 3
+    "flex-layout.row#ofertas-3": {
+        "title": "slider 3 (desktop)",
+        "children": [
+            "flex-layout.col#ofertasbf-3"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true,
+            "marginTop": 4
+        }
+    },
+    "flex-layout.col#ofertasbf-3": {
+        "children": ["flex-layout.row#ofertasbf-carrusel-3"],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    /*Carrusel ofertas*/
+    "flex-layout.row#ofertasbf-carrusel-3": {
+        "children": [
+            "list-context.product-list#ofertasbf-3"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "list-context.product-list#ofertasbf-3": {
+        "blocks": ["product-summary.shelf#general"],
+        "children": ["slider-layout#slider-products-3"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "427",
+            "maxItems": 10
+        }
+    },
+    "slider-layout#slider-products-3": {
+        "props": {
+            "blockClass": "productSliderDesk",
+            "itemsPerPage": {
+                "desktop": 5
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always"
+        }
+    },
+    //  landing personalizada
+    "search-result-layout.customQuery#custom-search1": {
+        "title": "Envoltura de custom search",
+        "props": {
+          "querySchema": {
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 12,
+            "queryField": "telefonia",
+            "mapField": "category-1"
+          }
+        },
+        "blocks": [
+                "search-result-layout.mobile"
+        ]
+      }
+    
+}

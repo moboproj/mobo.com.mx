@@ -401,6 +401,9 @@
 .menuContainerNav--footerMenuDesk .styledLinkContainer{
     margin: 0px;
 }
+.menuContainerNav--menuDesksitemap .styledLinkContainer{
+    margin: 0px;
+}
 .menuContainerNav--footerMenuDesk .styledLinkContent{
     white-space: normal;
     text-align: left;
@@ -409,10 +412,25 @@
     font-weight: normal;
     color: #fff;
 }
+.menuContainerNav--menuDesksitemap .styledLinkContent{
+    white-space: normal;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.92;
+    font-weight: normal;
+    color: #222222;
+}
+.menuContainerNav--titulossitemap .styledLinkContent{
+    font-weight: bolder !important;
+    height: auto !important;
+}
 
 @media only screen and (max-width:1920px){
     .menuContainerNav--footerMenuDesk .styledLinkContent{
         font-size: 1.5625vw;
+    }
+    .menuContainerNav--menuDesksitemap .styledLinkContent{
+        font-size: 1.3vw;
     }
 }
 /* @media only screen and (max-width:1600px){
@@ -445,6 +463,21 @@
         background-image: url(/arquivos/Flecha-derecha_Blanca.png);
         background-size: cover;
     }
+    .menuContainerNav--menuDesksitemap.menuContainerNav--sitemapMenu1{
+        margin-top: 8.743vw;
+    }
+    .menuContainerNav--menuDesksitemap .styledLinkContent{
+        display: flex;
+        align-items: center;
+        font-size: 3.279vw;
+    }
+    .menuContainerNav--menuDesksitemap .styledLinkContent::after{
+        content:'';
+        width: 1.53vw;
+        height: 3.005vw;
+        background-image: url(/arquivos/Flecha-derecha_Blanca.png);
+        background-size: cover;
+    }
 }
 
 @media only screen and (max-width:640px){
@@ -455,6 +488,16 @@
         font-size: 4vw;
     }
     .menuContainerNav--footerMenuDesk .styledLinkContent::after{
+        width: 2vw;
+        height: 4vw;
+    }
+    .menuContainerNav--menuDesksitemap.menuContainerNav--sitemapMenu1{
+        margin-top: 8.743vw;
+    }
+    .menuContainerNav--menuDesksitemap .styledLinkContent{
+        font-size: 4vw;
+    }
+    .menuContainerNav--menuDesksitemap .styledLinkContent::after{
         width: 2vw;
         height: 4vw;
     }

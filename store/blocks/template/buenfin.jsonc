@@ -1,0 +1,566 @@
+{
+    "store.custom#buenfin":{
+        "children":[
+        "flex-layout.row#bf-wrapper",
+         "flex-layout.row#mobile-banner-wrapper",//mobile
+        // "flex-layout.row#bf-categories-wrapper",
+        // "flex-layout.row#home-categories-mob-wrapper",
+        "flex-layout.row#bf-metodospago",
+        "flex-layout.row#bf-slider-payments",
+        "flex-layout.row#registro-wrapper",
+        "flex-layout.row#buenfin-questions-wrapper"
+        // "flex-layout.row#seo-buenfin-wrapper"
+        ] 
+    },
+    "flex-layout.row#bf-slider-payments":{
+        "title": "Contenedor Carrusel métodos de pago",
+        "children": ["list-context.image-list#home-slider-payments"],
+        "props": {
+            "blockClass": ["maxWidthwrapper","maxWidthGeneralMob","homeSliderPayments"]
+        }
+    },
+    "flex-layout.row#bf-wrapper":{
+        "title": "banner principal (desktop)",
+        "children":["flex-layout.col#buenfin-container"],
+        "props":{
+            "blockClass":["maxWidthwrapper"]
+        }
+    },
+    "flex-layout.col#buenfin-container":{
+        "children":[
+            "flex-layout.row#home-banner-full-bf"
+        ]
+    },
+    "flex-layout.row#home-banner-full-bf":{
+        "title": "Contenedor Banner completo",
+        "children": ["info-card#home-banner-full-bf"],
+        "props": {
+          "blockClass": ["sinmargen","maxWidthGeneral", "homeBannerFull1bf"],
+          "marginBottom": 6
+        }
+      },
+    "info-card#home-banner-full-bf": {
+        "props": {
+            "blockClass": ["bannerFullbf", "homeBannerbf"],
+            "imageUrl": "arquivos/Banner-bf-desktop-1.png",
+            //"mobileImageUrl": "arquivos/Banner-bf-mobile.png",
+            "headline": "## Los mejores descuentos",
+            "subhead": "En accesorios para celulares los encuentras en el Buen Fin de Mobo Online",
+            "textMode": "rich-text",
+            "callToActionMode": "button",
+            "callToActionText":"¡Comprar!",
+            "callToActionUrl": "Mobo.com.mx",
+            "imageActionUrl": "Mobo.com.mx",
+            "isFullModeStyle": true
+        }
+    },
+    "flex-layout.row#bf-categories-wrapper": {
+        "title": "Contenedor Categorías",
+        "children": ["flex-layout.col#home-categories-container"],
+        "props": {
+          "blockClass": ["maxWidthwrapper", "homeCategoriesDesk"]
+        }
+      },
+    "flex-layout.row#bf-metodospago": {
+        "title": "titulo pagos participantes",
+        "children":["flex-layout.col#pagos-container"]
+    },
+    "flex-layout.col#pagos-container":{
+        "children": ["rich-text#buenfin-metodos-title"]
+    },
+    "rich-text#buenfin-metodos-title": {
+        "title": "titulo pagos",
+        "props": {
+        "blockClass": ["moboTitle", "titulo-mas-vendidos"],
+        "text": "## Métodos de Pago Participantes:"
+        }
+    },
+    "flex-layout.row#registro-wrapper":{
+        "title": "Newslatter buen fin",
+        "props": {
+            "blockClass": ["maxWidthwrapper","container-title"]
+        },
+        "children": ["flex-layout.col#registro-container"]
+    },
+    "flex-layout.col#registro-container":{
+        "props": {
+            "blockClass":"container-registro"
+        },
+        "children": [
+            "flex-layout.row#title-registro",
+            "flex-layout.row#subtitle-registro",
+            "flex-layout.row#form-registro"
+        ]
+    },
+    "flex-layout.row#title-registro":{
+        "props": {
+            "blockClass": "container-title-registro"
+        },
+        "children": ["rich-text#registro-title"]
+    },
+    "flex-layout.row#subtitle-registro":{
+        "children": ["rich-text#registroSubTitle"]
+    },
+    "rich-text#registro-title": {
+        "title": "titulo registro",
+        "props": {
+        "blockClass": ["moboTitle", "titulo-mas-vendidos"],
+        "text": "## Registrate Aquí"
+        }
+    },
+    "rich-text#registroSubTitle": {
+        "title": "titulo registro",
+        "props": {
+        "blockClass": ["registroSubTitle"],
+        "text": "Prepárate para las mejores ofertas de buen fin ¡Te avisaremos en tu correo!"
+        }
+    },
+    "flex-layout.row#form-registro":{
+        "props": {
+            "blockClass": "row-registro"
+        },
+        "children": ["newsletter-form#BuenFin"]
+    },
+    "newsletter-form#BuenFin":{
+        "props": {
+            "blockClass":"newslatter-buenfin"
+        },
+        "children":[
+            "flex-layout.row#input-registro",
+            "flex-layout.row#boton"
+        ]
+    },
+    "flex-layout.row#input-registro": {
+        "props": {
+            "blockClass": "newsletter-buenfin"
+        },
+        "children": [
+            "flex-layout.col#nombre-suscripcion",
+            "flex-layout.col#mail-suscripcion"
+        ]
+        },
+    "flex-layout.col#nombre-suscripcion":{
+        "props": {
+            "blockClass":"col-nombre-subs"
+        },
+        "children": ["newsletter-input-name#buenfin"]
+    },
+    "flex-layout.col#mail-suscripcion":{
+        "props": {
+            "blockClass":"col-mail-subs"
+        },
+        "children": ["newsletter-input-email#buenfin"]
+    },
+    "newsletter-input-name#buenfin":{
+        "props":{
+            "blockClass": "newsinputBuenfinMail",
+            "placeholderText":"Nombre"
+          }
+    },
+    "newsletter-input-email#buenfin":{
+        "props":{
+            "blockClass": "newsinputBuenfinMail",
+            "placeholderText":"Correo"
+          }
+    },
+    "flex-layout.row#boton": {
+        "props": {
+            "blockClass": "newsletter-buenfin"
+        },
+        "children": [
+            "flex-layout.col#boton"
+        ]
+        },
+    "flex-layout.col#boton":{
+        "props": {
+            "blockClass" :"col-nombre-boton"
+        },
+        "children": ["newsletter-submit#buenfin"]
+    },
+    "newsletter-submit#buenfin":{
+        "props":{
+            "blockClass": "primaryButton",
+            "placeholderText":"Subscribe"
+          }
+    },
+    "flex-layout.row#buenfin-questions-wrapper":{
+        "title":"Envoltura de preguntas frecuentes",
+        "children":["flex-layout.col#buenfin-questions-container"],
+        "props":{
+            "blockClass":["maxWidthwrapper","questionsWrapper"]
+        }
+    },
+    "flex-layout.col#buenfin-questions-container":{
+        "children": [
+            "rich-text#preguntas-title",
+            "disclosure-layout-group#questionsbf-group-1"
+        ]
+    },
+    "rich-text#preguntas-title":{
+        "title": "titulo Preguntas frecuentes",
+            "props": {
+            "blockClass": ["moboTitle", "titulo-mas-vendidos"],
+            "text": "## Preguntas Frecuentes"
+            }
+    },
+    // -------------------------------------------------------------pregunta
+    "disclosure-layout-group#questionsbf-group-1": {
+        "title":"Preguntas Buen fin",
+        "children": [
+            "disclosure-layout#questionsbf-question-0",
+            "disclosure-layout#questionsbf-question-1",
+            "disclosure-layout#questionsbf-question-2",
+            "disclosure-layout#questionsbf-question-3",
+            "disclosure-layout#questionsbf-question-4",
+            "disclosure-layout#questionsbf-question-5",
+            "disclosure-layout#questionsbf-question-6",
+            "disclosure-layout#questionsbf-question-7",
+            "disclosure-layout#questionsbf-question-8",
+            "disclosure-layout#questionsbf-question-9",
+            "disclosure-layout#questionsbf-question-10"
+        ],
+        "props":{
+            "blockClass":"questions"
+        }
+    },
+    "disclosure-layout#questionsbf-question-0": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-0",
+            "disclosure-content#questionsbf-question-0"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-0": {
+        "children": ["rich-text#questionsbf-question0"]
+    },
+    "rich-text#questionsbf-question0": {
+		"title":"Pregunta 0",
+        "props": {
+            "blockClass": "questionText",
+            "text": "El Buen Fin Mobo 2023"
+        }
+    },
+    "disclosure-content#questionsbf-question-0": {
+        "children": ["rich-text#questionsbf-answer0"]
+    },
+	"rich-text#questionsbf-answer0": {
+		"title":"Respuesta 0",
+        "props": {
+            "blockClass": "questionText",
+            "text": "La edición 2023 de El Buen Fin se acerca por eso nos estamos preparando para que disfrutes todas las promociones del Buen Fin 2023, el fin de semana más esperado tendrá lugar del 17 al 20 de noviembre de este año.<br><br>Mobo trae para ti grandes descuentos en celulares, bocinas, smartwatch y mucho más. Es tu oportunidad de estrenar el iPhone que tanto quieres, el celular de tu color favorito, el cargador que necesitas con los audífonos que están en tendencia. Llena tu carrito con las mejores ofertas del Buen Fin y consiéntete.<br><br>Si lo que quieres es estrenar ya, dale un vistazo ahora mismo a todo lo que tenemos para ti en Mobo.com"
+        }
+    },
+    // 1
+    "disclosure-layout#questionsbf-question-1": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-1",
+            "disclosure-content#questionsbf-question-1"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-1": {
+        "children": ["rich-text#questionsbf-question1"]
+    },
+    "rich-text#questionsbf-question1": {
+		"title":"Pregunta 1",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Qué es El Buen Fin?"
+        }
+    },
+    "disclosure-content#questionsbf-question-1": {
+        "children": ["rich-text#questionsbf-answer1"]
+    },
+	"rich-text#questionsbf-answer1": {
+		"title":"Respuesta 1",
+        "props": {
+            "blockClass": "questionText",
+            "text": "El llamado fin de semana más barato del año es una iniciativa del Consejo Coordinador Empresarial, al que se suman organizaciones del sector privado e instituciones bancarias para ofrecer ofertas, descuentos y muchas promociones; tradicionalmente se realiza en noviembre de cada año."
+        }
+    },
+    // 2
+    "disclosure-layout#questionsbf-question-2": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-2",
+            "disclosure-content#questionsbf-question-2"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-2": {
+        "children": ["rich-text#questionsbf-question2"]
+    },
+    "rich-text#questionsbf-question2": {
+		"title":"Pregunta 2",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Quién organiza El Buen Fin?"
+        }
+    },
+    "disclosure-content#questionsbf-question-2": {
+        "children": ["rich-text#questionsbf-answer2"]
+    },
+	"rich-text#questionsbf-answer2": {
+		"title":"Respuesta 2",
+        "props": {
+            "blockClass": "questionText",
+            "text": "El evento es organizado por el gobierno federal a través de la Secretaría de Hacienda y Crédito Público, la Secretaría de Economía, la Secretaría de Turismo y el Servicio de Administración Tributaria, entre otras instituciones públicas y del sector privado."
+        }
+    },
+    // 3
+    "disclosure-layout#questionsbf-question-3": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-3",
+            "disclosure-content#questionsbf-question-3"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-3": {
+        "children": ["rich-text#questionsbf-question3"]
+    },
+    "rich-text#questionsbf-question3": {
+		"title":"Pregunta 3",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuándo es El Buen Fin 2023 en México?"
+        }
+    },
+    "disclosure-content#questionsbf-question-3": {
+        "children": ["rich-text#questionsbf-answer3"]
+    },
+	"rich-text#questionsbf-answer3": {
+		"title":"Respuesta 2",
+        "props": {
+            "blockClass": "questionText",
+            "text": "La fecha de inicio del Buen Fin será el próximo 17 de noviembre a las 00:00 horas y terminará el 20 de noviembre a las 23:59 horas."
+        }
+    },
+    // 4
+    "disclosure-layout#questionsbf-question-4": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-4",
+            "disclosure-content#questionsbf-question-4"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-4": {
+        "children": ["rich-text#questionsbf-question4"]
+    },
+    "rich-text#questionsbf-question4": {
+		"title":"Pregunta 4",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuánto dura El Buen Fin?"
+        }
+    },
+    "disclosure-content#questionsbf-question-4": {
+        "children": ["rich-text#questionsbf-answer3"]
+    },
+	"rich-text#questionsbf-answer4": {
+		"title":"Respuesta 4",
+        "props": {
+            "blockClass": "questionText",
+            "text": "La edición 2023 del evento durará 4 días, que estarán llenos de buenísimas ofertas en tecnología, electrónica, protección y lo mejor de audio "
+        }
+    },
+    // 5
+    "disclosure-layout#questionsbf-question-5": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-5",
+            "disclosure-content#questionsbf-question-5"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-5": {
+        "children": ["rich-text#questionsbf-question5"]
+    },
+    "rich-text#questionsbf-question5": {
+		"title":"Pregunta 5",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuántas veces al año se hace El Buen Fin?"
+        }
+    },
+    "disclosure-content#questionsbf-question-5": {
+        "children": ["rich-text#questionsbf-answer5"]
+    },
+	"rich-text#questionsbf-answer5": {
+		"title":"Respuesta 5",
+        "props": {
+            "blockClass": "questionText",
+            "text": "El Buen Fin sucede una vez al año, pero en Mobo.com puedes encontrar descuentos en productos de las marcas más reconocidas a nivel internacional todos los días, todo el año."
+        }
+    },
+    // 6
+    "disclosure-layout#questionsbf-question-6": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-6",
+            "disclosure-content#questionsbf-question-6"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-6": {
+        "children": ["rich-text#questionsbf-question6"]
+    },
+    "rich-text#questionsbf-question6": {
+		"title":"Pregunta 6",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuáles serán las ofertas y descuentos en este Buen Fin 2023?"
+        }
+    },
+    "disclosure-content#questionsbf-question-6": {
+        "children": ["rich-text#questionsbf-answer6"]
+    },
+	"rich-text#questionsbf-answer6": {
+		"title":"Respuesta 6",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¡El Buen Fin 2023 tendrá muchas ofertas y promociones exclusivas para ti! <br> Encontrarás descuentos en la mejor tecnología y el mejor audio. Muchas opciones para proteger tu celular con los mejores accesorios."
+        }
+    },
+    // 7
+    "disclosure-layout#questionsbf-question-7": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-7",
+            "disclosure-content#questionsbf-question-7"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-7": {
+        "children": ["rich-text#questionsbf-question7"]
+    },
+    "rich-text#questionsbf-question7": {
+		"title":"Pregunta 7",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Quiénes participan en El Buen Fin?"
+        }
+    },
+    "disclosure-content#questionsbf-question-7": {
+        "children": ["rich-text#questionsbf-answer7"]
+    },
+	"rich-text#questionsbf-answer7": {
+		"title":"Respuesta 7",
+        "props": {
+            "blockClass": "questionText",
+            "text": "Como cada año Mobo es una de las empresas confirmadas para participar en El Buen Fin. Estaremos presentes con miles de descuentos para mejorar tu día a día y podrás realizar tus compras en tiendas y en línea. <br> La lista de comercios que se unen al evento sigue creciendo, mantente al tanto en la página oficial de El Buen Fin."
+        }
+    },
+    // 8
+    "disclosure-layout#questionsbf-question-8": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-8",
+            "disclosure-content#questionsbf-question-8"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-8": {
+        "children": ["rich-text#questionsbf-question8"]
+    },
+    "rich-text#questionsbf-question8": {
+		"title":"Pregunta 8",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cómo obtener más descuentos?"
+        }
+    },
+    "disclosure-content#questionsbf-question-8": {
+        "children": ["rich-text#questionsbf-answer6"]
+    },
+	"rich-text#questionsbf-answer8": {
+		"title":"Respuesta 8",
+        "props": {
+            "blockClass": "questionText",
+            "text": "Asegúrate de registrar tu correo electrónico para recibir promociones y ser de los primeros en enterarte cuando tus artículos favoritos estén en oferta. <br> En Mobo.com y en Mobo Shop tendremos las mejores ofertas para ti. "
+        }
+    },
+    // 9
+    "disclosure-layout#questionsbf-question-9": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-9",
+            "disclosure-content#questionsbf-question-9"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-9": {
+        "children": ["rich-text#questionsbf-question9"]
+    },
+    "rich-text#questionsbf-question9": {
+		"title":"Pregunta 9",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Beneficios de comprar en Mobo.com"
+        }
+    },
+    "disclosure-content#questionsbf-question-9": {
+        "children": ["rich-text#questionsbf-answer9"]
+    },
+	"rich-text#questionsbf-answer9": {
+		"title":"Respuesta 9",
+        "props": {
+            "blockClass": "questionText",
+            "text": "Disfruta de estrenar desde la comodidad de tu hogar; evita las horas en el tráfico, las largas filas para pagar y las aglomeraciones. En mobo.com estamos disponibles para ti todos los días, todo el día. <br>Comprar en línea es fácil y seguro; garantizamos transacciones confiables y la privacidad de tu información. <br>Además de tener acceso a miles de productos exclusivos en línea, puedes utilizar tu Crédito Mobo para pagar en cómodos plazos."
+        }
+    },
+    // 10
+    "disclosure-layout#questionsbf-question-10": {
+        "children": [
+            "disclosure-trigger#questionsbf-question-10",
+            "disclosure-content#questionsbf-question-10"
+        ]
+    },
+    "disclosure-trigger#questionsbf-question-10": {
+        "children": ["rich-text#questionsbf-question10"]
+    },
+    "rich-text#questionsbf-question10": {
+		"title":"Pregunta 10",
+        "props": {
+            "blockClass": "questionText",
+            "text": "¿Cuáles son las formas de pago?"
+        }
+    },
+    "disclosure-content#questionsbf-question-10": {
+        "children": ["rich-text#questionsbf-answer10"]
+    },
+	"rich-text#questionsbf-answer10": {
+		"title":"Respuesta 10",
+        "props": {
+            "blockClass": "questionText",
+            "text": "Miles de productos con descuento, ofertas, servicios en línea y más te esperan en Mobo.com pagando con tarjeta de crédito, debito de todos los bancos.<br>Contamos con pagos a través de Kueski, Aplazo, PayPal y pago en efectivo por medio de Oxxo."
+        }
+    },
+    // layout para mobile ----------------------------------------------------
+    "flex-layout.row#mobile-banner-wrapper":{
+        "title": "banner principal (mobile)",
+		"props": {
+			"blockClass": ["maxWidthwrapper","maxWidthGeneralMob","cuadro-destacados","homeThreeProducts"]
+		},
+		"children": [
+			"flex-layout.col#cuadrobanner"
+		]
+    },
+    "flex-layout.col#cuadrobanner": {
+		"props": {
+			"blockClass": "col-cuadrodestacadobf"
+		},
+		"children": [
+			"flex-layout.row#imagenesBaner"
+		]
+	},
+    "flex-layout.row#imagenesBaner": {
+		"children": [
+			"info-card#home-banner-buenfin"
+		],
+		"props": {
+			"blockClass": "row-imagen"
+		}
+		
+	},
+    "info-card#home-banner-buenfin": {
+        "props": {
+          "blockClass": ["bannerFullbf", "homeBannerbf"],
+          "imageUrl": "",
+          "mobileImageUrl": "arquivos/Banner-bf-mobile.png",
+          "headline": "## Los mejores descuentos",
+          "subhead": "En accesorios para celulares los encuentras en el Buen Fin de Mobo Online",
+          "textMode": "rich-text",
+          "callToActionMode": "button",
+          "callToActionText":"¡Comprar!",
+          "callToActionUrl": "Mobo.com.mx",
+          "imageActionUrl": "Mobo.com.mx",
+          "isFullModeStyle": true
+        }
+      }
+      
+      
+}

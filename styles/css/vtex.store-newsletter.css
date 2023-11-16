@@ -10,9 +10,6 @@
     width: 78.5% !important;
 }
 
-
-
-
 .newsletterForm--newsFooter{
     position: relative;
 }
@@ -95,5 +92,21 @@
     .confirmationCheckboxContainer :global(.vtex-checkbox__container){
         width: 1.749vw;
         height: 1.749vw;
+    }
+}
+/* buenfin */
+.emailInputContainer--newsinputBuenfinMail{
+    width: 50% ;
+}
+.nameInputContainer--newsinputBuenfinMail{
+    width: 50% ;
+}
+@media screen and (max-width: 915px) {
+    
+    .emailInputContainer--newsinputBuenfinMail{
+        width: 100% ;
+    }
+    .nameInputContainer--newsinputBuenfinMail{
+        width: 100% ;
     }
 }

@@ -346,9 +346,36 @@
     padding: 0px 78px;
 }
 
+.flexRowContent--maxWidthwrapper{
+    max-width: 1920px;
+    margin: 0px auto 100px;
+    padding: 0px 78px;
+}
+.flexRowContent--seo-buenfin{
+    background-color: #e6e6e7;
+}
+.flexRowContent--container-title{
+    margin-top: 35px;
+}
+
 @media only screen and (max-width:1920px){
     .flexRowContent--maxWidthGeneral{
         margin: 0px auto 5vw;
+        padding: 0px 4.0625vw;
+    }
+    .flexRowContent--sinmargen{
+        margin-bottom: 1.4vw !important;
+        margin-top: 1.4vw !important;
+    }
+    .flexRowContent--container-title{
+        margin-top: 30px;
+    }
+    .flexRowContent--maxWidthwrapper{
+        margin: 0px auto 2vw;
+        padding: 0px 4.0625vw;
+    }
+    .flexRowContent--maxWidthwrapperfooter{
+        margin: 0px auto 0px;
         padding: 0px 4.0625vw;
     }
 }
@@ -518,6 +545,11 @@
 .flexRowContent--cuadro-destacados-1 .flexCol--col-cuadrodestacado{
     background-color: #272727;
 }
+.flexCol--col-cuadrodestacadobf{
+    margin: 3vw;
+    border-radius: 30px;
+}
+
 @media only screen and (max-width:1920px){
     .flexRowContent--homeMainSliderDesk .stretchChildrenWidth:first-child{
         width: 61.458vw !important;
@@ -534,13 +566,13 @@
 @media only screen and (max-width:915px){
     .flexRow--homeBenefits,
     .flexRow--homeSliderPayments,
-    .flexRow--homeCategoriesMob,
     .flexRow--homeThreeProducts{
         display: flex;
     }
     .flexRow--homePayments,
     .flexRow--homeCategoriesDesk,
     .flexRow--homeBannerFull1,
+    .flexRow--homeBannerFull1bf,
     .flexRow--homeTwoBanner,
     .flexRow--sliderOnlyDesktop,
     .flexRow--rowBanneriPhone14,
@@ -553,6 +585,9 @@
     }
     .flexRowContent--homeMainSliderDesk{
         margin-top: 0;
+    }
+    .flexRow--homeCategoriesMob{
+        display: block;
     }
 }
 @media only screen and (max-width:640px){
@@ -647,6 +682,9 @@
     display: none;
 }
 .flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent{
+    margin: 26px 0;
+}
+.flexRowContent--maxWidthwrapper.flexRowContent--breadcumsContent{
     margin: 26px 0;
 }
 .flexRow--pdpMain{
@@ -800,4 +838,55 @@
     .flexRowContent--contactSectionContact .stretchChildrenWidth{
         width: 100% !important;
     }
+}
+/* buennfin */
+.flexRow--container-title-registro{
+    margin-top: 30px;
+}
+@media only screen and (max-width:1920px){
+    .flexCol--col-nombre-subs{
+        width: 90% !important;
+        text-align: -webkit-right;
+        margin-bottom: 20px;
+    }
+    .flexCol--col-mail-subs{
+        width: 90% !important;
+        text-align: -webkit-left;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 915px) {
+    .flexCol--col-nombre-subs{
+        width: 90% !important;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .flexCol--col-mail-subs{
+        width: 90% !important;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+.flexCol--col-nombre-boton{
+    width: 90% !important;
+    text-align: -webkit-center;
+    margin-bottom: 20px;
+}
+.flexCol--boton-col{
+    margin-left: 1vw;
+}
+@media only screen and (max-width:640px){
+    .flexRowContent--newsletter-buenfin{
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .flexCol--boton-col{
+        width: 90% !important;
+        text-align: -webkit-center;
+        margin-bottom: 20px;
+    }
+}
+.flexColChild--sitemap-titlos-1{
+ height: auto !important;
 }
