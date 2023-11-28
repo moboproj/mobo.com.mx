@@ -12,10 +12,11 @@
     },
     "flex-layout.col#titulo-sitemap-container":{
         "children": [
+			"flex-layout.row#departamentos-sitemap",
+			"flex-layout.row#menu-departamentos",
             "flex-layout.row#title-sitemap",
-            "flex-layout.row#menu-general",
-            "flex-layout.row#departamentos-sitemap",
-			"flex-layout.row#menu-departamentos"
+            "flex-layout.row#menu-general"
+            
         ]
     },
     // titulo
@@ -172,7 +173,7 @@
 
 	"vtex.menu@2.x:menu#sitemap-links-2":{
 		"props":{
-			"blockClass":"menuDesksitemap",
+			"blockClass":["menuDesksitemap","sitemapMenu1"],
 			"orientation": "vertical",
 			"items":[
 				{
@@ -272,7 +273,7 @@
 	},
     "vtex.menu@2.x:menu#sitemap-links-3":{
         "props":{
-			"blockClass":"menuDesksitemap",
+			"blockClass":["menuDesksitemap","sitemapMenu1"],
 			"orientation": "vertical",
 			"items":[
 				{
@@ -929,7 +930,7 @@
 	},
 	"vtex.menu@2.x:menu#sitemap-links-5":{
         "props":{
-			"blockClass":"menuDesksitemap",
+			"blockClass":["menuDesksitemap","sitemapMenu1"],
 			"orientation": "vertical",
 			"items":[
 				
@@ -1141,7 +1142,7 @@
 	},
 	"vtex.menu@2.x:menu#sitemap-links-5-2":{
         "props":{
-			"blockClass":"menuDesksitemap",
+			"blockClass":["menuDesksitemap","sitemapMenu1"],
 			"orientation": "vertical",
 			"items":[
 				
@@ -1227,7 +1228,7 @@
 	},
 	"vtex.menu@2.x:menu#sitemap-links-5-3":{
         "props":{
-			"blockClass":"menuDesksitemap",
+			"blockClass":["menuDesksitemap","sitemapMenu1"],
 			"orientation": "vertical",
 			"items":[
 				
@@ -1682,46 +1683,46 @@
 						"tagTitle": "Karl Lagerfield",
 						"text": "Karl Lagerfield"
 					}
+				},
+				{
+					"id": "KateSpade",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/proteccion-spade",
+						"noFollow": false,
+						"tagTitle": "Kate Spade",
+						"text": "Kate Spade"
+					}
+				},
+				{
+					"id": "PRO21",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/proteccion-pro-21",
+						"noFollow": false,
+						"tagTitle": "PRO21",
+						"text": "PRO21"
+					}
+				},
+				{
+					"id": "Tech21",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/proteccion-tech21",
+						"noFollow": false,
+						"tagTitle": "Tech 21",
+						"text": "Tech 21"
+					}
 				}
-				// {
-				// 	"id": "KateSpade",
-				// 	"type": "custom",
-				// 	"iconId": null,
-				// 	"highlight": false,
-				// 	"itemProps": {
-				// 		"type": "internal",
-				// 		"href": "/proteccion-spade",
-				// 		"noFollow": false,
-				// 		"tagTitle": "Kate Spade",
-				// 		"text": "Kate Spade"
-				// 	}
-				// },
-				// {
-				// 	"id": "PRO21",
-				// 	"type": "custom",
-				// 	"iconId": null,
-				// 	"highlight": false,
-				// 	"itemProps": {
-				// 		"type": "internal",
-				// 		"href": "/proteccion-pro-21",
-				// 		"noFollow": false,
-				// 		"tagTitle": "PRO21",
-				// 		"text": "PRO21"
-				// 	}
-				// },
-				// {
-				// 	"id": "Tech21",
-				// 	"type": "custom",
-				// 	"iconId": null,
-				// 	"highlight": false,
-				// 	"itemProps": {
-				// 		"type": "internal",
-				// 		"href": "/proteccion-tech21",
-				// 		"noFollow": false,
-				// 		"tagTitle": "Tech 21",
-				// 		"text": "Tech 21"
-				// 	}
-				// }
 			]
 		}
 	}

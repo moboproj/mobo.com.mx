@@ -431,7 +431,7 @@
         font-size: 1.5625vw;
     }
     .menuContainerNav--menuDesksitemap .styledLinkContent{
-        font-size: 1.3vw;
+        font-size: 1.3vw ;
     }
 }
 /* @media only screen and (max-width:1600px){
@@ -447,7 +447,9 @@
         line-height: 1.6;
     }
 } */
-
+.menuContainer--sitemapMenu1{
+    align-items: center;
+}
 @media only screen and (max-width:1024px){
     .menuContainerNav--footerMenuDesk.menuContainerNav--footerMenu1{
         margin-top: 8.743vw;
@@ -467,10 +469,10 @@
     .menuContainerNav--menuDesksitemap.menuContainerNav--sitemapMenu1{
         margin-top: 8.743vw;
     }
+    
     .menuContainerNav--menuDesksitemap .styledLinkContent{
         display: flex;
         align-items: center;
-        font-size: 3.279vw;
     }
     .menuContainerNav--menuDesksitemap .styledLinkContent::after{
         content:'';
@@ -496,7 +498,7 @@
         margin-top: 8.743vw;
     }
     .menuContainerNav--menuDesksitemap .styledLinkContent{
-        font-size: 4vw;
+        font-size: 3vw;
     }
     .menuContainerNav--menuDesksitemap .styledLinkContent::after{
         width: 2vw;

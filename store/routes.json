@@ -46,5 +46,8 @@
     },
     "store.custom#buenfin-transaccional":{
         "path":"/buen-fin-en-mobo-productos"
+    },
+    "store.custom#sitemap":{
+        "path":"/sitemap"
     }
 }
