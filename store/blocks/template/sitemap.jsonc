@@ -12,12 +12,28 @@
     },
     "flex-layout.col#titulo-sitemap-container":{
         "children": [
+			"flex-layout.row#title-sitemap-destacados",
+            "flex-layout.row#menu-destacados",
 			"flex-layout.row#departamentos-sitemap",
 			"flex-layout.row#menu-departamentos",
             "flex-layout.row#title-sitemap",
-            "flex-layout.row#menu-general"
+            "flex-layout.row#menu-general"	
+			
             
         ]
+    },
+	"flex-layout.row#title-sitemap-destacados":{
+        "children": ["flex-layout.col#sitemap-metodos-title-destacados"]
+    },
+    "flex-layout.col#sitemap-metodos-title-destacados":{
+        "children": ["rich-text#sitemap-metodos-title-destacados"]
+    },
+    "rich-text#sitemap-metodos-title-destacados": {
+        "title": "titulo destacados",
+        "props": {
+        "blockClass": ["moboTitle", "titulo-mas-vendidos"],
+        "text": "## Productos destacados"
+        }
     },
     // titulo
     "flex-layout.row#title-sitemap":{
@@ -33,6 +49,243 @@
         "text": "## Mapa del sitio"
         }
     },
+	// seccion destacados
+    "flex-layout.row#menu-destacados":{
+        "title": "Sección principal del footer",
+        "children": [
+        "vtex.menu@2.x:menu#sitemap-links-1-destacados",
+        "vtex.menu@2.x:menu#sitemap-links-2-destacados"
+        // "vtex.menu@2.x:menu#sitemap-links-3-destacados"
+        ],
+        "props": {
+        "blockClass": ["footerMainSection", "maxWidth1920"]
+        }
+    },
+    "vtex.menu@2.x:menu#sitemap-links-1-destacados":{
+		"props":{
+			"blockClass":["menuDesksitemap","sitemapMenu1"],
+			"orientation": "vertical",
+			"items":[
+				{
+					"id": "CelulariPhoneSE2Reacondicionado",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/telefono-reacondicionado-iphone-se-2/p",
+						"noFollow": false,
+						"tagTitle": "Celular iPhone SE2 Reacondicionado 64 Gb",
+						"text": "Celular iPhone SE2 Reacondicionado 64 Gb"
+					}
+				},
+				{
+					"id": "CelulariPhone11Reacondicionado",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/tiendas",
+						"noFollow": false,
+						"tagTitle": "/telefono-reacondicionado-iphone-11-v/p",
+						"text": "Celular iPhone 11 Reacondicionado"
+					}
+				},
+				{
+					"id": "CelulariPhone13Reacondicionado",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/telefono-reacondicionado-iphone-13-128-gb-nb/p",
+						"noFollow": false,
+						"tagTitle": "Celular iPhone 13 Reacondicionado 128 Gb",
+						"text": "Celular iPhone 13 Reacondicionado 128 Gb"
+					}
+				},
+				{
+					"id": "CelulariPhone12Reacondicionado",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/telefono-reacondicionado-iphone-12-64-gb--negro/p",
+						"noFollow": false,
+						"tagTitle": "Celular iPhone 12 Reacondicionado 64 Gb Negro",
+						"text": "Celular iPhone 12 Reacondicionado 64 Gb Negro"
+					}
+				},
+				{
+					"id": "CargadorDeParedApple",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/cargador-de-pared-apple-1-puerto-usb-c-blanco-20w/p",
+						"noFollow": false,
+						"tagTitle": "Cargador De Pared Apple 1 Puerto Usb-C Blanco 20w",
+						"text": "Cargador De Pared Apple 1 Puerto Usb-C Blanco 20w"
+					}
+				},
+				{
+					"id": "BateriaPortatilInalámbricaMoboMagnetNegro5000Mah3a",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/bateria-portatil-inalambrica-mobo-magnet-negro-5000-mah-3a15w/p",
+						"noFollow": false,
+						"tagTitle": "Bateria Portatil Inalámbrica Mobo Magnet Negro 5000 Mah 3a/15w",
+						"text": "Bateria Portatil Inalámbrica Mobo Magnet Negro 5000 Mah 3a/15w"
+					}
+				},
+				{
+					"id": "CargadorInalámbrico3En1MoboFoldNegro15w",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/cargador-inalambrico-3-en-1-mobo-fold-negro-15w/p",
+						"noFollow": false,
+						"tagTitle": "Cargador Inalámbrico 3 En 1 Mobo Fold Negro 15w",
+						"text": "Cargador Inalámbrico 3 En 1 Mobo Fold Negro 15w"
+					}
+				},
+				{
+					"id": "Audífonos Bluetooth Mobo Alpha",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/audifonos-bluetooth-mobo-alpha/p",
+						"noFollow": false,
+						"tagTitle": "Audífonos Bluetooth Mobo Alpha",
+						"text": "Audífonos Bluetooth Mobo Alpha"
+					}
+				}
+			]
+		}
+	},
+
+	"vtex.menu@2.x:menu#sitemap-links-2-destacados":{
+		"props":{
+			"blockClass":["menuDesksitemap","sitemapMenu1"],
+			"orientation": "vertical",
+			"items":[
+				{
+					"id": "CargadorInalámbricoMophie3in1de10W-Negro",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/cargador-inalambrico-mophie-base-3-en-1-negro-15w-/p",
+						"noFollow": false,
+						"tagTitle": "Cargador Inalámbrico Mophie 3 in 1 de 10W - Negro",
+						"text": "Cargador Inalámbrico Mophie 3 in 1 de 10W - Negro"
+					}
+				},
+				
+				{
+					"id": "AudifonosBluetoothAppleAirpodsBlancoV3",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/audifonos-bluetooth-apple-airpods-blanco-v3/p",
+						"noFollow": false,
+						"tagTitle": "Audifonos Bluetooth Apple Airpods Blanco V3",
+						"text": "Audifonos Bluetooth Apple Airpods Blanco V3"
+					}
+				},
+				{
+					"id": "CargadorDeParedSamsung2PuertosUsb-C1PuertoUsb-ANegro65w",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/cargador-de-pared-samsung-2-puertos-usb-c-1-puerto-usb-a-negro-65w/p",
+						"noFollow": false,
+						"tagTitle": "Cargador De Pared Samsung 2 Puertos Usb-C 1 Puerto Usb-A Negro 65w",
+						"text": "Cargador De Pared Samsung 2 Puertos Usb-C 1 Puerto Usb-A Negro 65w"
+					}
+				},
+				{
+					"id": "BateríaInalámbricaMagsafeMophieJuicePackMini5000mAhNegro",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/bateria-inalambrica-magsafe-mophie-juice-pack-mini-5000-mah-negro/p",
+						"noFollow": false,
+						"tagTitle": "Batería Inalámbrica Magsafe Mophie Juice Pack Mini 5000 mAh Negro",
+						"text": "Batería Inalámbrica Magsafe Mophie Juice Pack Mini 5000 mAh Negro"
+					}
+				},
+				{
+					"id": "Smartwatch Mobo Beat",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/smartwatch-mobo-beat/p",
+						"noFollow": false,
+						"tagTitle": "Smartwatch Mobo Beat",
+						"text": "Smartwatch Mobo Beat"
+					}
+				},
+				{
+					"id": "BateriaPortatilInalambricaPureGearMagneticaBlanco5000",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/bateria-portatil-inalambrica-pure-gear-magnetica-blanco-5000-mah-3a-15w/p",
+						"noFollow": false,
+						"tagTitle": "Bateria Portatil Inalambrica Pure Gear Magnetica Blanco 5000 Mah 3a/15w",
+						"text": "Bateria Portatil Inalambrica Pure Gear Magnetica Blanco 5000 Mah 3a/15w"
+					}
+				},
+				{
+					"id": "AudifonosBluetoothMoboOne",
+					"type": "custom",
+					"iconId": null,
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/audifonos-bluetooth-mobo-one/p",
+						"noFollow": false,
+						"tagTitle": "Audifonos Bluetooth Mobo One",
+						"text": "Audifonos Bluetooth Mobo One"
+					}
+				}
+				
+			]
+		}
+	},
+    // "vtex.menu@2.x:menu#sitemap-links-3-destacados":{
+    //     "props":{
+	// 		"blockClass":["menuDesksitemap","sitemapMenu1"],
+	// 		"orientation": "vertical",
+	// 		"items":[
+				
+				
+	// 		]
+	// 	}
+    // },
+	// termina destacados
     // seccion menu general
     "flex-layout.row#menu-general":{
         "title": "Sección principal del footer",
