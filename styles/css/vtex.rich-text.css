@@ -166,7 +166,20 @@
     font-size: 12px;
     margin-top: -25px;
 }
-
+/* descripcion seo */
+.wrapper--text-title-content-seo{
+    font-size: 14px;
+}
+.wrapper--text-content-seo{
+    font-size: 10px;
+}
+.paragraph--text-title-content-seo{
+    margin: 0;
+}
+.headingLevel1--text-title-content-seo{
+    font-size: 0.9rem;
+    margin: 0;
+}
 /***********Mobile**********************/
 .container--txt-reac{
     display: flex;

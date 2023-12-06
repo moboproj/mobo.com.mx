@@ -331,8 +331,20 @@
 .flexColChild--col-text-about-us{
     padding: 0 15px 0 0;
 }
-
-
+/**descripciones***/
+.flexCol--col-text-seo{
+    border-radius: 30px;
+}
+.flexColChild--col-text-seo{
+    /* padding: 0 20px 0 20px; */
+}
+.flexRowContent--rowseo{
+    /* margin-top: 1 px; */
+}
+.flexRow--rowseo{
+    border-radius: 30px;
+    padding: 10px
+}
 
 /*Generales*/
 .flexRowContent--maxWidth1920{

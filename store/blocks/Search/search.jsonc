@@ -147,7 +147,8 @@
       "search-content",
       "__fold__",
       "search-products-count-per-page",
-      "search-fetch-more"
+      "search-fetch-more",
+      "flex-layout.row#wrapper-seo"
     ]
   },
   "search-content": {
@@ -190,5 +191,29 @@
       "name": "list"
     },
     "children": ["icon-inline-grid"]
+  },
+  // seo content
+  "flex-layout.row#wrapper-seo":{
+    "children": ["flex-layout.col#seo-col"]
+  },
+  "flex-layout.col#seo-col":{
+    "props": {
+      "blockClass":["col-text-seo"]
+    },
+    "children": ["rich-text#seo-title","rich-text#prueba"]
+  },
+  "rich-text#seo-title": {
+    "title": "Titulo Seo",
+    "props": {
+      "text":"# MOBO",
+      "blockClass":"text-title-content-seo"
+    }
+  },
+  "rich-text#prueba":{
+    "title": "Texto Seo",
+    "props": {
+      "text": "Explora la diversidad de productos en Mobo, desde una amplia gama de cargadores, incluyendo MagSafe y opciones para auto y pared, hasta iPhones reacondicionados con garantía de 90 días. Protege tus dispositivos con estilo gracias a fundas y micas adaptadas para celulares, smartwatches, audífonos y tablets de marcas como Apple, Guess y Samsung. Sumérgete en la calidad de audio con la destacada colección de audífonos y bocinas de Mobo, que incluye modelos inalámbricos, resistentes al agua, y de marcas como Sony y Beats. Explora también el universo de wearables con smartwatches como Honor Band 6 y Huawei Fit 2, diseñados para adaptarse a tu estilo de vida activo. Además, personaliza tu experiencia con una variedad de accesorios, desde teclados para iPad hasta plumas para tablets. Descubre un mundo de posibilidades con tablets que ofrecen portabilidad, entretenimiento inmersivo y productividad en cualquier lugar. En Mobo, estamos comprometidos a ofrecer calidad, variedad y tecnología al alcance de tus manos. ¡Explora ahora y elige con confianza!",
+      "blockClass": "text-content-seo"
+    }
   }
 }
