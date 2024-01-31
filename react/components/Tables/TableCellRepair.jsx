@@ -1,291 +1,179 @@
-import React, { Component } from 'react';
-import '../../css/tableCellRepair.css';
+// import React, { Component } from 'react';
+// import '../../css/tableCellRepair.css';
 import '../../css/bootstrap.css';
+import styles from './styles.css'
+import React, { useState } from 'react';
 
 
 function TableCellRepair(){
-    const bgOrange = {
-            padding: "10px 5px", 
-            textAlign: "center", 
-            background: "#fa7100",
-            color: "#fff"
-         
-    };
+  const [tipoSeleccionado, setTipoSeleccionado] = useState('');
+  const [productoSeleccionado, setProductoSeleccionado] = useState('');
+  const [modeloSeleccionado, setModeloSeleccionado] = useState('');
+  const [modeloHabilitado, setModeloHabilitado] = useState(false);
+  const [mostrarTabla, setMostrarTabla] = useState(false); // Nuevo estado para la visibilidad de la tabla
+  const [tablaSeleccionada, setTablaSeleccionada] = useState(null); // Estado para almacenar el componente de tabla que se mostrará
+  const bgOrange = {
+          padding: "10px 5px", 
+          textAlign: "center", 
+          background: "#fa7100",
+          color: "#fff"
+        
+  };
+  const handleProductoChange = (event) => {
+    const tipo = event.target.form.tipo.value;
+    setTipoSeleccionado(tipo);
+    const producto = event.target.form.producto.value;
+    setProductoSeleccionado(producto);
+    console.log("el tipo seleccionado", tipo);
+    console.log("el producto seleccionado", producto);
+    // Habilita el modelo según el producto seleccionado
+    if (producto === 'value1' || producto === 'value2' || producto === 'value5' || producto === 'value7' ) {
+      setModeloHabilitado(true);  // Para iPhone con mas de un modelo
+    } else {
+      setModeloHabilitado(false); // Deshabilita para otros productos
+    }
+    
+  };
+  const handleModeloChange = (event) => {
+    const modelo = event.target.form.modelo.value;
+    setModeloSeleccionado(modelo);
+  };
+  const handleSubmit = (event) => {
+    
+    event.preventDefault();
+    
+    // Determina la tabla a mostrar según la combinación seleccionada
+    console.log(`${tipoSeleccionado}-${productoSeleccionado}-${modeloHabilitado}-${modeloSeleccionado}`)
+    switch (`${tipoSeleccionado}-${productoSeleccionado}-${modeloHabilitado}-${modeloSeleccionado}`) {
+      case 'pantalla-value1-true-iPhone11':
+        console.log("se muestra la tabla1")
+        setTablaSeleccionada(<Table1 />);
+        break;
+      case 'pantalla-value1-true-iPhone11Pro':
+        setTablaSeleccionada(<Table2 />);
+        break;
+      case 'pantalla-value1-true-iPhone11ProMax':
+          setTablaSeleccionada(<Table3 />);
+          break;
+      default:
+        setTablaSeleccionada(<Table4 />);
+    }
+    // Muestra la tabla al presionar el botón
+    setMostrarTabla(true);
+  };
+  console.log(tablaSeleccionada)
+  // Definir componentes de tabla personalizados según sea necesario
+  const Table1 = () => (
+    <div className={`${styles.cuadrocosto}`}>
+      <b className={`${styles.titleb}`}>Tu costo estimado</b>
+      <p className={`${styles.parrafo}`}>Revisaremos tu equipo de servicio técnico para determinar la tarifa de servicio técnico final.</p>
+      <figure >
+        <span className={`${styles.price}`}>$ 2,999</span>
+      </figure>
+    </div>
+  );
+
+  const Table2 = () => (
+    <div  className={`${styles.cuadrocosto}`}>
+      <b className={`${styles.titleb}`}>Tu costo estimado</b>
+      <p className={`${styles.parrafo}`}>Revisaremos tu equipo de servicio técnico para determinar la tarifa de servicio técnico final.</p>
+      <figure >
+          <span className={`${styles.price}`}>$ 3,999</span>
+      </figure>
+    </div>
+  );
+
+  const Table3 = () => (
+    <div  className={`${styles.cuadrocosto}`}>
+      <b className={`${styles.titleb}`}>Tu costo estimado</b>
+      <p className={`${styles.parrafo}`}>Revisaremos tu equipo de servicio técnico para determinar la tarifa de servicio técnico final.</p>
+      <figure >
+          <span className={`${styles.price}`}>$ 5,999</span>
+      </figure>
+    </div>
+  );
+
+  const Table4 = () => (
+    <div  className={`${styles.cuadrocosto}`}>
+      <b className={`${styles.titleb}`}>Tu costo estimado</b>
+      <p className={`${styles.parrafo}`}>Revisaremos tu equipo de servicio técnico para determinar la tarifa de servicio técnico final.</p>
+      <figure >
+          <span className={`${styles.price}`}>No disponible</span>
+      </figure>
+    </div>
+  );
+
+
+
 
 return(
   <>
 <div className="container">
     <div className="row mb-4">
-      <div className="col-xs-12 col-md-12 text-center">                            
-              <table className="table table-striped table-hover">
-                  <tbody><tr>
-                       <td  className="pricing-table-text">
-                         <div className="text-center pricing-table-text">
-                            <p><b>Tipo de reparación</b></p>
-                          </div>
-                       </td>
-                       <td width="20%">
-                       <div className="pricing-table-item text-center">
-                           <div style={bgOrange} className="pricing-table-item-head">
-                            <p>iPhone 11 pro max</p>
-                            <span className="font-weight-bold">Precio</span>
-                           </div>
-                       </div>
-                       </td>
-                       <td width="20%">
-                         <div className="pricing-table-item">
-                             <div className="pricing-table-item-head" style={bgOrange}>
-                                <p>iPhone 11 pro</p>
-                                <span className="font-weight-bold">Precio</span>
-                             </div>                                         
-                          </div>
-                        </td>
-                        <td width="20%">
-                           <div className="pricing-table-item">
-                                <div className="pricing-table-item-head" style={bgOrange}>
-                                     <p>iPhone 11</p>
-                                     <span className="font-weight-bold">Precio</span>
-                                </div>                                       
-                            </div>
-                         </td>
-                    </tr>
-                    <tr className="pricing-table-list">
-                      <td>Pantalla</td>
-                      <td>$5,999</td>
-                      <td>$3,999</td>
-                      <td>$2,999</td>
-                    </tr>
-                    <tr className="pricing-table-list">
-                      <td>Batería</td>
-                      <td>$1,399</td>
-                      <td>$1,199</td>
-                      <td>$999</td>
-                    </tr>
-              </tbody>
-          </table>
-      </div>
-    </div>
-    <div className="row mb-4">
-        <div className="col-xs-12 col-md-12 text-center">                            
-                <table className="table table-hover table-striped">
-                    <tbody><tr>
-                         <td  className="pricing-table-text">
-                           <div className="text-center pricing-table-text">
-                              <p><b>Tipo de reparación</b></p>
-                            </div>
-                         </td>
-                         <td width="20%">
-                         <div className="pricing-table-item">
-                             <div className="pricing-table-item-head" style={bgOrange}>
-                              <p>iPhone XS Max</p>
-                              <span className="font-weight-bold">Precio</span>
-                             </div>
-                         </div>
-                         </td>
-                         <td width="20%">
-                           <div className="pricing-table-item">
-                               <div className="pricing-table-item-head" style={bgOrange}>
-                                  <p>iPhone XS</p>
-                                  <span className="font-weight-bold">Precio</span>
-                               </div>                                         
-                            </div>
-                          </td>
-                          <td width="20%">
-                             <div className="pricing-table-item">
-                                  <div className="pricing-table-item-head" style={bgOrange}>
-                                       <p>iPhone XR</p>
-                                       <span className="font-weight-bold">Precio</span>
-                                  </div>                                       
-                              </div>
-                           </td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Pantalla</td>
-                        <td>$4,999</td>
-                        <td>$3,999</td>
-                        <td>$2,999</td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Batería</td>
-                        <td>$999</td>
-                        <td>$999</td>
-                        <td>$999</td>
-                      </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div className="row mb-4">
-        <div className="col-xs-12 col-md-12 text-center">                            
-                <table className="table table-hover table-striped">
-                    <tbody>
-                      <tr>
-                         <td className="pricing-table-text">
-                           <div className="text-center pricing-table-text">
-                              <p><b>Tipo de reparación</b></p>
-                            </div>
-                         </td>
-                         <td width="20%">
-                         <div className="pricing-table-item">
-                             <div className="pricing-table-item-head" style={bgOrange}>
-                              <p>iPhone X</p>
-                              <span className="font-weight-bold">Precio</span>
-                             </div>
-                         </div>
-                         </td>
-                         <td width="20%">
-                           <div className="pricing-table-item">
-                               <div className="pricing-table-item-head" style={bgOrange}>
-                                  <p>iPhone 8 Plus</p>
-                                  <span className="font-weight-bold">Precio</span>
-                               </div>                                         
-                            </div>
-                          </td>
-                          <td width="20%">
-                             <div className="pricing-table-item">
-                                  <div className="pricing-table-item-head" style={bgOrange}>
-                                       <p>iPhone 8</p>
-                                       <span className="font-weight-bold">Precio</span>
-                                  </div>                                       
-                              </div>
-                           </td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Pantalla Negra</td>
-                        <td>$4,999</td>
-                        <td>$3,999</td>
-                        <td>$2,999</td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Pantalla Blanca</td>
-                        <td>$4,999</td>
-                        <td>$3,999</td>
-                        <td>$2,999</td>
-                      </tr>
+      <div className="col-xs-12 col-md-12 text-center">
+        <form className={`${styles.form}`} onSubmit={handleSubmit}> 
+          <select className={`${styles.selectCR}`} name ="tipo" onChange={handleProductoChange}>
+            <option value="" disabled hidden selected>Tipo de reparación</option>
+            <option value="valuedefult" disabled>Selecciona una opción</option>
+            <option value="pantalla">Reparación de pantalla</option>
+            <option value="bateria">Reparación de batería</option>
+          </select>
+          <select className={`${styles.selectCR}`} name="producto" onChange={handleProductoChange}> 
+            <option value="" disabled hidden selected>Producto</option>
+            <option value="value0" disabled>Selecciona una opción</option>
+            <option value="value1" >iPhone 11</option>
+            <option value="value2">iPhone XS</option>
+            <option value="value3">iPhone XR</option>
+            <option value="value4">iPhone X</option>
+            <option value="value5">iPhone 8</option>
+            <option value="value6">iPhone 7</option>
+            <option value="value7">iPhone 6</option>
+          </select>
+          <select className={`${styles.selectCR}`} name="modelo" disabled={!modeloHabilitado} onChange={handleModeloChange}>
+                <option value="" hidden>Modelo de equipo</option>
+                {modeloHabilitado && (
+                  <>
+                    {/* Opciones específicas del modelo para iPhone 11 */}
+                    {productoSeleccionado === 'value1' && (
+                      <>
+                        <option value="iPhone11">iPhone 11</option>
+                        <option value="iPhone11Pro">iPhone 11 Pro</option>
+                        <option value="iPhone11ProMax">iPhone 11 Pro Max</option>
+                      </>
+                    )}
 
-                      <tr className="pricing-table-list">
-                        <td>Batería</td>
-                        <td>$999</td>
-                        <td>$699</td>
-                        <td>$999</td>
-                      </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div className="row mb-4">
-        <div className="col-xs-12 col-md-12 text-center">                            
-                <table className="table table-hover table-striped">
-                    <tbody>
-                      <tr>
-                         <td className="pricing-table-text">
-                           <div className="text-center pricing-table-text">
-                              <p><b>Tipo de reparación</b></p>
-                            </div>
-                         </td>
-                         <td width="20%">
-                         <div className="pricing-table-item">
-                             <div className="pricing-table-item-head" style={bgOrange}>
-                              <p>iPhone 7 Plus</p>
-                              <span className="font-weight-bold">Precio</span>
-                             </div>
-                         </div>
-                         </td>
-                         <td width="20%">
-                           <div className="pricing-table-item">
-                               <div className="pricing-table-item-head" style={bgOrange}>
-                                  <p>iPhone 7</p>
-                                  <span className="font-weight-bold">Precio</span>
-                               </div>                                         
-                            </div>
-                          </td>
-                          <td width="20%">
-                             <div className="pricing-table-item">
-                                  <div className="pricing-table-item-head" style={bgOrange}>
-                                       <p>iPhone 6S Plus</p>
-                                       <span className="font-weight-bold">Precio</span>
-                                  </div>                                       
-                              </div>
-                           </td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Pantalla Negra</td>
-                        <td>$1,799</td>
-                        <td>$1,699</td>
-                        <td>$1,499</td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Pantalla Blanca</td>
-                        <td>$1,799</td>
-                        <td>$1,699</td>
-                        <td>$1,499</td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Batería</td>
-                        <td>$599</td>
-                        <td>$599</td>
-                        <td>$599</td>
-                      </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div className="row">
-        <div className="col-xs-12 col-md-12 text-center">                            
-                <table className="table table-hover table-striped">
-                    <tbody>
-                      <tr>
-                         <td className="pricing-table-text">
-                           <div className="text-center pricing-table-text">
-                              <p><b>Tipo de reparación</b></p>
-                            </div>
-                         </td>
-                         <td width="20%">
-                         <div className="pricing-table-item">
-                             <div className="pricing-table-item-head" style={bgOrange}>
-                              <p>iPhone 6s</p>
-                              <span className="font-weight-bold">Precio</span>
-                             </div>
-                         </div>
-                         </td>
-                         <td width="20%">
-                           <div className="pricing-table-item">
-                               <div className="pricing-table-item-head" style={bgOrange}>
-                                  <p>iPhone 6 Plus</p>
-                                  <span className="font-weight-bold">Precio</span>
-                               </div>                                         
-                            </div>
-                          </td>
-                          <td width="20%">
-                             <div className="pricing-table-item">
-                                  <div className="pricing-table-item-head" style={bgOrange}>
-                                       <p>iPhone 6</p>
-                                       <span className="font-weight-bold">Precio</span>
-                                  </div>                                       
-                              </div>
-                           </td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Pantalla Negra</td>
-                        <td>$1,399</td>
-                        <td>$1,299</td>
-                        <td>$1,299</td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Pantalla Blanca</td>
-                        <td>$1,399</td>
-                        <td>$1,299</td>
-                        <td>$1,299</td>
-                      </tr>
-                      <tr className="pricing-table-list">
-                        <td>Batería</td>
-                        <td>$599</td>
-                        <td>$599</td>
-                        <td>$599</td>
-                      </tr>
-                </tbody>
-            </table>
-        </div>
+                    {/* Opciones específicas del modelo para iPhone XS */}
+                    {productoSeleccionado === 'value2' && (
+                      <>
+                        <option value="iPhoneXS">iPhone XS</option>
+                        <option value="iPhoneXSMax">iPhone XS Max</option>
+                        {/* Agregar más opciones según sea necesario */}
+                      </>
+                    )}
+                    {/* Opciones específicas del modelo para iPhone 8 */}
+                    {productoSeleccionado === 'value5' && (
+                      <>
+                        <option value="iPhone8Plus">iPhone 8 Plus</option>
+                        <option value="iPhone8">iPhone 8</option>
+                      </>
+                    )}
+                    {/* Opciones específicas del modelo para iPhone 6 */}
+                    {productoSeleccionado === 'value7' && (
+                      <>
+                        <option value="iPhone8Plus">iPhone 6S Plus</option>
+                        <option value="iPhone6s">iPhone 6s</option>
+                        <option value="iPhone6Plus">iPhone 6 Plus</option>
+                        <option value="iPhone6">iPhone 6</option>
+                      </>
+                    )}
+                  </>
+                )}
+              </select>
+              {/* Botón después de los select */}
+              <button className={`${styles.buttonCR}`} type="submit">Obtén un costo estimado</button>
+        </form> 
+        {mostrarTabla && tablaSeleccionada}    
+      </div>
     </div>
 </div>
 </>

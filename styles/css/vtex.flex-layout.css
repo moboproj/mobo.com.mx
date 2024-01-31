@@ -252,10 +252,15 @@
 
 /*****Cellrepair****/
 .flexRow--rowImgsCell{
-    background-color: #ededed;
+    /* background-color: #ededed; */
     padding: 5em 0 3em 0;
 }
-
+.flexRow--row-cuadro{
+    width: 80%;
+    margin: 32px auto 16px;
+    background-color: #e6e6e7;
+    border-radius: 30px;
+}
 .flexRow--rowPrecios-2{
     margin-top: 45px;
 }

@@ -1,0 +1,82 @@
+.formTitle{
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: 0.65px;
+    text-align: center;
+    color: #9b9b9b;
+}
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    gap: 46px 40px;
+}
+
+@media only screen and (max-width:1920px){
+    .formTitle{
+        font-size: 3.385vw;
+    }
+    .form{
+        gap: 2.396vw 2.083vw;
+    }
+}
+@media only screen and (max-width:915px){
+    .formTitle{
+        font-size: 4.372vw;
+    }
+    .form{
+        gap: 4.809vw;
+    }
+}
+
+
+.selectCR {
+    text-transform: none;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Outfit';
+    padding: 0.5em;
+    /* width: auto; */
+    width: 13rem;
+    align-self: center;
+}
+.buttonCR{
+    background-color: #0433ff;
+    color: white;
+    border: none;
+    text-transform: none;
+    border-radius: 30px;
+    font-family: 'Outfit';
+    padding: 0.5em;
+    /* width: auto; */
+    width: 13rem;
+    align-self: center;
+}
+
+.titleb{
+    font-family: Outfit,Montserrat,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.parrafo{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: Outfit,Montserrat,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    max-width: 30rem;
+}
+.price{
+    font-size: 1.75rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    color: #9b9b9b;
+}
+.cuadrocosto{
+    margin-top: 2rem;
+}

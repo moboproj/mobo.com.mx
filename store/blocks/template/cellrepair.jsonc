@@ -15,12 +15,13 @@
             "flex-layout.row#rowTxtTecnicos",
             "flex-layout.row#rowImgsCell",
             "flex-layout.row#titleTable",
+            "flex-layout.row#rowPrecios-0",
             "flex-layout.row#rowPrecios-1",
             "flex-layout.row#rowPrecios-2",
             "flex-layout.row#rowPrecios-3",
             "flex-layout.row#rowPrecios-4",
-            "flex-layout.row#rowPrecios-5",
-            "table-cellRepair"
+            "flex-layout.row#rowPrecios-5"
+            // "table-cellRepair"
         ]
       },
       "responsive-layout.mobile#cellrepair":{
@@ -367,6 +368,112 @@
           "textAlignment": "CENTER"
         }
       },
+      "flex-layout.row#rowPrecios-0": {
+        "props": {
+          "blockClass": "rowPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-01",
+          "flex-layout.col#colPrecios-02",
+          "flex-layout.col#colPrecios-03"
+        ]
+      },
+      "flex-layout.col#colPrecios-01": {
+        "props": {
+          "blockClass": "colPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-01",
+          "rich-text#tablaPrecios-01"
+        ]
+      },
+      "rich-text#titulo-celular-01": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 12",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-01": {
+        "props": {
+          "blockClass": "precio-1",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,999 |"
+        }
+
+      },
+      "flex-layout.col#colPrecios-02": {
+        "props": {
+          "blockClass": "colPrecios-2",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-02",
+          "rich-text#tablaPrecios-02"  
+        ]
+      },
+      "rich-text#titulo-celular-02": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 12 pro",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-02": {
+        "props": {
+          "blockClass": "precio-2",
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,699 |" 
+        }
+      },
+      "flex-layout.col#colPrecios-03": {
+        "props": {
+          "blockClass": "colPrecios-3",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "rich-text#titulo-celular-03",
+          "rich-text#tablaPrecios-03"  
+        ]
+      },
+      "rich-text#titulo-celular-03": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 12 pro Max",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-03": {
+        "props": {
+          "blockClass": "precio-3",
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $3,499 |" 
+        }
+      },
       "flex-layout.row#rowPrecios-1": {
         "props": {
           "blockClass": "rowPrecios-1",
@@ -410,7 +517,7 @@
       "rich-text#tablaPrecios-1": {
         "props": {
           "blockClass": "precio-1",
-          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $5,999 | \n  | Batería | NA | $1,399 |  "
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,999 | \n  | Batería | NA | $1,099 | \n | Limpieza | NA | $199 |  "
         }
 
       },
@@ -441,7 +548,7 @@
       "rich-text#tablaPrecios-2": {
         "props": {
           "blockClass": "precio-2",
-          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $3,999 | \n | Batería | NA | $1,199 |" 
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,699 | \n | Batería | NA | $1,099 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-3": {
@@ -470,7 +577,7 @@
       "rich-text#tablaPrecios-3": {
         "props": {
           "blockClass": "precio-3",
-          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,999 | \n | Batería | NA | $999 |" 
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,999 | \n | Batería | NA | $999 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.row#rowPrecios-2": {
@@ -516,7 +623,7 @@
       "rich-text#tablaPrecios-4": {
         "props": {
           "blockClass": "precio-4",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $4,999 | \n | Batería | NA | $999 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,899 | \n | Batería | NA | $799 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-5": {
@@ -546,7 +653,7 @@
       "rich-text#tablaPrecios-5": {
         "props": {
           "blockClass": "precio-5",
-          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $3,999 | \n | Batería | NA | $999 |" 
+          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $1,649 | \n | Batería | NA | $699 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-6": {
@@ -576,7 +683,7 @@
       "rich-text#tablaPrecios-6": {
         "props": {
           "blockClass": "precio-6",
-          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,999 | \n | Batería | NA | $999 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $1,649 | \n | Batería | NA | $699 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.row#rowPrecios-3": {
@@ -622,7 +729,7 @@
       "rich-text#tablaPrecios-7": {
         "props": {
           "blockClass": "precio-7",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $3,499 | \n | Batería | NA | $999 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,649 | \n | Batería | NA | $799 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-8": {
@@ -652,7 +759,7 @@
       "rich-text#tablaPrecios-8": {
         "props": {
           "blockClass": "precio-8",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,999 | \n  | Pantalla | Blanco | $1,999 | \n | Batería | NA | $699 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $999 | \n  | Pantalla | Blanco | $999 | \n | Batería | NA | $699 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-9": {
@@ -681,7 +788,7 @@
       "rich-text#tablaPrecios-9": {
         "props": {
           "blockClass": "precio-9",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $4,999 | \n | Pantalla | Blanco | $1,999 | \n  | Batería | NA | $999 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $999 | \n | Pantalla | Blanco | $999 | \n  | Batería | NA | $599 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.row#rowPrecios-5": {
@@ -727,7 +834,7 @@
       "rich-text#tablaPrecios-13": {
         "props": {
           "blockClass": "precio-10",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,399 | \n | Pantalla | Blanco | $1,399 | \n | Batería | NA | $599 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $699 | \n | Pantalla | Blanco | $699 | \n | Batería | NA | $399 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-14": {
@@ -757,7 +864,7 @@
       "rich-text#tablaPrecios-14": {
         "props": {
           "blockClass": "precio-14",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,299 | \n  | Pantalla | Blanco | $1,299 | \n | Batería | NA | $599 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $699 | \n  | Pantalla | Blanco | $699 | \n | Batería | NA | $399 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-15": {
@@ -787,7 +894,7 @@
       "rich-text#tablaPrecios-15": {
         "props": {
           "blockClass": "precio-9",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,299 | \n | Pantalla | Blanco | $1,299 | \n  | Batería | NA | $599 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $699 | \n | Pantalla | Blanco | $699 | \n  | Batería | NA | $499 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.row#rowPrecios-4": {
@@ -833,7 +940,7 @@
       "rich-text#tablaPrecios-10": {
         "props": {
           "blockClass": "precio-10",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,799 | \n | Pantalla | Blanco | $1,799 | \n | Batería | NA | $599 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $999 | \n | Pantalla | Blanco | $999 | \n | Batería | NA | $499 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-11": {
@@ -863,7 +970,7 @@
       "rich-text#tablaPrecios-11": {
         "props": {
           "blockClass": "precio-11",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,699 | \n  | Pantalla | Blanco | $1,699 | \n | Batería | NA | $599 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $899 | \n  | Pantalla | Blanco | $899 | \n | Batería | NA | $499 | \n | Limpieza | NA | $199 |  " 
         }
       },
       "flex-layout.col#colPrecios-12": {
@@ -893,7 +1000,7 @@
       "rich-text#tablaPrecios-12": {
         "props": {
           "blockClass": "precio-9",
-          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $1,499 | \n | Pantalla | Blanco | $1,499 | \n  | Batería | NA | $599 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $699 | \n | Pantalla | Blanco | $699 | \n  | Batería | NA | $399 | \n | Limpieza | NA | $199 |  " 
         }
       },
 /****************mobile******************/

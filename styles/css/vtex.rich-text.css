@@ -192,14 +192,22 @@
 }
 
 /******cellrepair*******/
+.paragraph--txtbateria,
+.paragraph--txtPantalla
+{
+    padding: 0 2rem 0;
+}
 .headingLevel3--titulo-tabla{
     color: #fa7100;
 }
 .headingLevel2--titulo-cellrepair{
-    color: #fa7100;
+    color: #0433ff;
+}
+.headingLevel2--section-cellrepair{
+    color: #9b9b9b;
 }
 .headingLevel3--subtitulo-cellrepair{
-    color: #fa7100;
+    color: #9b9b9b;
     font-weight: lighter;
 }
 .paragraph--txtTecnicos{
