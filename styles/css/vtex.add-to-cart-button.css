@@ -103,4 +103,21 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--buyButtonPdp) .buttonText{
         font-size: 3.825vw;
     }
+    .buttonText--add-to-cart-in-minicart{
+        font-size: 15px;
+        font-weight: 600;
+        padding: 8px;
+    }
 }
+
+/*botones minicart*/
+:global(.vtex-product-summary-2-x-container--summary-minicart) :global(.vtex-button__label){
+    padding: 14px 20px !important;
+}
+
+@media only screen and (max-width:1920px){
+    :global(.vtex-product-summary-2-x-container--summary-minicart) :global(.vtex-button__label){
+        padding: 0.73vw 0.98vw !important;
+    }
+}
+

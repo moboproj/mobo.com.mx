@@ -66,6 +66,8 @@
 }
 .minicartCheckoutButton :global(.vtex-button){
     font-weight: bold;
+    width: -webkit-fill-available !important;
+    font-size: 1.4rem;
 }
 
 /* Product list */
@@ -81,4 +83,37 @@
 .minicartSummary :global(.vtex-checkout-summary-0-x-price){
     font-weight: 500;
 }
+
+.minicartCheckoutButton--minicartbuttonOrderPlace :global(.vtex-button){
+    background: none;
+    border-color: #DC066B; /* Color del borde */
+    color: #DC066B;
+}
+
+.minicartCheckoutButton--minicartbuttonOrderPlace :global(.vtex-button)::after{
+    content: "ir a pagar";
+}
+
+.minicartCheckoutButton--minicartbuttonOrderPlace :global(.vtex-button__label){
+    display: none ;
+}
+
+.minicartCheckoutButton--minicartbuttonCarrito :global(.vtex-button)::after{
+    content: "ver carrito";
+}
+
+.minicartCheckoutButton--minicartbuttonCarrito :global(.vtex-button__label){
+    display: none ;
+}
  /*Summary */
+ 
+    
+
+
+
+/* .container--holaprueba1234 :global(.vtex-button__label){
+    padding: 1.93vw 1.9vw !important;
+}
+.vtex-product-summary-2-x-container--holaprueba1234 .vtex-button__label {
+    padding: 14px 38px!important
+} */

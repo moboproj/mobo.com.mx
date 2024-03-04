@@ -95,6 +95,10 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+.sliderLayoutContainer--minislide.sliderLayoutContainer--minislideDesk{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 .sliderTrackContainer--homePaymentsDesk{
     padding: 0 6%;
 }
@@ -115,11 +119,25 @@
 .caretIcon--sliderHomeCategories{
     color: #9b9b9b;
 }
+
 @media only screen and (max-width:1920px){
     .sliderTrack--homePaymentsDesk{
         gap: 1.927vw;
     }
+    .sliderTrack--minislide.sliderTrack--minislideDesk{
+        width: 950% !important;
+    }
 }
+
+@media only screen and (max-width:1200px){
+    .sliderTrack--minislide.sliderTrack--minislideDesk{
+        width: 900% !important;
+    }
+    
+}
+
+
+
 @media only screen and (max-width:915px){
     .caretIcon{
         width: 2.623vw;
@@ -130,6 +148,9 @@
         display: flex;
     }
     .sliderLayoutContainer--homePaymentsDesk{
+        display: none;
+    }
+    .sliderLayoutContainer--minislideDesk{
         display: none;
     }
 }
@@ -154,3 +175,8 @@
     margin-left: 0;
 }
 /* HOME - Categorias, Pagos, Productos */
+
+/*slider de tiendas en cell repair*/
+.slide--slider-cellrepair-tiendas{
+    width: 8% !important  ;
+}

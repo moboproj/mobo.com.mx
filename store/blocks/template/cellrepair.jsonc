@@ -9,8 +9,7 @@
         "children":[
             "slider-layout#slider-cellrepair",
             "flex-layout.row#row-title-cellRepair",
-            "store-list#listaCellrepair",
-            "store-map#mapaCellrepair",
+            "flex-layout.row#slidermap",
             "flex-layout.row#rowTxtSubTitulo",
             "flex-layout.row#rowTxtTecnicos",
             "flex-layout.row#rowImgsCell",
@@ -28,8 +27,7 @@
         "children":[
           "slider-layout#slider-cellrepair",
           "flex-layout.row#row-title-cellRepair",
-          "store-list#listaCellrepair",
-          "store-map#mapaCellrepair",
+          "flex-layout.row#slidermap",
           "flex-layout.row#rowTxtSubTitulo",
           "flex-layout.row#rowTxtTecnicos",
           "list-context.image-list#sliderServicios-mobile",
@@ -41,6 +39,493 @@
             "flex-layout.row#rowPrecios-5"
         ]
       },
+	/*Slider Payments*/
+	"flex-layout.row#slidermap": {
+		"title": "Contenedor de slider de mapa",
+		"children": ["slider-layout#slidermap"],
+		"props": {
+			"blockClass": ["maxWidthGeneral","maxWidthGeneralMob","homeSliderPayments"]
+		}
+	},
+      "slider-layout#slidermap": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 1,
+            "phone": 1
+          },
+          "fullWidth": true ,
+          "showNavigationArrows": "always",
+          "showPaginationDots": "never",
+          "blockClass": "slider-cellrepair-tiendas"
+        },
+        "children": [
+            "info-card#2",
+            "info-card#3",
+            "info-card#4",
+            "info-card#5",
+            "info-card#6",
+            "info-card#7",
+            "info-card#8",
+            "info-card#9",
+            "info-card#10",
+            "info-card#11",
+            "info-card#12",
+            "info-card#13",
+            "info-card#14",
+            "info-card#15",
+            "info-card#16",
+            "info-card#17",
+            "info-card#18",
+            "info-card#19",
+            "info-card#20",
+            "info-card#21",
+            "info-card#22",
+            "info-card#23",
+            "info-card#24",
+            "info-card#25",
+            "info-card#26",
+            "info-card#27",
+            "info-card#28",
+            "info-card#29",
+            "info-card#30"
+          
+          ]
+      },
+    "info-card#2": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Paseo Acoxpa CDMX",
+            "subhead": "Teléfono: (55)90370336 Email: acoxpa@mobo.com.mx \n Calzada Acoxpa 430 Local 87, Tlalpan, CDMX-14300",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.2994885782223,-99.1374532614534",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#3": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Gran Sur CDMX",
+            "subhead": "Teléfono: (55)54241276 Email: gransur@mobo.com.mx \n Av Del Iman 151 Local 123, Coyoacan, CDMX-4700",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3049160681139,-99.165465703783",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#4": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Altabrisa Villahermosa Tabasco",
+            "subhead": "Teléfono: (993)2535474 Email: altavillahermosa@mobo.com.mx \n Periferico Carlos Pellicer Camara 501 133, Tabasco, Tabasco-86170",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=17.9658445800845,-92.9399698786777",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#5": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Insurgentes CDMX",
+            "subhead": "Teléfono: (55)86247904 Email: galinsurgentes@mobo.com.mx \n Avenida Insurgentes Sur 1352 Local 376, Benito Juarez, CDMX-3100",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3711420115257,-99.1787538939796",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#6": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Coapa CDMX",
+            "subhead": "Teléfono: (55)56775161 Email: galcoapa@mobo.com.mx \n Calzada Del Hueso  519 Local 296, Tlalpan, CDMX-14300",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3041733252814,-99.1232975844138",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#7": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Centro Comercial Santa Fe CDMX",
+            "subhead": "Teléfono: (55)21678258 Email: centrosantafe@mobo.com.mx \n Av. Vasco De Quiroga  3800 Local 657, Cuajimalpa De Morelos, CDMX-5348",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.361670522,-99.2738274632982",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#8": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Pachuca Hidalgo",
+            "subhead": "Teléfono: (771)7103537 Email: galpachuca@mobo.com.mx \n Camino Real De La Plata 100 Local 257 B, Pachuca De Soto, Hidalgo-42084",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=20.0984680142108,-98.7687597049667",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#9": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Metepec Estado de México",
+            "subhead": "Teléfono: (722)2320241 Email: metepec@mobo.com.mx \n Blvd. Toluca - Metepec  400 Norte Local 133, Metepec, Estado de México-52140",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.2587659223694,-99.6211321498068",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#10": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Boulevares Tuxtla Chiapas",
+            "subhead": "Teléfono: (961)6155340 Email: blvdtuxtla@mobo.com.mx \n  blvd Belisario Dominguez  1861  B-15, Tuxtla Gutierrez, Chiapas-29056",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=16.7542796786444,-93.1489653750156",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#11": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Monterrey Nuevo León",
+            "subhead": "Teléfono: (81)81234101 Email: galmonterrey@mobo.com.mx \n Av. Insurgentes  2500 506, Monterrey, Nuevo León-64620",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=25.6815523647342,-100.354971463083",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#12": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Parque Lindavista CDMX",
+            "subhead": "Teléfono: (55)51194691 Email: prqlindavista@mobo.com.mx \n Colector  13 Loc 220, Gustavo A Madero, CDMX-7300",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.4869124529376,-99.1312057326129",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#13": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Cibeles Irapuato Guanajuato",
+            "subhead": "Teléfono: (462)4903447 Email: cibeles@mobo.com.mx \n Blvd. Villas De Irapuato 1443 Local 31-a, Irapuato, Guanajuato-36643",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=20.6807428310164,-101.37966030985",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#14": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Cuernavaca Morelos",
+            "subhead": "Teléfono: (777)1000938 Email: galcuernavaca@mobo.com.mx \n Autopista Mexico Acapulco Km 87.850 Local 382, Cuernavaca, Morelos-62370",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=18.9359103842642,-99.1931547363216",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#15": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Plaza Satelite Estado de México",
+            "subhead": "Teléfono: (55)53931288 Email: plsatelite@mobo.com.mx \n Circuito Centro Comercial  2251 Local 123, Naucalpan, Estado de México-53100",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.5104382173855,-99.2342598019305",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#16": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo El Dorado Slp San Luis Potosí",
+            "subhead": "Teléfono: (444)8110359 Email: eldoradoslp@mobo.com.mx \n Av. Nereo Rodriguez Barragan 450 L-ulc1a-2, San Luis Potosi, San Luis Potosí-78200",        
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=22.1568163868405,-101.004025238636",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#17": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Paseo Interlomas Estado de México",
+            "subhead": "Teléfono: (55) 96886122 Email: psointerlomas@mobo.com.mx \n Vialidad De La Barranca  6 Local N2-36, Huixquilucan, Estado de México-52772",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3993003765013,-99.2832253767915",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#18": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Plaza Mayor Guanajuato",
+            "subhead": "Teléfono: (477)7177731 Email: plazamayor@mobo.com.mx \n Blvd Juan Alonso De Torres 2002 Interior 1390, Leon, Guanajuato-37150",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=21.1572484332585,-101.695069938617",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#19": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Serdan Puebla",
+            "subhead": "Teléfono: (222)2243351 Email: galserdan@mobo.com.mx \n Blvd. Hermanos Serdan  270 320, Puebla, Puebla-72062",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.0719146602469,-98.2246503344713",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#20": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Angelopolis Puebla",
+            "subhead": "Teléfono: (22)22250073 Email: angelopolispuebla@mobo.com.mx \n Blvd Del NiÑo Poblano 2510 248-n, Puebla, Puebla-72450",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.0320254718628,-98.233676776802",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#21": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Antea Querétaro",
+            "subhead": "Teléfono: (442)6886018 Email: anteaqro@mobo.com.mx \n Carretera Queretaro- San Luis Potosi 12401 Local 134, Felix Osores Sotomayor, Querétaro-76127",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=20.67528,-100.43698",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#22": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Plaza Universidad CDMX",
+            "subhead": "Teléfono: (55)56015274 Email: pluniversidad@mobo.com.mx \n Av Universidad  1000 Local 18-19, Benito Juarez, CDMX-3310",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3675612679592,-99.1661645363093",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#23": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Galerias Guadalajara 2 Jalisco",
+            "subhead": "Teléfono: (33)36277788 Email: galgdl2@mobo.com.mx \n Av. Rafael Sanzio 150 M-6, Zapopan, Jalisco-45030",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=20.6766761230556,-103.431078163258",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#24": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Cosmopol Coacalco Estado de México",
+            "subhead": "Teléfono: (55)65836690 Email: cosmopolcoacalco@mobo.com.mx \n Via Jopse Lopez Portillo 1 E-205, Coacalco De Berriozabal, Estado de México-55700",    
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.6321053570866,-99.1246976769608",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#25": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Oasis Coyoacan 1 CDMX",
+            "subhead": "Teléfono: (55)91548933 Email: oasiscoy1@mobo.com.mx \n Av Universidad 1778 Local 43, Coyoacan, CDMX-4310",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3462887378503,-99.1789717520052",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#26": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Parque Tezontle CDMX",
+            "subhead": "Teléfono: (55)76001530 Email: parquetezontle@mobo.com.mx \n Av. Canal De Tezontle 1512 L-259, Iztapalapa, CDMX-9020",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.38367,-99.082878",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#27": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Mundo E Estado de México",
+            "subhead": "Teléfono: (55)91552646 Email: mundoe@mobo.com.mx \n Blvd Manuel Avila Camacho 1007 Local G54, Tlalnepantla, Estado de México-54055",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.5253793953395,-99.2283820209639",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#28": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Reforma 222 CDMX",
+            "subhead": "Teléfono: ()0 Email: reforma222@mobo.com.mx \n Reforma 222 Local 101, Cuauhtemoc,, CDMX-6600",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.4291012751465,-99.1615656749441",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#29": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Mitikah CDMX",
+            "subhead": "Teléfono: ()55 5204 3464 Email: mitikah@mobo.com.mx \n Mayorazgo 130 Local 3n-10, Benito Juarez,cdmx, CDMX-3330",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3600648192546,-99.1686578498039",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#30": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Mobo Perisur PA CDMX",
+            "subhead": "Teléfono: (55)92974200 Email: perisurpa@mobo.com.mx \n Av. Anillo Periferico 4690 Local L-414,  Coyoacan, Ciudad De MÉxico, CDMX-4530",
+            "callToActionText": "CÓMO LLEGAR",
+            "callToActionUrl": "https://www.google.com/maps/dir/?api=1&destination=19.3043895687336,-99.1903052632999",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
       "slider-layout#slider-cellrepair": {
         "props": {
           "itemsPerPage": {
@@ -88,18 +573,6 @@
           "blockClass": "titulo-cellrepair",
           "textAlignment": "CENTER"
         }
-      },
-      "flex-layout.row#mapaCellrepair": {
-        "props": {
-            "blockClass": "mapaCellrepair",
-            "colSizing": "auto",
-            "horizontalAlign": "center",
-            "fullWidth": true
-        },
-        "children": [
-            "flex-layout.col#lista-mapa" ,
-            "flex-layout.col#mapa"
-        ]
       },
       "flex-layout.col#lista-mapa": {
         "props": {

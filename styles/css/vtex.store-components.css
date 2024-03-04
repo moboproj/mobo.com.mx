@@ -1618,3 +1618,11 @@
 }
 
 /* Search bar */
+
+/*cel repair slider de tiendas*/
+.infoCardImageContainer--info-card-example{
+    display: none;
+}
+.infoCardTextContainer--info-card-example{
+    width: 100% !important;
+}
