@@ -1,0 +1,38 @@
+.vtex-cartman button{
+    bottom: 130px;
+}
+.btn-success{
+    background: #0433ff !important;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+}
+input.success:not([invalid="true"]){
+    background-position: right center;
+    /* padding: 4px 16px; */
+}
+input.input-mini,
+input.input-small,
+input.input-large,
+input.input-xlarge,
+select.input-xlarge{
+    border: 2px solid #0433ff;
+    border-radius: 20px;
+    padding: 4px 8px;
+}
+.step,
+.cart,
+.totalizers,
+.srp-shipping-current-single{
+    border: 1px solid #9b9b9b;
+    border-radius: 10px;
+}
+/* .vtex-omnishipping-1-x-shippingDataDev{
+    background-color: rgba(255,255,255,1);
+} */
+
+@media only screen and(max-width:540px){
+    .vtex-cartman button{
+        bottom: 100px;
+    }
+}
