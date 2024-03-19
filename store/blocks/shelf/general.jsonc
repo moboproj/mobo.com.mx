@@ -22,6 +22,7 @@
     "product-summary.shelf#general": {
         "children": [
             //"product-summary-space",
+            "vtex.product-highlights@2.x:product-highlights",
             "add-to-list-btn",
             "product-summary-image",
             "product-summary-name",
@@ -54,5 +55,20 @@
             "onClickBehavior": "add-to-cart",
             "text": "COMPRAR"
        }
-    }
+    },
+    "vtex.product-highlights@2.x:product-highlights": {
+        "children": ["product-highlight-wrapper"]
+      },
+      "product-highlight-wrapper": {
+        "children": [
+        //   "icon-star", // You can add anything inside a product-highlight-wrapper
+          "product-highlight-text"
+        ]
+      },
+    "product-highlight-text": {
+        
+        "props": {
+          "message": "{highlightName}"
+        }
+      }
 }
