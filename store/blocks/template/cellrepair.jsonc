@@ -14,6 +14,7 @@
             "flex-layout.row#rowTxtTecnicos",
             "flex-layout.row#rowImgsCell",
             "flex-layout.row#titleTable",
+            "flex-layout.row#rowPrecios-02",
             "flex-layout.row#rowPrecios-01",
             "flex-layout.row#rowPrecios-0",
             "flex-layout.row#rowPrecios-1",
@@ -842,6 +843,114 @@
           "textAlignment": "CENTER"
         }
       },
+
+
+      "flex-layout.row#rowPrecios-02": {
+        "props": {
+          "blockClass": "rowPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-0001",
+          "flex-layout.col#colPrecios-0002",
+          "flex-layout.col#colPrecios-0003"
+        ]
+      },
+      "flex-layout.col#colPrecios-0001": {
+        "props": {
+          "blockClass": "colPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-0001",
+          "rich-text#tablaPrecios-0001"
+        ]
+      },
+      "rich-text#titulo-celular-0001": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 14 Pro Max",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-0001": {
+        "props": {
+          "blockClass": "precio-1",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Pantalla | NA | $8,299 | \n  | Batería | NA | $2,499 | \n | Limpieza | NA | $199 |"
+        }
+
+      },
+      "flex-layout.col#colPrecios-0002": {
+        "props": {
+          "blockClass": "colPrecios-2",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-0002",
+          "rich-text#tablaPrecios-0002"  
+        ]
+      },
+      "rich-text#titulo-celular-0002": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 14 Pro",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-0002": {
+        "props": {
+          "blockClass": "precio-2",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Batería | NA | $2,499 | \n | Limpieza | NA | $199 |"
+        }
+      },
+      "flex-layout.col#colPrecios-0003": {
+        "props": {
+          "blockClass": "colPrecios-3",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "rich-text#titulo-celular-0003",
+          "rich-text#tablaPrecios-0003"  
+        ]
+      },
+      "rich-text#titulo-celular-0003": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 14",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-0003": {
+        "props": {
+          "blockClass": "precio-3",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Limpieza | NA | $199 |"
+        }
+      },
       
       "flex-layout.row#rowPrecios-01": {
         "props": {
@@ -886,7 +995,7 @@
       "rich-text#tablaPrecios-001": {
         "props": {
           "blockClass": "precio-1",
-          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Batería | NA | $1199 | \n | Limpieza | NA | $199 |"
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Pantalla | NA | $7,999 | \n  | Batería | NA | $2,499 | \n | Limpieza | NA | $199 |"
         }
 
       },
@@ -917,7 +1026,7 @@
       "rich-text#tablaPrecios-002": {
         "props": {
           "blockClass": "precio-2",
-          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Batería | NA | $1,699 | \n | Limpieza | NA | $199 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Pantalla | NA | $7,999 | \n  | Batería | NA | $2,499 | \n | Limpieza | NA | $199 |"
         }
       },
       "flex-layout.col#colPrecios-003": {
@@ -938,7 +1047,7 @@
       "rich-text#titulo-celular-003": {
         "props": {
           "blockClass": "titulo-celular",
-          "text": "#### iPhone 13",
+          "text": "#### iPhone 13 Mini",
           "textAlignment": "LEFT",
           "textPosition": "LEFT"
         }
@@ -946,7 +1055,7 @@
       "rich-text#tablaPrecios-003": {
         "props": {
           "blockClass": "precio-3",
-          "text": " | **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Batería | NA | $1,499 | \n | Limpieza | NA | $199 |" 
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Pantalla | NA | $5,999 | \n  | Batería | NA | $1,599 | \n | Limpieza | NA | $199 |"
         }
       },
 
