@@ -21,7 +21,8 @@
             "flex-layout.row#rowPrecios-2",
             "flex-layout.row#rowPrecios-3",
             "flex-layout.row#rowPrecios-4",
-            "flex-layout.row#rowPrecios-5"
+            "flex-layout.row#rowPrecios-5",
+            "flex-layout.row#rowPRecios-6"
             // "table-cellRepair"
         ]
       },
@@ -859,7 +860,39 @@
           "flex-layout.col#colPrecios-0001",
           "flex-layout.col#colPrecios-0002",
           "flex-layout.col#colPrecios-0003"
+
         ]
+      },
+      "flex-layout.col#colPrecios-0004": {
+        "props": {
+          "blockClass": "colPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-0004",
+          "rich-text#tablaPrecios-0004"
+        ]
+      },
+      "rich-text#titulo-celular-0004": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 14 Plus",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-0004": {
+        "props": {
+          "blockClass": "precio-1",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Pantalla | NA | $6,699  | \n  | Batería | NA | $1,799 | \n | Limpieza | NA | $499 |"
+        }
+
       },
       "flex-layout.col#colPrecios-0001": {
         "props": {
@@ -963,9 +996,10 @@
           "preventVerticalStretch": false
         },
         "children": [
+          "flex-layout.col#colPrecios-0004",
           "flex-layout.col#colPrecios-001",
-          "flex-layout.col#colPrecios-002",
-          "flex-layout.col#colPrecios-003"
+          "flex-layout.col#colPrecios-002"
+          
         ]
       },
       "flex-layout.col#colPrecios-001": {
@@ -1072,10 +1106,42 @@
           "preventVerticalStretch": false
         },
         "children": [
-          "flex-layout.col#colPrecios-01",
-          "flex-layout.col#colPrecios-02",
-          "flex-layout.col#colPrecios-03"
+          "flex-layout.col#colPrecios-003",
+          "flex-layout.col#colPrecios-04",
+          "flex-layout.col#colPrecios-01"
+          
         ]
+      },
+      "flex-layout.col#colPrecios-04": {
+        "props": {
+          "blockClass": "colPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-04",
+          "rich-text#tablaPrecios-04"
+        ]
+      },
+      "rich-text#titulo-celular-04": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone 13",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-04": {
+        "props": {
+          "blockClass": "precio-1",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:|  \n  | Pantalla | NA | $5,649 |  \n | Limpieza | NA | $499 |"
+        }
+
       },
       "flex-layout.col#colPrecios-01": {
         "props": {
@@ -1178,10 +1244,42 @@
           "preventVerticalStretch": false
         },
         "children": [
-          "flex-layout.col#colPrecios-1",
-          "flex-layout.col#colPrecios-2",
-          "flex-layout.col#colPrecios-3"
+          "flex-layout.col#colPrecios-02",
+          "flex-layout.col#colPrecios-03",
+          "flex-layout.col#colPrecios-40"
+          
         ]
+      },
+      "flex-layout.col#colPrecios-40": {
+        "props": {
+          "blockClass": "colPrecios-1",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "marginRight": 5
+        },
+        "children": [
+          "rich-text#titulo-celular-40",
+          "rich-text#tablaPrecios-40"
+        ]
+      },
+      "rich-text#titulo-celular-40": {
+        "props": {
+          "blockClass": "titulo-celular",
+          "text": "#### iPhone SE 2",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "rich-text#tablaPrecios-40": {
+        "props": {
+          "blockClass": "precio-1",
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $2,699  | \n | Batería | NA | $899  | \n | Cámara y altavoz | NA |  $1,199 | \n | Auricular y conector dock | NA | $199  | \n| Limpieza | NA | $299 |  " 
+        }
+
       },
       "flex-layout.col#colPrecios-1": {
         "props": {
@@ -1284,9 +1382,10 @@
           "preventVerticalStretch": false
         },
         "children": [
-          "flex-layout.col#colPrecios-4",
-          "flex-layout.col#colPrecios-5",
-          "flex-layout.col#colPrecios-6"
+          "flex-layout.col#colPrecios-1",
+          "flex-layout.col#colPrecios-2",
+          "flex-layout.col#colPrecios-3"
+          
         ]
       },
       "flex-layout.col#colPrecios-4": {
@@ -1376,7 +1475,7 @@
       "rich-text#tablaPrecios-6": {
         "props": {
           "blockClass": "precio-6",
-          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $1,999 | \n | Batería | NA | $799 | \n | Cámara y altavoz | NA |  $1,199 | \n | Auricular y conector dock | NA | $199  | \n| Limpieza | NA | $199 |  " 
+          "text": "| **Reparación** | **Color** | **Precio** | \n |:---|:---:|---:| \n | Pantalla | Negro | $1,999 | \n | Batería | NA | $799 | \n | Cámara y altavoz | NA |  $1,199 | \n | Auricular y conector dock | NA | $199  | \n| Limpieza | NA | $299 |  " 
         }
       },
       "flex-layout.row#rowPrecios-3": {
@@ -1390,9 +1489,10 @@
           "preventVerticalStretch": false
         },
         "children": [
-          "flex-layout.col#colPrecios-7",
-          "flex-layout.col#colPrecios-8",
-          "flex-layout.col#colPrecios-9"
+          "flex-layout.col#colPrecios-4",
+          "flex-layout.col#colPrecios-5",
+          "flex-layout.col#colPrecios-6"
+          
         ]
       },
       "flex-layout.col#colPrecios-7": {
@@ -1495,9 +1595,9 @@
           "preventVerticalStretch": false
         },
         "children": [
-          "flex-layout.col#colPrecios-13",
-          "flex-layout.col#colPrecios-14",
-          "flex-layout.col#colPrecios-15"
+          "flex-layout.col#colPrecios-10",
+          "flex-layout.col#colPrecios-11",
+          "flex-layout.col#colPrecios-12"
         ]
       },
       "flex-layout.col#colPrecios-13": {
@@ -1601,9 +1701,10 @@
           "preventVerticalStretch": false
         },
         "children": [
-          "flex-layout.col#colPrecios-10",
-          "flex-layout.col#colPrecios-11",
-          "flex-layout.col#colPrecios-12"
+          "flex-layout.col#colPrecios-7",
+          "flex-layout.col#colPrecios-8",
+          "flex-layout.col#colPrecios-9"
+          
         ]
       },
       "flex-layout.col#colPrecios-10": {
@@ -1695,6 +1796,22 @@
           "blockClass": "precio-9",
           "text": "| **Reparación** | **Color** | **Precio** | \n  |:---|:---:|---:| \n | Pantalla | Negro | $749 |  \n  | Batería | NA | $449 | \n | Limpieza | NA | $249 |  " 
         }
+      },
+      "flex-layout.row#rowPRecios-6": {
+        "props": {
+          "blockClass": "rowPrecios-5",
+          "colSizing": "auto",
+          "fullWidth": false,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false
+        },
+        "children": [
+          "flex-layout.col#colPrecios-13",
+          "flex-layout.col#colPrecios-14",
+          "flex-layout.col#colPrecios-15"
+        ]
       },
 /****************mobile******************/
       //Carrusel categorias
