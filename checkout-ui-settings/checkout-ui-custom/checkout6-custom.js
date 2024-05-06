@@ -1,5 +1,40 @@
 // WARNING: THE USAGE OF CUSTOM SCRIPTS IS NOT SUPPORTED. VTEX IS NOT LIABLE FOR ANY DAMAGES THIS MAY CAUSE. THIS MAY BREAK YOUR STORE AND STOP SALES. IN CASE OF ERRORS, PLEASE DELETE THE CONTENT OF THIS SCRIco
+var PaypalCheckoutRT=document.createElement("script");
+PaypalCheckoutRT.type="text/javascript";
+PaypalCheckoutRT.src="/files/checkout5-paypalrt.js";
+document.body.appendChild(PaypalCheckoutRT);
 
+var PaypalOXXO=document.createElement("script");
+PaypalOXXO.type="text/javascript";
+PaypalOXXO.src="/files/checkout5-oxxo.js";
+document.body.appendChild(PaypalOXXO);
+
+var PaypalCheckout=document.createElement("script");
+PaypalCheckout.type="text/javascript";
+PaypalCheckout.src="/files/checkout5-paypal-checkout.js";
+document.body.appendChild(PaypalCheckout);
+
+var PaypalFraudnet=document.createElement("script");
+PaypalFraudnet.type="text/javascript";
+PaypalFraudnet.src="/files/checkout5-paypal-fraudnet.js";
+document.body.appendChild(PaypalFraudnet);
+
+var PaypalACDC=document.createElement("script");
+PaypalACDC.type="text/javascript";
+PaypalACDC.src="/files/checkout5-paypal-ACDC.js";
+document.body.appendChild(PaypalACDC);
+
+$(window).on("orderFormUpdated.vtex", function(e, t) {
+    if($("#payment-group-PayPalRTPaymentGroup").hasClass("active") || $("#payment-group-PayPalOXXOPaymentGroup").hasClass("active")){
+        setTimeout(function(){ 
+            $('.payment-confirmation-wrap').hide();
+        }, 500);
+    }else{
+        setTimeout(function(){ 
+            $('.payment-confirmation-wrap').show();
+        }, 500);
+    }
+});
 // $.getScript("https://kit.fontawesome.com/d17d43a29b.js");
 $(document).ready(function() {  
     setTimeout(function () { 
