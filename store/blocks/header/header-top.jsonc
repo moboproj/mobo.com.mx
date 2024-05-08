@@ -2,7 +2,8 @@
     "vtex.menu@2.x:menu#0-websites": {
 		"children": [
 			"menu-item#lo-mas-nuevo",
-			"menu-item#ofertas-del-mes"
+			"Counter"
+			// "menu-item#ofertas-del-mes"
 		],
 		"props": {
 			"blockClass": "menuHeaderTop"

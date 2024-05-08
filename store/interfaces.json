@@ -41,5 +41,8 @@
     },
     "show-sticky":{
         "component": "ShowSticky"
+    },
+    "Counter":{
+        "component": "HolaMundo"
     }
 }

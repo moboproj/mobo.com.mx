@@ -609,3 +609,124 @@
     }
 
 }
+
+//{
+  //   "store.blog-home": {
+      
+  //     "blocks": [
+  //       "flex-layout.row#row-blog-breadcrumb",
+  //       "flex-layout.row#row-blog-search",
+  //       "flex-layout.row#row-blog-latest-posts-preview",
+  //       "flex-layout.row#row-blog-category-preview",
+        
+  //       // "blog-category-preview.wordpress-category-preview",
+  //       "blog-all-posts.wordpress-all-posts"
+  //     ]
+  //   },
+  //   "flex-layout.row#row-blog-breadcrumb": {
+  //     "title": "6.Contenedor Categorías",
+  //     "children":[
+  //       "blog-breadcrumb.wordpress-breadcrumb"],
+  //     // "children": ["flex-layout.col#home-categories-container"],
+  //     "props": {
+  //       "blockClass": ["maxWidthGeneral"]
+  //     }
+  //   },
+  //   "flex-layout.row#row-blog-latest-posts-preview": {
+  //     "title": "6.Contenedor Categorías",
+  //     "children":[
+  //       "blog-latest-posts-preview.wordpress-latest-posts-preview"],
+  //     // "children": ["flex-layout.col#home-categories-container"],
+  //     "props": {
+  //       "blockClass": ["maxWidthGeneral"]
+  //     }
+  //   },
+  //   "flex-layout.row#row-blog-category-preview": {
+  //     "title": "6.Contenedor Categorías",
+  //     "children":[
+  //       "blog-category-preview.wordpress-category-preview"],
+  //     // "children": ["flex-layout.col#home-categories-container"],
+  //     "props": {
+  //       "blockClass": ["maxWidthGeneral"]
+  //     }
+  //   },
+  //   "flex-layout.row#row-blog-search": {
+  //     "title": "6.Contenedor Categorías",
+  //     "children":[
+  //       "blog-search.wordpress-search"],
+  //     // "children": ["flex-layout.col#home-categories-container"],
+  //     "props": {
+  //       "blockClass": ["maxWidthGeneral"]
+  //     }
+  //   },
+  //   // "flex-layout.row#row-blog-breadcrumb"
+  //   "store.blog-category": {
+  //     "blocks": [
+  //       "blog-breadcrumb.wordpress-breadcrumb",
+  //       "blog-category-list.wordpress-category-list"
+  //     ]
+  //   },
+  //   "store.blog-post": {
+  //     "blocks": [
+  //       "blog-breadcrumb.wordpress-breadcrumb",
+  //       "blog-post-details.wordpress-post-details"
+  //     ]
+  //   },
+  //   "store.blog-home#page": {
+  //     "blocks": [
+  //       "blog-breadcrumb.wordpress-breadcrumb"
+  //     ]
+  //   },
+  //   "store.blog-search-result": {
+  //     "props": {
+  //       "blockClass": ["anchordesearch"]
+  //     },
+  //     "blocks": [
+  //       "blog-breadcrumb.wordpress-breadcrumb",
+  //       "blog-search-list.wordpress-search-list"
+  //     ]
+  //   },
+  //   "blog-latest-posts-preview.wordpress-latest-posts-preview": {
+  //     "props": {
+  //       "title": "Ultimos posts",
+  //       "useTextOverlays": true,
+  //       "twoColumns": true
+  //     }
+  //   },
+  //   "blog-category-preview.wordpress-category-preview": {   
+  //     "props": {
+  //       "category": 1,
+  //       "description": "Description of category",
+  //       "useTextOverlays": false
+  //     }
+  //   },
+    
+  //   "blog-post-details.wordpress-post-details": {
+  //     "children": ["blog-related-products.wordpress-related-products"]
+  //   },
+    
+  //   "blog-related-products.wordpress-related-products": {
+  //     "blocks": ["product-summary.shelf#wordpress"],
+  //     "props": {
+  //       "orderBy": "OrderByTopSaleDESC",
+  //       "productList": {
+  //         "maxItems": 8,
+  //         "itemsPerPage": 4,
+  //         "scroll": "BY_PAGE",
+  //         "arrows": true,
+  //         "titleText": "Related Products"
+  //       }
+  //     }
+  //   },
+  //   "product-summary.shelf#wordpress": {
+  //     "children": [
+  //       "product-summary-add-to-list-button",
+  //       "product-summary-image",
+  //       "product-summary-name",
+  //       "product-rating-inline",
+  //       "product-summary-space",
+  //       "product-summary-price",
+  //       "product-summary-buy-button"
+  //     ]
+  //   }
+  // }

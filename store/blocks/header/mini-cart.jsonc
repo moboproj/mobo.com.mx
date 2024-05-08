@@ -163,7 +163,7 @@
             "product-selling-price#minicart"
         ],
         "props":{
-            "blockClass":"plpPriceContainer"
+            "blockClass":"plpPriceContainer-minicart"
         }
     },
     "add-to-cart-button#carrito-minicart": {

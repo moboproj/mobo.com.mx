@@ -655,6 +655,19 @@
         align-items: center;
     }
 }
+
+@media only screen and (max-width:1920px){
+    .flexCol--plpPriceContainer-minicart{
+        margin: 1vw;
+        align-self: center;
+    }
+}
+@media only screen and (max-width:1990px){
+    .flexCol--plpPriceContainer-minicart{
+        margin: 1vw;
+        align-self: center;
+    }
+}
 @media only screen and (max-width:1920px){
     .flexCol--plpPriceContainer{
         height: 5vw;
