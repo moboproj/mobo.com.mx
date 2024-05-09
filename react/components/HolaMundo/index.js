@@ -47,7 +47,7 @@ const HolaMundo = () => {
 
   return (
     <div className={`${styles.providersWrapper}`}>
-      <h5 className={`${styles.providers}`}>HOTSALE 15 AL 23 DE MAYO FALTAN: {timeRemaining.days} DÍAS {timeRemaining.hours < 10 ? `0${timeRemaining.hours}` : timeRemaining.hours}:{timeRemaining.minutes < 10 ? `0${timeRemaining.minutes}` : timeRemaining.minutes}:{timeRemaining.seconds < 10 ? `0${timeRemaining.seconds}` : timeRemaining.seconds}</h5>
+      <h5 className={`${styles.providers}`}>VENTA EXPLOSIVA 15 AL 23 DE MAYO FALTAN: {timeRemaining.days} DÍAS {timeRemaining.hours < 10 ? `0${timeRemaining.hours}` : timeRemaining.hours}:{timeRemaining.minutes < 10 ? `0${timeRemaining.minutes}` : timeRemaining.minutes}:{timeRemaining.seconds < 10 ? `0${timeRemaining.seconds}` : timeRemaining.seconds}</h5>
       {/* <p style={{ display: 'inline-block', margin: 0 }}>FALTAN: {timeRemaining.days} DÍAS {timeRemaining.hours < 10 ? `0${timeRemaining.hours}` : timeRemaining.hours}:{timeRemaining.minutes < 10 ? `0${timeRemaining.minutes}` : timeRemaining.minutes}:{timeRemaining.seconds < 10 ? `0${timeRemaining.seconds}` : timeRemaining.seconds}</p> */}
     </div>
 
