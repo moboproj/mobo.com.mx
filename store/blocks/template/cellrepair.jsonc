@@ -89,9 +89,12 @@
             "info-card#25",
             "info-card#26",
             "info-card#27",
-            "info-card#28",
             "info-card#29",
-            "info-card#30"
+            "info-card#30",
+            "info-card#31",
+            "info-card#32",
+            "info-card#33",
+            "info-card#34"
           
           ]
       },
@@ -484,7 +487,7 @@
             "textAlignment": "left"
         }
     },
-    
+    /*
     "info-card#28": {
         "props": {
             "id": "info-card-example",
@@ -498,7 +501,7 @@
             "blockClass": "info-card-example",
             "textAlignment": "left"
         }
-    },
+    },*/
     
     "info-card#29": {
         "props": {
@@ -529,6 +532,62 @@
             "textAlignment": "left"
         }
     },
+    "info-card#31": {
+      "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "",
+          "headline": "Andares Guadalajara",
+          "subhead": "Teléfono: (33) 2016 0415 Email: andaresgdl@mobo.com.mx \n Blvrd Puerta de Hierro 4965-Local Up 77 – 193, Col.:PUERTA DE HIERRO, Del.: Zapopan, Jalisco, Cp.:45116",
+          "callToActionText": "CÓMO LLEGAR",
+          "callToActionUrl": "https://www.google.com/maps/place/20%C2%B042'42.8%22N+103%C2%B024'38.5%22W/@20.7118744,-103.4132596,17z/data=!3m1!4b1!4m4!3m3!8m2!3d20.7118744!4d-103.4106847?entry=ttu",
+          "blockClass": "info-card-example",
+          "textAlignment": "left"
+      }
+  },
+  "info-card#32": {
+    "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": false,
+        "textPosition": "center",
+        "imageUrl": "",
+        "headline": "Angelopolis Puebla",
+        "subhead": "Teléfono: (22) 22250073 Email: angelopolispuebla@mobo.com.mx \n BLVD DEL NIÑO POBLANO 2510,248-N, Col.:CONCEPCION DE LA STA CRUZ, Del.: Puebla, Puebla, Cp.:72450",
+        "callToActionText": "CÓMO LLEGAR",
+        "callToActionUrl": "https://www.google.com/maps/place/19%C2%B001'55.3%22N+98%C2%B014'01.2%22W/@19.0320255,-98.2362517,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.0320255!4d-98.2336768?entry=ttu",
+        "blockClass": "info-card-example",
+        "textAlignment": "left"
+    }
+},
+"info-card#33": {
+  "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "",
+      "headline": "Americas Cancun 2",
+      "subhead": "Teléfono: (998) 2177650 Email: amcancun2@mobo.com.mx \n TULUM SUR 9,LOCAL 10, Col.:SUPERMANZANA 7, Del.: Benito Juarez, Quintana Roo, Cp.:77503",
+      "callToActionText": "CÓMO LLEGAR",
+      "callToActionUrl": "https://www.google.com/maps/place/21%C2%B007'41.5%22N+86%C2%B050'07.0%22W/@21.1282027,-86.8378413,17z/data=!3m1!4b1!4m4!3m3!8m2!3d21.1282027!4d-86.8352664?entry=ttu",
+      "blockClass": "info-card-example",
+      "textAlignment": "left"
+  }
+},
+"info-card#34": {
+  "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "",
+      "headline": "PARQUE DELTA 2",
+      "subhead": "Teléfono: () 5565877835 Email: mespdelta2@mobo.com.mx \n Av. Cuauhtemoc 462, Col.:Piedad Narvarte, Del.: Benito Juarez, CDMX, Cp.:03000",
+      "callToActionText": "CÓMO LLEGAR",
+      "callToActionUrl": "https://www.google.com/maps/@19.4329431,-99.2083968,14z?entry=ttu",
+      "blockClass": "info-card-example",
+      "textAlignment": "left"
+  }
+},
       "slider-layout#slider-cellrepair": {
         "props": {
           "itemsPerPage": {
