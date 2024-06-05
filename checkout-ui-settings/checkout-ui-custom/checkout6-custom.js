@@ -189,7 +189,7 @@ async function getSimilarCartProducts(orderForm) {
         let cartProducts = orderForm.items;
         for (let cartProduct of cartProducts) {
             try {
-                let similarProducts = await getSimilarProducts(cartProduct.id);
+                let similarProducts = await getSimilarProducts(cartProduct.productId, orderForm);
                 crossSellingProducts.push(...similarProducts)
             } catch (e) {
                 console.log(e);
@@ -199,15 +199,37 @@ async function getSimilarCartProducts(orderForm) {
         resolve(crossSellingProducts)
     })
 }    
-function getSimilarProducts(id) {
+function getSimilarProducts(id, orderForm) {
     return new Promise((resolve, reject) => {
-        $.getJSON("/api/catalog_system/pub/products/crossselling/whosawalsobought/" + id, function (data) {
-            resolve(data)
+        $.getJSON("/api/catalog_system/pub/products/crossselling/whosawalsosaw/" + id, function (data) {
+            let promises = [];
+            let precios = parseInt(orderForm.items[0].priceDefinition.total);
+            
+            data.forEach(datas => {
+                promises.push(new Promise((innerResolve, innerReject) => {
+                    $.getJSON("/api/catalog_system/pub/products/variations/" + datas.productId, function (datos) {
+                        let precioContra = parseInt(datos.skus[0].bestPrice);
+                        
+                        if (datos.available === true && precioContra > precios) {
+                            innerResolve(datas);
+                        } else {
+                            innerResolve(null);
+                        }
+                    }).fail((err) => {
+                        innerReject(err);
+                    });
+                }));
+            });
+            
+            Promise.all(promises).then(results => {
+                resolve(results.filter(result => result !== null));
+            }).catch(err => {
+                reject(err);
+            });
         }).fail((err) => {
-            reject(err)
-            console.log(err)
+            reject(err);
         });
-    })
+    });
 }
 
 function displayCrossSellingProducts(products) {
