@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # yarn
-yarn add format
-yarn add lint
+yarn format
+yarn lint
