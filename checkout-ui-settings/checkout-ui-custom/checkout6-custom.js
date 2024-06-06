@@ -204,13 +204,11 @@ function getSimilarProducts(id, orderForm) {
         $.getJSON("/api/catalog_system/pub/products/crossselling/whosawalsosaw/" + id, function (data) {
             let promises = [];
             let precios = parseInt(orderForm.items[0].priceDefinition.total);
-            
             data.forEach(datas => {
                 promises.push(new Promise((innerResolve, innerReject) => {
                     $.getJSON("/api/catalog_system/pub/products/variations/" + datas.productId, function (datos) {
                         let precioContra = parseInt(datos.skus[0].bestPrice);
-                        
-                        if (datos.available === true && precioContra > precios) {
+                        if (datos.available === true) {
                             innerResolve(datas);
                         } else {
                             innerResolve(null);
@@ -238,6 +236,7 @@ function displayCrossSellingProducts(products) {
         return 0;
     }
     for (let product of products) {
+      
         if (product.items[0].sellers[0].commertialOffer.Price != 0) {
             const formatterDolar = new Intl.NumberFormat('en-US', {
                 style: 'decimal',
@@ -249,7 +248,7 @@ function displayCrossSellingProducts(products) {
             let priceWithDescountFormated = formatterDolar.format(priceWithDescount)
             $(".crossSellingSection").append(
                 "<div id='" + product.productId + "' class='card mx-lg-3 mt-3'>\n" +
-                "                    <a class='image-url' href='/'" + product.linkText + "/p'><img class='card-img-top' src='" + product.items[0].images[0].imageUrl + "' alt='Card image cap'></a>\n" +
+                "                    <a class='image-url' href=/" + product.linkText + "/p><img class='card-img-top' src='" + product.items[0].images[0].imageUrl + "' alt='Card image cap'></a>\n" +
                 "                    <div class='card-body'>\n" +
                 "                            <div class='title-name col text-center'>\n" +
                 "                                <p>" + cortarTextoConPuntos(product.productName, 30) + "</p>\n" +
