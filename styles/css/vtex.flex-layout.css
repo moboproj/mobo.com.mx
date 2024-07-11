@@ -997,18 +997,17 @@
     border-bottom: 1px solid #000; /* Borde en la parte inferior, puedes cambiar el color y el grosor */
 }
 
-  @media only screen and (max-width:640px){
+  @media only screen and (max-width:639px){
 
   /* Contenedor del icono */
 .flexCol--IndicaIcon {
-    margin-right: 180px;
+    margin-left: -200px;
     width: 40% !important;
     position: relative;
 }
 
 /* Contenedor del icono interno */
 .flexColChild--IndicaIcon {
-    background-color: red !important;
     width: 10% !important;
     position: absolute;
     top: -55px;
@@ -1029,22 +1028,10 @@
       }
   /* Contenedor del icono */
 .flexCol--IndicaIcon {
-    margin-right: 180px;
     width: 40% !important;
     position: relative;
 }
 
-/* Contenedor del icono interno */
-.flexColChild--IndicaIcon {
-    background-color: #272727 !important;
-    width: 10% !important;
-    position: absolute;
-    top: -55px;
-    left: 340px;
-    transform: translate(-50%, -50%);
-    margin-bottom: 20px; /* Ajusta este valor según sea necesario */
-
-}
 .flexRowContent--podiosub{
         margin-top: -10px !important;
         margin-bottom: -20px !important;
