@@ -44,5 +44,14 @@
     },
     "Counter":{
         "component": "HolaMundo"
+    },
+    "carouOlimp":{
+        "component": "carouolimp"
+    },
+    "Redes":{
+        "component": "Redes"
+    },
+    "videoYT":{
+        "component": "video"
     }
 }

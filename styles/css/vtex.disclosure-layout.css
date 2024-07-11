@@ -143,3 +143,11 @@
 }
 
 /* Menu mobile */
+
+/* Contenedor de texto y plus */
+.trigger--ContenderOlimpiadas {
+    width: 100%;
+    border: none; /* Elimina todos los bordes */
+    background-color: transparent; /* Fondo transparente */
+
+}

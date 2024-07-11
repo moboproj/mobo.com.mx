@@ -49,5 +49,9 @@
     },
     "store.custom#sitemap":{
         "path":"/sitemap"
+    },
+    "store.custom#Olimpiadas": {
+        "path": "/haz-historia-con-mobo"
     }
+
 }

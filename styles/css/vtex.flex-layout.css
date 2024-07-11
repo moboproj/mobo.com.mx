@@ -924,7 +924,23 @@
 .flexCol--boton-col{
     margin-left: 1vw;
 }
+@media only screen and (max-width:1533px){
+    .flexRow--sintilloolimp{
+        margin-top: -15px !important;
+      }
+ }
+ @media only screen and (max-width:1215px){
+    .flexRow--sintilloolimp{
+        margin-top: -8px !important;
+      }
+ }
+ @media only screen and (max-width:1015px){
+    .flexRow--sintilloolimp{
+        margin-top: -1px !important;
+      }
+ }
 @media only screen and (max-width:640px){
+   
     .flexRowContent--newsletter-buenfin{
         justify-content: center;
         margin-left: 0px;
@@ -938,3 +954,148 @@
 .flexColChild--sitemap-titlos-1{
  height: auto !important;
 }
+
+        /* Contenedor general */
+        .flexRow--Redesclas {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row; /* Alinea los elementos en una fila horizontal */
+            padding: 10px;
+        }
+
+        /* SubContenedor */
+        .flexRowContent--Redesclas {
+            display: flex;
+            flex-direction: row; /* Asegura que los elementos se alineen en una fila horizontal */
+            padding: 10px;
+            margin: 5px;
+        }
+
+        /* Contenedor de campo por fila en vertical */
+        .flexRowContent--ImgRedes {
+            display: flex;
+            flex-direction: column; /* Alinea los elementos en una columna vertical */
+            padding: 10px;
+            margin: 5px;
+        }
+
+        /* Contenedor de contenido por fila */
+        .flexRow--Redesclas .stretchChildrenWidth:first-child {
+            display: flex;
+            flex-direction: row; /* Asegura que los elementos se alineen en una fila horizontal */
+            
+        }
+
+/* Contenedor de texto */
+.flexColChild--tEXTODesp {
+    flex-grow: 1; /* Permitir que el contenedor de texto crezca si es necesario */
+}
+.flexRowContent--Desp1{
+    width: 80%;
+    border: none; /* Elimina todos los bordes */
+    background-color: transparent; /* Fondo transparente */
+    border-bottom: 1px solid #000; /* Borde en la parte inferior, puedes cambiar el color y el grosor */
+}
+
+  @media only screen and (max-width:640px){
+
+  /* Contenedor del icono */
+.flexCol--IndicaIcon {
+    margin-right: 180px;
+    width: 40% !important;
+    position: relative;
+}
+
+/* Contenedor del icono interno */
+.flexColChild--IndicaIcon {
+    background-color: red !important;
+    width: 10% !important;
+    position: absolute;
+    top: -55px;
+    left: 340px;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px; /* Ajusta este valor según sea necesario */
+
+}
+.flexRowContent--podiosub{
+        margin-top: -10px !important;
+        margin-bottom: -20px !important;
+}
+
+}
+@media only screen and (max-width:435px){
+    .flexRow--sintilloolimp{
+        margin-top: 0px !important;
+      }
+  /* Contenedor del icono */
+.flexCol--IndicaIcon {
+    margin-right: 180px;
+    width: 40% !important;
+    position: relative;
+}
+
+/* Contenedor del icono interno */
+.flexColChild--IndicaIcon {
+    background-color: #272727 !important;
+    width: 10% !important;
+    position: absolute;
+    top: -55px;
+    left: 340px;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px; /* Ajusta este valor según sea necesario */
+
+}
+.flexRowContent--podiosub{
+        margin-top: -10px !important;
+        margin-bottom: -20px !important;
+}
+
+}
+.flexRowContent--PromosSmart{
+    display: flex;
+}.plusIcon{
+    width: 10% !important;}
+    @media only screen and (max-width:431px){
+        .flexRowContent--TituloOlp{
+            height: 50px !important;
+
+        }
+        .flexRow--sintilloolimp{
+            margin-top: 0px !important;
+          }
+ 
+        .flexRowContent--redecon{
+        justify-content: center;
+        }
+    }
+    @media only screen and (max-width:406px){
+        .flexRowContent--ContenindicatorPlus{
+            margin-left: -50px;
+        }
+    }
+
+    @media only screen and (max-width:370px){
+        .flexRowContent--ContenindicatorPlus{
+            margin-left: -50px;
+        }
+    }
+
+    /*Mobo y ya*/
+    .flexRowContent--TituloOlp{
+        height: 100px;
+        background-color: #e6303d;
+    }
+  .flexRowContent--dwefwe{
+    border-bottom: #A9A9A9 1px solid;
+  }
+  .flexRowContent--infplus{
+    border-bottom: #A9A9A9 1px solid;
+  }
+  .flexRow--sintilloolimp{
+    margin-top: -25px;
+  }
+
+  .flexRow--videoOlimp {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }

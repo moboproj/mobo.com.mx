@@ -1,0 +1,477 @@
+{
+    "store.custom#Olimpiadas": {
+        "children": [
+            "flex-layout.row#TituloGeneral",
+            "slider-layout#text-test",
+            "flex-layout.row#Podio",
+            "image#IcOlimp",
+            "flex-layout.row#banneriphon",
+            "flex-layout.row#siganamos",
+            "flex-layout.row#MoboPlata",
+            "flex-layout.row#ImgPrueba3",
+            "flex-layout.row#Video",
+            "flex-layout.row#ImgWidth1000",
+            "flex-layout.row#ImgPrueba6",
+            "flex-layout.row#ImgPrueba7",
+            "flex-layout.row#Adems",
+            "flex-layout.row#prom",
+            "flex-layout.row#porse",
+            "image#imgfond",
+            "flex-layout.row#porsenimg",  
+            "flex-layout.row#infplus",
+            "disclosure-layout-group#DesplegOlimpiadas",
+             "flex-layout.row#RedesS"
+          ]
+    },
+    "flex-layout.row#TituloGeneral": {
+        "children": [
+            "carouOlimp"
+        ],"props": {
+          "blockClass": "sintilloolimp"
+        }
+    },
+
+    "slider-layout#text-test": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+        "children": ["image#slide1", "image#slide2", "image#slide3","image#slide4"]
+      },
+      "image#slide1": {
+        "props": {
+          "src": "/arquivos/Slider 1.jpg",
+          "blockClass":"ImgWidth100"
+        }
+      },
+      "image#slide2": {
+        "props": {
+          "src": "/arquivos/slider 2.jpg",
+          "blockClass":"ImgWidth100"
+        }
+      },
+      "image#slide3": {
+        "props": {
+          "src": "/arquivos/Slider 3.jpg",
+          "blockClass":"ImgWidth100"
+        }
+      },
+      "image#slide4": {
+        "props": {
+          "src": "/arquivos/Slider 4.jpg",
+          "blockClass":"ImgWidth100"
+        }
+      },
+                
+      "flex-layout.row#Podio": {
+        "children": [
+        "flex-layout.row#IcOlimp"
+        ],"props": {
+            "blockClass": ["podiosub","maxWidth1920"]
+        }
+      },
+      "flex-layout.row#IcOlimp": {
+        "children": ["rich-text#Podio"]
+      },
+      "image#IcOlimp": {
+        "props": {
+          "src": "/arquivos/MOBO-Olimpiadas_icono1.png",
+          "blockClass":"icOli"
+        }
+      },
+      "rich-text#Podio": {
+       "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+            "text": "**Súbete al podio de las ofertas** esta temporada",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "Podio"
+        }
+      },
+      "flex-layout.row#Video": {
+          "children": [
+          "videoYT"
+          ],"props": {
+              "blockClass": ["videoOlimp","maxWidth1920"]
+          }
+      },
+          "flex-layout.row#banneriphon": {
+            "children": ["image#banneriphon"],
+            "props": {
+              "blockClass": "maxWidth1920"
+            }
+          },
+          "image#banneriphon": {
+            "props": {
+              "src": "/arquivos/iPhone.jpg",
+              "blockClass":"iphonBanner"
+            }
+          },
+          "flex-layout.row#siganamos": {
+            "children": ["image#siganamos"]
+          },
+          "image#siganamos": {
+            "props": {
+              "src": "/arquivos/MOBO-Olimpiadas_banner_knock.jpg",
+              "blockClass":"siganamos"
+            }
+          },
+
+          "flex-layout.row#MoboPlata": {
+            "children": ["rich-text#opcionMoboPlata"],"props": {
+                "blockClass": "maxWidth1920"
+            }
+          },
+          "rich-text#opcionMoboPlata": {
+           "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "O compra nuestros **productos Mobo:**",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": "mobComp"
+            }
+          },
+          "flex-layout.row#ImgPrueba3": {
+            "children": ["image#ImgPrueba3"],"props": {
+                "blockClass": ["ContenRelojes","maxWidth1920"]
+            }
+           },
+           "image#ImgPrueba3": {
+            "props": {
+              "src": "/arquivos/modeolos-olimpiadas.png",
+              "blockClass":"imgsprom"
+            }
+          },
+
+          "flex-layout.row#ImgPrueba5": {
+            "children": ["image#ImgPrueba5"]
+          },
+          "flex-layout.row#ImgWidth1000": {
+            "children": ["image#ImgPrueba5"],
+            "props": {
+              "blockClass": "bakjosd"
+            }
+
+          },
+          "image#ImgPrueba5": {
+           "props": {
+             "src": "/arquivos/MOBO-Olimpiadas_banner_link.jpg",
+             "blockClass":"ImgWidth1000"
+           }
+         },
+         "flex-layout.row#ImgPrueba6": {
+          "children": ["image#ImgPrueba6"]
+        },
+         "image#ImgPrueba6": {
+          "props": {
+            "src": "/arquivos/MOBO-Olimpiadas_logo_aros.png",
+            "blockClass":"arosmobo"
+          }
+        },
+        "flex-layout.row#ImgPrueba7": {
+          "children": ["image#ImgPrueba7"]
+        },
+        "image#ImgPrueba7": {
+          "props": {
+            "src": "/arquivos/MOBO-Olimpiadas_banner_howe.jpg",
+             "blockClass":"ImgWidth100"
+          }
+        },
+        "flex-layout.row#Adems": {
+          "children": ["rich-text#Adems"]
+        },
+        "rich-text#Adems": {
+          "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Además:**",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "adfms"
+        }
+        },
+        "flex-layout.row#prom": {
+          "children": ["rich-text#prom"]
+        },
+        "rich-text#prom": {
+          "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Del 26 al 28 de julio del 2024, 2 al 4 de agosto del 2024 y del 09 al 11 de agosto del 2024",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "adcs"
+        }
+        },
+        "flex-layout.row#porse": {
+          "children": ["rich-text#porse"]
+        },
+        "rich-text#porse": {
+          "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Hasta 33% de descuento en toda la tienda**",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "asddw"
+        }
+        },
+         "flex-layout.row#RedesS": {
+            "children": [
+                "Redes"
+            ],"props": {
+                "blockClass": ["redecon","maxWidth1920"]
+            }
+         },
+         "image#imgfond": {
+          "props": {
+            "src": "/arquivos/MOBO-Olimpiadas_icono2.png",
+             "blockClass":"imgfond"
+          }
+        },
+        "flex-layout.row#porsenimg": {
+          "children": [
+            "image#porsenimg"
+          ], "props": {
+            "blockClass": "maxWidth1920"
+          }
+        },
+        "image#porsenimg": {
+          "props": {
+            "src": "/arquivos/MOBO-Olimpiadas_banner_33_2_1.jpg"
+          }
+        },
+
+"disclosure-layout-group#DesplegOlimpiadas": {
+"title":"grup",
+"children": [
+ 
+ "disclosure-layout#CatalogoOpcion2",
+ "disclosure-layout#CatalogoOpcion3",
+ "disclosure-layout#Catalogo"
+
+    //"disclosure-layout#questionsmayoreo-question-1"
+],
+"props":{
+    "blockClass":["maxWidth1920","DesplegOlimpiadas"],
+    "animated": false
+    
+}
+},
+//Prueba Icon
+
+//Menu desplegable Opcion 1
+"disclosure-layout#Catalogo": {
+"props": {
+  "orientation": "vertical",
+  "animated": false
+},
+  "children": [
+      "disclosure-trigger#Catalogo",     
+      "disclosure-content#Catalogo"
+    ]
+},
+"disclosure-trigger#Catalogo": {
+  "children": ["flex-layout.row#DespCat"],
+  "props": {
+    "blockClass": ["maxWidth1920","ContenderOlimpiadas"]
+    // "Show": "icon-caret#down",
+    // "Hide":"icon-caret#up"
+  }
+},
+"rich-text#CatalogoText": {
+"title":"Pregunta 0",
+
+  "props": {
+      "blockClass": "DesOlimpiadas",
+      "text": "**Por favor consulta todos los términos y condiciones:**"
+  }
+},
+"disclosure-content#Catalogo": {
+  "children": [  "flex-layout.row#TextoDesplegable"]
+},
+"flex-layout.row#TextoDesplegable": {
+  "children": ["rich-text#TextoDesplegable"],
+  "props": {"blockClass": "maxWidth1920"}
+},
+"rich-text#TextoDesplegable": {
+  "props": {
+    "blockClass": "desparag",
+"text": "**Legales:**\n\n\nDel 26 al 28 de julio de 2024 I Hasta 33% de descuento en productos seleccionados\n\n\n● Vigencia de la promoción del 26 al 28 de julio de 2024.\n● No acumulable con otras promociones.\n● Promoción válida en modelos seleccionados.\n● Precios y promociones sujetos a cambios sin previo aviso.\n● Descuentos aplicables hasta agotar existencias\n● Consulta los códigos participantes en el mostrador. \n● Aviso de privacidad www.mobo.com.mx \n\n\nDel 02 al 04 de agosto de 2024 I Hasta 33% de descuento en productos seleccionados\n\n\n● Vigencia de la promoción del 02 al 04 de agosto de 2024.\n● No acumulable con otras promociones \n● Promoción válida en modelos seleccionados.\n● Precios y promociones sujetos a cambios sin previo aviso.\n● Descuentos aplicables hasta agotar existencias \n● Consulta los códigos participantes en el mostrador. \n● Aviso de privacidad www.mobo.com.mx\n\n\nDel 09 al 11 de agosto de 2024 I Hasta 33% de descuento en productos seleccionados\n\n\n● Vigencia de la promoción del 09 al 11 de agosto de 2024. \n● No acumulable con otras promociones \n● Promoción válida en modelos seleccionados.\n● Precios y promociones sujetos a cambios sin previo aviso.● Descuentos aplicables hasta agotar existencias \n● Consulta los códigos participantes en el mostrador. \n● Aviso de privacidad www.mobo.com.mx \n\n\n Compra un SMARTWATCH MOBO KNOCK  y si México gana alguna medalla olímpica del 26 al 30 de julio de 2024  te reembolsamos el monto pagado por el reloj.\n\n\n Válido en compras del 26 al 30 de julio del producto SMARTWATCH KNOCK y si México gana alguna medalla olímpica te reembolsamos el importe pagado por el SMARTWATCH KNOCK.\n\n\n**Términos y Condiciones para la redención:** \n\n\n● Fecha de redención del cupón del 14 al 21 de agosto. \n● Para redimir se necesita traer ticket original impreso, no aplica en tickets reimpresos Se deberá presentar Identificación oficial para el canje (INE, Pasaporte, Cédula profesional, Licencia de Manejo). \n● Aplica solo por un artículo promocional por persona, promoción no acumulable e intransferible. \n● Aplica en compras hechas mínimo 2 horas antes de las competencias ganadoras. \n● El reembolso se hará en efectivo independientemente de la forma de pago original. \n● No se aceptan cambios ni devoluciones del producto durante el tiempo de la promoción, se redima o no el premio, Ni después de redimido el premio, Sólo se aceptan devoluciones por falla de fábrica.\n● Si México gana alguna medalla olímpica en los primeros días, la promoción se reinicia con los artículos vendidos a partir de la siguiente competencia.\n● Solo se puede redimir la promoción en la tienda donde se realizó la compra. Sólo en tiendas de aeropuerto aplica cambio en otra sucursal.\n\n\n**Requisitos:**\n\n\n●Al momento de la compra se deberá capturar el nombre completo del cliente. \n● Presentar identificación oficial vigente (que coincida con el nombre registrado).\n● Ticket de compra original (No reimpreso, No digital o Escaneado) \n●Solo en caso de compras realizadas en sucursales Mobo shop ubicadas en Aeropuertos, el canje podrá ser en otra sucursal. \n\n\n**Excepciones:** \n\n\n● No se aceptan cambios, ni devoluciones. \n● Válida hasta agotar existencias. \n● Únicamente aplicable a un artículo SMARTWATCH MOBO KNOCK participante por persona y ticket. \n● Promoción no acumulable. \n\n\n Compra un SMARTWATCH MOBO LINK y si México gana alguna medalla olímpica de 31 de julio al 5 de agosto  te reembolsamos el monto pagado por el reloj. \n\n\n Válido en compras del 31 de julio al 5 de agosto del 2024 del producto SMARTWATCH MOBO LINK y si México gana alguna medalla olímpica te reembolsamos el importe pagado por el SMARTWATCH MOBO LINK. \n\n\n● Fecha de redención del cupón del 14 al 21 de agosto. \n● Para redimir se necesita traer ticket original impreso, no aplica en tickets reimpresos Se deberá presentar Identificación oficial para el canje. (INE, Pasaporte, Cédula profesional, Licencia de Manejo). \n● Aplica solo por un artículo promocional por persona, promoción no acumulable e intransferible.  \n● Aplica en compras hechas mínimo 2 horas antes de las competencias ganadoras.  \n● El reembolso se hará en efectivo independientemente de la forma de pago original.  \n● No se aceptan cambios ni devoluciones del producto durante el tiempo de la promoción, se redima o no el premio, Ni después de redimido el premio, Sólo se aceptan devoluciones por falla de fábrica. \n● Si México gana alguna medalla olímpica en los primeros días, la promoción se reinicia con los artículos vendidos a partir de la siguiente competencia.  \n● Solo se puede redimir la promoción en la tienda donde se realizó la compra. Sólo en tiendas de aeropuerto aplica cambio en otra sucursal.\n\n\n**Requisitos:**\n\n\n● Al momento de la compra se deberá capturar el nombre completo del cliente. \n● Presentar identificación oficial vigente (que coincida con el nombre registrado). \n● Ticket de compra original (No reimpreso, No digital o Escaneado) \n● Solo en caso de compras realizadas en sucursales Mobo shop ubicadas en Aeropuertos, el canje podrá ser en otra sucursal. \n\n\n**Excepciones:**\n\n\n● No se aceptan cambios, ni devoluciones. \n● Válida hasta agotar existencias. \n● Únicamente aplicable a un artículo SMARTWATCH MOBO LINK participante por persona y ticket. \n● Promoción no acumulable \n\n\n Compra unos AUDIFONOS MOBO HOWE  y si México gana alguna medalla olímpica del 6 al 11 de agosto de 2024  te reembolsamos  el monto pagado por los audífonos Howe. \n\n\n Válido en compras del 31 de julio al 5 de agosto del 2024 del producto AUDIFONOS MOBO HOWE BLANCO o NEGRO   y si México gana alguna medalla olímpica te reembolsamos el monto de tu compra.\n\n\n**Términos y Condiciones para la redención:** \n\n\n● Fecha de redención del cupón del 14 al 21 de agosto. \n● Para redimir se necesita traer ticket original impreso, no aplica en tickets reimpresos Se deberá presentar Identificación oficial para el canje. (INE, Pasaporte, Cédula profesional, Licencia de Manejo). \n● Aplica solo por un artículo promocional por persona, promoción no acumulable e intransferible.  \n● Aplica en compras hechas mínimo 2 horas antes de las competencias ganadoras. \n● El reembolso se hará en efectivo independientemente de la forma de pago original. \n● No se aceptan cambios ni devoluciones del producto durante el tiempo de la promoción, se redima o no el premio, Ni después de redimido el premio, Sólo se aceptan devoluciones por falla de fábrica. \n● Si México gana alguna medalla olímpica en los primeros días, la promoción se reinicia con los artículos vendidos a partir de la siguiente competencia. \n● Solo se puede redimir la promoción en la tienda donde se realizó la compra. Sólo en tiendas de aeropuerto aplica cambio en otra sucursal.\n\n\n**Requisitos:**\n\n\n● Al momento de la compra se deberá capturar el nombre completo del cliente. \n● Presentar identificación oficial vigente (que coincida con el nombre registrado). \n● Ticket de compra original (No reimpreso, No digital o Escaneado) \n● Solo en caso de compras realizadas en sucursales Mobo shop ubicadas en Aeropuertos, el canje podrá ser en otra sucursal.\n\n\n**Excepciones:**\n\n\n● No se aceptan cambios, ni devoluciones. \n● Válida hasta agotar existencias. \n● Únicamente aplicable a un artículo AUDÍFONOS MOBO HOWE participante por persona y ticket. \n● Promoción no acumulable \n\n\n Compra un IPHONE SE y si México gana Oro Olímpico en cualquier competencia del 26 de julio al 11 de agosto, te reembolsamos el monto pagado por el Iphone SE. \n\n\n Válido en compras del 26 de julio al 11 de agosto del 2024 del producto IPHONE SE 64 gb y si México gana una medalla olímpica de oro te reembolsamos el monto de tu compra. \n\n\n **Términos y Condiciones para la redención:** \n\n\n● Fecha de redención del cupón del 14 al 21 de agosto. \n● Para redimir se necesita traer ticket original impreso, no aplica en tickets reimpresos Se deberá presentar Identificación oficial para el canje. (INE, Pasaporte, Cédula profesional, Licencia de Manejo). \n● Aplica solo por un artículo promocional por persona, promoción no acumulable e intransferible. \n● Aplica en compras hechas mínimo 2 horas antes de las competencias ganadoras. \n● El reembolso se hará en efectivo independientemente de la forma de pago original. \n● No se aceptan cambio ni devoluciones del producto durante el tiempo de la promoción, se redima o no el premio, Ni después de redimido el premio, Sólo se aceptan devoluciones por falla de fábrica. \n● Si México gana oro en los primeros días, la promoción se reinicia con los artículos vendidos a partir de la siguiente competencia. \n● Solo se puede redimir la promoción en la tienda donde se realizó la compra. Sólo en tiendas de aeropuerto aplica cambio en otra sucursal.\n\n\n**Requisitos:** \n\n\n● Al momento de la compra se deberá capturar el nombre completo del cliente. \n● Presentar identificación oficial vigente (que coincida con el nombre registrado). \n● Ticket de compra original (No reimpreso, No digital o Escaneado) \n● Solo en caso de compras realizadas en sucursales Mobo shop ubicadas en Aeropuertos, el canje podrá ser en otra sucursal. \n\n\n **Excepciones:** \n\n\n● No se aceptan cambios, ni devoluciones. \n● Válida hasta agotar existencias. \n● Únicamente aplicable a un artículo IPHONE SE2 64 GB REACONDICIONADO MOBO por persona y ticket. \n● Promoción no acumulable."
+  }
+},
+
+
+"flex-layout.row#infplus": {
+  "children": ["rich-text#infplus"],
+  "props": {
+     "blockClass": ["infplus","maxWidth1920"]
+  }
+},
+"rich-text#infplus": {
+  "props": {
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "blockClass": "infplus",
+    "text": "**Consulta más información**"
+  }
+},
+//MenuCategorias
+"flex-layout.row#DespCat": {
+"children": ["flex-layout.col#ColTexts","flex-layout.col#ColPlus"],
+"props": {"blockClass": ["dwefwe","maxWidth1920"]}
+},
+"flex-layout.col#ColTexts": {
+"children": ["rich-text#CatalogoText"],"props": {
+  "blockClass":["tEXTODesp"]
+}
+},
+
+//Menu Mobo
+"flex-layout.col#ColPlus": {
+"children": ["flex-layout.row#contenIndicatorPlus"],
+"props": {
+  "width":"20%",
+"blockClass":"IndicaIcon"
+}
+},
+"flex-layout.row#contenIndicatorPlus": {
+"children": [
+"disclosure-state-indicator#Arrow"
+],
+"props": {
+"blockClass": ["ContenindicatorPlus"]
+}
+},
+
+"disclosure-state-indicator#Arrow": {
+  "props": {
+    "Show": "icon-caret#down",
+    "Hide": "icon-caret#up"
+    }
+    
+  },
+"icon-caret#down": {
+  "props": {
+    "orientation": "down"
+  }
+},
+"icon-caret#up": {
+  "props": {
+    "orientation": "up"
+  }
+},    
+
+//Menu Opcion 2
+
+//Menu desplegable Opcion 2
+"disclosure-layout#CatalogoOpcion2": {
+  "props": {
+    "orientation": "vertical",
+    "animated": false
+  },
+    "children": [
+        "disclosure-trigger#CatalogoOP2",     
+        "disclosure-content#CatalogoOp2"
+      ]
+  },
+  "disclosure-trigger#CatalogoOP2": {
+    "children": ["flex-layout.row#DespCatOp2"],
+    "props": {
+      "blockClass": ["maxWidth1920","ContenderOlimpiadas"]
+
+    }
+  },
+  "rich-text#CatalogoTextOp2": {
+  "title":"Pregunta 0",
+  
+    "props": {
+        "blockClass": "DesOlimpiadas",
+        "text": "**¿Cómo hago válida la promoción?**"
+    }
+  },
+  "disclosure-content#CatalogoOp2": {
+    "children": [  "flex-layout.row#TextoDesplegableOp2"]
+  },
+  "flex-layout.row#TextoDesplegableOp2": {
+    "children": ["rich-text#TextoDesplegableOp2"],
+    "props": {"blockClass": "maxWidth1920"}
+  },
+  "rich-text#TextoDesplegableOp2": {
+    "props": {
+      "blockClass": "desparag",
+      "text": "1. Haz tu compra mínimo 2 horas antes de la competencia en la que algún mexicano gane medalla Olímpica. Hora de Ciudad de México. \n2. Solicita a tu vendedor el **ticket de compra físico** de la compra.\n3. El vendedor deberá capturar tu nombre completo en sistema.\n4. Tu reembolso se realizará en efectivo independientemente de tu forma de pago.\n5. Fecha de redención del cupón del 14 al 21 de agosto \n6. Solo podrás solicitar tu reembolso en la tienda donde hiciste tu compra.\n7. Deberás presentar una identificación oficial vigente.\n8. Deberás presentar el ticket de compra físico original **(no reimpreso, no digital y no escaneado).**"    }
+  },
+  //MenuCategorias
+  "flex-layout.row#DespCatOp2": {
+  "children": ["flex-layout.col#CatalogoTextOp2","flex-layout.col#ColPlus"],
+  "props": {"blockClass": ["dwefwe","maxWidth1920"]}
+  },
+  "flex-layout.col#CatalogoTextOp2": {
+  "children": ["rich-text#CatalogoTextOp2"],"props": {
+    "blockClass":["tEXTODesp"]
+  }
+  },
+
+
+  
+//Menu desplegable Opcion 3
+"disclosure-layout#CatalogoOpcion3": {
+  "props": {
+    "orientation": "vertical",
+    "animated": false
+  },
+    "children": [
+        "disclosure-trigger#CatalogoOP3",     
+        "disclosure-content#CatalogoOp3"
+      ]
+  },
+  "disclosure-trigger#CatalogoOP3": {
+    "children": ["flex-layout.row#DespCatOp3"],
+    "props": {
+      "blockClass": ["maxWidth1920","ContenderOlimpiadas"]
+
+    }
+  },
+  "rich-text#CatalogoTextOp3": {
+  "title":"Pregunta 0",
+  
+    "props": {
+        "blockClass": "DesOlimpiadas",
+        "text": "**¿Qué pasa si compré en una tienda Mobo shop ubicada en un Aereopuerto?**"
+    }
+  },
+  "disclosure-content#CatalogoOp3": {
+    "children": [  "flex-layout.row#TextoDesplegableOp3"]
+  },
+  "flex-layout.row#TextoDesplegableOp3": {
+    "children": ["rich-text#TextoDesplegableOp3"],
+    "props": {"blockClass": "maxWidth1920"}
+  },
+  "rich-text#TextoDesplegableOp3": {
+    "props": {
+      "blockClass": "desparag",
+      "text": "● Solo en este caso, podrás acudir a tu tienda Mobo shop más cercana para realizar el canje."
+    }
+  },
+  //MenuCategorias
+  "flex-layout.row#DespCatOp3": {
+  "children": ["flex-layout.col#CatalogoTextOp3","flex-layout.col#ColPlus"],
+  "props": {"blockClass": ["dwefwe","maxWidth1920"]}
+  },
+  "flex-layout.col#CatalogoTextOp3": {
+  "children": ["rich-text#CatalogoTextOp3"],"props": {
+    "blockClass":["tEXTODesp"]
+  }
+  }
+
+
+}

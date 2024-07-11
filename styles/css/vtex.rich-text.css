@@ -294,6 +294,48 @@
 .paragraph--help-message{
     color: #272727;
 }
+@media screen and (max-width: 677px){
+    .paragraph--Podio{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 640px){
+    .paragraph--Podio{
+        margin-bottom: 20px !important;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 431px){
+    .paragraph--Podio{
+        font-size: 12px;
+    }
+}@media screen and (max-width: 400px){
+    .paragraph--Podio{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 436px){
+    .paragraph--Podio{
+        margin-bottom: 15px !important;
+    }
+}
+@media screen and (max-width: 406px){
+    .paragraph--Podio{
+        font-size: 9px;
+    }
+}
+.paragraph--Podio{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: -10px;
+    color: #272727;
+}
+.paragraph--mobComp{
+    width: 100%;
+    margin-top: 35px !important;
+    color: #272727;
+}
 @media screen and (max-width: 1310px){
     .paragraph--help-message{
     font-size: 75%;
@@ -1064,4 +1106,189 @@
     .listItem--termsGeneral{
         font-size: 2.9vw;
     }
+}
+
+/* Contenedor de texto interno */
+.container--DesOlimpiadas {
+    width: 70%;
+}
+.paragraph--TextPromos{
+    font-size: 10px;
+}
+.paragraph--DesOlimpiadas{
+    color: #000;
+  }
+@media screen and (max-width: 431px){
+    .paragraph--DesOlimpiadas{
+      width: 300px;
+      font-size: 10px;
+    }
+    .paragraph--desparag{
+        font-size: 10px;
+        width: 92%;
+        text-align: justify;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+.wrapper--TituloOlp{
+    font-size: 25px;
+    width: 100% !important;
+    text-align: center;
+    justify-content: center;
+}
+@media screen and (max-width: 677px){
+    .paragraph--adfms{
+        font-size: 13px !important;
+    }
+    .paragraph--adcs{
+        font-size: 11px;
+    }
+    .paragraph--asddw{
+        margin-top: 7px !important;
+        font-size: 13px !important;
+        margin-bottom: 10px !important;
+    }
+}
+@media screen and (max-width: 481px){
+    .paragraph--adcs{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (max-width: 431px){
+    .wrapper--TituloOlp{
+        font-size: 15px;
+        width: 100% !important;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .list--desparag{
+        font-size: 10px;
+    }
+
+    .paragraph--adfms{
+        font-size: 15px !important;
+        margin-bottom: -10px !important;
+    }
+    .paragraph--adcs{
+        font-size: 7px;
+        margin-top: 10px !important;
+        margin-bottom: -5px !important;
+    }
+    .paragraph--asddw{
+        margin-top: 7px !important;
+        font-size: 15px !important;
+        margin-bottom: 3px !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .paragraph--adfms{
+        font-size: 11px !important;
+    }
+    .paragraph--adcs{
+        font-size: 9px;
+    }
+    .paragraph--asddw{
+        margin-top: 7px !important;
+        font-size: 11px !important;
+        margin-bottom: 3px !important;
+    }
+    .container--DesOlimpiadas {
+        width: 50% !important;
+    }
+}
+.paragraph--adfms{
+    margin-bottom: -2px;
+    font-size: 26px;
+    color: #000;
+}
+.paragraph--asddw{
+    margin-bottom: -13px !important;
+    font-size: 26px;
+    color: #000;
+}
+.paragraph--adcs{
+    margin-top: -2px;
+    margin-bottom: -35px;
+    color: red;
+}
+@media only screen and (max-width:1821px){
+    .paragraph--Signs{
+        margin-left: 600px !important;
+        margin-top: 55px !important;
+        color: #000;
+        margin-bottom: -15px !important;
+    }
+    
+  }
+  @media only screen and (max-width:1645px){
+    .paragraph--Signs{
+        margin-left: 500px !important;
+        margin-top: 55px !important;
+        color: #000;
+        margin-bottom: -15px !important;
+    }
+    
+  }
+  @media only screen and (max-width:1445px){
+    .paragraph--Signs{
+        margin-left: 400px !important;
+        margin-top: 55px !important;
+        color: #000;
+        margin-bottom: -15px !important;
+    }
+    
+  }
+  @media only screen and (max-width:1247px){
+    .paragraph--Signs{
+        margin-left: 270px !important;
+        margin-top: 55px !important;
+        color: #000;
+        margin-bottom: -15px !important;
+    }
+  }
+
+  @media only screen and (max-width:878px){
+    .paragraph--Signs{
+        margin-left: 100px !important;
+        margin-top: 55px !important;
+        color: #000;
+        margin-bottom: -15px !important;
+    }
+    
+  }
+
+  @media only screen and (max-width:639px){
+    .paragraph--Signs{
+        margin-left: -10px !important;
+        margin-top: 10px !important;
+        color: #000;
+        margin-bottom: -15px !important;
+    }
+    
+  }
+@media only screen and (max-width:435px){
+    .paragraph--infplus{
+        font-size: 15px !important;
+    }
+    .paragraph--Signs{
+        margin-left: -10px !important;
+        margin-top: 10px !important;
+        color: #000;
+        margin-bottom: -15px !important;
+    }
+    
+  }
+  
+.paragraph--infplus{
+    font-size: 26px;
+    color: #000;
+}
+
+.paragraph--Signs{
+    margin-top: 50px;
+    margin-left: 671px;
+    color: #000;
 }

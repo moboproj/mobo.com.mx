@@ -1628,3 +1628,225 @@
 .infoCardTextContainer--info-card-example{
     width: 100% !important;
 }
+.imageElement--imgfond{
+    margin-left: 47% !important;
+    margin-top: 15px !important;
+    margin-bottom: 10px;
+}
+.imageElement--icOli{
+    top: -25px !important;
+    width: 2%;
+    left: 670px;
+    position: relative;
+    justify-content: right;
+}
+@media only screen and (max-width: 1894px) {
+    .imageElement--icOli{
+        top: -24px !important;
+        width: 2% !important;
+        left: 35% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 1843px) {
+    .imageElement--icOli{
+        top: -24px !important;
+        width: 2% !important;
+        left: 33% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 1594px) {
+    .imageElement--icOli{
+        top: -24px !important;
+        width: 2% !important;
+        left: 31% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 1404px) {
+    .imageElement--icOli{
+        top: -22px !important;
+        width: 2% !important;
+        left: 29% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 1268px) {
+    .imageElement--icOli{
+        top: -20px !important;
+        width: 2% !important;
+        left: 27% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 1129px) {
+    .imageElement--icOli{
+        top: -18px !important;
+        width: 2% !important;
+        left: 24% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 1092px) {
+    .imageElement--icOli{
+        top: -18px !important;
+        width: 2% !important;
+        left: 22% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 819px) {
+    .imageElement--icOli{
+        top: -18px !important;
+        width: 3% !important;
+        left: 14% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 719px) {
+    .imageElement--icOli{
+        top: -18px !important;
+        width: 3% !important;
+        left: 10% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 5px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 678px) {
+    .imageElement--icOli{
+        top: -14px !important;
+        width: 3% !important;
+        left: 20% !important;
+        position: relative;
+        justify-content: right;
+    }
+    .imageElement--imgfond{
+        margin-top: 10px !important;
+        width: 3%;
+        margin-bottom: 7px !important;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .imageElement--icOli{
+        top: -18px !important;
+        width: 3% !important;
+        left: 20% !important;
+        position: relative;
+        justify-content: right;
+    }
+ 
+}
+@media only screen and (max-width: 576px) {
+    .imageElement--icOli{
+        top: -18px !important;
+        width: 3% !important;
+        left: 16% !important;
+        position: relative;
+        justify-content: right;
+    }
+  
+}
+@media only screen and (max-width: 502px) {
+    .imageElement--icOli{
+        top: -18px !important;
+        width: 3% !important;
+        left: 12% !important;
+        position: relative;
+        justify-content: right;
+    }
+
+}
+@media only screen and (max-width: 474px) {
+    .imageElement--icOli{
+        top: -20px !important;
+        width: 3% !important;
+        left: 10% !important;
+        position: relative;
+        justify-content: right;
+    }
+
+}
+@media only screen and (max-width: 431px) {
+    .imageElement--icOli{
+        top: -14px !important;
+        width: 3% !important;
+        left: 10% !important;
+        position: relative;
+        justify-content: right;
+    }
+
+}
+.imageElement--siganamos{
+    margin-top: 25px;
+    width: 100%;
+}
+.imageElement--ImgWidth100{
+    width: 100%;
+}
+
+@media screen and (max-width: 431px){
+    .imageElement--arosmobo{
+        margin-top: 20px !important;
+        width: 30%;
+        margin-bottom: 20px !important;
+    }
+}
+.imageElement--arosmobo{
+    width: 30%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}

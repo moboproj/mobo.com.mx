@@ -154,7 +154,9 @@
         display: none;
     }
 }
-
+.paginationDotsContainer--carousel{
+    margin-bottom: 15px;
+}
 
 /* WISHLIST */
 .paginationDotsContainer--wishlist_slider{
