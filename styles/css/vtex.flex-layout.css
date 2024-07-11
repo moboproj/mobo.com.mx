@@ -996,11 +996,15 @@
     background-color: transparent; /* Fondo transparente */
     border-bottom: 1px solid #000; /* Borde en la parte inferior, puedes cambiar el color y el grosor */
 }
-
+.flexCol--IndicaIcon {
+   top: 10px;
+   position: relative;
+}
   @media only screen and (max-width:639px){
 
   /* Contenedor del icono */
 .flexCol--IndicaIcon {
+    top: 15px;
     margin-left: -200px;
     width: 40% !important;
     position: relative;
@@ -1028,6 +1032,7 @@
       }
   /* Contenedor del icono */
 .flexCol--IndicaIcon {
+    top: 20px;
     width: 40% !important;
     position: relative;
 }
