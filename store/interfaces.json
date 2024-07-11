@@ -53,9 +53,11 @@
     },
     "videoYT":{
         "component": "video"
-    }
-    ,
+    },
     "CustomHelmet":{
         "component": "CustomHelmet"
+    },
+    "despegableOlimp":{
+        "component": "despegableOlimp"
     }
 }

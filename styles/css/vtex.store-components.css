@@ -1830,6 +1830,37 @@
     }
 
 }
+@media only screen and (max-width: 406px) {
+    .imageElement--icOli{
+        top: -12px !important;
+        width: 3% !important;
+        left: 18% !important;
+        position: relative;
+        justify-content: right;
+    }
+
+}
+@media only screen and (max-width: 370px) {
+    .imageElement--icOli{
+        top: -12px !important;
+        width: 3% !important;
+        left: 16% !important;
+        position: relative;
+        justify-content: right;
+    }
+
+}
+@media only screen and (max-width: 346px) {
+    .imageElement--icOli{
+        top: -12px !important;
+        width: 3% !important;
+        left: 13% !important;
+        position: relative;
+        justify-content: right;
+    }
+
+}
+
 .imageElement--siganamos{
     margin-top: 25px;
     width: 100%;

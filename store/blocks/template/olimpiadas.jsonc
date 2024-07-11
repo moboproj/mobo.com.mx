@@ -19,11 +19,15 @@
             "flex-layout.row#porse",
             "image#imgfond",
             "flex-layout.row#porsenimg",  
-            "flex-layout.row#infplus",
-            "disclosure-layout-group#DesplegOlimpiadas",
+            "flex-layout.row#despegableOlimp",
              "flex-layout.row#RedesS"
           ]
     },
+    "flex-layout.row#despegableOlimp": {
+      "children": [
+          "despegableOlimp"
+      ]
+  },
     "flex-layout.row#TituloGeneral": {
         "children": [
             "carouOlimp"
@@ -311,20 +315,7 @@
 },
 
 
-"flex-layout.row#infplus": {
-  "children": ["rich-text#infplus"],
-  "props": {
-     "blockClass": ["infplus","maxWidth1920"]
-  }
-},
-"rich-text#infplus": {
-  "props": {
-    "textAlignment": "LEFT",
-    "textPosition": "LEFT",
-    "blockClass": "infplus",
-    "text": "**Consulta más información**"
-  }
-},
+
 //MenuCategorias
 "flex-layout.row#DespCat": {
 "children": ["flex-layout.col#ColTexts","flex-layout.col#ColPlus"],

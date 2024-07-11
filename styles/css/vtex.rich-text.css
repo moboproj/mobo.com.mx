@@ -1131,6 +1131,19 @@
         margin-left: 10px;
     }
 }
+@media screen and (max-width: 370px){
+    .paragraph--DesOlimpiadas{
+      width: 200px;
+      font-size: 8px;
+    }
+    .paragraph--desparag{
+        font-size: 10px;
+        width: 92%;
+        text-align: justify;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
 .wrapper--TituloOlp{
     font-size: 25px;
     width: 100% !important;
