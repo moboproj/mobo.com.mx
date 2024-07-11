@@ -54,4 +54,8 @@
     "videoYT":{
         "component": "video"
     }
+    ,
+    "CustomHelmet":{
+        "component": "CustomHelmet"
+    }
 }

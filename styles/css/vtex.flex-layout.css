@@ -1047,6 +1047,9 @@
     display: flex;
 }.plusIcon{
     width: 10% !important;}
+    .flexRowContent--ContenindicatorPlus{
+        color: #000 !important;
+    }
     @media only screen and (max-width:431px){
         .flexRowContent--TituloOlp{
             height: 50px !important;

@@ -1,6 +1,7 @@
 {
     "store.custom#Olimpiadas": {
         "children": [
+            "CustomHelmet",
             "flex-layout.row#TituloGeneral",
             "slider-layout#text-test",
             "flex-layout.row#Podio",
