@@ -33,14 +33,16 @@ export default function DesplegableOlimp() {
       {/* Ejemplos de Desplegable con contenido formateado */}
       <Desplegable
         title="¿Cómo hago válida la promoción?"
-        content="1.	Haz tu compra mínimo 2 horas antes de la competencia en la que algún mexicano gane medalla Olímpica. Hora de Ciudad de México.<br><br>
-2.	Solicita a tu vendedor el <b>ticket de compra físico</b> de la compra.<br><br>
-3.	El vendedor deberá capturar tu nombre completo en sistema.<br><br>
-4.	Tu reembolso se realizará en efectivo independientemente de tu forma de pago.<br><br>
-5.	Fecha de redención del cupón del 14 al 21 de agosto.<br><br>
-6.	Solo podrás solicitar tu reembolso en la tienda donde hiciste tu compra.<br><br>
-7.	Deberás presentar una identificación oficial vigente.<br><br>
-8.	Deberás presentar el ticket de compra físico original <b>(no reimpreso, no digital y no escaneado).</b><br><br>
+        content="
+1.  Recuerda que la campaña Haz Historia con Mobo solo aplica para nuestras tiendas Físicas Mobo shop, no participan nuestro sitio web ni tiendas de mayoreo.<br><br>
+2.	Haz tu compra mínimo 2 horas antes de la competencia en la que algún mexicano gane medalla Olímpica. Hora de Ciudad de México.<br><br>
+3.	Solicita a tu vendedor el <b>ticket de compra físico</b> de la compra.<br><br>
+4.	El vendedor deberá capturar tu nombre completo en sistema.<br><br>
+5.	Tu reembolso se realizará en efectivo independientemente de tu forma de pago.<br><br>
+6.	Fecha de redención del cupón del 14 al 21 de agosto.<br><br>
+7.	Solo podrás solicitar tu reembolso en la tienda donde hiciste tu compra.<br><br>
+8.	Deberás presentar una identificación oficial vigente.<br><br>
+9.	Deberás presentar el ticket de compra físico original <b>(no reimpreso, no digital y no escaneado).</b><br><br>
 "
       />
       <Desplegable
