@@ -3,13 +3,15 @@
         "children": [
             "CustomHelmet",
             "flex-layout.row#TituloGeneral",
-            "slider-layout#text-test",
+            "slider-layout#olimpslider",
+            "flex-layout.row#MoboPlata",
+            "flex-layout.row#ImgPrueba3",
+            "flex-layout.row#despegableOlimp",
             "flex-layout.row#Podio",
             "image#IcOlimp",
             "flex-layout.row#banneriphon",
             "flex-layout.row#siganamos",
-            "flex-layout.row#MoboPlata",
-            "flex-layout.row#ImgPrueba3",
+  
             "flex-layout.row#Video",
             "flex-layout.row#ImgWidth1000",
             "flex-layout.row#ImgPrueba6",
@@ -19,7 +21,7 @@
             "flex-layout.row#porse",
             "image#imgfond",
             "flex-layout.row#porsenimg",  
-            "flex-layout.row#despegableOlimp",
+            
              "flex-layout.row#RedesS"
           ]
     },
@@ -36,44 +38,52 @@
         }
     },
 
-    "slider-layout#text-test": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": "carousel"
-        },
-        "children": ["image#slide1", "image#slide2", "image#slide3","image#slide4"]
+"slider-layout#olimpslider": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
       },
+      "blockClass":"carousel"
+  },
+  "children": ["image#slide1", "image#slide2", "image#slide3", "image#slide4", "image#slide5"]
+}
+,
       "image#slide1": {
         "props": {
-          "src": "/arquivos/Slider 1.jpg",
+          "src": "/arquivos/MOBO-Olimpiadas_banner_iphoneV3.jpg",
           "blockClass":"ImgWidth100"
         }
       },
       "image#slide2": {
         "props": {
-          "src": "/arquivos/slider 2.jpg",
+          "src": "/arquivos/MOBO-Olimpiadas_banner_knockV3.jpg",
           "blockClass":"ImgWidth100"
         }
       },
       "image#slide3": {
         "props": {
-          "src": "/arquivos/Slider 3.jpg",
+          "src": "/arquivos/MOBO-Olimpiadas_banner_linkV3.jpg",
           "blockClass":"ImgWidth100"
         }
       },
       "image#slide4": {
         "props": {
-          "src": "/arquivos/Slider 4.jpg",
+          "src": "/arquivos/MOBO-Olimpiadas_banner_howeV3.jpg",
           "blockClass":"ImgWidth100"
         }
       },
-                
+      "image#slide5": {
+        "props": {
+          "src": "/arquivos/Slider 4.jpg",
+          "blockClass":"ImgWidth100"
+        }
+      },       
       "flex-layout.row#Podio": {
         "children": [
         "flex-layout.row#IcOlimp"
