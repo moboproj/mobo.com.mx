@@ -59,5 +59,8 @@
     },
     "despegableOlimp":{
         "component": "despegableOlimp"
+    },
+    "RedCellrepairMobo":{
+        "component": "RedCellrepair"
     }
 }
