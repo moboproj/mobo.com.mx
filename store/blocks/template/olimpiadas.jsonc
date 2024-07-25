@@ -62,7 +62,7 @@
       },
       "image#slide2": {
         "props": {
-          "src": "/arquivos/MOBO-Olimpiadas_banner_knockV3.jpg",
+          "src": "/arquivos/MOBO-Olimpiadas_banner_knock_desktop.jpg",
           "blockClass":"ImgWidth100"
         }
       },
@@ -134,7 +134,7 @@
           },
           "image#siganamos": {
             "props": {
-              "src": "/arquivos/MOBO-Olimpiadas_banner_knock.jpg",
+              "src": "/arquivos/MOBO-Olimpiadas_banner_knock_desktop.jpg",
               "blockClass":"siganamos"
             }
           },
