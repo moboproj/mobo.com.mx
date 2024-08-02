@@ -20,7 +20,7 @@ const Mapcomp = ({ pickupPoints = [] }) => {
     const loadInitialMap = async () => {
       setLoading(true)
       try {
-        const response = await axios.get('https://api-ecomm.mobo.com.mx/map/map')
+        const response = await axios.get('https://api-ecomm.mobo.com.mx/map')
 
         if (response.status === 200) {
           setMapHtml(response.data)
