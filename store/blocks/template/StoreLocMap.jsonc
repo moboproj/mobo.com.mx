@@ -1,0 +1,8 @@
+{
+    "store.custom#storelocmap": {
+        "children": [  "flex-layout.row#MapaListConent"]
+    },
+    "flex-layout.row#MapaListConent": {
+        "children": ["customstoreloc"]
+    }
+}

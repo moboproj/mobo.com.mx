@@ -52,6 +52,9 @@
     },
     "store.custom#Olimpiadas": {
         "path": "/haz-historia-con-mobo"
-    }
+    },
+    "store.custom#storelocmap": {
+         "path": "/tiendas"
+       }
 
 }
