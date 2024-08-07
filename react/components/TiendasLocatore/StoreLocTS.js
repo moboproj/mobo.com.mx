@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import Coordenadas from './Coordenadas'
 import { Helmet } from 'react-helmet'
-
-import Mapcomp from './Mapcomp'
+import MapaTiendas from './MapaTiendas'
 export default function StoreLocTS() {
   const [pickupPointsData, setPickupPointsData] = useState([])
 
@@ -12,7 +11,7 @@ export default function StoreLocTS() {
 
   return (
     <div style={{ position: 'relative' }}>
-      <Mapcomp pickupPoints={pickupPointsData} />{' '}
+      <MapaTiendas pickupPoints={pickupPointsData} />{' '}
       {/* Pasando los datos a MapComponent */}
       <div>
         <Coordenadas onDataUpdate={handleDataUpdate} />{' '}

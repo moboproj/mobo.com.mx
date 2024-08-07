@@ -7,33 +7,24 @@ export default function Coordenadas({ onDataUpdate }) {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('/api/logistics/pvt/configuration/pickuppoints');
+            const response = await fetch('https://api-ecomm.mobo.com.mx/map/consulta');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             const data = await response.json();
-            const formattedData = data
-                .filter(point => point.isActive === true)
-                .map(point => ({
-                    description: point.description,
-                    name: point.name,
-                    address: {
-                        postalCode: point.address.postalCode,
-                        city: point.address.city,
-                        state: point.address.state,
-                        street: point.address.street + ', ' + point.address.city + ', ' + point.address.state,
-                        location: {
-                            latitude: point.address.location.latitude,
-                            longitude: point.address.location.longitude
-                        }
-                    },
-                    isActive: point.isActive,
-                    businessHours: point.businessHours
-                }));
-            onDataUpdate(formattedData); // Actualiza los datos en StoreLocT
 
+            const formattedData = data.map(point => ({
+                Calle: point.Calle, // Asegúrate de que el campo en la respuesta sea "street" o ajusta según el nombre real
+                Email: point.Email, // Asegúrate de que el campo en la respuesta sea "email" o ajusta según el nombre real
+                Horario: point.Horario, // Asegúrate de que el campo en la respuesta sea "businessHours" o ajusta según el nombre real
+                Nombre: point.Nombre, // Asegúrate de que el campo en la respuesta sea "name" o ajusta según el nombre real
+                Telefono: point.Telefono, // Asegúrate de que el campo en la respuesta sea "phone" o ajusta según el nombre real
+                latitud: point.latitud, // Asegúrate de que el campo en la respuesta sea "latitude" o ajusta según el nombre real
+                longitud: point.longitud // Asegúrate de que el campo en la respuesta sea "longitude" o ajusta según el nombre real
+            }));
+
+            onDataUpdate(formattedData); // Actualiza los datos en StoreLocT
             setLoading(false);
-            console.log('Connection to API successful!');
         } catch (error) {
             console.error('Error fetching data:', error);
             setError(error.message);
