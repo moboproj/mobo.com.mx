@@ -207,12 +207,12 @@
   //banner
   "flex-layout.row#home-two-banners": {
     "title": "9.Contenedor central Banners pequeños",
-    "children": ["info-card#home-two-banner-1", "info-card#home-two-banner-2"],
+    "children": ["info-card#home-two-banner-3", "info-card#home-two-banner-4"],
     "props": {
       "blockClass": ["maxWidthGeneral", "homeTwoBanner"]
     }
   },
-  "info-card#home-two-banner-1": {
+  "info-card#home-two-banner-3": {
     "title": "Banner mediano",
     "props": {
       "blockClass": ["bannerFull", "homeTwoBanner", "green"],
@@ -226,7 +226,7 @@
       "isFullModeStyle": true
     }
   },
-  "info-card#home-two-banner-2": {
+  "info-card#home-two-banner-4": {
     "title": "Banner mediano",
     "props": {
       "blockClass": ["bannerFull", "homeTwoBanner", "blue"],

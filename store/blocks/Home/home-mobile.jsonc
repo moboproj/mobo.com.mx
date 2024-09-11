@@ -322,17 +322,17 @@
 			"blockClass": "col-cuadrodestacado"
 		},
 		"children": [
-			"flex-layout.row#imagen-1",
+			"flex-layout.row#imagen-3",
 			"flex-layout.row#accesorios",
 			"flex-layout.row#button-1"
 		]
 	},
-	"flex-layout.row#imagen-1": {
+	"flex-layout.row#imagen-3": {
 		"props": {
 			"blockClass": "row-imagen"
 		},
 		"children": [
-			"info-card#home-two-banner-1"
+			"info-card#home-two-banner-3"
 		]
 	},
 	"flex-layout.row#accesorios": {
@@ -414,17 +414,17 @@
 			"blockClass": "col-cuadrodestacado"
 		},
 		"children": [
-			"flex-layout.row#imagen-2",
+			"flex-layout.row#imagen-4",
 			"flex-layout.row#coloresIphone-2",
 			"flex-layout.row#button-2"
 		]
 	},
-	"flex-layout.row#imagen-2": {
+	"flex-layout.row#imagen-4": {
 		"props": {
 			"blockClass": "row-imagen"
 		},
 		"children": [
-			"info-card#home-two-banner-2"
+			"info-card#home-two-banner-4"
 		]
 	},
 	"flex-layout.row#coloresIphone-2": {
