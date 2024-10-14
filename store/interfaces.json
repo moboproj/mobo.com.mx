@@ -65,5 +65,8 @@
     },
     "customstoreloc": {
     "component": "StoreLocTS"
-  }
+  },
+  "customdesplegable": {
+  "component": "menubuenfin"
+}
 }

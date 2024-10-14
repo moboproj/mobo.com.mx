@@ -1094,3 +1094,18 @@
     margin-top: 30px;
     margin-bottom: 40px;
   }
+  .flexRow--bannerMobBF{
+    display: none;
+}
+.flexRow--bannerMobBF1{
+    margin-top:10px;
+}
+@media only screen and (max-width:915px) {
+    .flexRow--bannerMobBF{
+        display: block;
+    }   
+    .flexRow--SliderBanners{
+        display: none;
+    }
+}
+

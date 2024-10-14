@@ -1,0 +1,296 @@
+{
+  "store.home#buen-fin": {
+    "blocks": ["flex-layout.row#home-wrapper2-BF"]
+  },
+  "flex-layout.row#home-wrapper2-BF": {
+    "title": "Home",
+    "children": ["flex-layout.col#home-container2-BF"]
+  },
+  "flex-layout.col#home-container2-BF": {
+    "children": [
+      "flex-layout.row#BannerBuenFin",
+      "flex-layout.row#home-categories-mob-wrapper-BF", //Mob
+      "flex-layout.row#home-categories-wrapper-BF",//p
+      "flex-layout.col#home-slider-products-9-container-BF",
+      "flex-layout.row#customdesplegable",
+      "flex-layout.col#home-slider-banners-1-container-BF",
+      "flex-layout.row#home-slider-products-1-wrapper",
+      "flex-layout.row#home-slider-banners2-1-container-BF2",
+      "flex-layout.row#home-slider-products-2-wrapper-BF",
+      "flex-layout.row#home-slider-products-5-wrapper-BF" //2
+    ]
+  },
+  "flex-layout.row#customdesplegable": {
+    "children": [
+        "customdesplegable"
+    ],"props": {
+      "blockClass": "maxWidthGeneral"
+    }
+  },
+  "flex-layout.row#BannerBuenFin": {
+    "children": ["image#BannerBuenFin"],"props": {
+      "blockClass": ["maxWidthGeneral","bannerMobBF1"]
+    }
+  },
+  "image#BannerBuenFin": {
+    "props": {
+      "src": "/arquivos/BANNERBUENFINIphone.jpg",
+      "link": {
+               "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+      }
+      
+    }
+  },
+ /*Slider de Banners*/
+ "flex-layout.col#home-slider-banners-1-container-BF":{
+  "children":[
+      "flex-layout.row#home-slider-banners-BF"
+  ]
+},
+"flex-layout.row#home-slider-banners-BF": {
+  "title": "4.Contenedor Carrusel métodos de pago",
+  "children": ["list-context.image-list#home-slider-banners-BF"],
+    "props": {
+        "blockClass": ["maxWidthGeneral","maxWidthGeneralMob","homeSliderPayments"]
+    }
+},
+"list-context.image-list#home-slider-banners-BF": {
+    "children": [
+        "slider-layout#home-slider-banners-desk-BF",
+        "slider-layout#home-slider-banners-BF"
+    ],
+  "props": {
+      "images": [
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINDeSamsung.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINDeSamsung.jpg",
+        "description": "Celulares",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINGuess.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINGuess.jpg",
+        "description": "Laptops",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINiphone.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINiphone.jpg",
+        "description": "Tablets",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINJBL.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINJBL.jpg",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINKitty.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINKitty.jpg",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINLACOSTE.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINLACOSTE.jpg",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINMotorola.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINMotorola.jpg",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINSony.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINSony.jpg",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERINFORMATIVOBUENFINXiaomi.jpg",
+        "mobileImage": "/arquivos/BANNERINFORMATIVOBUENFINXiaomi.jpg",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      },
+      {
+        "image": "/arquivos/BANNERNFORMATIVOBUENFINSkulCandy.jpg",
+        "mobileImage": "/arquivos/BANNERNFORMATIVOBUENFINSkulCandy.jpg",
+        "link": {
+          "props": {
+              "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+           }
+        }
+      }
+    ]
+  }
+},
+"slider-layout#home-slider-banners-BF": {
+  "props": {
+      "blockClass": ["homePayments","homePaymentsMob"],
+      "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "slideTransition": {
+          "speed": 400,
+          "delay": 0,
+          "timing": 4000
+      }
+  }
+},
+    "slider-layout#home-slider-banners-desk-BF": {
+        "props": {
+        "blockClass": ["homePayments","homePaymentsDesk"],
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 1,
+            "phone": 1
+          },
+        "infinite": false,
+        "fullWidth": false,
+        "showPaginationDots": "never",
+          "slideTransition": {
+            "speed": 400,
+            "delay": 0,
+            "timing": 4000
+          }
+        }
+    },
+/*BANEER 2*/
+"flex-layout.row#home-slider-banners2-1-container-BF2":{
+  "children":[
+      "flex-layout.row#home-slider-banners2-BF2"
+  ],"props": {
+    "blockClass": "SliderBanners"
+  }
+},
+"flex-layout.row#home-slider-banners2-BF2": {
+    "title": "4.Contenedor Carrusel métodos de pago",
+    "children": ["list-context.image-list#home-slider-banners2-BF2"],
+      "props": {
+          "blockClass": ["maxWidthGeneral","maxWidthGeneralMob","homeSliderPayments"]
+      }
+},
+"list-context.image-list#home-slider-banners2-BF2": {
+    "children": [
+        "slider-layout#home-slider-banners2-desk-BF2",
+        "slider-layout#home-slider-banners2-BF2"
+    ],
+"props": {
+  "images": [
+  {
+    "image": "/arquivos/Pasarela-formas-de-pago-5.png",
+    "mobileImage": "/arquivos/Pasarela-formas-de-pago-5.png",
+    "description": "Celulares",
+    "link": {
+      "props": {
+          "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+       }
+    }
+  },
+  {
+    "image": "/arquivos/Pasarela-formas-de-pago-6.png",
+    "mobileImage": "/arquivos/Pasarela-formas-de-pago-6.png",
+    "description": "Laptops",
+    "link": {
+      "props": {
+          "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+       }
+    }
+  },
+  {
+    "image": "/arquivos/Pasarela-formas-de-pago-7.png",
+    "mobileImage": "/arquivos/Pasarela-formas-de-pago-7.png",
+    "description": "Tablets",
+    "link": {
+      "props": {
+          "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+       }
+    }
+  },
+  {
+    "image": "/arquivos/Pasarela-formas-de-pago-8.png",
+    "mobileImage": "/arquivos/Pasarela-formas-de-pago-8.png",
+    "link": {
+      "props": {
+          "url":"https://www.mobo.com.mx/descuentos-mobo-online"
+       }
+    }
+  }
+]
+}
+},
+"slider-layout#home-slider-banners2-BF2": {
+  "props": {
+      "blockClass": ["homePayments","homePaymentsMob"],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "slideTransition": {
+        "speed": 400,
+        "delay": 0,
+        "timing": 4000
+      }
+}
+},
+    "slider-layout#home-slider-banners2-desk-BF2": {
+        "props": {
+        "blockClass": ["homePayments","homePaymentsDesk"],
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 1,
+            "phone": 1
+          },
+        "infinite": false,
+        "fullWidth": false,
+        "showPaginationDots": "never",
+          "slideTransition": {
+            "speed": 400,
+            "delay": 0,
+            "timing": 4000
+          }
+        }
+    }
+}

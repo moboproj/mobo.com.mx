@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "format": "^0.2.2",
-    "lint": "^0.8.19"
+    "lint": "^0.8.19",
+    "styled-components": "^6.1.13"
   }
 }
