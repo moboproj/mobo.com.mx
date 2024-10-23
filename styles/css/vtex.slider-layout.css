@@ -146,6 +146,8 @@
     }
     .sliderLayoutContainer--homePaymentsMob{
         display: flex;
+        justify-content: space-between !important;
+
     }
     .sliderLayoutContainer--homePaymentsDesk{
         display: none;

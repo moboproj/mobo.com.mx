@@ -519,13 +519,166 @@
 }
 
 /*Home*/
+.vtex-flex-layout-0-x-flexColChild.pb0 {
+    /* Tus estilos personalizados aquí */
+background-color: #000;}
+
+.flexRow--homeMainSliderDesk{
+    height: 500px;
+    /* margin-bottom: -150px;*/
+}  
+
+@media only screen and (max-width:1800px){
+    .flexRow--homeMainSliderDesk{
+        height: 460px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:1670px){
+    .flexRow--homeMainSliderDesk{
+        height: 430px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+
+@media only screen and (max-width:1540px){
+    .flexRow--homeMainSliderDesk{
+        height: 380px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:1400px){
+    .flexRow--homeMainSliderDesk{
+        height: 330px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:1240px){
+    .flexRow--homeMainSliderDesk{
+        height: 310px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:1165px){
+    .flexRow--homeMainSliderDesk{
+        height: 310px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:1110px){
+    .flexRow--homeMainSliderDesk{
+        height: 290px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:1050px){
+    .flexRow--homeMainSliderDesk{
+        height: 270px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:1000px){
+    .flexRow--homeMainSliderDesk{
+        height: 250px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+
+
+@media only screen and (max-width:916px){
+    .flexRow--homeMainSliderDesk{
+        height: 830px;
+        /* margin-bottom: -150px;*/
+    }  
+}
+@media only screen and (max-width:877px){
+    .flexRow--homeMainSliderDesk{
+        height: 790px;
+    }  
+}
+@media only screen and (max-width:816px){
+    .flexRow--homeMainSliderDesk{
+        height: 730px;
+    }  
+}
+@media only screen and (max-width:754px){
+    .flexRow--homeMainSliderDesk{
+        height: 680px;
+    }  
+}
+@media only screen and (max-width:680px){
+    .flexRow--homeMainSliderDesk{
+        height: 620px;
+    }  
+}
+@media only screen and (max-width:640px){
+    .flexRow--homeMainSliderDesk{
+        height: 600px;
+    }  
+}
+@media only screen and (max-width:583px){
+    .flexRow--homeMainSliderDesk{
+        height: 550px;
+    }  
+}
+@media only screen and (max-width:537px){
+    .flexRow--homeMainSliderDesk{
+        height: 500px;
+    }  
+}
+@media only screen and (max-width:495px){
+    .flexRow--homeMainSliderDesk{
+        height: 470px;
+    }  
+}
+@media only screen and (max-width:451px){
+    .flexRow--homeMainSliderDesk{
+        height: 440px;
+    }  
+}
+@media only screen and (max-width:407px){
+    .flexRow--homeMainSliderDesk{
+        height: 400px;
+    }  
+}
+@media only screen and (max-width:370px){
+    .flexRow--homeMainSliderDesk{
+        height: 370px;
+    }  
+}
+@media only screen and (max-width:335px){
+    .flexRow--homeMainSliderDesk{
+        height: 330px;
+    }  
+}
+.flexRow--homeCategoriesDesk{
+   /* margin-top: -20px;*/
+   margin-bottom: -50px;
+}
+@media only screen and (max-width:1343px){
+    .flexRow--homeCategoriesDesk{
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width:1723px){
+    .flexRow--homeCategoriesDesk{
+     /*   margin-top: 25px;*/
+    }
+}
+@media only screen and (max-width:1025px){
+    .flexRow--homeCategoriesDesk{
+       /* margin-top: -20px;*/
+    }
+}
 @media (min-width: 1025px) {
     .flexRow--homeMainSliderDesk{
         margin-top: 20px;
     }   
 }
 .flexRowContent--homeMainSliderDesk{
-    justify-content: space-between;
+    height: 70%;
+        justify-content: space-between;
+        gap: 10px;
 }
 .flexRowContent--homeMainSliderDesk .stretchChildrenWidth:first-child{
     width: 1180px !important;
@@ -536,10 +689,15 @@
 }
 .flexCol--banners-secundarios {
     display: flex;
+    height: 400px;
     justify-content: space-between;
 }
-
-
+@media only screen and (max-width:1624px){
+    .flexCol--banners-secundarios {
+        height: 200px;
+    }
+   
+}
 .flexRow--homeBenefits,
 .flexRow--homeCategoriesMob,
 .flexRow--homeThreeProducts{
@@ -556,11 +714,14 @@
     width: calc((100% - 48px)/7) !important;
 }
 .flexRowContent--homeBannerFull1{
-    margin-bottom: 20px;
+    margin-bottom: 25px !important;
 }
 .flexRowContent--homeTwoBanner{
+    width: 100%;
     gap: 25px;
+   /* margin-bottom: 200px !important;*/
 }
+
 
 .flexRowContent--threeProducts{
     display: flex;
@@ -582,6 +743,9 @@
 .flexCol--col-cuadrodestacadobf{
     margin: 3vw;
     border-radius: 30px;
+}
+.flexRow--homeBannerFull12, .flexRow--SliderfinlMob{
+    display: none;
 }
 
 @media only screen and (max-width:1920px){
@@ -607,6 +771,7 @@
     .flexRow--minislide,
     .flexRow--homeCategoriesDesk,
     .flexRow--homeBannerFull1,
+    .flexRow--homeBannerFull5,
     .flexRow--homeBannerFull1bf,
     .flexRow--homeTwoBanner,
     .flexRow--sliderOnlyDesktop,
@@ -619,9 +784,10 @@
         padding-right: 0;
     }
     .flexRowContent--homeMainSliderDesk{
+        margin-bottom: 100px;
         margin-top: 0;
     }
-    .flexRow--homeCategoriesMob{
+    .flexRow--homeCategoriesMob,.flexRow--homeBannerFull12, .flexRow--SliderfinlMob{
         display: block;
     }
 }
@@ -1108,4 +1274,42 @@
         display: none;
     }
 }
+.flexRowContent--BannerCNuevo{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: -5px;
+  justify-content: space-between; /* Espacio entre las imágenes */
+  /*flex-wrap: wrap; /* Permite que las imágenes se ajusten al tamaño de la pantalla */
+  gap: 10px; /* Espacio entre las imágenes */
+  display: none;
+  }
+  @media only screen and (max-width:916px){
+    .flexRowContent--BannerCNuevo{
+      display: flex;
+      }
+      .flexRowContent--homeBannerFullorgin{
+        margin-bottom: 60px;
+      }
+}
 
+
+.flexRowContent--BannerCNuevo2{
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: -15px;
+  justify-content: space-between; /* Espacio entre las imágenes */
+  /*flex-wrap: wrap; /* Permite que las imágenes se ajusten al tamaño de la pantalla */
+  gap: 10px; /* Espacio entre las imágenes */
+  display: none;
+  }
+  @media only screen and (max-width:916px){
+    .flexRowContent--BannerCNuevo2{
+      display: flex;
+      }
+}
+.flexRowContent--Colorwhite{
+    background-color: #fff;
+}
+.flexRowContent--homeBannerFull13{
+    margin-bottom: 65px;
+}

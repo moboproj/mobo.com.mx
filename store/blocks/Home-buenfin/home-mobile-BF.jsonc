@@ -227,7 +227,7 @@
 		}
 	},
 	//Bloque Iphone
-	"flex-layout.row#reaconicionados-destacados-BF": {
+	/*"flex-layout.row#reaconicionados-destacados-BF": {
 		"title": "10.Contenedor Destacados (Mobile)",
 		"props": {
 			"blockClass": ["maxWidthGeneral","maxWidthGeneralMob","cuadro-destacados","homeThreeProducts"]
@@ -249,7 +249,7 @@
 	},
 	"flex-layout.row#imagen-BF": {
 		"children": [
-			"info-card#home-banner-full"
+			"info-card#home-banner-full2"
 		],
 		"props": {
 			"blockClass": "row-imagen"

@@ -1,283 +1,694 @@
 {
-  "store.home": {
-    "blocks": ["flex-layout.row#home-wrapper"]
-  },
-  "flex-layout.row#home-wrapper": {
-    "title": "Home",
-    "children": ["flex-layout.col#home-container"]
-  },
-  "flex-layout.col#home-container": {
-    "children": [
-      "flex-layout.row#main-slider",
-      //"flex-layout.row#home-payments",
-      "flex-layout.row#home-benefits-wrapper", //Mob
-      "flex-layout.row#home-slider-payments", //2
-      "__fold__",
-
-      "flex-layout.row#home-slider-products-1-wrapper", //2
-      "flex-layout.row#home-categories-wrapper",
-
-      "flex-layout.row#home-categories-mob-wrapper", //Mob
-
-      "flex-layout.row#home-banner-full-1",
-      "flex-layout.row#home-two-banners",
-
-      "flex-layout.row#reaconicionados-destacados", //Mob
-      "__fold__",
-      "flex-layout.row#home-slider-products-2-wrapper", //2
-
-      "flex-layout.row#home-slider-products-3-wrapper",
-      "flex-layout.row#home-banner-full-2",
-      "flex-layout.row#home-slider-products-4-wrapper",
-      "flex-layout.row#home-banner-full-3",
-
-      "flex-layout.row#calidad-precio", //Mob
-      "flex-layout.row#carga-rapida", //Mob
-
-      "flex-layout.row#home-slider-products-5-wrapper" //2
-    ]
-  },
-  /*SLIDER BANNERS*/
-  "flex-layout.row#main-slider": {
-    "title": "1.Contenedor Carrusel principal",
-    "children": [
-      "flex-layout.col#banners-principales",
-      "flex-layout.col#banners-secundarios"
-    ],
+   "store.home": {
+     "blocks": ["flex-layout.row#home-wrapper"]
+   },
+   "flex-layout.row#home-wrapper": {
+     "title": "Home",
+     "children": ["flex-layout.col#home-container"]
+   },
+   "flex-layout.col#home-container": {
+     "children": [
+       "flex-layout.row#main-slider",
+       "flex-layout.row#home-categories-wrapper",
+       "flex-layout.row#home-categories-mob-wrapper", //Mob
+       "flex-layout.row#home-slider-products-1-wrapper", //2
+       "flex-layout.row#home-banner-full-1",
+       "flex-layout.row#home-two-banners3",
+       "flex-layout.row#home-banner-full-1Mob", //Mob
+       "flex-layout.row#home-banner-full-3Mob",
+       "flex-layout.row#home-banner-full-4Mob",
+       "flex-layout.row#home-slider-products-2-wrapper", //2
+       //Banner nuevo home movil
+       "flex-layout.row#dobleBannerC",
+       "flex-layout.row#home-two-banners2",
+       "flex-layout.row#home-slider-products-3-wrapper",
+       "flex-layout.row#home-slider-products-5-wrapper", //2
+       "flex-layout.row#home-banner-full-5Mob",
+       "flex-layout.row#dobleBannerC2",
+       "flex-layout.row#home-banner-full-6Mob",    
+       "flex-layout.row#home-slider-products-6-wrapper",
+       "flex-layout.row#home-two-banners4",
+       "flex-layout.row#home-slider-products-8-wrapper",
+       //"flex-layout.row#home-payments",
+       "flex-layout.col#home-slider-products-9-container",
+       "flex-layout.row#home-banner-full-5",
+       "flex-layout.row#home-slider-products-7-wrapper"
+     ]
+   },
+   /*SLIDER BANNERS*/
+   "flex-layout.row#main-slider": {
+     "title": "1.Contenedor Carrusel principal",
+     "children": [
+       "flex-layout.col#banners-principales",
+       "flex-layout.col#banners-secundarios2"
+     ],
+     "props": {
+       "blockClass": ["maxWidthGeneral", "homeMainSliderDesk"],
+       "verticalAlign": "flex-",
+       "preventVerticalStretch": true,
+       "colGap": 5
+     }
+   },
+   "flex-layout.col#banners-principales": {
+     "children": ["main-slider"],
+     "props": {
+       "blockClass": "slider-principal"
+     }
+   },
+   "main-slider": {
+     "title": "Carrusel (izquierda)",
+     "props": {
+       "blockClass":"slidess",
+       "headline": "Hello Paul :)",
+       "slides": [
+         {
+           "head": "iPhone reacondicionados",
+           "subhead": "Con 33 puntos de revisión que garantizan",
+           "imageDesktop1": "/arquivos/slide1-part1.png",
+           "imageDesktop2": "/arquivos/slide1-part2.png",
+           "imageMobile": "/arquivos/slide1-mob.png",
+           "imageMobileTop": "/arquivos/slide-gray-mob.png",
+           "altImage": "SliderPrincipal",
+           "link": "/iphone-reacondicionados"
+         },
+         {
+           "head": "Captura tus logros SmartWatches y Bands",
+           "subhead": "A 12 MSI con PayPal",
+           "imageDesktop1": "/arquivos/slide2-part1.png",
+           "imageDesktop2": "/arquivos/slide2-part2.png",
+           "imageMobile": "/arquivos/slide2-mob.png",
+           "imageMobileTop": "/arquivos/slide-black-mob.png",
+           "altImage": "SliderPrincipal",
+           "link": "/tecnologia/wearables",
+           "colorBackground": "#222222",
+           "colorHead": "#00ffb4",
+           "colorSubhead": "#fff"
+         },
+         {
+           "head": "Para los momentos contigo mismo",
+           "subhead": "Audífonos más vendidos",
+           "imageDesktop1": "/arquivos/slide3-part1.png",
+           "imageDesktop2": "/arquivos/slide3-part2.png",
+           "imageMobile": "/arquivos/slide3-mob.png",
+           "imageMobileTop": "/arquivos/slide-gray-mob.png",
+           "altImage": "SliderPrincipal",
+           "link": "/audio"
+         },
+         {
+           "head": "Tu celular siempre al 100%",
+           "subhead": "Envío gratis a partir de $499",
+           "imageDesktop1": "/arquivos/Rectángulo-81_01.png",
+           "imageDesktop2": "/arquivos/Rectángulo-81_02.png",
+           "imageMobile": "/arquivos/slide4-mob.png",
+           "imageMobileTop": "/arquivos/slide-black-mob.png",
+           "altImage": "SliderPrincipal",
+           "link": "/carga",
+           "colorBackground": "#222222",
+           "colorHead": "#00ffb4",
+           "colorSubhead": "#fff"
+         }
+       ]
+     }
+   },
+   "flex-layout.col#banners-secundarios": {
+     "title": "Banners laterales (derecha)",
+     "children": ["image#home-main-banner-1", "image#home-main-banner-2"],
+     "props": {
+       "blockClass": "banners-secundarios",
+       "horizontalAlign": "center",
+       "verticalAlign": "middle"
+     }
+   },
+   "image#home-main-banner-1": {
+     "title": "Banner 1",
+     "props": {
+       "src": "/arquivos/Mesa de trabajo 1.png",
+       "blockClass": "banner-aplazo",
+       "link": {
+         "url": "/telefonia/reacondicionados/iPhone%20SE2?initialMap=c,c,specificationFilter_158&initialQuery=telefonia/reacondicionados/iPhone-SE2&map=category-1,category-2,modelo&query=/telefonia/reacondicionados/iphone-se2&searchState="
+       }
+     }
+   },
+   "image#home-main-banner-2": {
+     "title": "Banner 2",
+     "props": {
+       "src": "/arquivos/Huawei_prueb.png",
+       "blockClass": "banner-paypal",
+       "link": {
+         "url": "/tecnologia/wearables?initialMap=c,c&initialQuery=tecnologia/wearables&map=category-1,category-2,marca&query=/tecnologia/wearables/huawei&searchState="
+       }
+     }
+   },
+   //Banner secundarios 2
+   "flex-layout.col#banners-secundarios2": {
+     "title": "Banners laterales (derecha)",
+     "children": ["image#home-main-banner-3", "image#home-main-banner-4"],
+     "props": {
+       "blockClass": "banners-secundarios",
+       "horizontalAlign": "center",
+       "verticalAlign": "middle"
+     }
+   },
+   "image#home-main-banner-3": {
+     "title": "Banner 1",
+     "props": {
+       "src": "/arquivos/560x220_Lateral_Accesorios.png",
+       "blockClass": "banner-aplazo",
+       "link": {
+         "url": "/telefonia/reacondicionados/iPhone%20SE2?initialMap=c,c,specificationFilter_158&initialQuery=telefonia/reacondicionados/iPhone-SE2&map=category-1,category-2,modelo&query=/telefonia/reacondicionados/iphone-se2&searchState="
+       }
+     }
+   },
+   "image#home-main-banner-4": {
+     "title": "Banner 2",
+     "props": {
+       "src": "/arquivos/560x220_Lateral_Accesorios2.png",
+       "blockClass": "banner-paypal",
+       "link": {
+         "url": "/tecnologia/wearables?initialMap=c,c&initialQuery=tecnologia/wearables&map=category-1,category-2,marca&query=/tecnologia/wearables/huawei&searchState="
+       }
+     }
+   },
+ 
+   //banner nuevo para cuadros
+ "flex-layout.row#dobleBannerC": {
+   "children": [
+ "image#home-main-gordos-1",
+   "image#home-main-gordos-2"
+   ],"props": {
+     "blockClass": ["maxWidthGeneral","BannerCNuevo2"]
+   }
+ },
+ 
+   "image#home-main-gordos-1": {
+     "title": "Banner 1",
+     "props": {
+       "src": "/arquivos/Bduo1.png",
+       "blockClass": "banernuevo",
+       "link": {
+         "url": "/telefonia/reacondicionados/iPhone%20SE2?initialMap=c,c,specificationFilter_158&initialQuery=telefonia/reacondicionados/iPhone-SE2&map=category-1,category-2,modelo&query=/telefonia/reacondicionados/iphone-se2&searchState="
+       }
+     }
+   },
+   "image#home-main-gordos-2": {
+     "title": "Banner 2",
+     "props": {
+       "src": "/arquivos/Bduo2.png",
+       "blockClass": "banernuevo",
+       "link": {
+         "url": "/tecnologia/wearables?initialMap=c,c&initialQuery=tecnologia/wearables&map=category-1,category-2,marca&query=/tecnologia/wearables/huawei&searchState="
+       }
+     }
+   },
+    //banner nuevo para cuadros
+ "flex-layout.row#dobleBannerC2": {
+   "children": [
+ "image#home-main-gordos-3",
+   "image#home-main-gordos-4"
+   ],"props": {
+     "blockClass": ["maxWidthGeneral","BannerCNuevo"]
+   }
+ },
+ 
+   "image#home-main-gordos-3": {
+     "title": "Banner 1",
+     "props": {
+       "src": "/arquivos/Bduo3.png",
+       "blockClass": "banernuevo",
+       "link": {
+         "url": "/telefonia/reacondicionados/iPhone%20SE2?initialMap=c,c,specificationFilter_158&initialQuery=telefonia/reacondicionados/iPhone-SE2&map=category-1,category-2,modelo&query=/telefonia/reacondicionados/iphone-se2&searchState="
+       }
+     }
+   },
+   "image#home-main-gordos-4": {
+     "title": "Banner 2",
+     "props": {
+       "src": "/arquivos/Bduo4.png",
+       "blockClass": "banernuevo",
+       "link": {
+         "url": "/tecnologia/wearables?initialMap=c,c&initialQuery=tecnologia/wearables&map=category-1,category-2,marca&query=/tecnologia/wearables/huawei&searchState="
+       }
+     }
+   },
+   /*BANNERS METODOS DE PAGO*/
+   "flex-layout.row#home-payments": {
+     "title": "2.Contenedor de Métodos de pago",
+     "children": [
+       "image#home-payment-1",
+       "image#home-payment-2",
+       "image#home-payment-3",
+       "image#home-payment-4"
+     ],
+     "props": {
+       "blockClass": ["maxWidthGeneral", "homePayments"],
+       "preventVerticalStretch": true,
+       "marginTop": 10,
+       "marginBottom": 8,
+       "colGap": 5
+     }
+   },
+   "image#home-payment-1": {
+     "title": "Método de pago 1",
+     "props": {
+       "src": "/arquivos/Pasarela-formas-de-pago-Kueski.png"
+     }
+   },
+   "image#home-payment-2": {
+     "title": "Método de pago 2",
+     "props": {
+       "src": "/arquivos/Pasarela-formas-de-pago-PayPal.png"
+     }
+   },
+   "image#home-payment-3": {
+     "title": "Método de pago 3",
+     "props": {
+       "src": "/arquivos/Pasarela-formas-de-pago-Aplazo.png"
+     }
+   },
+   "image#home-payment-4": {
+     "title": "Método de pago 4",
+     "props": {
+       "src": "/arquivos/Pasarela-formas-de-pago-NU.png"
+     }
+   },
+   //baner principal
+   "flex-layout.row#home-banner-full-1": {
+     "title": "8.Contenedor Banner completo 1",
+     "children": ["image#home-banner-full2"],
+     "props": {
+       "blockClass": ["maxWidthGeneral", "homeBannerFull1"],
+       "marginBottom": 6
+     }
+   },
+   "image#home-banner-full2": {
+     "props": {
+       "src": "/arquivos/Bfull1Dek.png",
+       "link#id": {
+         "props": {
+           "url": ""
+          }
+       }     }
+   },
+  /* "info-card#home-banner-full2": {
+     "props": {
+       "blockClass": ["bannerFull", "homeBannerIPhone"],
+       "imageUrl": "/arquivos/Banner_secundario_GRANDE_1.png",
+       "mobileImageUrl": "/arquivos/Banner_secundario_GRANDE_1.png",
+       //headline": "## iPhone 11 reacondicionado",
+      // "subhead": "En Mobo revisamos 33 puntos de calidad en este producto. Consíguelo pagando a 12 MSI con PayPal",
+       "textMode": "rich-text",
+       "callToActionMode": "none",
+       "callToActionUrl": "/reacondicionado-iphone-11",
+       "imageActionUrl": "/reacondicionado-iphone-11",
+       "isFullModeStyle": true
+     }
+   },*/
+     //baner principal 2
+     "flex-layout.row#home-banner-full-5": {
+       "title": "8.Contenedor Banner completo 1",
+       "children": ["image#home-banner-full3"],
+       "props": {
+         "blockClass": ["maxWidthGeneral", "homeBannerFull5"],
+         "marginBottom": 6
+       }
+     },
+    /* "info-card#home-banner-full-5": {
+       "props": {
+         "blockClass": ["bannerFull", "homeBannerIPhone"],
+         "imageUrl": "/arquivos/Banner_secundario_GRANDE_1.png",
+         "mobileImageUrl": "/arquivos/Banner_secundario_GRANDE_1.png",
+      //   "headline": "## iPhone 11 reacondicionado",
+       //  "subhead": "En Mobo revisamos 33 puntos de calidad en este producto. Consíguelo pagando a 12 MSI con PayPal",
+         "textMode": "rich-text",
+         "callToActionMode": "none",
+         "callToActionUrl": "/reacondicionado-iphone-11",
+         "imageActionUrl": "/reacondicionado-iphone-11",
+         "isFullModeStyle": true
+       }
+     },*/
+     "image#home-banner-full3": {
+      "props": {
+        "src": "/arquivos/Bfull2Dek.png",
+        "link#id": {
+          "props": {
+            "url": ""
+           }
+        }     }
+    },
+     //mobil
+     "flex-layout.row#home-banner-full-1Mob": {
+       "title": "8.Contenedor Banner completo 1",
+       "children": ["image#home-banner-full-1Mob"],
+       "props": {
+         "blockClass": ["maxWidthGeneral", "homeBannerFull12"],
+         "marginBottom": 6
+       }
+     },
+   "image#home-banner-full-1Mob": {
+     "props": {
+       "blockClass":["BannerMob"],
+       "src": "/arquivos/Bfull1Mob.png",
+       "link": {
+         "url": "/reacondicionado-iphone-11"
+       }
+     }
+   },
+ 
+   "flex-layout.row#home-banner-full-3Mob": {
+     "title": "8.Contenedor Banner completo 1",
+     "children": ["image#home-banner-full-2Mob"],
+     "props": {
+       "blockClass": ["maxWidthGeneral", "homeBannerFull12"],
+       "marginBottom": 6
+     }
+   },
+ "image#home-banner-full-2Mob": {
+   "props": {
+     "blockClass":["BannerMob"],
+     "src": "/arquivos/Bfull2Mob.png",
+     "link": {
+       "url": "/reacondicionado-iphone-11"
+     }
+   }
+ },
+ "flex-layout.row#home-banner-full-4Mob": {
+   "title": "8.Contenedor Banner completo 1",
+   "children": ["image#home-banner-full-3Mob"],
+   "props": {
+     "blockClass": ["maxWidthGeneral", "homeBannerFull12", "homeBannerFullorgin"],
+     "marginBottom": 6
+   }
+ },
+ "image#home-banner-full-3Mob": {
+ "props": {
+   "blockClass":["BannerMob"],
+   "src": "/arquivos/Bfull3Mob.png",
+   "link": {
+     "url": "/reacondicionado-iphone-11"
+   }
+ }
+ },
+ "flex-layout.row#home-banner-full-5Mob": {
+   "title": "8.Contenedor Banner completo 1",
+   "children": ["image#home-banner-full-4Mob"],
+   "props": {
+     "blockClass": ["maxWidthGeneral", "homeBannerFull12"],
+     "marginBottom": 6
+   }
+ },
+ "image#home-banner-full-4Mob": {
+ "props": {
+   "blockClass":["BannerMob"],
+   "src": "/arquivos/Bfull4Mob.png",
+   "link": {
+     "url": "/reacondicionado-iphone-11"
+   }
+ }
+ },
+ "flex-layout.row#home-banner-full-6Mob": {
+   "title": "8.Contenedor Banner completo 1",
+   "children": ["image#home-banner-full-5Mob"],
+   "props": {
+     "blockClass": ["maxWidthGeneral", "homeBannerFull12", "homeBannerFull13"],
+     "marginBottom": 6
+   }
+ },
+ "image#home-banner-full-5Mob": {
+ "props": {
+   "blockClass":["BannerMob"],
+   "src": "/arquivos/Bfull5Mob.png",
+   "link": {
+     "url": "/reacondicionado-iphone-11"
+   }
+ }
+ },
+ 
+       //mobil
+       "flex-layout.row#home-banner-full-2Mob": {
+         "title": "8.Contenedor Banner completo 1",
+         "children": ["info-card#home-banner-full-7Mob"],
+         "props": {
+           "blockClass": ["maxWidthGeneral", "homeBannerFull12"],
+           "marginBottom": 6
+         }
+       },
+       "info-card#home-banner-full-7Mob": {
+         "props": {
+           "blockClass": ["bannerFull", "homeBannerIPhone"],
+           "imageUrl": "/arquivos/Banner_secundario_GRANDE_1.png",
+           "mobileImageUrl": "/arquivos/BannerIphoneMobile.png",
+           "headline": "## iPhone 11 reacondicionado",
+           "subhead": "En Mobo revisamos 33 puntos de calidad en este producto. Consíguelo pagando a 12 MSI con PayPal",
+           "textMode": "rich-text",
+           "callToActionMode": "none",
+           "callToActionUrl": "/reacondicionado-iphone-11",
+           "imageActionUrl": "/reacondicionado-iphone-11",
+           "isFullModeStyle": true
+         }
+       },
+   //banner two
+   "flex-layout.row#home-two-banners2": {
+     "title": "9.Contenedor central Banners pequeños",
+     "children": ["image#home-two-banner-5", "image#home-two-banner-6","image#home-two-banner-7","image#home-two-banner-8"],
+     "props": {
+       "blockClass": ["maxWidthGeneral", "homeTwoBanner"]
+     }
+   },
+   "image#home-two-banner-5": {
+     "props": {
+       "src": "/arquivos/Bcdeks5.png",
+       "link#id": {
+         "props": {
+            "url": ""
+          }
+       }
+       
+     }
+   },
+   "image#home-two-banner-6": {
     "props": {
-      "blockClass": ["maxWidthGeneral", "homeMainSliderDesk"],
-      "verticalAlign": "flex-",
-      "preventVerticalStretch": true,
-      "colGap": 5
+      "src": "/arquivos/Bcdeks6.png",
+      "link#id": {
+        "props": {
+           "url": ""
+         }
+      }
+      
     }
   },
-  "flex-layout.col#banners-principales": {
-    "children": ["main-slider"],
+  "image#home-two-banner-7": {
     "props": {
-      "blockClass": "slider-principal"
+      "src": "/arquivos/Bcdeks7.png",
+      "link#id": {
+        "props": {
+           "url": ""
+         }
+      }
+      
     }
   },
-  "main-slider": {
-    "title": "Carrusel (izquierda)",
+  "image#home-two-banner-8": {
     "props": {
-      "headline": "Hello Paul :)",
-      "slides": [
-        {
-          "head": "iPhone reacondicionados",
-          "subhead": "Con 33 puntos de revisión que garantizan",
-          "imageDesktop1": "/arquivos/slide1-part1.png",
-          "imageDesktop2": "/arquivos/slide1-part2.png",
-          "imageMobile": "/arquivos/slide1-mob.png",
-          "imageMobileTop": "/arquivos/slide-gray-mob.png",
-          "altImage": "SliderPrincipal",
-          "link": "/iphone-reacondicionados"
-        },
-        {
-          "head": "Captura tus logros SmartWatches y Bands",
-          "subhead": "A 12 MSI con PayPal",
-          "imageDesktop1": "/arquivos/slide2-part1.png",
-          "imageDesktop2": "/arquivos/slide2-part2.png",
-          "imageMobile": "/arquivos/slide2-mob.png",
-          "imageMobileTop": "/arquivos/slide-black-mob.png",
-          "altImage": "SliderPrincipal",
-          "link": "/tecnologia/wearables",
-          "colorBackground": "#222222",
-          "colorHead": "#00ffb4",
-          "colorSubhead": "#fff"
-        },
-        {
-          "head": "Para los momentos contigo mismo",
-          "subhead": "Audífonos más vendidos",
-          "imageDesktop1": "/arquivos/slide3-part1.png",
-          "imageDesktop2": "/arquivos/slide3-part2.png",
-          "imageMobile": "/arquivos/slide3-mob.png",
-          "imageMobileTop": "/arquivos/slide-gray-mob.png",
-          "altImage": "SliderPrincipal",
-          "link": "/audio"
-        },
-        {
-          "head": "Tu celular siempre al 100%",
-          "subhead": "Envío gratis a partir de $499",
-          "imageDesktop1": "/arquivos/slide4-part1.png",
-          "imageDesktop2": "/arquivos/slide4-part2.png",
-          "imageMobile": "/arquivos/slide4-mob.png",
-          "imageMobileTop": "/arquivos/slide-black-mob.png",
-          "altImage": "SliderPrincipal",
-          "link": "/carga",
-          "colorBackground": "#222222",
-          "colorHead": "#00ffb4",
-          "colorSubhead": "#fff"
+      "src": "/arquivos/Bcdeks8.png",
+      "link#id": {
+        "props": {
+           "url": ""
+         }
+      }
+      
+    }
+  },
+
+  //banner trhree
+  "flex-layout.row#home-two-banners3": {
+   "title": "9.Contenedor central Banners pequeños",
+   "children": ["image#home-two-banner-9", "image#home-two-banner-10","image#home-two-banner-11","image#home-two-banner-12"],
+   "props": {
+     "blockClass": ["maxWidthGeneral", "homeTwoBanner"]
+   }
+ },
+ "image#home-two-banner-9": {
+   "props": {
+     "src": "/arquivos/Bcdeks1.png",
+     "link#id": {
+       "props": {
+          "url": ""
         }
-      ]
-    }
-  },
-  "flex-layout.col#banners-secundarios": {
-    "title": "Banners laterales (derecha)",
-    "children": ["image#home-main-banner-1", "image#home-main-banner-2"],
-    "props": {
-      "blockClass": "banners-secundarios",
-      "horizontalAlign": "center",
-      "verticalAlign": "middle"
-    }
-  },
-  "image#home-main-banner-1": {
-    "title": "Banner 1",
-    "props": {
-      "src": "/arquivos/iPhone-SE-NU.png",
-      "blockClass": "banner-aplazo",
-      "link": {
-        "url": "/telefonia/reacondicionados/iPhone%20SE2?initialMap=c,c,specificationFilter_158&initialQuery=telefonia/reacondicionados/iPhone-SE2&map=category-1,category-2,modelo&query=/telefonia/reacondicionados/iphone-se2&searchState="
-      }
-    }
-  },
-  "image#home-main-banner-2": {
-    "title": "Banner 2",
-    "props": {
-      "src": "/arquivos/Huawei-Band-7.png",
-      "blockClass": "banner-paypal",
-      "link": {
-        "url": "/tecnologia/wearables?initialMap=c,c&initialQuery=tecnologia/wearables&map=category-1,category-2,marca&query=/tecnologia/wearables/huawei&searchState="
-      }
-    }
-  },
-  /*BANNERS METODOS DE PAGO*/
-  "flex-layout.row#home-payments": {
-    "title": "2.Contenedor de Métodos de pago",
-    "children": [
-      "image#home-payment-1",
-      "image#home-payment-2",
-      "image#home-payment-3",
-      "image#home-payment-4"
-    ],
-    "props": {
-      "blockClass": ["maxWidthGeneral", "homePayments"],
-      "preventVerticalStretch": true,
-      "marginTop": 10,
-      "marginBottom": 8,
-      "colGap": 5
-    }
-  },
-  "image#home-payment-1": {
-    "title": "Método de pago 1",
-    "props": {
-      "src": "/arquivos/Pasarela-formas-de-pago-Kueski.png"
-    }
-  },
-  "image#home-payment-2": {
-    "title": "Método de pago 2",
-    "props": {
-      "src": "/arquivos/Pasarela-formas-de-pago-PayPal.png"
-    }
-  },
-  "image#home-payment-3": {
-    "title": "Método de pago 3",
-    "props": {
-      "src": "/arquivos/Pasarela-formas-de-pago-Aplazo.png"
-    }
-  },
-  "image#home-payment-4": {
-    "title": "Método de pago 4",
-    "props": {
-      "src": "/arquivos/Pasarela-formas-de-pago-NU.png"
-    }
-  },
-  //baner principal
-  "flex-layout.row#home-banner-full-1": {
-    "title": "8.Contenedor Banner completo 1",
-    "children": ["info-card#home-banner-full"],
-    "props": {
-      "blockClass": ["maxWidthGeneral", "homeBannerFull1"],
-      "marginBottom": 6
-    }
-  },
-  "info-card#home-banner-full": {
-    "props": {
-      "blockClass": ["bannerFull", "homeBannerIPhone"],
-      "imageUrl": "/arquivos/BannerIphoneDesk.png",
-      "mobileImageUrl": "/arquivos/BannerIphoneMobile.png",
-      "headline": "## iPhone 11 reacondicionado",
-      "subhead": "En Mobo revisamos 33 puntos de calidad en este producto. Consíguelo pagando a 12 MSI con PayPal",
-      "textMode": "rich-text",
-      "callToActionMode": "none",
-      "callToActionUrl": "/reacondicionado-iphone-11",
-      "imageActionUrl": "/reacondicionado-iphone-11",
-      "isFullModeStyle": true
-    }
-  },
-  //banner
-  "flex-layout.row#home-two-banners": {
-    "title": "9.Contenedor central Banners pequeños",
-    "children": ["info-card#home-two-banner-3", "info-card#home-two-banner-4"],
-    "props": {
-      "blockClass": ["maxWidthGeneral", "homeTwoBanner"]
-    }
-  },
-  "info-card#home-two-banner-3": {
-    "title": "Banner mediano",
-    "props": {
-      "blockClass": ["bannerFull", "homeTwoBanner", "green"],
-      "imageUrl": "/arquivos/BannerCalidadDesk.png",
-      "mobileImageUrl": "/arquivos/BannerCalidadMobile.png",
-      "headline": "## Calidad, precio, y ya\n¡Pruébalos! Con garantía de hasta 1 año",
-      "textMode": "rich-text",
-      "callToActionText": "¡COMPRAR!",
-      "callToActionUrl": "/smartwatch-mobo",
-      "imageActionUrl": "/smartwatch-mobo",
-      "isFullModeStyle": true
-    }
-  },
-  "info-card#home-two-banner-4": {
-    "title": "Banner mediano",
-    "props": {
-      "blockClass": ["bannerFull", "homeTwoBanner", "blue"],
-      "imageUrl": "/arquivos/BannerCargaDesk.png",
-      "mobileImageUrl": "/arquivos/BannerCargaMobile.png",
-      "headline": "## Carga Rápida e Inalámbrica\nTe damos ese extra qe necesitas para seguir avanzando",
-      "textMode": "rich-text",
-      "callToActionText": "¡COMPRAR!",
-      "callToActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
-      "imageActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
-      "isFullModeStyle": true
-    }
-  },
-  "flex-layout.row#home-banner-full-2": {
-    "title": "13.Contenedor Banner completo 2",
-    "children": ["image#home-banner-full-2"],
-    "props": {
-      "marginBottom": 1,
-      "blockClass": ["maxWidthGeneral", "rowBanneriPhone14"]
-    }
-  },
-  "image#home-banner-full-2": {
-    "props": {
-      "src": "/arquivos/Banner_Lo-mejor-en-audio_Blanco.png",
-      "alt": "Accesorios iPhone 14",
-      "blockClass": "banner-ip14",
-      "maxWidth": "100%",
-      "link": {
-        "title": "Accesorios iPhone 14",
-        "url": "/audifonos-mobo"
-      }
-    }
-  },
-  "flex-layout.row#home-banner-full-3": {
-    "title": "15.Contenedor Banner completo 3",
-    "children": ["image#home-banner-full-3"],
-    "props": {
-      "marginBottom": 1,
-      "blockClass": ["maxWidthGeneral", "rowBanneriPhone14"]
-    }
-  },
-  "image#home-banner-full-3": {
-    "props": {
-      "src": "/arquivos/Banner_Categorías_Negro.png",
-      "alt": "Accesorios iPhone 14",
-      "blockClass": "banner-ip14",
-      "maxWidth": "100%",
-      "link": {
-        "title": "Accesorios iPhone 14",
-        "url": "/mobo"
-      }
-    }
+     }  
+   }
+ },
+ "image#home-two-banner-10": {
+  "props": {
+    "src": "/arquivos/Bcdeks2.png",
+    "link#id": {
+      "props": {
+         "url": ""
+       }
+    }  
   }
-}
+},
+"image#home-two-banner-11": {
+  "props": {
+    "src": "/arquivos/Bcdeks3.png",
+    "link#id": {
+      "props": {
+         "url": ""
+       }
+    }  
+  }
+},
+"image#home-two-banner-12": {
+  "props": {
+    "src": "/arquivos/Bcdeks4.png",
+    "link#id": {
+      "props": {
+         "url": ""
+       }
+    }  
+  }
+},
+   //banner
+   "flex-layout.row#home-two-banners": {
+     "title": "9.Contenedor central Banners pequeños",
+     "children": ["info-card#home-two-banner-1", "info-card#home-two-banner-2","info-card#home-two-banner-3","info-card#home-two-banner-4"],
+     "props": {
+       "blockClass": ["maxWidthGeneral", "homeTwoBanner"]
+     }
+   },
+   "info-card#home-two-banner-1": {
+     "title": "Banner mediano",
+     "props": {
+       "blockClass": ["bannerFull", "homeTwoBanner", "green"],
+       "imageUrl": "/arquivos/Bcdeks9.png",
+       "mobileImageUrl": "/arquivos/Bcdeks9.png",
+       "callToActionUrl": "/smartwatch-mobo",
+       "imageActionUrl": "/smartwatch-mobo",
+       "isFullModeStyle": true
+     }
+   },
+   "info-card#home-two-banner-2": {
+     "title": "Banner mediano",
+     "props": {
+       "blockClass": ["bannerFull", "homeTwoBanner", "blue"],
+       "imageUrl": "/arquivos/Bcdeks10.png",
+       "mobileImageUrl": "/arquivos/Bcdeks10.png",
+       "callToActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
+       "imageActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
+       "isFullModeStyle": true
+     }
+   },
+   "info-card#home-two-banner-3": {
+     "title": "Banner mediano",
+     "props": {
+       "blockClass": ["bannerFull", "homeTwoBanner", "blue"],
+       "imageUrl": "/arquivos/Bcdeks10.png",
+       "mobileImageUrl": "/arquivos/Bcdeks10.png",
+       "callToActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
+       "imageActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
+       "isFullModeStyle": true
+     }
+   },
+   "info-card#home-two-banner-4": {
+     "title": "Banner mediano",
+     "props": {
+       "blockClass": ["bannerFull", "homeTwoBanner", "blue"],
+       "imageUrl": "/arquivos/Bcdeks12.png",
+       "mobileImageUrl": "/arquivos/Bcdeks12.png",
+       "callToActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
+       "imageActionUrl": "/carga/Carga%20Rápida?map=c,specificationFilter_146",
+       "isFullModeStyle": true
+     }
+   },
+ 
+ //Home 4 principales
+ //banner
+ "flex-layout.row#home-two-banners4": {
+   "title": "9.Contenedor central Banners pequeños",
+   "children": ["image#home-two-banner-13","image#home-two-banner-14","image#home-two-banner-15","image#home-two-banner-16"],
+   "props": {
+     "blockClass": ["maxWidthGeneral", "homeTwoBanner"]
+   }
+ },
+
+ "image#home-two-banner-13": {
+  "props": {
+    "src": "/arquivos/Bcdeks9.png",
+    "link#id": {
+      "props": {
+         "url": ""
+       }
+    }  
+  }
+},
+"image#home-two-banner-14": {
+  "props": {
+    "src": "/arquivos/Bcdeks10.png",
+    "link#id": {
+      "props": {
+         "url": ""
+       }
+    }  
+  }
+},
+"image#home-two-banner-15": {
+  "props": {
+    "src": "/arquivos/Bcdeks11.png",
+    "link#id": {
+      "props": {
+         "url": ""
+       }
+    }  
+  }
+},
+"image#home-two-banner-16": {
+  "props": {
+    "src": "/arquivos/Bcdeks12.png",
+    "link#id": {
+      "props": {
+         "url": ""
+       }
+    }  
+  }
+}, 
+   "flex-layout.row#home-banner-full-2": {
+     "title": "13.Contenedor Banner completo 2",
+     "children": ["image#home-banner-full-2"],
+     "props": {
+       "marginBottom": 1,
+       "blockClass": ["maxWidthGeneral", "rowBanneriPhone14"]
+     }
+   },
+   "image#home-banner-full-2": {
+     "props": {
+       "src": "/arquivos/Banner_Lo-mejor-en-audio_Blanco.png",
+       "alt": "Accesorios iPhone 14",
+       "blockClass": "banner-ip14",
+       "maxWidth": "100%",
+       "link": {
+         "title": "Accesorios iPhone 14",
+         "url": "/audifonos-mobo"
+       }
+     }
+   },
+   "flex-layout.row#home-banner-full-3": {
+     "title": "15.Contenedor Banner completo 3",
+     "children": ["image#home-banner-full-3"],
+     "props": {
+       "marginBottom": 1,
+       "blockClass": ["maxWidthGeneral", "rowBanneriPhone14"]
+     }
+   },
+   "image#home-banner-full-3": {
+     "props": {
+       "src": "/arquivos/Banner_Categorías_Negro.png",
+       "alt": "Accesorios iPhone 14",
+       "blockClass": "banner-ip14",
+       "maxWidth": "100%",
+       "link": {
+         "title": "Accesorios iPhone 14",
+         "url": "/mobo"
+       }
+     }
+   }
+ }
+ 

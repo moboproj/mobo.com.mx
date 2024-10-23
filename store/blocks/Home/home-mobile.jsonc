@@ -130,6 +130,30 @@
 		}
 	},
 	/*Slider Payments*/
+
+    "flex-layout.col#home-slider-products-9-container":{
+        "title":"12.Contenedor Carrusel de productos 3",
+        "children":["flex-layout.col#home-slider-products-9-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral","sliderOnlyDesktop"]
+        }
+    }, 
+    "flex-layout.col#home-slider-products-9-container":{
+        "children":[
+            "rich-text#home-text-paymetods",
+            "flex-layout.row#home-slider-payments"
+            //"flex-layout.row#home-slider-products-3-mob"
+        ]
+    },
+
+
+	"rich-text#home-text-paymetods":{
+		"title": "Encabezado",
+		"props":{
+			"blockClass": ["moboTitle","titulo-mas-vendidos"],
+			"text":"## Paga como quieras y sin limites"
+		}
+	},
 	"flex-layout.row#home-slider-payments": {
 		"title": "4.Contenedor Carrusel métodos de pago",
 		"children": ["list-context.image-list#home-slider-payments"],
@@ -145,23 +169,23 @@
 		"props": {
 			"images": [
 				{
-					"image": "/arquivos/Pasarela-formas-de-pago-Kueski.png",
-					"mobileImage": "/arquivos/Pasarela-formas-de-pago-Kueski.png",
+					"image": "/arquivos/Pasarela-formas-de-pago_kueski_v2.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago_kueski_v2.png",
 					"description": "Celulares"
 				},
 				{
-					"image": "/arquivos/Pasarela-formas-de-pago-Aplazo.png",
-					"mobileImage": "/arquivos/Pasarela-formas-de-pago-Aplazo.png",
+					"image": "/arquivos/Pasarela-formas-de-pago_NU_v2.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago_NU_v2.png",
 					"description": "Laptops"
 				},
 				{
-					"image": "/arquivos/Pasarela-formas-de-pago-Nu.png",
-					"mobileImage": "/arquivos/Pasarela-formas-de-pago-Nu.png",
+					"image": "/arquivos/Pasarela-formas-de-pago_PayPal_v2.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago_PayPal_v2.png",
 					"description": "Tablets"
 				},
 				{
-					"image": "/arquivos/Pasarela-formas-de-pago-PayPal.png",
-					"mobileImage": "/arquivos/Pasarela-formas-de-pago-PayPal.png"
+					"image": "/arquivos/Pasarela-formas-de-pago_Rappicard_2.png",
+					"mobileImage": "/arquivos/Pasarela-formas-de-pago_Rappicard_2.png"
 				}
 			]
 		}
@@ -189,7 +213,7 @@
 			"blockClass": ["homePayments","homePaymentsDesk"],
 			"itemsPerPage": {
 				"desktop": 4,
-				"tablet": 4,
+				"tablet": 1,
 				"phone": 1
 			},
 			"infinite": false,
@@ -203,7 +227,7 @@
 		}
 	},
 	//Bloque Iphone
-	"flex-layout.row#reaconicionados-destacados": {
+	/*"flex-layout.row#reaconicionados-destacados": {
 		"title": "10.Contenedor Destacados (Mobile)",
 		"props": {
 			"blockClass": ["maxWidthGeneral","maxWidthGeneralMob","cuadro-destacados","homeThreeProducts"]
@@ -225,7 +249,7 @@
 	},
 	"flex-layout.row#imagen": {
 		"children": [
-			"info-card#home-banner-full"
+			"info-card#home-banner-full2"
 		],
 		"props": {
 			"blockClass": "row-imagen"
@@ -301,7 +325,7 @@
 			"label": "¡COMPRAR!",
 			"href": "/reacondicionado-iphone-11"
 		}
-	},
+	},*/
 	//Cuadro calidad, precio y ya
 	"flex-layout.row#calidad-precio": {
 		"title": "16.Contenedor Calidad precio (Mobile)",
@@ -322,17 +346,17 @@
 			"blockClass": "col-cuadrodestacado"
 		},
 		"children": [
-			"flex-layout.row#imagen-3",
+			"flex-layout.row#imagen-1",
 			"flex-layout.row#accesorios",
 			"flex-layout.row#button-1"
 		]
 	},
-	"flex-layout.row#imagen-3": {
+	"flex-layout.row#imagen-1": {
 		"props": {
 			"blockClass": "row-imagen"
 		},
 		"children": [
-			"info-card#home-two-banner-3"
+			"info-card#home-two-banner-1"
 		]
 	},
 	"flex-layout.row#accesorios": {
@@ -414,17 +438,17 @@
 			"blockClass": "col-cuadrodestacado"
 		},
 		"children": [
-			"flex-layout.row#imagen-4",
+			"flex-layout.row#imagen-2",
 			"flex-layout.row#coloresIphone-2",
 			"flex-layout.row#button-2"
 		]
 	},
-	"flex-layout.row#imagen-4": {
+	"flex-layout.row#imagen-2": {
 		"props": {
 			"blockClass": "row-imagen"
 		},
 		"children": [
-			"info-card#home-two-banner-4"
+			"info-card#home-two-banner-2"
 		]
 	},
 	"flex-layout.row#coloresIphone-2": {

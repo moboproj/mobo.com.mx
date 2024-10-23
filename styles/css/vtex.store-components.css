@@ -37,14 +37,15 @@
     margin-bottom: 2em;
 }
 
-/* .imageElement--banner-aplazo {
-    margin-bottom: 7px;
+ .imageElement--banner-aplazo {
+ 
+    margin-bottom: 10px;
 }
 
 .imageElement--banner-paypal {
-    margin-top: 10px;
+
 }
- */
+ 
 .imageElement--img-ofertas {
     height: 480px;
 }
@@ -755,12 +756,22 @@
 
 
 /*Home*/
+.imageElementLink--BannerMob{
+    margin-bottom: -30px;
+}
 .imageElement--homeBenefitImage{
     display: block;
     margin: 0px auto;
 }
 .imageElementLink--homeCatImg{
     display: flex;
+}
+.imageElementLink--banernuevo{
+    flex: 1 1 45%; /* Las imágenes ocupan hasta el 45% del ancho del contenedor */
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Mantiene la proporción de la imagen */
 }
 .imageElement--homeCatImgHover{
     opacity: 0;
@@ -771,14 +782,29 @@
 }
 .infoCardContainer--bannerFull
 {
+    width: 100%;
+    height: 100%;
     border: none;
-    border-radius: 40px;
+    border-radius: 30px !important;
     padding: 70px 70px 120px;
+}
+.infoCardContainer--bannerFull2{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 30px !important;
+    padding: 0px 0px 120px;
+}
+@media screen and (max-width:915px){
+    .infoCardContainer--bannerFull
+    {
+        border-radius: 15px !important;
+    }
 }
 .infoCardContainer--bannerFullbf
 {
     border: none;
-    border-radius: 40px;
+    border-radius: 30px;
     padding: 70px 25px 120px;
 }
 .paragraph--bannerFullbf{
@@ -809,9 +835,14 @@
 }
 
 .headingLevel2--bannerFull.headingLevel2--homeBannerIPhone{
+    font-size: 40px;
     color: #0433ff;
 }
-
+@media screen and (max-width: 1136px) {
+    .headingLevel2--bannerFull.headingLevel2--homeBannerIPhone{
+        font-size: 30px;
+    }
+}
 .headingLevel2--bannerFullbf.headingLevel2--homeBannerbf{
     color: #ffffff;
     font-size: 3.167vw;
@@ -821,6 +852,14 @@
         color: #ffffff;
         font-size: 6.994vw;
     }
+    .infoCardContainer--bannerFull
+{
+    height: auto;
+
+}
+.headingLevel2--bannerFull.headingLevel2--homeBannerIPhone{
+    font-size: 4.372vw;;
+}
 }
     .vtex-store-components-3-x-infoCardContainer--bannerFull {
         margin-bottom: 3.279vw;
@@ -835,11 +874,11 @@
     font-size: 30px;
 }
 .infoCardContainer--homeTwoBanner{
-    height: 100%;
+    width:100%;
     padding: 38.4px 40px;
 }
 .infoCardTextContainer--homeTwoBanner{
-    width: 60%;
+    width: 100% !important;
 }
 .headingLevel2--homeTwoBanner{
     font-size: 50px;
@@ -852,8 +891,9 @@
     border-radius: 30px;
     border: 3px solid;
     background-color: transparent;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
+    width: 80% !important;
 }
 
 .infoCardContainer--homeTwoBanner :global(.vtex-button__label){
@@ -865,6 +905,7 @@
 }
 .headingLevel2--homeTwoBanner.headingLevel2--green{
     color: #1cffb7;
+    display: none;
 }
 .paragraph--homeTwoBanner.paragraph--green{
     color: #fff;
@@ -874,16 +915,21 @@
 }
 .infoCardContainer--homeTwoBanner.infoCardContainer--green :global(.vtex-button){
     border-color: #1cffb7;
+  display: none;
+
 }
 .infoCardContainer--homeTwoBanner.infoCardContainer--blue :global(.vtex-button){
     border-color: #0433ff;
     color: #000;
+    display: none;
 }
-.infoCardContainer--homeTwoBanner.infoCardContainer--trans :global(.vtex-button){
-    border-color: transparent;
+.infoCardContainer--homeTwoBanner{
+    height: 150% !important;
+    
 }
 @media screen and (max-width:1920px){
     .infoCardContainer--bannerFull{
+        border-radius: 30px;
         padding: 70px 70px 120px;
         padding: 3.646vw 3.646vw 5vw;
     }
@@ -892,22 +938,23 @@
         font-size: 4.167vw;
     } 
     .paragraph--bannerFull{
-        font-size: 1.5625vw;
-    } 
+        font-size: 0.7625vw!important;
+        }
     .infoCardContainer--homeTwoBanner{
+        height: 150% !important;
         padding: 2vw 2.083vw;
     }
     .headingLevel2--homeTwoBanner{
         font-size: 50px;
-        font-size: 2.604vw;
+        font-size: 1.304vw !important;
     }
     .paragraph--homeTwoBanner{
         height: 2.8125vw;
         font-size: 0.9375vw;
-        width: 70%;
+        width: 100% !important;
     }
     .infoCardContainer--homeTwoBanner :global(.vtex-button){
-        font-size: 1.823vw;
+        font-size: 0.923vw !important;
     }
     .infoCardContainer--homeTwoBanner :global(.vtex-button__label){
         padding: 0.625vw 2.5vw !important;
@@ -1882,4 +1929,53 @@
     width: 30%;
     margin-top: 75px;
     margin-bottom: 75px;
+}
+
+@media screen and (max-width: 1653px){
+    .infoCardImageLinkWrapper--homeBannerIPhone{
+        margin-bottom: -46px;
+    }
+}
+.imageElement--BannerMob{
+  /*  height: 130%;*/
+    width: 100%;
+}
+/*Footer*/
+.infoCardImageContainer--Imgs{
+    text-align: center;
+
+}
+.infoCardImage--Imgs{
+    width: 30%;
+}
+.infoCardHeadline--Imgs{
+font-size: 10px;
+width: 100%;
+height: 100%;
+}
+.infoCardContainer--Imgs{
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: #000 3px solid;
+    border-radius: 30px;
+}
+.infoCardTextContainer--Imgs{
+    
+    margin-bottom: 30px;
+}
+/*Metodos de pago*/
+.container--TX1{
+ 
+    width: 100% !important;
+}
+
+.imageElement--MT1{
+    width: 50%;
+}
+/*Pantalla pagos*/
+
+.imageElement--pagoLogo {
+    display: flex;
+    text-align: left;
 }

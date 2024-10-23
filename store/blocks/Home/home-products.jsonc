@@ -182,7 +182,7 @@
         "title":"18.Contenedor Carrusel de productos 5",
         "children":["flex-layout.col#home-slider-products-5-container"],
         "props":{
-            "blockClass":["maxWidthGeneral"]
+            "blockClass":["maxWidthGeneral","SliderfinlMob"]
         }
     }, 
     "flex-layout.col#home-slider-products-5-container":{
@@ -220,6 +220,48 @@
 		}
 	},
 
+
+    "flex-layout.row#home-slider-products-8-wrapper":{
+        "title":"18.Contenedor Carrusel de productos 8",
+        "children":["flex-layout.col#home-slider-products-8-container"],
+        "props":{
+            "blockClass":["maxWidthGeneral","SliderfinlMob"]
+        }
+    }, 
+    "flex-layout.col#home-slider-products-8-container":{
+        "children":[
+            "rich-text#home-slider-products-8-title",
+            "flex-layout.row#home-slider-products-8"
+            //"flex-layout.row#home-slider-products-5-mob"
+        ]
+    },
+    "rich-text#home-slider-products-8-title":{
+        "title": "Encabezado",
+        "props":{
+            "blockClass": ["moboTitle","titulo-mas-vendidos"],
+            "text":"## Para Celular"
+        }
+    },
+    "flex-layout.row#home-slider-products-8":{
+        "children":["list-context.product-list#home-products-8"],
+        "props":{
+            "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+        }
+    },
+    "list-context.product-list#home-products-8": {
+		"title":"Carrusel",
+		"blocks": ["product-summary.shelf#general"],
+		"children": [
+            "slider-layout#slider-products",
+            "slider-layout#slider-products-mob"
+        ],
+		"props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "275",
+            "maxItems": 10,
+            "hideUnavailableItems": true
+		}
+	},
 
 
 
@@ -296,5 +338,90 @@
             "showPaginationDots": "never",
             "showNavigationArrows": "always"
         }
+    },
+   /*Carrusel de prubas*/
+   "flex-layout.row#home-slider-products-6-wrapper":{
+    "title":"12.Contenedor Carrusel de productos 6",
+    "children":["flex-layout.col#home-slider-products-6-container"],
+    "props":{
+        "blockClass":["maxWidthGeneral","sliderOnlyDesktop"]
+    }
+}, 
+"flex-layout.col#home-slider-products-6-container":{
+    "children":[
+        "rich-text#home-slider-products-6-title",
+        "flex-layout.row#home-slider-products-6"
+        //"flex-layout.row#home-slider-products-3-mob"
+    ]
+},
+"rich-text#home-slider-products-6-title":{
+    "title": "Encabezado",
+    "props":{
+        "blockClass": ["moboTitle","titulo-mas-vendidos"],
+        "text":"## Los favoritos de Mobo"
+    }
+},
+"flex-layout.row#home-slider-products-6":{
+    "children":["list-context.product-list#home-products-6"],
+    "props":{
+        "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+    }
+},
+"list-context.product-list#home-products-6": {
+    "title":"Carrusel",
+    "blocks": ["product-summary.shelf#general"],
+    "children": [
+        "slider-layout#slider-products",
+        "slider-layout#slider-products-mob"
+    ],
+    "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "collection": "472",
+        "maxItems": 10,
+        "hideUnavailableItems": true
+    }
+},
+   /*Carrusel de prubas2*/
+   "flex-layout.row#home-slider-products-7-wrapper":{
+    "title":"12.Contenedor Carrusel de productos 7",
+    "children":["flex-layout.col#home-slider-products-7-container"],
+    "props":{
+        "blockClass":["maxWidthGeneral","sliderOnlyDesktop"]
+    }
+}, 
+"flex-layout.col#home-slider-products-7-container":{
+    "children":[
+        "rich-text#home-slider-products-7-title",
+        "flex-layout.row#home-slider-products-7"
+        //"flex-layout.row#home-slider-products-3-mob"
+    ]
+},
+"rich-text#home-slider-products-7-title":{
+    "title": "Encabezado",
+    "props":{
+        "blockClass": ["moboTitle","titulo-mas-vendidos"],
+        "text":"## Esto te puede interesar"
+    }
+},
+"flex-layout.row#home-slider-products-7":{
+    "children":["list-context.product-list#home-products-7"],
+    "props":{
+        "blockClass":["rowMaxWidth3","sliderProductsDesktop"]
+    }
+},
+"list-context.product-list#home-products-7": {
+    "title":"Carrusel",
+    "blocks": ["product-summary.shelf#general"],
+    "children": [
+        "slider-layout#slider-products",
+        "slider-layout#slider-products-mob"
+    ],
+    "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "collection": "479",
+        "maxItems": 10,
+        "hideUnavailableItems": true
     }
 }
+
+    }
