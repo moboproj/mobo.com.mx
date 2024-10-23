@@ -23,6 +23,12 @@
 			"$ref": "app:mobomx.minimumtheme#/definitions/MainSlider"
 		}
     },
+    "main-slider2":{
+        "component": "MainSlider",
+        "content": {
+			"$ref": "app:mobomx.minimumtheme#/definitions/MainSlider"
+		}
+    },
     "pdp-features":{
         "component": "PdpFeatures"
     },

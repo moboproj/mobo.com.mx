@@ -2,7 +2,7 @@ a{
     text-decoration: none;
 }
 .slideChildrenContainer--slidess{
-    height: 62.5% !important;
+    height: 100% !important;
 }
 
 h1{
@@ -65,38 +65,9 @@ ul li{
     z-index: 3; /* Asegura que el botón esté sobre la imagen */
 }
 .paginationDotsContainer{
-    bottom: 290px;
+    bottom: 30px;
 }
-@media only screen and (max-width:1695px){
-    .paginationDotsContainer{
-        bottom: 260px;
-    }
-}
-@media only screen and (max-width:1531px){
-    .paginationDotsContainer{
-        bottom: 240px;
-    }
-}
-@media only screen and (max-width:1377px){
-    .paginationDotsContainer{
-        bottom: 215px;
-    }
-}
-@media only screen and (max-width:1257px){
-    .paginationDotsContainer{
-        bottom: 190px;
-    }
-}
-@media only screen and (max-width:1119px){
-    .paginationDotsContainer{
-        bottom: 175px;
-    }
-}
-@media only screen and (max-width:1023px){
-    .paginationDotsContainer{
-        bottom: 160px;
-    }
-}
+
 .paginationDot{
     width: 30px !important;
     border-radius: 10px;

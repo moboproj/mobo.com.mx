@@ -50,18 +50,18 @@
      }
    },
    "flex-layout.col#banners-principales": {
-     "children": ["main-slider"],
+     "children": ["main-slider2"],
      "props": {
        "blockClass": "slider-principal"
      }
    },
-   "main-slider": {
+   "main-slider2": {
      "title": "Carrusel (izquierda)",
      "props": {
        "blockClass":"slidess",
        "headline": "Hello Paul :)",
        "slides": [
-         {
+     /*    {
            "head": "iPhone reacondicionados",
            "subhead": "Con 33 puntos de revisión que garantizan",
            "imageDesktop1": "/arquivos/slide1-part1.png",
@@ -106,7 +106,72 @@
            "colorBackground": "#222222",
            "colorHead": "#00ffb4",
            "colorSubhead": "#fff"
-         }
+         },*/
+         {
+           "head": "Tu celular siempre al 100%",
+           "subhead": "Envío gratis a partir de $499",
+           "imageDesktop1": "/arquivos/1180x450_slider_principal_Variado_01.png",
+           "imageDesktop2": "/arquivos/1180x450_slider_principal_Variado_02.png",
+           "imageMobile": "/arquivos/Mob_pruebas.png",
+           "imageMobileTop": "/arquivos/mobpruebas2.png",
+         //  "altImage": "SliderPrincipal",
+           "link": "/carga",
+           "colorBackground": "#222222",
+           "colorHead": "#00ffb4",
+           "colorSubhead": "#fff"
+         },
+         {
+          "head": "Tu celular siempre al 100%",
+          "subhead": "Envío gratis a partir de $499",
+          "imageDesktop1": "/arquivos/1180x451_slider_principal_iphones_01.png",
+          "imageDesktop2": "/arquivos/1180x451_slider_principal_iphones_02.png",
+          "imageMobile": "/arquivos/Mob_pruebas.png",
+          "imageMobileTop": "/arquivos/mobpruebas2.png",
+        //  "altImage": "SliderPrincipal",
+          "link": "/carga",
+          "colorBackground": "#222222",
+          "colorHead": "#00ffb4",
+          "colorSubhead": "#fff"
+        },
+         {
+          "head": "Tu celular siempre al 100%",
+          "subhead": "Envío gratis a partir de $499",
+          "imageDesktop1": "/arquivos/1180x452_slider_principal_Carga_01.png",
+          "imageDesktop2": "/arquivos/1180x452_slider_principal_Carga_02.png",
+          "imageMobile": "/arquivos/Mob_pruebas.png",
+          "imageMobileTop": "/arquivos/mobpruebas2.png",
+        //  "altImage": "SliderPrincipal",
+          "link": "/carga",
+          "colorBackground": "#222222",
+          "colorHead": "#00ffb4",
+          "colorSubhead": "#fff"
+        },
+        {
+         "head": "Tu celular siempre al 100%",
+         "subhead": "Envío gratis a partir de $499",
+         "imageDesktop1": "/arquivos/1180x453_slider_principal_Audio_01.png",
+         "imageDesktop2": "/arquivos/1180x453_slider_principal_Audio_02.png",
+         "imageMobile": "/arquivos/Mob_pruebas.png",
+         "imageMobileTop": "/arquivos/mobpruebas2.png",
+       //  "altImage": "SliderPrincipal",
+         "link": "/carga",
+         "colorBackground": "#222222",
+         "colorHead": "#00ffb4",
+         "colorSubhead": "#fff"
+       },
+       {
+        "head": "Tu celular siempre al 100%",
+        "subhead": "Envío gratis a partir de $499",
+        "imageDesktop1": "/arquivos/1180x454_slider_principal_smartwatches_01.png",
+        "imageDesktop2": "/arquivos/1180x454_slider_principal_smartwatches_02.png",
+        "imageMobile": "/arquivos/Mob_pruebas.png",
+        "imageMobileTop": "/arquivos/mobpruebas2.png",
+      //  "altImage": "SliderPrincipal",
+        "link": "/carga",
+        "colorBackground": "#222222",
+        "colorHead": "#00ffb4",
+        "colorSubhead": "#fff"
+      }   
        ]
      }
    },
