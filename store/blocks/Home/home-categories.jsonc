@@ -324,8 +324,8 @@
       "stack-layout#home-cat-3-stack",
       "stack-layout#home-cat-4-stack",
       "stack-layout#home-cat-5-stack",
-      "stack-layout#home-cat-6-stack",
-      "stack-layout#home-cat-7-stack"
+      "stack-layout#home-cat-6-stack"/*,
+      "stack-layout#home-cat-7-stack"*/
     ],
     "props": {
       "blockClass": "sliderHomeCategories",
