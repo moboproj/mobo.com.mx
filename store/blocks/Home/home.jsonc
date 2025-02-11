@@ -11,7 +11,8 @@
        "flex-layout.row#main-slider",
        "flex-layout.row#home-categories-wrapper",
        "flex-layout.row#home-categories-mob-wrapper", //Mob
-       "flex-layout.row#home-slider-products-1-wrapper", //2
+       "flex-layout.row#home-slider-products-1_2-wrapper",
+       //"flex-layout.row#home-slider-products-1-wrapper", //2
        "flex-layout.row#home-banner-full-1",
        "flex-layout.row#home-two-banners3",
        "flex-layout.row#home-banner-full-1Mob", //Mob
