@@ -1,12 +1,7 @@
 {
   "vendor": "mobomx",
   "name": "minimumtheme",
-  "version": "1.2.31",
-  "blocks": {
-    "custom-button": {
-      "component": "CustomButton"
-    }
-  },
+  "version": "1.2.32",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
