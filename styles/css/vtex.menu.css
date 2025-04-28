@@ -614,4 +614,6 @@
         font-size: 3.825vw;
     }
 }
-/* redes sociales */
+.menuContainer--MenuBlog{
+    justify-content: center;
+}

@@ -17,9 +17,6 @@
     "store.custom#mundial": {
         "path": "/mundial"
     },
-    "store.custom#blog": {
-        "path": "/blog"
-    },
     "store.custom#catalogos-moboshop": {
         "path": "/catalogos-moboshop"
     },
@@ -55,6 +52,17 @@
     },
     "store.home#buen-fin": {
         "path": "/buen-fin-en-mobo"
+    },  
+      "store.blog-home": {
+        "path": "/blog"
+    },
+
+    "store.blog-post": {
+        "path": "/blog/post/:slug"
+    }
+    ,
+    "store.blog-search-result": {
+        "path": "/blog/search/:term"
     }
 
 }

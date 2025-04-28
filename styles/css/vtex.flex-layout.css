@@ -421,7 +421,7 @@
         margin: 0px auto 9.836vw;
         padding: 0px 6.339vw;
     }  
-    .flexRowContent--maxWidthGeneral.flexRowContent--mainSlider{
+    .flexRowContent--maxWidthGeneral.flexRowContent--mainSlider.flexRowContent--maxWidthGeneralBlog{
         padding: 0px 3.934vw;
     }  
     .flexRowContent--maxWidthGeneralMinicart.flexRowContent--mainSlider{
@@ -895,7 +895,7 @@ background-color: #000;}
 .flexRow--pdpMainMob{
     display: none;
 }
-.flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent{
+.flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent.flexRowContent--maxWidthGeneralBlog{
     margin: 26px 0;
 }
 .flexRowContent--maxWidthwrapper.flexRowContent--breadcumsContent{
@@ -988,7 +988,7 @@ background-color: #000;}
     .flexRow--pdpMainMob{
         display: flex;
     }
-    .flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent{
+    .flexRowContent--maxWidthGeneral.flexRowContent--breadcumsContent.flexRowContent--maxWidthGeneralBlog{
         margin: 6.557vw auto 2.295vw;
     }
     .flexRow--pdpMain{
@@ -1312,4 +1312,61 @@ background-color: #000;}
 }
 .flexRowContent--homeBannerFull13{
     margin-bottom: 65px;
+}
+.flexRowContent--maxWidthGeneralBlog{
+    max-width: 1920px;
+    padding: 0px 78px;
+}
+@media only screen and (max-width:1920px){
+    .flexRowContent--maxWidthGeneralBlog{
+        /* margin: 0px auto 5vw;*/
+         padding: 0px 4.0625vw;
+     }
+}
+@media only screen and (max-width:915px){
+    .flexRowContent--maxWidthGeneralBlog{
+        padding: 0px 6.339vw;
+    }  
+}
+
+/* estilos para el blog */
+.flexRowContent--searchblog{
+    max-width: 80%;
+    margin: 1rem;
+}
+
+.flexRowContent--blog-breadcrumb{
+    margin: 1rem;
+}
+.flexRow--searchblog{
+        text-align: -webkit-center;
+}
+/*.flexRowContent--contenedorRedesBlog{
+    width: 33% !important;
+}*/
+.flexRowContent--contenedorRedesBlog {
+    justify-content: center;
+    padding: 0px 32vw;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+@media only screen and (max-width:1113px){
+    .flexRowContent--contenedorRedesBlog {
+        padding: 0px 20vw;
+    } 
+}
+@media only screen and (max-width:809px){
+    .flexRowContent--contenedorRedesBlog {
+        padding: 0px 15vw;
+    } 
+}
+@media only screen and (max-width:688px){
+    .flexRowContent--contenedorRedesBlog {
+        padding: 0px 0vw;
+    } 
+}
+.flexRowContent--Headerdenota{
+    margin-top: 20px;
 }

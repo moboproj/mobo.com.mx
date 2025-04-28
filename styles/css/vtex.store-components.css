@@ -1979,3 +1979,7 @@ height: 100%;
     display: flex;
     text-align: left;
 }
+.imageElementLink--ImagenFooterRedes {
+    width: 30% !important;
+    
+}

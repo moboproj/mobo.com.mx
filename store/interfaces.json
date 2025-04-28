@@ -74,5 +74,20 @@
   },
   "customdesplegable": {
   "component": "menubuenfin"
+},
+"menublogcustom":{
+    "component": "menublogcustom"
+},
+"MenuBlogNota":{
+    "component": "MenuBlogNota"
+},
+"vermas":{
+    "component": "vermas"
+},
+"wordpresscustom":{
+    "component": "wordpresscustom"
+},
+"NotasWordpress":{
+    "component": "NotasWordpress"
 }
 }

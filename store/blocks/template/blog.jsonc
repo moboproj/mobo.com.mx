@@ -1,4 +1,4 @@
-{
+/*{
     "store.custom#blog": {
         "blocks": [              
             "info-card#blog-principal",
@@ -29,7 +29,7 @@
           "textAlignment": "center"
         }
     },
-    /*SIGUIENTE FILA*/
+    /*SIGUIENTE FILA
     "flex-layout.row#blog-row11":{
         "props": {
             "marginTop":10,
@@ -86,7 +86,7 @@
           "blockClass":"nota_mobile"
         }    
     },
-    /*SIGUIENTE FILA*/
+    /*SIGUIENTE FILA
     "flex-layout.row#blog-row10":{
         "props": {
             "marginTop":8,
@@ -145,7 +145,7 @@
     },
 
 
-    /*SIGUIENTE FILA*/
+    /*SIGUIENTE FILA
     "flex-layout.row#blog-row9":{
       "props": {
           "marginTop":8,
@@ -202,7 +202,7 @@
         "blockClass":"nota_mobile"
       }    
   },
-  /*SIGUIENTE FILA*/
+  /*SIGUIENTE FILA
   "flex-layout.row#blog-row8":{
     "props": {
         "marginTop":8,
@@ -259,7 +259,7 @@
         "blockClass":"nota_mobile"
       }    
   },
-    /*SIGUIENTE FILA*/
+    /*SIGUIENTE FILA
     "flex-layout.row#blog-row7":{
       "props": {
           "marginTop":8,
@@ -316,7 +316,7 @@
         "blockClass":"nota_mobile"
       }    
   },
-  /*SIGUIENTE FILA*/
+  /*SIGUIENTE FILA
   "flex-layout.row#blog-row6":{
         "props": {
             "marginTop":8,
@@ -373,7 +373,7 @@
           "blockClass":"nota_mobile"
         }    
     },
-    /*SIGUIENTE FILA*/
+    /*SIGUIENTE FILA
     "flex-layout.row#blog-row5":{
       "props": {
           "marginTop":8,
@@ -430,7 +430,7 @@
         "blockClass":"nota_mobile"
       }    
   },
-  /*SIGUIENTE FILA*/
+  /*SIGUIENTE FILA
   "flex-layout.row#blog-row4":{
     "props": {
         "marginTop":8,
@@ -487,7 +487,7 @@
         "blockClass":"nota_mobile"
       }    
   },
-  /*SIGUIENTE FILA*/
+  /*SIGUIENTE FILA
     "flex-layout.row#blog-row3":{
       "props": {
           "marginTop":8,
@@ -544,7 +544,7 @@
           "blockClass":"nota_mobile"
         }    
     },
-    /*SIGUIENTE FILA*/
+    /*SIGUIENTE FILA
     "flex-layout.row#blog-row2":{
       "props": {
           "marginTop":8,
@@ -608,125 +608,197 @@
       }
     }
 
-}
-
-//{
-  //   "store.blog-home": {
+}*/
+{
+  "store.blog-home": {
       
-  //     "blocks": [
-  //       "flex-layout.row#row-blog-breadcrumb",
-  //       "flex-layout.row#row-blog-search",
-  //       "flex-layout.row#row-blog-latest-posts-preview",
-  //       "flex-layout.row#row-blog-category-preview",
-        
-  //       // "blog-category-preview.wordpress-category-preview",
-  //       "blog-all-posts.wordpress-all-posts"
-  //     ]
-  //   },
-  //   "flex-layout.row#row-blog-breadcrumb": {
-  //     "title": "6.Contenedor Categorías",
-  //     "children":[
-  //       "blog-breadcrumb.wordpress-breadcrumb"],
-  //     // "children": ["flex-layout.col#home-categories-container"],
-  //     "props": {
-  //       "blockClass": ["maxWidthGeneral"]
-  //     }
-  //   },
-  //   "flex-layout.row#row-blog-latest-posts-preview": {
-  //     "title": "6.Contenedor Categorías",
-  //     "children":[
-  //       "blog-latest-posts-preview.wordpress-latest-posts-preview"],
-  //     // "children": ["flex-layout.col#home-categories-container"],
-  //     "props": {
-  //       "blockClass": ["maxWidthGeneral"]
-  //     }
-  //   },
-  //   "flex-layout.row#row-blog-category-preview": {
-  //     "title": "6.Contenedor Categorías",
-  //     "children":[
-  //       "blog-category-preview.wordpress-category-preview"],
-  //     // "children": ["flex-layout.col#home-categories-container"],
-  //     "props": {
-  //       "blockClass": ["maxWidthGeneral"]
-  //     }
-  //   },
-  //   "flex-layout.row#row-blog-search": {
-  //     "title": "6.Contenedor Categorías",
-  //     "children":[
-  //       "blog-search.wordpress-search"],
-  //     // "children": ["flex-layout.col#home-categories-container"],
-  //     "props": {
-  //       "blockClass": ["maxWidthGeneral"]
-  //     }
-  //   },
-  //   // "flex-layout.row#row-blog-breadcrumb"
-  //   "store.blog-category": {
-  //     "blocks": [
-  //       "blog-breadcrumb.wordpress-breadcrumb",
-  //       "blog-category-list.wordpress-category-list"
-  //     ]
-  //   },
-  //   "store.blog-post": {
-  //     "blocks": [
-  //       "blog-breadcrumb.wordpress-breadcrumb",
-  //       "blog-post-details.wordpress-post-details"
-  //     ]
-  //   },
-  //   "store.blog-home#page": {
-  //     "blocks": [
-  //       "blog-breadcrumb.wordpress-breadcrumb"
-  //     ]
-  //   },
-  //   "store.blog-search-result": {
-  //     "props": {
-  //       "blockClass": ["anchordesearch"]
-  //     },
-  //     "blocks": [
-  //       "blog-breadcrumb.wordpress-breadcrumb",
-  //       "blog-search-list.wordpress-search-list"
-  //     ]
-  //   },
-  //   "blog-latest-posts-preview.wordpress-latest-posts-preview": {
-  //     "props": {
-  //       "title": "Ultimos posts",
-  //       "useTextOverlays": true,
-  //       "twoColumns": true
-  //     }
-  //   },
-  //   "blog-category-preview.wordpress-category-preview": {   
-  //     "props": {
-  //       "category": 1,
-  //       "description": "Description of category",
-  //       "useTextOverlays": false
-  //     }
-  //   },
+      "blocks": [
+         // "flex-layout.row#menuBlog",
+         // "flex-layout.row#Noticias",
+         // "flex-layout.row#Reseña",
+          //"flex-layout.row#Tips"
+          //"menublogcustom",
+       //   "blog-category-preview.wordpress-category-preview#Noticias",
+        //"blog-category-preview.wordpress-category-preview#Reseña",
+          //"blog-category-preview.wordpress-category-preview#Tips"
+          // "wordpresscustom",
+           //"flex-layout.row#menuBlog"
+               "flex-layout.row#NotasWordpress",
+               "flex-layout.row#RedesBlog"
+      ]
+    },
+    "flex-layout.row#NotasWordpress": {
+      "children": [
+        "NotasWordpress"
+      ],
+      "props": {
+              "blockClass": "maxWidthGeneralBlog"
+      }
+    },
+    "flex-layout.row#SliderRelacionado": {
+      "children": [ "wordpresscustom"], "props": {
+        "blockClass": "maxWidthGeneralBlog"
+      }
+    },
+ /*   //No borrar por nada del mundo
+    "store.blog-category": {
+      "blocks": [
+        //"flex-layout.row#menuBlog",
+        "flex-layout.row#menuBlog",
+        "blog-category-list.wordpress-category-list",
+        "vermas"//,
+       // "flex-layout.row#RedesBlog"
+      ]
+    },*/
+/*"blog-category-list.wordpress-category-list": {
+  "props": {
+    "postsPerPage": 4
+  }
+},*/
+  //Menu Custom 
+"flex-layout.row#menuBlog": {
+  "children": [
+    "menublogcustom"
+  ],"props": {
+    "blockClass": "maxWidthGeneralBlog"
+  }
+},
+/*
+"flex-layout.row#Noticias": {
+  "children": [
+     "blog-category-preview.wordpress-category-preview#Noticias"
+  ],"props": {
+    "blockClass": "maxWidthGeneralBlog"
+  }
+},*/
+/*
+
+    "blog-category-preview.wordpress-category-preview#Noticias": {   
+      "props": {
+        "blockClass": "CategNoticias",
+        "category": 14,
+        //"description": "Description of category",
+        "useTextOverlays": false,
+        "numberOfPosts": 4
+      }
+    },
+
+
+    "flex-layout.row#Reseña": {
+  "children": [
+    "blog-category-preview.wordpress-category-preview#Reseña"
+  ],"props": {
+    "blockClass": "maxWidthGeneralBlog"
+  }
+},
+
+    "blog-category-preview.wordpress-category-preview#Reseña": {   
+      "props": {
+        "blockClass": "categresena",
+        "category": 3,
+        //"description": "Description of category",
+        "useTextOverlays": false,
+        "numberOfPosts": 4
+      }
+    },
+
+
+    "flex-layout.row#Tips": {
+      "children": [
+        "blog-category-preview.wordpress-category-preview#Tips"
+      ],"props": {
+        "blockClass": "maxWidthGeneralBlog"
+      }
+    },
+
+    "blog-category-preview.wordpress-category-preview#Tips": {   
+      "props": {
+        "blockClass": "CategTips",
+        "category": 12,
+        //"description": "Description of category",
+        "useTextOverlays": false,
+        "numberOfPosts": 4
+      }
+    },
+*/
+
+//Parte de redes sociales
+"flex-layout.row#RedesBlog": {
+  "children": ["image#RedesSociales1","image#RedesSociales2","image#RedesSociales3"],
+  "props": {
+    "blockClass": ["maxWidthGeneralBlog","contenedorRedesBlog"]
+  }
+},
+"image#RedesSociales1": {
+  "props": {
+    "src": "/arquivos/instagram-logo-transparent-rcopy.png",
+    "link": {
+      "url": "https://www.instagram.com/mobo_oficial"
+    },
+    "blockClass":["ImagenFooterRedes"]
+  }
+},
+"image#RedesSociales2": {
+  "props": {
+    "src": "/arquivos/tticon.png",
+    "link": {
+      "url": "https://www.tiktok.com/@mobo_oficial"
+    },
+    "blockClass":["ImagenFooterRedes"]
     
-  //   "blog-post-details.wordpress-post-details": {
-  //     "children": ["blog-related-products.wordpress-related-products"]
-  //   },
-    
-  //   "blog-related-products.wordpress-related-products": {
-  //     "blocks": ["product-summary.shelf#wordpress"],
-  //     "props": {
-  //       "orderBy": "OrderByTopSaleDESC",
-  //       "productList": {
-  //         "maxItems": 8,
-  //         "itemsPerPage": 4,
-  //         "scroll": "BY_PAGE",
-  //         "arrows": true,
-  //         "titleText": "Related Products"
-  //       }
-  //     }
-  //   },
-  //   "product-summary.shelf#wordpress": {
-  //     "children": [
-  //       "product-summary-add-to-list-button",
-  //       "product-summary-image",
-  //       "product-summary-name",
-  //       "product-rating-inline",
-  //       "product-summary-space",
-  //       "product-summary-price",
-  //       "product-summary-buy-button"
-  //     ]
-  //   }
-  // }
+  }
+},
+"image#RedesSociales3": {
+  "props": {
+    "src": "/arquivos/facebook_footerimg.png",
+    "link": {
+      "url": "https://www.facebook.com/MoboMexico"
+    },
+    "blockClass": ["ImagenFooterRedes"]
+  }
+},
+//no borrar por nada del mundo LP de post
+
+"store.blog-post": {
+  "blocks": [
+    "flex-layout.row#MenuBlogNota",
+   // "blog-breadcrumb.wordpress-breadcrumb",
+    "flex-layout.row#post-details",
+    "flex-layout.row#SliderRelacionado"//,
+   // "flex-layout.row#RedesBlog"
+  ]
+},
+
+"flex-layout.row#MenuBlogNota": {
+  "children": [
+    "MenuBlogNota"
+  ],"props": {
+    "blockClass": ["maxWidthGeneralBlog","Headerdenota"]
+  }
+},
+"flex-layout.row#post-details": {
+  "children": [
+    "blog-post-details.wordpress-post-details"
+  ],"props": {
+    "blockClass": "maxWidthGeneralBlog"
+  }
+},
+
+    "flex-layout.row#redes-sociales":{
+     "children": []
+    },
+    "store.blog-home#page": {
+      "blocks": [
+        "blog-breadcrumb.wordpress-breadcrumb"
+      ]
+    },
+    "store.blog-search-result": {
+      "props": {
+        "blockClass": ["anchordesearch"]
+      },
+      "blocks": [
+        "blog-breadcrumb.wordpress-breadcrumb",
+        "blog-search-list.wordpress-search-list"
+      ]
+    }
+  }

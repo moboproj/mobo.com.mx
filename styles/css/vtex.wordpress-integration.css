@@ -1,0 +1,16 @@
+/* blog mobo */
+.postContainer--post-details{
+    margin: 5rem;
+   
+    
+}
+
+.postFlex--post-details{
+    margin: 5rem;
+    
+}
+
+.postFeaturedImage {
+ /*   display:none !important;*/
+    background: aqua;
+}
