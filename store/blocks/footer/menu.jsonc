@@ -320,7 +320,8 @@
         "menu-item#tank-tops",
         "menu-item#shirts",
         "menu-item#sweatshirt",
-        "menu-item#cropped"
+        "menu-item#cropped",
+        "menu-item#blognew"
       ]
     },
   
@@ -458,6 +459,20 @@
           "noFollow": false,
           "tagTitle": "Cropped",
           "text": "Cropped"
+        }
+      }
+    },
+    "menu-item#blognew": {
+      "props": {
+        "id": "menu-item-blognew",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/blog",
+          "noFollow": false,
+          "tagTitle": "blog",
+          "text": "blog"
         }
       }
     }
