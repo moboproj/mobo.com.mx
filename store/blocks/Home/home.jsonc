@@ -8,6 +8,7 @@
    },
    "flex-layout.col#home-container": {
      "children": [
+      //"popophotsale",
        "flex-layout.row#main-slider",
        "flex-layout.row#home-categories-wrapper",
        "flex-layout.row#home-categories-mob-wrapper", //Mob

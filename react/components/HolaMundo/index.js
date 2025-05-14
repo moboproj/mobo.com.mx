@@ -1,25 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import styles from './styles.css'
+import styles from './styles.css';
 
 const HolaMundo = () => {
-  // Fecha objetivo (23 de mayo)
-  const targetStartDate = new Date('May 15, 2024 00:00:00').getTime();
-  const targetEndDate = new Date('May 23, 2024 00:00:00').getTime();
+  const targetStartDate = new Date('May 15, 2025 00:00:00').getTime();
+  const targetEndDate = new Date('June 3, 2025 00:00:00').getTime();
 
-  // Estado para almacenar el tiempo restante
-  const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
+  const [contador, setContador] = useState(calculateTimeRemaining());
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  const [fade, setFade] = useState(false);
 
-  // Función para calcular el tiempo restante
   function calculateTimeRemaining() {
     const now = new Date().getTime();
     let difference;
+    let textov;
 
     if (now < targetStartDate) {
       difference = targetStartDate - now;
+      textov = "Días para Venta Explosiva:";
     } else if (now < targetEndDate) {
       difference = targetEndDate - now;
+      textov = "Días Restantes Venta Explosiva:";
     } else {
       difference = 0;
+      textov = "Evento finalizado";
     }
 
     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
@@ -27,30 +31,78 @@ const HolaMundo = () => {
     const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-    return {
-      days,
-      hours,
-      minutes,
-      seconds
-    };
+    return { days, hours, minutes, seconds, textov };
   }
 
-  // Función para actualizar el tiempo restante cada segundo
   useEffect(() => {
     const timer = setInterval(() => {
-      setTimeRemaining(calculateTimeRemaining());
+      setContador(calculateTimeRemaining());
     }, 1000);
 
-    // Limpiar el intervalo cuando el componente se desmonte
-    return () => clearInterval(timer);
+    const handleResize = () => setIsMobile(window.innerWidth <= 1024);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
-  return (
-    <div className={`${styles.providersWrapper}`}>
-      <h5 className={`${styles.providers}`}>VENTA EXPLOSIVA 15 AL 23 DE MAYO FALTAN: {timeRemaining.days} DÍAS {timeRemaining.hours < 10 ? `0${timeRemaining.hours}` : timeRemaining.hours}:{timeRemaining.minutes < 10 ? `0${timeRemaining.minutes}` : timeRemaining.minutes}:{timeRemaining.seconds < 10 ? `0${timeRemaining.seconds}` : timeRemaining.seconds}</h5>
-      {/* <p style={{ display: 'inline-block', margin: 0 }}>FALTAN: {timeRemaining.days} DÍAS {timeRemaining.hours < 10 ? `0${timeRemaining.hours}` : timeRemaining.hours}:{timeRemaining.minutes < 10 ? `0${timeRemaining.minutes}` : timeRemaining.minutes}:{timeRemaining.seconds < 10 ? `0${timeRemaining.seconds}` : timeRemaining.seconds}</p> */}
-    </div>
+  useEffect(() => {
+    if (!isMobile) return;
 
+    const slideInterval = setInterval(() => {
+      setFade(true);
+      setTimeout(() => {
+        setCurrentSlide((prev) => (prev + 1) % 2);
+        setFade(false);
+      }, 300);
+    }, 3000);
+
+    return () => clearInterval(slideInterval);
+  }, [isMobile]);
+
+  const slides = [
+    contador.textov,
+    `${contador.days} días ${contador.hours.toString().padStart(2, '0')}:${contador.minutes.toString().padStart(2, '0')}:${contador.seconds.toString().padStart(2, '0')}`,
+  ];
+
+  const handlePrev = () => {
+    setFade(true);
+    setTimeout(() => {
+      setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+      setFade(false);
+    }, 300);
+  };
+
+  const handleNext = () => {
+    setFade(true);
+    setTimeout(() => {
+      setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+      setFade(false);
+    }, 300);
+  };
+
+  return (
+    <div className={styles.providersWrapper}>
+      {isMobile ? (
+        <div className={styles.sliderContainer}>
+          <button onClick={handlePrev} className={`${styles.arrow} ${styles.leftArrow}`}>‹</button>
+          <h5 className={`${styles.slideContent} ${fade ? styles.fade : ''}`}>
+            {slides[currentSlide]}
+          </h5>
+          <button onClick={handleNext} className={`${styles.arrow} ${styles.rightArrow}`}>›</button>
+        </div>
+      ) : (
+        <h5 className={styles.providers}>
+          {contador.textov}{" "}
+          {contador.days} días{' '}
+          {contador.hours.toString().padStart(2, '0')}:
+          {contador.minutes.toString().padStart(2, '0')}:
+          {contador.seconds.toString().padStart(2, '0')}
+        </h5>
+      )}
+    </div>
   );
 };
 

@@ -193,6 +193,7 @@
 }
 .menuContainerNav--menuHeaderTop .styledLink{
     display: inline-block;
+     /* background-color: #ec1961;*/
     font-size: 16px;
     font-weight: bold;
     color: #fff;
