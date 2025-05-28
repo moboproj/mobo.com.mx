@@ -128,13 +128,16 @@ function TimerBlock({ label, value }) {
 }
 
 const styles = {
-  fixedTop: {
-    position: "fixed",
-    top: 400,
-    zIndex: 1000,
-    display: "flex",
-    flexDirection: "column",
-  },
+fixedTop: {
+  position: "fixed",
+  top: "50%",
+  left: 0,
+  transform: "translateY(-50%)",
+  zIndex: 1000,
+  display: "flex",
+  flexDirection: "column",
+},
+
   popup: {
     backgroundColor: "#fff",
     borderRadius: "20px",
