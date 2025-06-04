@@ -2,7 +2,7 @@
     "vtex.menu@2.x:menu#0-websites": {
 		"children": [
 			"menu-item#lo-mas-nuevo",
-						"Counter",
+						//"Counter",
 		 "menu-item#ofertas-del-mes"
 		],
 		"props": {

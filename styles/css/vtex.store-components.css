@@ -395,6 +395,7 @@
 }
 .notificationBarInner{
     min-height: unset;
+    background-color: #f22866;
 }
 
 /*Middle*/

@@ -9,8 +9,8 @@
       "position": "TOP"
     },
     "children": [
-      "Counter",
-     // "slider-layout#text-bar-notification",
+     // "Counter",
+     "slider-layout#text-bar-notification",
       "header-row#mobile-1",
       "header-row#mobile-2"
     ]
