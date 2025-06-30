@@ -57,6 +57,9 @@
     "carouOlimp":{
         "component": "carouolimp"
     },
+        "PupupZAGG":{
+        "component": "PupupZAGG"
+    },
     "Redes":{
         "component": "Redes"
     },
