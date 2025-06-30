@@ -53,16 +53,8 @@
     "store.home#buen-fin": {
         "path": "/buen-fin-en-mobo"
     },  
-      "store.blog-home": {
+          "store.custom#blog": {
         "path": "/blog"
-    },
-
-    "store.blog-post": {
-        "path": "/blog/post/:slug"
-    }
-    ,
-    "store.blog-search-result": {
-        "path": "/blog/search/:term"
     }
 
 }
