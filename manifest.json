@@ -1,7 +1,7 @@
 {
   "vendor": "mobomx",
   "name": "minimumtheme",
-  "version": "1.2.39",
+  "version": "1.2.40",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
