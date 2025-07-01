@@ -5,7 +5,7 @@ export default function ModalRedirectOverlay() {
 
   const handleClose = () => setIsOpen(false);
   const handleRedirect = () => {
-    window.location.href = 'https://www.mobo.com.mx/zagg?order=OrderByPriceDESC&page=2';
+    window.location.href = 'https://www.mobo.com.mx/teclados%20zagg?_q=teclados%20zagg&map=ft';
   };
 
   if (!isOpen) return null;
