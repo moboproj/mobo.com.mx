@@ -23,36 +23,41 @@ export default function ModalRedirectOverlay() {
         justifyContent: 'center',
         alignItems: 'center',
         zIndex: 9999,
+        padding: '1rem',
       }}
     >
       <div
         style={{
-          /*position: 'relative',*/
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
+          position: 'relative',
+          maxWidth: '500px',
+          width: '100%',
         }}
       >
         <img
           src="https://mobomx.vteximg.com.br/arquivos/cupon_image.jpg"
           alt="ZAGG"
-          style={{ cursor: 'default', maxWidth: '50%', maxHeight: '80%' }}
+          style={{
+            width: '100%',
+            height: 'auto',
+            borderRadius: '8px',
+            display: 'block',
+          }}
           // onClick={handleRedirect}
         />
         <button
           onClick={handleClose}
           style={{
             position: 'absolute',
-            top: 15,
-            right: 15,
-            background: 'rgba(0,0,0,0.5)',
+            top: 10,
+            right: 10,
+            background: 'rgba(0,0,0,0.6)',
             border: 'none',
             color: '#fff',
-            fontSize: '24px',
+            fontSize: '18px',
             cursor: 'pointer',
             borderRadius: '50%',
-            width: '30px',
-            height: '30px',
+            width: '28px',
+            height: '28px',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
