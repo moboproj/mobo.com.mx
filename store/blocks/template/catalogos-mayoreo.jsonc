@@ -1,186 +1,204 @@
 {
-    "store.custom#catalogos-mayoreo": {
-        "blocks": [
-          "rich-text#catalogos-mayoreo-titulo",
-          "flex-layout.row#catalogo-principal",
-          "rich-text#catalogos-mayoreo-mensuales-titulo",
-          "flex-layout.row#catalogo-mayoreo-4",
-          "flex-layout.row#catalogo-mayoreo-3",
-          "flex-layout.row#catalogo-mayoreo-2",
-          "flex-layout.row#mayoreo-questions-wrapper"
-        ]
+  "store.custom#catalogos-mayoreo": {
+    "blocks": [
+      "rich-text#catalogos-mayoreo-titulo",
+      "flex-layout.row#catalogo-principal",
+      "rich-text#catalogos-mayoreo-mensuales-titulo",
+      "flex-layout.row#catalogo-mayoreo-4",
+      "flex-layout.row#catalogo-mayoreo-3",
+      /*"flex-layout.row#catalogo-mayoreo-2",*/
+      "flex-layout.row#mayoreo-questions-wrapper"
+    ]
+  },
+
+  //Titulo
+  "rich-text#catalogos-mayoreo-titulo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Catálogos de Mayoreo",
+      "font": "t-heading-1"
+    }
+  },
+  //Catalogo principal
+  "flex-layout.row#catalogo-principal": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "colGap": 4,
+      "marginTop": 5
     },
-    
-    //Titulo
-    "rich-text#catalogos-mayoreo-titulo": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Catálogos de Mayoreo",          
-          "font": "t-heading-1"          
-        }
+    "children": ["flex-layout.col#catalogo-principal-1"]
+  },
+  "flex-layout.col#catalogo-principal-1": {
+    "props": {
+      "horizontalAlign": "center"
     },
-    //Catalogo principal
-    "flex-layout.row#catalogo-principal":{
-      "props": {
-        "horizontalAlign": "center",
-        "verticalAlign": "center",      
-        "preventVerticalStretch": true,
-        "colGap":4,
-        "marginTop":5
-      },
-      "children": [            
-        "flex-layout.col#catalogo-principal-1"
-      ]
+    "children": ["image#cat-principal", "rich-text#cat-principal"]
+  },
+  "image#cat-principal": {
+    "props": {
+      "src": "/arquivos/CARATULA_AGOSTO_2025_PRINCIPAL.jpg",
+      "maxHeight": 500,
+      "link": {
+        "url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_AGOSTO_2025_PRINCIPAL.pdf"
+      }
     },
-    "flex-layout.col#catalogo-principal-1": {    
-        "props": {
-            "horizontalAlign": "center"                       
-        },
-        "children": ["image#cat-principal","rich-text#cat-principal"]
+    "title": "Click para descargar catalogo"
+  },
+  "rich-text#cat-principal": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Click para descargar catalogo"
+    }
+  },
+  //titulo mensuales
+  "rich-text#catalogos-mayoreo-mensuales-titulo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "<br>Catálogos Mensuales Mayoreo",
+      "font": "t-heading-4"
+    }
+  },
+  //Primera Fila
+  "flex-layout.row#catalogo-mayoreo-4": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "colGap": 4,
+      "marginTop": 5
     },
-    "image#cat-principal": {
-        "props": {
-          "src": "/arquivos/noviembrecatalogo.png",
-          "maxHeight": 500,
-          "link":{"url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_NOVIEMBRE.pdf"}
-          
-        },
-        "title": "Click para descargar catalogo"
+    "children": [
+      "flex-layout.col#catalogo-mayoreo-15",
+      "flex-layout.col#catalogo-mayoreo-14",
+      "flex-layout.col#catalogo-mayoreo-13"
+    ]
+  },
+  "flex-layout.col#catalogo-mayoreo-15": {
+    "props": {
+      "horizontalAlign": "center"
     },
-    "rich-text#cat-principal": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Click para descargar catalogo"          
-        }
+    "children": [
+      "image#cat-mayoreo-noviembre-2022",
+      "rich-text#cat-mayoreo-noviembre-2022"
+    ]
+  },
+  "image#cat-mayoreo-noviembre-2022": {
+    "props": {
+      "src": "/arquivos/CARATULA_JULIO_2025.jpg",
+      "maxHeight": 500,
+      "link": {
+        "url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_JULIO_2025.pdf"
+      }
     },
-    //titulo mensuales
-    "rich-text#catalogos-mayoreo-mensuales-titulo":{
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "<br>Catálogos Mensuales Mayoreo",          
-            "font": "t-heading-4"            
-          }
+    "title": "Julio 2025"
+  },
+  "rich-text#cat-mayoreo-noviembre-2022": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Julio 2025"
+    }
+  },
+  "flex-layout.col#catalogo-mayoreo-14": {
+    "props": {
+      "horizontalAlign": "center"
     },
-    //Primera Fila
-    "flex-layout.row#catalogo-mayoreo-4":{
-        "props": {
-            "horizontalAlign": "center",
-            "verticalAlign": "center",      
-            "preventVerticalStretch": true,
-            "colGap":4,
-            "marginTop":5
-          },
-          "children": [            
-            "flex-layout.col#catalogo-mayoreo-15",
-            "flex-layout.col#catalogo-mayoreo-14",
-            "flex-layout.col#catalogo-mayoreo-13"
-          ]
+    "children": [
+      "image#cat-mayoreo-octubre-2022",
+      "rich-text#cat-mayoreo-octubre-2022"
+    ]
+  },
+  "image#cat-mayoreo-octubre-2022": {
+    "props": {
+      "src": "/arquivos/CARATULA_JUNIO_2025.jpg",
+      "maxHeight": 500,
+      "link": {
+        "url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_JUNIO_2025.pdf"
+      }
     },
-    "flex-layout.col#catalogo-mayoreo-15": {    
-        "props": {
-            "horizontalAlign": "center"                       
-        },
-        "children": ["image#cat-mayoreo-noviembre-2022","rich-text#cat-mayoreo-noviembre-2022"]
+    "title": "Junio 2025"
+  },
+  "rich-text#cat-mayoreo-octubre-2022": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Junio 2025"
+    }
+  },
+  "flex-layout.col#catalogo-mayoreo-13": {
+    "props": {
+      "horizontalAlign": "center"
     },
-    "image#cat-mayoreo-noviembre-2022": {
-        "props": {
-          "src": "/arquivos/noviembrecatalogo.png",
-          "maxHeight": 500,
-          "link":{"url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_NOVIEMBRE.pdf"}
-          
-        },
-        "title": "Noviembre 2022"
+    "children": [
+      "image#cat-mayoreo-septiembre-2022",
+      "rich-text#cat-mayoreo-septiembre-2022"
+    ]
+  },
+  "image#cat-mayoreo-septiembre-2022": {
+    "props": {
+      "src": "/arquivos/CARATULA_MAYO_2025.jpg",
+      "maxHeight": 500,
+      "link": {
+        "url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_MAYO_2025.pdf"
+      }
     },
-    "rich-text#cat-mayoreo-noviembre-2022": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Noviembre 2022"          
-        }
+    "title": "Mayo 2025"
+  },
+  "rich-text#cat-mayoreo-septiembre-2022": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Mayo 2025"
+    }
+  },
+
+  //Segunda Fila
+  "flex-layout.row#catalogo-mayoreo-3": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "colGap": 4,
+      "marginTop": 5
     },
-    "flex-layout.col#catalogo-mayoreo-14": {
-        "props": {
-            "horizontalAlign": "center"                       
-        },   
-        "children": ["image#cat-mayoreo-octubre-2022","rich-text#cat-mayoreo-octubre-2022"]
-    },
-    "image#cat-mayoreo-octubre-2022": {
-        "props": {
-          "src": "/arquivos/octubrecatalogo.png",
-          "maxHeight": 500,
-          "link":{"url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_OCTUBRE.pdf"}
-        },
-        "title": "octubre 2023"
-    },
-    "rich-text#cat-mayoreo-octubre-2022": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Octubre 2023"          
-        }
-    },
-    "flex-layout.col#catalogo-mayoreo-13": {
-        "props": {
-            "horizontalAlign": "center"                       
-        },     
-        "children": ["image#cat-mayoreo-septiembre-2022","rich-text#cat-mayoreo-septiembre-2022"]
-    },
-    "image#cat-mayoreo-septiembre-2022": {
-        "props": {
-          "src": "/arquivos/septiembrecatalogo.png",
-          "maxHeight": 500,
-          "link":{"url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_SEPTIEMBRE.pdf"}
-        },
-        "title": "Septiembre 2022"
-    },
-    "rich-text#cat-mayoreo-septiembre-2022": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Septiembre 2022"          
-        }
-    },
-    
-    //Segunda Fila
-    "flex-layout.row#catalogo-mayoreo-3":{
-        "props": {
-            "horizontalAlign": "center",
-            "verticalAlign": "center",      
-            "preventVerticalStretch": true,
-            "colGap":4,
-            "marginTop":5
-          },
-          "children": [      
-            "flex-layout.col#catalogo-mayoreo-12",
-            "flex-layout.col#catalogo-mayoreo-11",
+    "children": [
+      "flex-layout.col#catalogo-mayoreo-12"
+      /*"flex-layout.col#catalogo-mayoreo-11",
             "flex-layout.col#catalogo-mayoreo-10",
-            "flex-layout.col#catalogo-mayoreo-9"
-          ]
+            "flex-layout.col#catalogo-mayoreo-9"*/
+    ]
+  },
+  "flex-layout.col#catalogo-mayoreo-12": {
+    "props": {
+      "horizontalAlign": "center"
     },
-    "flex-layout.col#catalogo-mayoreo-12": {
-        "props": {
-            "horizontalAlign": "center"                       
-        },
-        "children": ["image#cat-mayoreo-agosto-2022","rich-text#cat-mayoreo-agosto-2022"]
+    "children": [
+      "image#cat-mayoreo-agosto-2022",
+      "rich-text#cat-mayoreo-agosto-2022"
+    ]
+  },
+  "image#cat-mayoreo-agosto-2022": {
+    "props": {
+      "src": "/arquivos/CARATULA ABRIL 2025.jpg",
+      "maxHeight": 500,
+      "link": {
+        "url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_ABRIL_2025.pdf"
+      }
     },
-    "image#cat-mayoreo-agosto-2022": {
-        "props": {
-          "src": "/arquivos/agostocatalogo.png",
-          "maxHeight": 500,
-          "link":{"url": "https://mobo360.mobo.com.mx/DownloadReport/CATALOGO_AGOSTO.pdf"}
-        },
-        "title": "Agosto 2023"
-    },
-    "rich-text#cat-mayoreo-agosto-2022": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Agosto 2023"          
-        }
-    },
+    "title": "Abril 2025"
+  },
+  "rich-text#cat-mayoreo-agosto-2022": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Abril 2025"
+    }
+  } /*
     "flex-layout.col#catalogo-mayoreo-11": {
         "props": {
             "horizontalAlign": "center"                       
@@ -244,7 +262,6 @@
           "text": "Mayo 2023"          
         }
     },
-    
     //Tercera Fila
     "flex-layout.row#catalogo-mayoreo-2":{
         "props": {
@@ -446,90 +463,89 @@
           "text": "Junio 2021"          
         }
     },
-    //preguntas frecuentes
-    "flex-layout.row#mayoreo-questions-wrapper":{
-      "title":"Envoltura de preguntas frecuentes",
-      "children":["flex-layout.col#mayoreo-questions-container"],
-      "props":{
-          "blockClass":["maxWidthwrapper","questionsWrapper"]
-      }
+    */,
+  //preguntas frecuentes
+  "flex-layout.row#mayoreo-questions-wrapper": {
+    "title": "Envoltura de preguntas frecuentes",
+    "children": ["flex-layout.col#mayoreo-questions-container"],
+    "props": {
+      "blockClass": ["maxWidthwrapper", "questionsWrapper"]
+    }
   },
-  "flex-layout.col#mayoreo-questions-container":{
-      "children": [
-          "rich-text#preguntas-mayoreo-title",
-          "disclosure-layout-group#questionsmayoreo-group-1"
-      ]
+  "flex-layout.col#mayoreo-questions-container": {
+    "children": [
+      "rich-text#preguntas-mayoreo-title",
+      "disclosure-layout-group#questionsmayoreo-group-1"
+    ]
   },
-  "rich-text#preguntas-mayoreo-title":{
-      "title": "titulo Preguntas frecuentes",
-          "props": {
-          "blockClass": ["moboTitle", "titulo-mas-vendidos"],
-          "text": "## Preguntas frecuentes sobre mayoreo"
-          }
+  "rich-text#preguntas-mayoreo-title": {
+    "title": "titulo Preguntas frecuentes",
+    "props": {
+      "blockClass": ["moboTitle", "titulo-mas-vendidos"],
+      "text": "## Preguntas frecuentes sobre mayoreo"
+    }
   },
   // -------------------------------------------------------------pregunta
   "disclosure-layout-group#questionsmayoreo-group-1": {
-      "title":"Preguntas mayoreo",
-      "children": [
-          "disclosure-layout#questionsmayoreo-question-0",
-          "disclosure-layout#questionsmayoreo-question-1"
-      ],
-      "props":{
-          "blockClass":"questions"
-      }
+    "title": "Preguntas mayoreo",
+    "children": [
+      "disclosure-layout#questionsmayoreo-question-0",
+      "disclosure-layout#questionsmayoreo-question-1"
+    ],
+    "props": {
+      "blockClass": "questions"
+    }
   },
   "disclosure-layout#questionsmayoreo-question-0": {
-      "children": [
-          "disclosure-trigger#questionsmayoreo-question-0",
-          "disclosure-content#questionsmayoreo-question-0"
-      ]
+    "children": [
+      "disclosure-trigger#questionsmayoreo-question-0",
+      "disclosure-content#questionsmayoreo-question-0"
+    ]
   },
   "disclosure-trigger#questionsmayoreo-question-0": {
-      "children": ["rich-text#questionsmayoreo-question0"]
+    "children": ["rich-text#questionsmayoreo-question0"]
   },
   "rich-text#questionsmayoreo-question0": {
-  "title":"Pregunta 0",
-      "props": {
-          "blockClass": "questionText",
-          "text": "¿Qué requisitos necesito para ser mayorista?"
-      }
+    "title": "Pregunta 0",
+    "props": {
+      "blockClass": "questionText",
+      "text": "¿Qué requisitos necesito para ser mayorista?"
+    }
   },
   "disclosure-content#questionsmayoreo-question-0": {
-      "children": ["rich-text#questionsmayoreo-answer0"]
+    "children": ["rich-text#questionsmayoreo-answer0"]
   },
   "rich-text#questionsmayoreo-answer0": {
-  "title":"Respuesta 0",
-      "props": {
-          "blockClass": "questionText",
-          "text": "1.- Compra inicial de $1,500 pesos en accesorios o en la compra de cinco quipos de telefonía <br></br>2.- Nombre <br></br>3.- Dirección <br></br>4.- Correo <br></br>5.- Número telefónico <br></br>"
-      }
+    "title": "Respuesta 0",
+    "props": {
+      "blockClass": "questionText",
+      "text": "1.- Compra inicial de $1,500 pesos en accesorios o en la compra de cinco equipos de telefonía <br></br>2.- Nombre <br></br>3.- Dirección <br></br>4.- Correo <br></br>5.- Número telefónico <br></br>"
+    }
   },
   "disclosure-layout#questionsmayoreo-question-1": {
     "children": [
-        "disclosure-trigger#questionsmayoreo-question-1",
-        "disclosure-content#questionsmayoreo-question-1"
+      "disclosure-trigger#questionsmayoreo-question-1",
+      "disclosure-content#questionsmayoreo-question-1"
     ]
   },
   "disclosure-trigger#questionsmayoreo-question-1": {
-      "children": ["rich-text#questionsmayoreo-question1"]
+    "children": ["rich-text#questionsmayoreo-question1"]
   },
   "rich-text#questionsmayoreo-question1": {
-  "title":"Pregunta 1",
-      "props": {
-          "blockClass": "questionText",
-          "text": "¿Como puedo ubicar mi sucursal mas cercana?"
-      }
+    "title": "Pregunta 1",
+    "props": {
+      "blockClass": "questionText",
+      "text": "¿Como puedo ubicar mi sucursal mas cercana?"
+    }
   },
   "disclosure-content#questionsmayoreo-question-1": {
-      "children": ["rich-text#questionsmayoreo-answer1"]
+    "children": ["rich-text#questionsmayoreo-answer1"]
   },
   "rich-text#questionsmayoreo-answer1": {
-  "title":"Respuesta 1",
-      "props": {
-          "blockClass": "questionText",
-          "text": "Ingresa a https://www.mobo.com.mx/tiendas"
-      }
+    "title": "Respuesta 1",
+    "props": {
+      "blockClass": "questionText",
+      "text": "Ingresa a https://www.mobo.com.mx/tiendas"
+    }
   }
-    
-
-} 
+}
