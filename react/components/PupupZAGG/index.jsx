@@ -34,7 +34,7 @@ export default function ModalRedirectOverlay() {
         }}
       >
         <img
-          src="https://mobomx.vteximg.com.br/arquivos/popupagosto.jpg"
+          src="https://mobomx.vteximg.com.br/arquivos/PopUp_BTS_1024x1024.jpg"
           alt="ZAGG"
           style={{
             width: '100%',
