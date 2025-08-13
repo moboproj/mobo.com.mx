@@ -9,3 +9,6 @@
 .paginationDot--isActive{
     background-color: #4d4d4d;
 }
+body{
+    font-family: 'Outfit' !important;
+}
