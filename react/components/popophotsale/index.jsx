@@ -143,7 +143,6 @@ fixedTop: {
     borderRadius: "20px",
     width: "320px",
     textAlign: "center",
-    fontFamily: "Arial, sans-serif",
     position: "relative",
     boxShadow: "0 0 20px rgba(0,0,0,0.2)",
   },
