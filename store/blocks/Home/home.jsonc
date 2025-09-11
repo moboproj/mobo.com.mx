@@ -8,8 +8,9 @@
    },
    "flex-layout.col#home-container": {
      "children": [
-      //"popophotsale",
-      //"PupupZAGG",
+      //"popophotsale", //popUp regresivo, solo se muestra por etapas
+      //"PupupZAGG", //poUp de regreso a clases
+       "PopUpPatrio",
        "flex-layout.row#main-slider",
        "flex-layout.row#home-categories-wrapper",
        "flex-layout.row#home-categories-mob-wrapper", //Mob

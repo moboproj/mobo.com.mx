@@ -60,6 +60,9 @@
   "PupupZAGG": {
     "component": "PupupZAGG"
   },
+  "PopUpPatrio": {
+    "component": "PopUpPatrio"
+  },
   "Redes": {
     "component": "Redes"
   },

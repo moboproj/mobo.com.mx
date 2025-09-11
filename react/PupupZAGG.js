@@ -1,2 +1,2 @@
-import PupupZAGG from "./components/PupupZAGG/index";
+import PupupZAGG from "./components/PopUps/PupupZAGG/index";
 export default PupupZAGG
