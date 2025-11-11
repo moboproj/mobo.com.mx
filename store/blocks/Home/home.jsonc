@@ -11,6 +11,7 @@
       //"popophotsale", //popUp regresivo, solo se muestra por etapas
       //"PupupZAGG", //poUp de regreso a clases
        //"PopUpPatrio",
+       "popup-dynamic#buen-fin",
        "flex-layout.row#main-slider",
        "flex-layout.row#home-categories-wrapper",
        "flex-layout.row#home-categories-mob-wrapper", //Mob
@@ -38,6 +39,12 @@
        "flex-layout.row#home-banner-full-5",
        "flex-layout.row#home-slider-products-7-wrapper"
      ]
+   },
+   "popup-dynamic#buen-fin": {
+    "props": {
+      "src": "https://mobomx.vteximg.com.br/arquivos/PopUp_PayPal_2.png",
+      "alt": "Paypal Promo"
+    }
    },
    /*SLIDER BANNERS*/
    "flex-layout.row#main-slider": {

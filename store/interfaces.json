@@ -63,6 +63,9 @@
   "PopUpPatrio": {
     "component": "PopUpPatrio"
   },
+  "popup-dynamic": {
+    "component": "PopUpDynamic"
+  },
   "Redes": {
     "component": "Redes"
   },
