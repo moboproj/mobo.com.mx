@@ -12,6 +12,7 @@
       //"PupupZAGG", //poUp de regreso a clases
        //"PopUpPatrio",
        "popup-dynamic#buen-fin",
+       "popup-dynamic#buen-fin-2",
        "flex-layout.row#main-slider",
        "flex-layout.row#home-categories-wrapper",
        "flex-layout.row#home-categories-mob-wrapper", //Mob
@@ -43,7 +44,17 @@
    "popup-dynamic#buen-fin": {
     "props": {
       "src": "https://mobomx.vteximg.com.br/arquivos/PopUp_PayPal_2.png",
-      "alt": "Paypal Promo"
+      "alt": "Paypal Promo",
+      "inicio": "2025-11-11T00:00:00",
+      "final": "2025-11-12T23:59:59"
+    }
+   },
+   "popup-dynamic#buen-fin-2": {
+    "props": {
+      "src": "https://mobomx.vteximg.com.br/arquivos/PopUp_PayPal_20.png",
+      "alt": "Paypal Promo",
+      "inicio": "2025-11-13T00:00:00",
+      "final": "2025-11-17T23:59:59"
     }
    },
    /*SLIDER BANNERS*/

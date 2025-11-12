@@ -1,9 +1,17 @@
 import { useState } from "react";
 
-export default function DynamicPopup({ src, alt }) {
+export default function DynamicPopup({ src, alt, inicio, final }) {
   const [isOpen, setIsOpen] = useState(true); 
   const handleClose = () => setIsOpen(false);
   if (!isOpen) return null;
+
+  const now = new Date();
+  const start = new Date(inicio);
+  const end = new Date(final);
+
+  if(now < start || now > end) {
+    return null;
+  }
 
   return (
     <div
